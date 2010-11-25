@@ -39,3 +39,7 @@ FilesTest
   AddJpegImageTest        "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
   AddPngImageTest	  "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
   AddOggTest		  "Is it possible to add an OGG Vorbis audio file?"
+
+OptionsMenuTest
+  EditLanguageList		"Does the option show the language list; does it select languages?"
+  
