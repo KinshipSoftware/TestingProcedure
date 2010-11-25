@@ -1,55 +1,41 @@
+# The lines should not be longer than about 150 characters, so the program can still display them on a screen with a width of only 1280 pixel
+
 NodeSearchTest
 
    OpenSearchWindow "From the local corpus tree right click and select search; a search window should be shown."
    LocalSearch      "From the local corpus tree right click and select search; enter a few seach terms then run the search"
-   RemoteSearch     "From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search"
-  ErrorDescription  [Text]
+   RemoteSearch     "From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search."
 
 GetMetadataTest
 
    AddCorpusTest           "Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' " type="TestResult" />
-   AddSessionTest
-   ImportExistingBranchTest "Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. When you click on 'Start' the metadata files from the remote server should be copied to your local corpus."
-   ErrorDescription  [Text]
+   AddSessionTest	   
+   ImportExistingBranchTest "Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'."
 
 TemplatesTests
 
    SignLanguageProfile	  "Go to 'Options' / 'Templates & Profiles', activate 'Sign-Language Session (internal)', add auch a session"
    ProfileAddURL	  "From 'Templates & Profiles' try to add a Clarin Profile via 'Add URL'"
    ProfileAddFile	  "From 'Templates & Profiles' try to add a Clarin Profile via 'Add File'"
-   ErrorDescription  [Text]
 
 HandleNodesTests
    DeleteNodeTestKey	"Can a node be deleted via the [del] key?"
    DeleteNodeTestMenu   "Can a node be deleted via the right-click menu?"
    DropNodeTest		"Click on a node and drag it to the Main Work Area. Does it open a table?"
-   ErrorDescription  [Text]
 
 ColumnsTests
    HideColumnsTest      "Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?"
    ArrangeColumnsTest	"Is it possible to change a column's positions with drag and drop?"
-   ShowChildNodesTest   
-   SaveColumnViewTest
-   EditColumnViewTest
-   ShowOnlyCurrentTest
-   ApplySavedViewTest
-   CopyTableWebTest
-   FindAndReplaceTest
-   ErrorDescription  [Text]
+   ShowChildNodesTest   "Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?"
+   SaveColumnViewTest   "Is it possible to save a column-view under a custom name?"
+   EditColumnViewTest   "Does 'Edit this Column View' work as expected (immideatly showing and hiding table rows)?"
+   ShowOnlyCurrentTest  "???"
+   ApplySavedViewTest   "Can saved views be applied?"
+   CopyTableWebTest     "Is the table properly copied in HTML layout?"
+   FindAndReplaceTest   "Does find and replace work?"
 
 FilesTest
-  AddWorkingDirectoryTest
-  AddJpegImageTest
-  AddPngImageTest
-  Add
-
-Relation
-   Link
-   Type
-   TargetName
-
-TestResult
-   Works
-   Mostly
-   Strange
-   Fails
+  AddWorkingDirectoryTest "Can several directories be added and removed ('Files' area)?"
+  AddJpegImageTest        "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
+  AddPngImageTest	  "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
+  AddOggTest		  "Is it possible to add an OGG Vorbis audio file?"
