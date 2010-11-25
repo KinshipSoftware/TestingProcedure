@@ -59,3 +59,6 @@ OptionsMenuTest
 FileMenuTest
   SaveChanges		"Does 'Save Changes' really save your changes?"
   ShowModifiedNodes	"Does this show all modified nodes?"
+  Import		"Does the 'Import' function work?"
+  Exit			"Do you get a warning when trying to exit with unsaved modifications?"
+
