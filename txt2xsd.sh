@@ -14,10 +14,11 @@
 #
 # Version 1.0 / Vlado Plaga 2010-11-25
 
-testcasesfile="testcases.txt"
+testcasesfile="testcases.txt";
 
-fileheader='<?xml version="1.0" encoding="utf-8"?>
+doctype='<?xml version="1.0" encoding="utf-8"?>';
 
+fileheader='
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ann="http://www.clarin.eu">
 
     <xs:element name="ArbilBugCheck">
@@ -77,6 +78,10 @@ sequencefooter='            </xs:sequence>
 
 # boolean variable to make sure tags are closed with $testfooter
 insidetest=false;
+
+echo "$doctype";
+echo;
+echo "<!-- This file is generated from $testcasesfile! Modifications will be lost when regenerated! -->";
 
 echo "$fileheader";
 
