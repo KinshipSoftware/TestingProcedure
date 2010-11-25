@@ -10,9 +10,9 @@
 #   LocalSearch      "From the local corpus tree right click and select search; enter [...]"
 #
 # Nodes are one word per line
-# Tests are one word plus an expression in "quotation marks"
+# Tests are [space] (at least one), plus one word, plus an expression in "quotation marks"
 #
-# Version 0.1 / Vlado Plaga 2010-11-25 / not working yet
+# Version 0.2 / Vlado Plaga 2010-11-25
 
 testcasesfile="testcases.txt"
 
@@ -64,7 +64,16 @@ testresults='    <xs:simpleType name="TestResult">
 
 testheader='                    <xs:complexType>
 
-                        <xs:sequence>';
+                        <xs:sequence>
+';
+
+
+sequencefooter='            </xs:sequence>
+
+        </xs:complexType>
+
+    </xs:element>
+';
 
 # boolean variable to make sure tags are closed with $testfooter
 insidetest=false;
@@ -74,14 +83,14 @@ echo "$fileheader";
 while read line; do
   # ignore empty and comment lines
   if [[ $line != "" && ! $(echo $line | grep " *#" ) ]]; then 
-    if [[ $line == *\ * ]]; then
+    if [[ $line == *\ * ]]; then # Subtest lines start with at least one space
       insidetest=0; # "0" is "true" for bash
       element="$(echo $line | sed s/\ .*//)";
-      annotation="$(echo $line | sed s/$element//)";
-      echo "                            <xs:element name=\"$element\"  maxOccurs=\"1\" minOccurs=\"1\" ann:documentation=\"$annotation\" type=\"TestResult\" />";
+      annotation="$(echo $line | sed -e s/$element// -e s/\ *//)";
+      echo "                            <xs:element name=\"$element\" maxOccurs=\"1\" minOccurs=\"1\" ann:documentation=$annotation type=\"TestResult\" />";
       echo;
     else
-      if [ $insidetest ]; then
+      if [ "$insidetest" == "0" ]; then
         echo "$testfooter";
       fi;
       insidetest=false;
@@ -93,6 +102,8 @@ while read line; do
 done < $testcasesfile
 
 echo "$testfooter";
+
+echo "$sequencefooter";
 
 echo "$testresults";
 

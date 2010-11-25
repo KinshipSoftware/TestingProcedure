@@ -26,9 +26,9 @@
 
                             <xs:element name="LocalSearch" maxOccurs="1" minOccurs="1" ann:documentation="From the local corpus tree right click and select search; enter a few seach terms then run the search" type="TestResult" />
 
-                            <xs:element name="RemoteSearch" maxOccurs="1" minOccurs="1" ann:documentation="From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search" type="TestResult" />
+                            <xs:element name="RemoteSearch" maxOccurs="1" minOccurs="1" ann:documentation="From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search." type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="1" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
 
                         </xs:sequence>
 
@@ -44,11 +44,11 @@
 
                             <xs:element name="AddCorpusTest" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' " type="TestResult" />
 
-                            <xs:element name="AddSessionTest" maxOccurs="1" minOccurs="1" ann:documentation="..." type="TestResult" />
+                            <xs:element name="AddSessionTest" maxOccurs="1" minOccurs="1" ann:documentation="." type="TestResult" />
 
-                            <xs:element name="ImportExistingBranchTest" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. When you click on 'Start' the metadata files from the remote server should be copied to your local corpus." type="TestResult" />
+                            <xs:element name="ImportExistingBranchTest" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'." type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="1" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
 
                         </xs:sequence>
 
@@ -57,86 +57,92 @@
                 </xs:element>
 
                 <xs:element name="TemplatesTests" minOccurs="1" maxOccurs="unbounded">
-                    
+
                     <xs:complexType>
-                        
+
                         <xs:sequence>
-                            
+
                             <xs:element name="SignLanguageProfile" maxOccurs="1" minOccurs="1" ann:documentation="Go to 'Options' / 'Templates &amp; Profiles', activate 'Sign-Language Session (internal)', add auch a session" type="TestResult" />
-                            
+
                             <xs:element name="ProfileAddURL" maxOccurs="1" minOccurs="1" ann:documentation="From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add URL'" type="TestResult" />
-                            
+
                             <xs:element name="ProfileAddFile" maxOccurs="1" minOccurs="1" ann:documentation="From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'" type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="1" minOccurs="1" type="xs:string" />                            
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+
                         </xs:sequence>
-                        
+
                     </xs:complexType>
-                    
+
                 </xs:element>
-                
-                <xs:element name="HandleNodesTest" minOccurs="1" maxOccurs="unbounded">
-                    
+
+                <xs:element name="HandleNodesTests" minOccurs="1" maxOccurs="unbounded">
+
                     <xs:complexType>
-                        
+
                         <xs:sequence>
-                            
+
                             <xs:element name="DeleteNodeTestKey" maxOccurs="1" minOccurs="1" ann:documentation="Can a node be deleted via the [del] key?" type="TestResult" />
-                            
+
                             <xs:element name="DeleteNodeTestMenu" maxOccurs="1" minOccurs="1" ann:documentation="Can a node be deleted via the right-click menu?" type="TestResult" />
-                            
+
                             <xs:element name="DropNodeTest" maxOccurs="1" minOccurs="1" ann:documentation="Click on a node and drag it to the Main Work Area. Does it open a table?" type="TestResult" />
-                            
-                            <xs:element name="ErrorDescription" maxOccurs="1" minOccurs="1" type="xs:string" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
 
                         </xs:sequence>
-                        
+
                     </xs:complexType>
-                    
+
                 </xs:element>
-                
-                <xs:element name="HandleColumnsTests" minOccurs="1" maxOccurs="unbounded">
-                    
+
+                <xs:element name="ColumnsTests" minOccurs="1" maxOccurs="unbounded">
+
                     <xs:complexType>
-                        
+
                         <xs:sequence>
-                            
+
                             <xs:element name="HideColumnsTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?" type="TestResult" />
-                            
-                            <xs:element name="ArrangeColumnsTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to change a column's positions with drag and drop?" type="TestResult" />
-                            
-                            <xs:element name="ShowChildNodesTest" maxOccurs="1" minOccurs="1" ann:documentation="." type="TestResult" />
-                            
-                            <xs:element name="SaveColumnViewTest" maxOccurs="1" minOccurs="1" ann:documentation="." type="TestResult" />
-                            
-                            <xs:element name="EditColumnViewTest" maxOccurs="1" minOccurs="1" ann:documentation="." type="TestResult" />
-                            
-                            <xs:element name="ShowOnlyCurrentTest" maxOccurs="1" minOccurs="1" ann:documentation="." type="TestResult" />
-                            
-                            <xs:element name="ApplySavedViewTest" maxOccurs="1" minOccurs="1" ann:documentation="." type="TestResult" />
-                            
-                            <xs:element name="CopyTableWebTest" maxOccurs="1" minOccurs="1" ann:documentation="." type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="1" minOccurs="1" type="xs:string" />
-                                                      
+                            <xs:element name="ArrangeColumnsTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to change a column's positions with drag and drop?" type="TestResult" />
+
+                            <xs:element name="ShowChildNodesTest" maxOccurs="1" minOccurs="1" ann:documentation="Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?" type="TestResult" />
+
+                            <xs:element name="SaveColumnViewTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to save a column-view under a custom name?" type="TestResult" />
+
+                            <xs:element name="EditColumnViewTest" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Edit this Column View' work as expected (immideatly showing and hiding table rows)?" type="TestResult" />
+
+                            <xs:element name="ShowOnlyCurrentTest" maxOccurs="1" minOccurs="1" ann:documentation="???" type="TestResult" />
+
+                            <xs:element name="ApplySavedViewTest" maxOccurs="1" minOccurs="1" ann:documentation="Can saved views be applied?" type="TestResult" />
+
+                            <xs:element name="CopyTableWebTest" maxOccurs="1" minOccurs="1" ann:documentation="Is the table properly copied in HTML layout?" type="TestResult" />
+
+                            <xs:element name="FindAndReplaceTest" maxOccurs="1" minOccurs="1" ann:documentation="Does find and replace work?" type="TestResult" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+
                         </xs:sequence>
-                        
+
                     </xs:complexType>
-                    
+
                 </xs:element>
-                
-                
-                <xs:element name="Relation" minOccurs="0" maxOccurs="unbounded">
+
+                <xs:element name="FilesTest" minOccurs="1" maxOccurs="unbounded">
 
                     <xs:complexType>
 
                         <xs:sequence>
 
-                            <xs:element name="Link" type="xs:string" ann:displaypriority="1"/>
+                            <xs:element name="AddWorkingDirectoryTest" maxOccurs="1" minOccurs="1" ann:documentation="Can several directories be added and removed ('Files' area)?" type="TestResult" />
 
-                            <xs:element name="Type" type="xs:string" />
+                            <xs:element name="AddJpegImageTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?" type="TestResult" />
 
-                            <xs:element name="TargetName" type="xs:string" />
+                            <xs:element name="AddPngImageTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?" type="TestResult" />
+
+                            <xs:element name="AddOggTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add an OGG Vorbis audio file?" type="TestResult" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
 
                         </xs:sequence>
 
@@ -167,7 +173,3 @@
     </xs:simpleType>
 
 </xs:schema>
-
-
-
-

@@ -8,15 +8,15 @@ NodeSearchTest
 
 GetMetadataTest
 
-   AddCorpusTest           "Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' " type="TestResult" />
-   AddSessionTest	   
+   AddCorpusTest           "Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' "
+   AddSessionTest	   "." 
    ImportExistingBranchTest "Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'."
 
 TemplatesTests
 
-   SignLanguageProfile	  "Go to 'Options' / 'Templates & Profiles', activate 'Sign-Language Session (internal)', add auch a session"
-   ProfileAddURL	  "From 'Templates & Profiles' try to add a Clarin Profile via 'Add URL'"
-   ProfileAddFile	  "From 'Templates & Profiles' try to add a Clarin Profile via 'Add File'"
+   SignLanguageProfile	  "Go to 'Options' / 'Templates &amp; Profiles', activate 'Sign-Language Session (internal)', add auch a session"
+   ProfileAddURL	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add URL'"
+   ProfileAddFile	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'"
 
 HandleNodesTests
    DeleteNodeTestKey	"Can a node be deleted via the [del] key?"
