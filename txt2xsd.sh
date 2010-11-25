@@ -12,7 +12,7 @@
 # Nodes are one word per line
 # Tests are [space] (at least one), plus one word, plus an expression in "quotation marks"
 #
-# Version 0.2 / Vlado Plaga 2010-11-25
+# Version 1.0 / Vlado Plaga 2010-11-25
 
 testcasesfile="testcases.txt"
 
@@ -35,7 +35,7 @@ fileheader='<?xml version="1.0" encoding="utf-8"?>
                 <xs:element name="Type" type="TestResult" />
 ';
 
-testfooter='                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+testfooter='                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
                         </xs:sequence>
 
