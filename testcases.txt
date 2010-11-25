@@ -41,7 +41,19 @@ FilesTest
   AddOggTest		  "Is it possible to add an OGG Vorbis audio file?"
 
 OptionsMenuTest
+  TemplatesAndProfiles   "Does it show profiles?"
+  LocalCorpusStorageDirectory  "..."
+  FieldViews            "???? ASK PETER"
   EditLanguageList		"Does the option show the language list; does it select languages?"
+  Re-downloadCurrentVocabularies   "..."
+  SaveWindowsOnExit "..."
+  ShowSelectionPreview "..."
+  CheckForNewVersionOnStart  "Does it check for new versions on start?"
+  CopyNewResourcesIntoCache  "Does it copy new resources into cache?"
+  CheckPermissionsForRemoteResources  "..."
+  AlwaysCheckLocalMetadataFilesForXMLConformance "..."
+  TrackTableSelectionInTree "..."
+  ShowLanguageInColumnName "..."
 
 
 FileMenuTest
