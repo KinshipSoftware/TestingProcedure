@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 # Bash script to generate a Arbil test XSD (XML) file from a plain text testcases file
 # ignores comments and whitespace in the testcases file
 #
@@ -9,10 +10,10 @@
 #   OpenSearchWindow "From the local corpus tree right click and select search; a search window should be shown."
 #   LocalSearch      "From the local corpus tree right click and select search; enter [...]"
 #
-# Nodes are one word per line
-# Tests are [space] (at least one), plus one word, plus an expression in "quotation marks"
+# -Nodes are one word per line
+# -Tests are [space] (at least one), plus one word, plus an expression in "quotation marks"
 #
-# Version 1.0 / Vlado Plaga 2010-11-25
+# Version 1.1 / Vlado Plaga 2010-11-25
 
 testcasesfile="testcases.txt";
 
@@ -33,7 +34,7 @@ fileheader='
 
                 <xs:element name="OSVersion" type="xs:string" maxOccurs="1" minOccurs="1" ann:documentation="The operating system type and version being tested on" />
 
-                <xs:element name="Type" type="TestResult" />
+                <xs:element name="Type" type="TestResult" maxOccurs="1" minOccurs="1" ann:documentation="Overall test result." />
 ';
 
 testfooter='                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />

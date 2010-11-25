@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- This file is generated from testcases.txt! Modifications will be lost when regenerated! -->
+
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ann="http://www.clarin.eu">
 
     <xs:element name="ArbilBugCheck">
@@ -14,7 +16,7 @@
 
                 <xs:element name="OSVersion" type="xs:string" maxOccurs="1" minOccurs="1" ann:documentation="The operating system type and version being tested on" />
 
-                <xs:element name="Type" type="TestResult" />
+                <xs:element name="Type" type="TestResult" maxOccurs="1" minOccurs="1" ann:documentation="Overall test result." />
 
                 <xs:element name="NodeSearchTest" minOccurs="1" maxOccurs="unbounded">
 
@@ -28,7 +30,7 @@
 
                             <xs:element name="RemoteSearch" maxOccurs="1" minOccurs="1" ann:documentation="From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search." type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
                         </xs:sequence>
 
@@ -48,7 +50,7 @@
 
                             <xs:element name="ImportExistingBranchTest" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'." type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
                         </xs:sequence>
 
@@ -68,7 +70,7 @@
 
                             <xs:element name="ProfileAddFile" maxOccurs="1" minOccurs="1" ann:documentation="From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'" type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
                         </xs:sequence>
 
@@ -88,7 +90,7 @@
 
                             <xs:element name="DropNodeTest" maxOccurs="1" minOccurs="1" ann:documentation="Click on a node and drag it to the Main Work Area. Does it open a table?" type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
                         </xs:sequence>
 
@@ -120,7 +122,7 @@
 
                             <xs:element name="FindAndReplaceTest" maxOccurs="1" minOccurs="1" ann:documentation="Does find and replace work?" type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
                         </xs:sequence>
 
@@ -142,7 +144,7 @@
 
                             <xs:element name="AddOggTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add an OGG Vorbis audio file?" type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
                         </xs:sequence>
 
@@ -158,7 +160,25 @@
 
                             <xs:element name="EditLanguageList" maxOccurs="1" minOccurs="1" ann:documentation="Does the option show the language list; does it select languages?" type="TestResult" />
 
-                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" />
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
+
+                        </xs:sequence>
+
+                    </xs:complexType>
+
+                </xs:element>
+
+                <xs:element name="FileMenuTest" minOccurs="1" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="SaveChanges" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Save Changes' really save your changes?" type="TestResult" />
+
+                            <xs:element name="ShowModifiedNodes" maxOccurs="1" minOccurs="1" ann:documentation="Does this show all modified nodes?" type="TestResult" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
                         </xs:sequence>
 

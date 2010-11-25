@@ -42,4 +42,8 @@ FilesTest
 
 OptionsMenuTest
   EditLanguageList		"Does the option show the language list; does it select languages?"
-  
+
+
+FileMenuTest
+  SaveChanges		"Does 'Save Changes' really save your changes?"
+  ShowModifiedNodes	"Does this show all modified nodes?"
