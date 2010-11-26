@@ -44,11 +44,11 @@
 
                         <xs:sequence>
 
-                            <xs:element name="AddCorpusTest" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' " type="TestResult" />
+                            <xs:element name="AddCorpus" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' " type="TestResult" />
 
-                            <xs:element name="AddSessionTest" maxOccurs="1" minOccurs="1" ann:documentation="." type="TestResult" />
+                            <xs:element name="AddSession" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on 'Local Corpus' and choose 'Add' / 'Session' " type="TestResult" />
 
-                            <xs:element name="ImportExistingBranchTest" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'." type="TestResult" />
+                            <xs:element name="ImportExistingBranch" maxOccurs="1" minOccurs="1" ann:documentation="Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'." type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
@@ -84,11 +84,11 @@
 
                         <xs:sequence>
 
-                            <xs:element name="DeleteNodeTestKey" maxOccurs="1" minOccurs="1" ann:documentation="Can a node be deleted via the [del] key?" type="TestResult" />
+                            <xs:element name="DeleteNodeKey" maxOccurs="1" minOccurs="1" ann:documentation="Can a node be deleted via the [del] key?" type="TestResult" />
 
-                            <xs:element name="DeleteNodeTestMenu" maxOccurs="1" minOccurs="1" ann:documentation="Can a node be deleted via the right-click menu?" type="TestResult" />
+                            <xs:element name="DeleteNodeMenu" maxOccurs="1" minOccurs="1" ann:documentation="Can a node be deleted via the right-click menu?" type="TestResult" />
 
-                            <xs:element name="DropNodeTest" maxOccurs="1" minOccurs="1" ann:documentation="Click on a node and drag it to the Main Work Area. Does it open a table?" type="TestResult" />
+                            <xs:element name="DropNode" maxOccurs="1" minOccurs="1" ann:documentation="Click on a node and drag it to the Main Work Area. Does it open a table?" type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
@@ -104,23 +104,23 @@
 
                         <xs:sequence>
 
-                            <xs:element name="HideColumnsTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?" type="TestResult" />
+                            <xs:element name="HideColumns" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?" type="TestResult" />
 
-                            <xs:element name="ArrangeColumnsTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to change a column's positions with drag and drop?" type="TestResult" />
+                            <xs:element name="ArrangeColumns" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to change a column's positions with drag and drop?" type="TestResult" />
 
-                            <xs:element name="ShowChildNodesTest" maxOccurs="1" minOccurs="1" ann:documentation="Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?" type="TestResult" />
+                            <xs:element name="ShowChildNodes" maxOccurs="1" minOccurs="1" ann:documentation="Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?" type="TestResult" />
 
-                            <xs:element name="SaveColumnViewTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to save a column-view under a custom name?" type="TestResult" />
+                            <xs:element name="SaveColumnView" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to save a column-view under a custom name?" type="TestResult" />
 
-                            <xs:element name="EditColumnViewTest" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Edit this Column View' work as expected (immideatly showing and hiding table rows)?" type="TestResult" />
+                            <xs:element name="EditColumnView" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Edit this Column View' work as expected (immideatly showing and hiding table rows)?" type="TestResult" />
 
-                            <xs:element name="ShowOnlyCurrentTest" maxOccurs="1" minOccurs="1" ann:documentation="???" type="TestResult" />
+                            <xs:element name="ShowOnlyCurrent" maxOccurs="1" minOccurs="1" ann:documentation="??? ASK PETER" type="TestResult" />
 
-                            <xs:element name="ApplySavedViewTest" maxOccurs="1" minOccurs="1" ann:documentation="Can saved views be applied?" type="TestResult" />
+                            <xs:element name="ApplySavedView" maxOccurs="1" minOccurs="1" ann:documentation="Can saved views be applied?" type="TestResult" />
 
-                            <xs:element name="CopyTableWebTest" maxOccurs="1" minOccurs="1" ann:documentation="Is the table properly copied in HTML layout?" type="TestResult" />
+                            <xs:element name="CopyTableWeb" maxOccurs="1" minOccurs="1" ann:documentation="Is the table properly copied in HTML layout?" type="TestResult" />
 
-                            <xs:element name="FindAndReplaceTest" maxOccurs="1" minOccurs="1" ann:documentation="Does find and replace work?" type="TestResult" />
+                            <xs:element name="FindAndReplace" maxOccurs="1" minOccurs="1" ann:documentation="Does find and replace work?" type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
@@ -136,13 +136,31 @@
 
                         <xs:sequence>
 
-                            <xs:element name="AddWorkingDirectoryTest" maxOccurs="1" minOccurs="1" ann:documentation="Can several directories be added and removed ('Files' area)?" type="TestResult" />
+                            <xs:element name="AddWorkingDirectory" maxOccurs="1" minOccurs="1" ann:documentation="Can several directories be added and removed ('Files' area)?" type="TestResult" />
 
-                            <xs:element name="AddJpegImageTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?" type="TestResult" />
+                            <xs:element name="AddJpegImage" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?" type="TestResult" />
 
-                            <xs:element name="AddPngImageTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?" type="TestResult" />
+                            <xs:element name="AddPngImage" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?" type="TestResult" />
 
-                            <xs:element name="AddOggTest" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add an OGG Vorbis audio file?" type="TestResult" />
+                            <xs:element name="AddOgg" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add an OGG Vorbis audio file?" type="TestResult" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
+
+                        </xs:sequence>
+
+                    </xs:complexType>
+
+                </xs:element>
+
+                <xs:element name="FavouritesTest" minOccurs="1" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="AddToFavourites" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to add elements (sessions, actors, ...) from the Local Corpus to the Favourites?" type="TestResult" />
+
+                            <xs:element name="AddFromFavourites" maxOccurs="1" minOccurs="1" ann:documentation="Do node elements (actors, media files, ...) from the Favourites show up in the right-click menu 'Add from Favourites' (when clicking on a sesion in the Local Corpus)?" type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
@@ -158,7 +176,31 @@
 
                         <xs:sequence>
 
+                            <xs:element name="TemplatesAndProfiles" maxOccurs="1" minOccurs="1" ann:documentation="Does it show profiles?" type="TestResult" />
+
+                            <xs:element name="LocalCorpusStorageDirectory" maxOccurs="1" minOccurs="1" ann:documentation="Does it move the Local Corpus files to a different directory?" type="TestResult" />
+
+                            <xs:element name="FieldViews" maxOccurs="1" minOccurs="1" ann:documentation="???? ASK PETER" type="TestResult" />
+
                             <xs:element name="EditLanguageList" maxOccurs="1" minOccurs="1" ann:documentation="Does the option show the language list; does it select languages?" type="TestResult" />
+
+                            <xs:element name="Re-downloadCurrentVocabularies" maxOccurs="1" minOccurs="1" ann:documentation="Are the vocabularies (restricted vocabulary???) updated?" type="TestResult" />
+
+                            <xs:element name="SaveWindowsOnExit" maxOccurs="1" minOccurs="1" ann:documentation="Does it (not) save the windows on exit?" type="TestResult" />
+
+                            <xs:element name="ShowSelectionPreview" maxOccurs="1" minOccurs="1" ann:documentation="Does the preview window (dis)appear, and does it show previews?" type="TestResult" />
+
+                            <xs:element name="CheckForNewVersionOnStart" maxOccurs="1" minOccurs="1" ann:documentation="Does it (not) check for new versions on start?" type="TestResult" />
+
+                            <xs:element name="CopyNewResourcesIntoCache" maxOccurs="1" minOccurs="1" ann:documentation="Does it copy new resources into cache?" type="TestResult" />
+
+                            <xs:element name="CheckPermissionsForRemoteResources" maxOccurs="1" minOccurs="1" ann:documentation="??? ASK PETER" type="TestResult" />
+
+                            <xs:element name="AlwaysCheckLocalMetadataFilesForXMLConformance" maxOccurs="1" minOccurs="1" ann:documentation="??? When importing?" type="TestResult" />
+
+                            <xs:element name="TrackTableSelectionInTree" maxOccurs="1" minOccurs="1" ann:documentation="??? ASK PETER" type="TestResult" />
+
+                            <xs:element name="ShowLanguageInColumnName" maxOccurs="1" minOccurs="1" ann:documentation="??? only _sometimes_ visible when clicking into Language.Description fields ??? hard to find" type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
@@ -177,6 +219,36 @@
                             <xs:element name="SaveChanges" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Save Changes' really save your changes?" type="TestResult" />
 
                             <xs:element name="ShowModifiedNodes" maxOccurs="1" minOccurs="1" ann:documentation="Does this show all modified nodes?" type="TestResult" />
+
+                            <xs:element name="Import" maxOccurs="1" minOccurs="1" ann:documentation="Does the 'Import' function work?" type="TestResult" />
+
+                            <xs:element name="Exit" maxOccurs="1" minOccurs="1" ann:documentation="Do you get a warning when trying to exit with unsaved modifications?" type="TestResult" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
+
+                        </xs:sequence>
+
+                    </xs:complexType>
+
+                </xs:element>
+
+                <xs:element name="HelpMenuTest" minOccurs="1" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="About" maxOccurs="1" minOccurs="1" ann:documentation="Does the 'About' window show?" type="TestResult" />
+
+                            <xs:element name="Help" maxOccurs="1" minOccurs="1" ann:documentation="Is the help system working?" type="TestResult" />
+
+                            <xs:element name="ArbilForum" maxOccurs="1" minOccurs="1" ann:documentation="Does a click here direct the web browser to the Arbil forum?" type="TestResult" />
+
+                            <xs:element name="ErrorLog" maxOccurs="1" minOccurs="1" ann:documentation="Does it open the ErrorLog?" type="TestResult" />
+
+                            <xs:element name="CheckUpdates" maxOccurs="1" minOccurs="1" ann:documentation="Does it notify find newer versions (when not using the latest version)?" type="TestResult" />
+
+                            <xs:element name="ShortCutKeys" maxOccurs="1" minOccurs="1" ann:documentation="Does it open the appropriate page in the help viewer? Do the keys work?" type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 

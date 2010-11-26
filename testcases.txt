@@ -8,9 +8,9 @@ NodeSearchTest
 
 GetMetadataTest
 
-   AddCorpusTest           "Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' "
-   AddSessionTest	   "." 
-   ImportExistingBranchTest "Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'."
+   AddCorpus            "Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' "
+   AddSession	   	"Right-click on 'Local Corpus' and choose 'Add' / 'Session' " 
+   ImportExistingBranch "Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'."
 
 TemplatesTests
 
@@ -19,41 +19,48 @@ TemplatesTests
    ProfileAddFile	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'"
 
 HandleNodesTests
-   DeleteNodeTestKey	"Can a node be deleted via the [del] key?"
-   DeleteNodeTestMenu   "Can a node be deleted via the right-click menu?"
-   DropNodeTest		"Click on a node and drag it to the Main Work Area. Does it open a table?"
+   DeleteNodeKey	"Can a node be deleted via the [del] key?"
+   DeleteNodeMenu 	"Can a node be deleted via the right-click menu?"
+   DropNode		"Click on a node and drag it to the Main Work Area. Does it open a table?"
 
 ColumnsTests
-   HideColumnsTest      "Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?"
-   ArrangeColumnsTest	"Is it possible to change a column's positions with drag and drop?"
-   ShowChildNodesTest   "Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?"
-   SaveColumnViewTest   "Is it possible to save a column-view under a custom name?"
-   EditColumnViewTest   "Does 'Edit this Column View' work as expected (immideatly showing and hiding table rows)?"
-   ShowOnlyCurrentTest  "???"
-   ApplySavedViewTest   "Can saved views be applied?"
-   CopyTableWebTest     "Is the table properly copied in HTML layout?"
-   FindAndReplaceTest   "Does find and replace work?"
+   HideColumns      "Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?"
+   ArrangeColumns	"Is it possible to change a column's positions with drag and drop?"
+   ShowChildNodes   "Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?"
+   SaveColumnView   "Is it possible to save a column-view under a custom name?"
+   EditColumnView   "Does 'Edit this Column View' work as expected (immideatly showing and hiding table rows)?"
+   ShowOnlyCurrent  "??? ASK PETER"
+   ApplySavedView   "Can saved views be applied?"
+   CopyTableWeb     "Is the table properly copied in HTML layout?"
+   FindAndReplace   "Does find and replace work?"
 
 FilesTest
-  AddWorkingDirectoryTest "Can several directories be added and removed ('Files' area)?"
-  AddJpegImageTest        "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
-  AddPngImageTest	  "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
-  AddOggTest		  "Is it possible to add an OGG Vorbis audio file?"
+  AddWorkingDirectory "Can several directories be added and removed ('Files' area)?"
+  AddJpegImage        "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
+  AddPngImage	      "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
+  AddOgg	      "Is it possible to add an OGG Vorbis audio file?"
+  
+
+FavouritesTest
+  AddToFavourites	"Is it possible to add elements (sessions, actors, ...) from the Local Corpus to the Favourites?"
+  AddFromFavourites     "Do node elements (actors, media files, ...) from the Favourites show up in the right-click menu 'Add from Favourites' (when clicking on a sesion in the Local Corpus)?"
+  
+
 
 OptionsMenuTest
   TemplatesAndProfiles   "Does it show profiles?"
-  LocalCorpusStorageDirectory  "..."
+  LocalCorpusStorageDirectory  "Does it move the Local Corpus files to a different directory?"
   FieldViews            "???? ASK PETER"
   EditLanguageList		"Does the option show the language list; does it select languages?"
-  Re-downloadCurrentVocabularies   "..."
-  SaveWindowsOnExit "..."
-  ShowSelectionPreview "..."
-  CheckForNewVersionOnStart  "Does it check for new versions on start?"
+  Re-downloadCurrentVocabularies   "Are the vocabularies (restricted vocabulary???) updated?"
+  SaveWindowsOnExit "Does it (not) save the windows on exit?"
+  ShowSelectionPreview "Does the preview window (dis)appear, and does it show previews?"
+  CheckForNewVersionOnStart  "Does it (not) check for new versions on start?"
   CopyNewResourcesIntoCache  "Does it copy new resources into cache?"
-  CheckPermissionsForRemoteResources  "..."
-  AlwaysCheckLocalMetadataFilesForXMLConformance "..."
-  TrackTableSelectionInTree "..."
-  ShowLanguageInColumnName "..."
+  CheckPermissionsForRemoteResources  "??? ASK PETER"
+  AlwaysCheckLocalMetadataFilesForXMLConformance "??? When importing?"
+  TrackTableSelectionInTree "??? ASK PETER"
+  ShowLanguageInColumnName "??? only _sometimes_ visible when clicking into Language.Description fields ??? hard to find"
 
 
 FileMenuTest
@@ -62,3 +69,10 @@ FileMenuTest
   Import		"Does the 'Import' function work?"
   Exit			"Do you get a warning when trying to exit with unsaved modifications?"
 
+HelpMenuTest
+  About		"Does the 'About' window show?"
+  Help		"Is the help system working?"
+  ArbilForum	"Does a click here direct the web browser to the Arbil forum?"
+  ErrorLog	"Does it open the ErrorLog?"
+  CheckUpdates	"Does it notify find newer versions (when not using the latest version)?"
+  ShortCutKeys	"Does it open the appropriate page in the help viewer? Do the keys work?"
