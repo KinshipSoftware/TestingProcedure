@@ -34,7 +34,6 @@ fileheader='
 
                 <xs:element name="OSVersion" type="xs:string" maxOccurs="1" minOccurs="1" ann:documentation="The operating system type and version being tested on" />
 
-                <xs:element name="Type" type="TestResult" maxOccurs="1" minOccurs="1" ann:documentation="Overall test result." />
 ';
 
 testfooter='                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />

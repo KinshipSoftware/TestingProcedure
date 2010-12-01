@@ -16,7 +16,6 @@
 
                 <xs:element name="OSVersion" type="xs:string" maxOccurs="1" minOccurs="1" ann:documentation="The operating system type and version being tested on" />
 
-                <xs:element name="Type" type="TestResult" maxOccurs="1" minOccurs="1" ann:documentation="Overall test result." />
 
                 <xs:element name="NodeSearchTest" minOccurs="1" maxOccurs="unbounded">
 
@@ -112,15 +111,15 @@
 
                             <xs:element name="SaveColumnView" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to save a column-view under a custom name?" type="TestResult" />
 
-                            <xs:element name="EditColumnView" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Edit this Column View' work as expected (immideatly showing and hiding table rows)?" type="TestResult" />
+                            <xs:element name="EditColumnView" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Edit this Column View' work as expected (immidiately showing and hiding table rows)?" type="TestResult" />
 
-                            <xs:element name="ShowOnlyCurrent" maxOccurs="1" minOccurs="1" ann:documentation="??? ASK PETER" type="TestResult" />
+                            <xs:element name="ShowOnlyCurrent" maxOccurs="1" minOccurs="1" ann:documentation="Does this hold the current Column View (with maybe some columns hidden) when adding more elements with other nodes?" type="TestResult" />
 
-                            <xs:element name="ApplySavedView" maxOccurs="1" minOccurs="1" ann:documentation="Can saved views be applied?" type="TestResult" />
+                            <xs:element name="ColumnViewForThis" maxOccurs="1" minOccurs="1" ann:documentation="Can saved views be applied?" type="TestResult" />
 
                             <xs:element name="CopyTableWeb" maxOccurs="1" minOccurs="1" ann:documentation="Is the table properly copied in HTML layout?" type="TestResult" />
 
-                            <xs:element name="FindAndReplace" maxOccurs="1" minOccurs="1" ann:documentation="Does find and replace work?" type="TestResult" />
+                            <xs:element name="FindAndReplace" maxOccurs="1" minOccurs="1" ann:documentation="Does find and replace work in tables?" type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
@@ -180,11 +179,9 @@
 
                             <xs:element name="LocalCorpusStorageDirectory" maxOccurs="1" minOccurs="1" ann:documentation="Does it move the Local Corpus files to a different directory?" type="TestResult" />
 
-                            <xs:element name="FieldViews" maxOccurs="1" minOccurs="1" ann:documentation="???? ASK PETER" type="TestResult" />
-
                             <xs:element name="EditLanguageList" maxOccurs="1" minOccurs="1" ann:documentation="Does the option show the language list; does it select languages?" type="TestResult" />
 
-                            <xs:element name="Re-downloadCurrentVocabularies" maxOccurs="1" minOccurs="1" ann:documentation="Are the vocabularies (restricted vocabulary???) updated?" type="TestResult" />
+                            <xs:element name="Re-downloadCurrentVocabularies" maxOccurs="1" minOccurs="1" ann:documentation="Are the vocabularies updated (after a restart)?" type="TestResult" />
 
                             <xs:element name="SaveWindowsOnExit" maxOccurs="1" minOccurs="1" ann:documentation="Does it (not) save the windows on exit?" type="TestResult" />
 
@@ -192,15 +189,19 @@
 
                             <xs:element name="CheckForNewVersionOnStart" maxOccurs="1" minOccurs="1" ann:documentation="Does it (not) check for new versions on start?" type="TestResult" />
 
-                            <xs:element name="CopyNewResourcesIntoCache" maxOccurs="1" minOccurs="1" ann:documentation="Does it copy new resources into cache?" type="TestResult" />
+                            <xs:element name="CopyNewResourcesIntoCache" maxOccurs="1" minOccurs="1" ann:documentation="Does it copy new resources into cache (pay attention to the tooltip)?" type="TestResult" />
 
-                            <xs:element name="CheckPermissionsForRemoteResources" maxOccurs="1" minOccurs="1" ann:documentation="??? ASK PETER" type="TestResult" />
+                            <xs:element name="CheckPermissionsForRemoteResources" maxOccurs="1" minOccurs="1" ann:documentation="Does it change icons accordingly (pay attention to the tooltip)?" type="TestResult" />
 
-                            <xs:element name="AlwaysCheckLocalMetadataFilesForXMLConformance" maxOccurs="1" minOccurs="1" ann:documentation="??? When importing?" type="TestResult" />
+                            <xs:element name="AlwaysCheckLocalMetadataFilesForXMLConformance" maxOccurs="1" minOccurs="1" ann:documentation="Does it highlight invalid XML metadata in red (pay attention to the tooltip)?" type="TestResult" />
 
-                            <xs:element name="TrackTableSelectionInTree" maxOccurs="1" minOccurs="1" ann:documentation="??? ASK PETER" type="TestResult" />
+                            <xs:element name="TrackTableSelectionInTree" maxOccurs="1" minOccurs="1" ann:documentation="not implemented yet / when active selections in windows should be mirrored in the Local Corpus tree" type="TestResult" />
 
                             <xs:element name="ShowLanguageInColumnName" maxOccurs="1" minOccurs="1" ann:documentation="??? only _sometimes_ visible when clicking into Language.Description fields ??? hard to find" type="TestResult" />
+
+                            <xs:element name="ColumnViewForNewTables" maxOccurs="1" minOccurs="1" ann:documentation="Are new tables opened with the appropriate Column View applied?" type="TestResult" />
+
+                            <xs:element name="EditColumnViews" maxOccurs="1" minOccurs="1" ann:documentation="not implemented yet / this is to delete saved Column Views etc." type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 

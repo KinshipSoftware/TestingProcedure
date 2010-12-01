@@ -1,4 +1,5 @@
 # The lines should not be longer than about 150 characters, so the program can still display them on a screen with a width of only 1280 pixel
+# testcases adapted to new testing Arbil on 30 November
 
 NodeSearchTest
 
@@ -28,11 +29,11 @@ ColumnsTests
    ArrangeColumns	"Is it possible to change a column's positions with drag and drop?"
    ShowChildNodes   "Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?"
    SaveColumnView   "Is it possible to save a column-view under a custom name?"
-   EditColumnView   "Does 'Edit this Column View' work as expected (immideatly showing and hiding table rows)?"
-   ShowOnlyCurrent  "??? ASK PETER"
-   ApplySavedView   "Can saved views be applied?"
+   EditColumnView   "Does 'Edit this Column View' work as expected (immidiately showing and hiding table rows)?"
+   ShowOnlyCurrent  "Does this hold the current Column View (with maybe some columns hidden) when adding more elements with other nodes?"
+   ColumnViewForThis   "Can saved views be applied?"
    CopyTableWeb     "Is the table properly copied in HTML layout?"
-   FindAndReplace   "Does find and replace work?"
+   FindAndReplace   "Does find and replace work in tables?"
 
 FilesTest
   AddWorkingDirectory "Can several directories be added and removed ('Files' area)?"
@@ -50,17 +51,18 @@ FavouritesTest
 OptionsMenuTest
   TemplatesAndProfiles   "Does it show profiles?"
   LocalCorpusStorageDirectory  "Does it move the Local Corpus files to a different directory?"
-  FieldViews            "???? ASK PETER"
   EditLanguageList		"Does the option show the language list; does it select languages?"
-  Re-downloadCurrentVocabularies   "Are the vocabularies (restricted vocabulary???) updated?"
+  Re-downloadCurrentVocabularies   "Are the vocabularies updated (after a restart)?"
   SaveWindowsOnExit "Does it (not) save the windows on exit?"
   ShowSelectionPreview "Does the preview window (dis)appear, and does it show previews?"
   CheckForNewVersionOnStart  "Does it (not) check for new versions on start?"
-  CopyNewResourcesIntoCache  "Does it copy new resources into cache?"
-  CheckPermissionsForRemoteResources  "??? ASK PETER"
-  AlwaysCheckLocalMetadataFilesForXMLConformance "??? When importing?"
-  TrackTableSelectionInTree "??? ASK PETER"
+  CopyNewResourcesIntoCache  "Does it copy new resources into cache (pay attention to the tooltip)?"
+  CheckPermissionsForRemoteResources  "Does it change icons accordingly (pay attention to the tooltip)?"
+  AlwaysCheckLocalMetadataFilesForXMLConformance "Does it highlight invalid XML metadata in red (pay attention to the tooltip)?"
+  TrackTableSelectionInTree "not implemented yet / when active selections in windows should be mirrored in the Local Corpus tree"
   ShowLanguageInColumnName "??? only _sometimes_ visible when clicking into Language.Description fields ??? hard to find"
+  ColumnViewForNewTables    "Are new tables opened with the appropriate Column View applied?"
+  EditColumnViews            "not implemented yet / this is to delete saved Column Views etc."
 
 
 FileMenuTest
