@@ -84,3 +84,7 @@ HelpMenuTest
   ErrorLog	"Does it open the ErrorLog?"
   CheckUpdates	"Does it notify find newer versions (when not using the latest version)?"
   ShortCutKeys	"Does it open the appropriate page in the help viewer? Do the keys work?"
+
+MultiLanguageTest
+  DescriptionChoise "Is a pull-down box with the selected languages available when entering a node description?"
+  LongfieldEditor   "Is there a means of choosing a description language in the longfield editor?"

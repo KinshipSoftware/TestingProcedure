@@ -285,6 +285,24 @@
 
                 </xs:element>
 
+                <xs:element name="MultiLanguageTest" minOccurs="1" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="DescriptionChoise" maxOccurs="1" minOccurs="1" ann:documentation="Is a pull-down box with the selected languages available when entering a node description?" type="TestResult" />
+
+                            <xs:element name="LongfieldEditor" maxOccurs="1" minOccurs="1" ann:documentation="Is there a means of choosing a description language in the longfield editor?" type="TestResult" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
+
+                        </xs:sequence>
+
+                    </xs:complexType>
+
+                </xs:element>
+
             </xs:sequence>
 
         </xs:complexType>
