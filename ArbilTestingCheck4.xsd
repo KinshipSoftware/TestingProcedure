@@ -27,7 +27,7 @@
 
                             <xs:element name="LocalSearch" maxOccurs="1" minOccurs="1" ann:documentation="From the local corpus tree right click and select search; enter a few seach terms then run the search" type="TestResult" />
 
-                            <xs:element name="RemoteSearch" maxOccurs="1" minOccurs="1" ann:documentation="From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search." type="TestResult" />
+                            <xs:element name="RemoteSearch" maxOccurs="1" minOccurs="1" ann:documentation="Still INCOMPLETE! From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search." type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
@@ -57,26 +57,6 @@
 
                 </xs:element>
 
-                <xs:element name="TemplatesTests" minOccurs="1" maxOccurs="unbounded">
-
-                    <xs:complexType>
-
-                        <xs:sequence>
-
-                            <xs:element name="SignLanguageProfile" maxOccurs="1" minOccurs="1" ann:documentation="Go to 'Options' / 'Templates &amp; Profiles', activate 'Sign-Language Session (internal)', add auch a session" type="TestResult" />
-
-                            <xs:element name="ProfileAddURL" maxOccurs="1" minOccurs="1" ann:documentation="From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add URL'" type="TestResult" />
-
-                            <xs:element name="ProfileAddFile" maxOccurs="1" minOccurs="1" ann:documentation="From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'" type="TestResult" />
-
-                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
-
-                        </xs:sequence>
-
-                    </xs:complexType>
-
-                </xs:element>
-
                 <xs:element name="HandleNodesTests" minOccurs="1" maxOccurs="unbounded">
 
                     <xs:complexType>
@@ -88,6 +68,32 @@
                             <xs:element name="DeleteNodeMenu" maxOccurs="1" minOccurs="1" ann:documentation="Can a node be deleted via the right-click menu?" type="TestResult" />
 
                             <xs:element name="DropNode" maxOccurs="1" minOccurs="1" ann:documentation="Click on a node and drag it to the Main Work Area. Does it open a table?" type="TestResult" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
+
+                        </xs:sequence>
+
+                    </xs:complexType>
+
+                </xs:element>
+
+                <xs:element name="NodeRightMouseMenu" minOccurs="1" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="OpenInExternalApp" maxOccurs="1" minOccurs="1" ann:documentation="Does it launch the resource file in an external application?" type="TestResult" />
+
+                            <xs:element name="ViewXML" maxOccurs="1" minOccurs="1" ann:documentation="Does it open a window with the XML source code?" type="TestResult" />
+
+                            <xs:element name="ViewImdiFormatted" maxOccurs="1" minOccurs="1" ann:documentation="??? not working?" type="TestResult" />
+
+                            <xs:element name="OpenImdiFormatted" maxOccurs="1" minOccurs="1" ann:documentation="??? not working?" type="TestResult" />
+
+                            <xs:element name="ExportImdiToHtml" maxOccurs="1" minOccurs="1" ann:documentation="??? only exporting .js and .gif files?" type="TestResult" />
+
+                            <xs:element name="CheckXmlConformance" maxOccurs="1" minOccurs="1" ann:documentation="Does it perform an XML check and open a window with the results?" type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
@@ -169,6 +175,28 @@
 
                 </xs:element>
 
+                <xs:element name="FileMenuTest" minOccurs="1" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="SaveChanges" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Save Changes' really save your changes?" type="TestResult" />
+
+                            <xs:element name="ShowModifiedNodes" maxOccurs="1" minOccurs="1" ann:documentation="Does this show all modified nodes?" type="TestResult" />
+
+                            <xs:element name="Import" maxOccurs="1" minOccurs="1" ann:documentation="Does the 'Import' function work?" type="TestResult" />
+
+                            <xs:element name="Exit" maxOccurs="1" minOccurs="1" ann:documentation="Do you get a warning when trying to exit with unsaved modifications?" type="TestResult" />
+
+                            <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
+
+                        </xs:sequence>
+
+                    </xs:complexType>
+
+                </xs:element>
+
                 <xs:element name="OptionsMenuTest" minOccurs="1" maxOccurs="unbounded">
 
                     <xs:complexType>
@@ -211,19 +239,17 @@
 
                 </xs:element>
 
-                <xs:element name="FileMenuTest" minOccurs="1" maxOccurs="unbounded">
+                <xs:element name="TemplatesTests" minOccurs="1" maxOccurs="unbounded">
 
                     <xs:complexType>
 
                         <xs:sequence>
 
-                            <xs:element name="SaveChanges" maxOccurs="1" minOccurs="1" ann:documentation="Does 'Save Changes' really save your changes?" type="TestResult" />
+                            <xs:element name="SignLanguageProfile" maxOccurs="1" minOccurs="1" ann:documentation="Go to 'Options' / 'Templates &amp; Profiles', activate 'Sign-Language Session (internal)', add auch a session" type="TestResult" />
 
-                            <xs:element name="ShowModifiedNodes" maxOccurs="1" minOccurs="1" ann:documentation="Does this show all modified nodes?" type="TestResult" />
+                            <xs:element name="ProfileAddURL" maxOccurs="1" minOccurs="1" ann:documentation="From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add URL'" type="TestResult" />
 
-                            <xs:element name="Import" maxOccurs="1" minOccurs="1" ann:documentation="Does the 'Import' function work?" type="TestResult" />
-
-                            <xs:element name="Exit" maxOccurs="1" minOccurs="1" ann:documentation="Do you get a warning when trying to exit with unsaved modifications?" type="TestResult" />
+                            <xs:element name="ProfileAddFile" maxOccurs="1" minOccurs="1" ann:documentation="From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'" type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 

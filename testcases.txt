@@ -5,24 +5,27 @@ NodeSearchTest
 
    OpenSearchWindow "From the local corpus tree right click and select search; a search window should be shown."
    LocalSearch      "From the local corpus tree right click and select search; enter a few seach terms then run the search"
-   RemoteSearch     "From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search."
+   RemoteSearch     "Still INCOMPLETE! From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search."
 
 GetMetadataTest
 
    AddCorpus            "Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' "
    AddSession	   	"Right-click on 'Local Corpus' and choose 'Add' / 'Session' " 
    ImportExistingBranch "Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'."
-
-TemplatesTests
-
-   SignLanguageProfile	  "Go to 'Options' / 'Templates &amp; Profiles', activate 'Sign-Language Session (internal)', add auch a session"
-   ProfileAddURL	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add URL'"
-   ProfileAddFile	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'"
+   
 
 HandleNodesTests
    DeleteNodeKey	"Can a node be deleted via the [del] key?"
    DeleteNodeMenu 	"Can a node be deleted via the right-click menu?"
    DropNode		"Click on a node and drag it to the Main Work Area. Does it open a table?"
+
+NodeRightMouseMenu
+   OpenInExternalApp    "Does it launch the resource file in an external application?"
+   ViewXML              "Does it open a window with the XML source code?"
+   ViewImdiFormatted    "??? not working?"
+   OpenImdiFormatted    "??? not working?"
+   ExportImdiToHtml     "??? only exporting .js and .gif files?"
+   CheckXmlConformance  "Does it perform an XML check and open a window with the results?"
 
 ColumnsTests
    HideColumns      "Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?"
@@ -47,6 +50,11 @@ FavouritesTest
   AddFromFavourites     "Do node elements (actors, media files, ...) from the Favourites show up in the right-click menu 'Add from Favourites' (when clicking on a sesion in the Local Corpus)?"
   
 
+FileMenuTest
+  SaveChanges		"Does 'Save Changes' really save your changes?"
+  ShowModifiedNodes	"Does this show all modified nodes?"
+  Import		"Does the 'Import' function work?"
+  Exit			"Do you get a warning when trying to exit with unsaved modifications?"
 
 OptionsMenuTest
   TemplatesAndProfiles   "Does it show profiles?"
@@ -64,12 +72,10 @@ OptionsMenuTest
   ColumnViewForNewTables    "Are new tables opened with the appropriate Column View applied?"
   EditColumnViews            "not implemented yet / this is to delete saved Column Views etc."
 
-
-FileMenuTest
-  SaveChanges		"Does 'Save Changes' really save your changes?"
-  ShowModifiedNodes	"Does this show all modified nodes?"
-  Import		"Does the 'Import' function work?"
-  Exit			"Do you get a warning when trying to exit with unsaved modifications?"
+TemplatesTests
+   SignLanguageProfile	  "Go to 'Options' / 'Templates &amp; Profiles', activate 'Sign-Language Session (internal)', add auch a session"
+   ProfileAddURL	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add URL'"
+   ProfileAddFile	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'"
 
 HelpMenuTest
   About		"Does the 'About' window show?"
