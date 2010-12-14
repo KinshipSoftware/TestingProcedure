@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ArbilBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:schemaLocation="http://www.clarin.eu/cmd file:/home/vlado/mpi.nl/subversion/testing/ArbilTestingCheck4.xsd">
+               xsi:schemaLocation="http://www.clarin.eu/cmd http://www.mpi.nl/world/data/3439243/ArbilTestingCheck4.xsd">
    <DateTime>2010-12-02</DateTime>
    <ArbilVersion>Dec 1 15:29:50</ArbilVersion>
    <OSVersion>Ubuntu Linux</OSVersion>
