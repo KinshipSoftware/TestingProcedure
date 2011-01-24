@@ -15,14 +15,14 @@
 #
 # Version 1.1 / Vlado Plaga 2010-11-25
 
-testcasesfile="testcases.txt";
+testcasesfile=$1;
 
 doctype='<?xml version="1.0" encoding="utf-8"?>';
 
 fileheader='
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ann="http://www.clarin.eu">
 
-    <xs:element name="ArbilBugCheck">
+    <xs:element name="BugCheck">
 
         <xs:complexType>
 
@@ -30,7 +30,7 @@ fileheader='
 
                 <xs:element name="DateTime" type="xs:string" maxOccurs="1" minOccurs="1" ann:documentation="The date time the test was started" ann:displaypriority="1"/>
 
-                <xs:element name="ArbilVersion" type="xs:string" maxOccurs="1" minOccurs="1" ann:documentation="The version of Arbil being tested" />
+                <xs:element name="ProgramVersion" type="xs:string" maxOccurs="1" minOccurs="1" ann:documentation="The version of the application being tested" />
 
                 <xs:element name="OSVersion" type="xs:string" maxOccurs="1" minOccurs="1" ann:documentation="The operating system type and version being tested on" />
 

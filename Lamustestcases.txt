@@ -1,0 +1,93 @@
+# The lines should not be longer than about 150 characters, so the program can still display them on a screen with a width of only 1280 pixel
+# testcases adapted to new testing Arbil on 30 November
+# The generated XSD should be uploaded to:
+#   lux09:/data/corpora/MPI_workspace/tg/test_plans/ArbilTestingCheck4.xsd
+# The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
+
+NodeSearchTest
+
+   OpenSearchWindow "From the local corpus tree right click and select search; a search window should be shown."
+   LocalSearch      "From the local corpus tree right click and select search; enter a few seach terms then run the search"
+   RemoteSearch     "Still INCOMPLETE! From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search."
+
+GetMetadataTest
+
+   AddCorpus            "Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' "
+   AddSession	   	"Right-click on 'Local Corpus' and choose 'Add' / 'Session' " 
+   ImportExistingBranch "Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'."
+   
+
+HandleNodesTests
+   DeleteNodeKey	"Can a node be deleted via the [del] key?"
+   DeleteNodeMenu 	"Can a node be deleted via the right-click menu?"
+   DropNode		"Click on a node and drag it to the Main Work Area. Does it open a table?"
+
+NodeRightMouseMenu
+   OpenInExternalApp    "Does it launch the resource file in an external application?"
+   ViewXML              "Does it open a window with the XML source code?"
+   ViewImdiFormatted    "??? not working?"
+   OpenImdiFormatted    "??? not working?"
+   ExportImdiToHtml     "??? only exporting .js and .gif files?"
+   CheckXmlConformance  "Does it perform an XML check and open a window with the results?"
+
+ColumnsTests
+   HideColumns      "Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?"
+   ArrangeColumns	"Is it possible to change a column's positions with drag and drop?"
+   ShowChildNodes   "Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?"
+   SaveColumnView   "Is it possible to save a column-view under a custom name?"
+   EditColumnView   "Does 'Edit this Column View' work as expected (immidiately showing and hiding table rows)?"
+   ShowOnlyCurrent  "Does this hold the current Column View (with maybe some columns hidden) when adding more elements with other nodes?"
+   ColumnViewForThis   "Can saved views be applied?"
+   CopyTableWeb     "Is the table properly copied in HTML layout?"
+   FindAndReplace   "Does find and replace work in tables?"
+
+FilesTest
+  AddWorkingDirectory "Can several directories be added and removed ('Files' area)?"
+  AddJpegImage        "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
+  AddPngImage	      "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
+  AddOgg	      "Is it possible to add an OGG Vorbis audio file?"
+  
+
+FavouritesTest
+  AddToFavourites	"Is it possible to add elements (sessions, actors, ...) from the Local Corpus to the Favourites?"
+  AddFromFavourites     "Do node elements (actors, media files, ...) from the Favourites show up in the right-click menu 'Add from Favourites' (when clicking on a sesion in the Local Corpus)?"
+  
+
+FileMenuTest
+  SaveChanges		"Does 'Save Changes' really save your changes?"
+  ShowModifiedNodes	"Does this show all modified nodes?"
+  Import		"Does the 'Import' function work?"
+  Exit			"Do you get a warning when trying to exit with unsaved modifications?"
+
+OptionsMenuTest
+  TemplatesAndProfiles   "Does it show profiles?"
+  LocalCorpusStorageDirectory  "Does it move the Local Corpus files to a different directory?"
+  EditLanguageList		"Does the option show the language list; does it select languages?"
+  Re-downloadCurrentVocabularies   "Are the vocabularies updated (after a restart)?"
+  SaveWindowsOnExit "Does it (not) save the windows on exit?"
+  ShowSelectionPreview "Does the preview window (dis)appear, and does it show previews?"
+  CheckForNewVersionOnStart  "Does it (not) check for new versions on start?"
+  CopyNewResourcesIntoCache  "Does it copy new resources into cache (pay attention to the tooltip)?"
+  CheckPermissionsForRemoteResources  "Does it change icons accordingly (pay attention to the tooltip)?"
+  AlwaysCheckLocalMetadataFilesForXMLConformance "Does it highlight invalid XML metadata in red (pay attention to the tooltip)?"
+  TrackTableSelectionInTree "not implemented yet / when active selections in windows should be mirrored in the Local Corpus tree"
+  ShowLanguageInColumnName "??? only _sometimes_ visible when clicking into Language.Description fields ??? hard to find"
+  ColumnViewForNewTables    "Are new tables opened with the appropriate Column View applied?"
+  EditColumnViews            "not implemented yet / this is to delete saved Column Views etc."
+
+TemplatesTests
+   SignLanguageProfile	  "Go to 'Options' / 'Templates &amp; Profiles', activate 'Sign-Language Session (internal)', add auch a session"
+   ProfileAddURL	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add URL'"
+   ProfileAddFile	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'"
+
+HelpMenuTest
+  About		"Does the 'About' window show?"
+  Help		"Is the help system working?"
+  ArbilForum	"Does a click here direct the web browser to the Arbil forum?"
+  ErrorLog	"Does it open the ErrorLog?"
+  CheckUpdates	"Does it notify find newer versions (when not using the latest version)?"
+  ShortCutKeys	"Does it open the appropriate page in the help viewer? Do the keys work?"
+
+MultiLanguageTest
+  DescriptionChoise "Is a pull-down box with the selected languages available when entering a node description?"
+  LongfieldEditor   "Is there a means of choosing a description language in the longfield editor?"
