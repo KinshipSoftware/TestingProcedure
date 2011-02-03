@@ -1,7 +1,7 @@
 # The lines should not be longer than about 150 characters, so the program can still display them on a screen with a width of only 1280 pixel
 # testcases adapted to new testing Arbil on 30 November
 # The generated XSD should be uploaded to:
-#   lux09:/data/corpora/MPI_workspace/tg/test_plans/ArbilTestingCheck4.xsd
+#   lux09:/data/corpora/MPI_workspace/tg/test_plans/
 # The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
 
 
@@ -25,7 +25,7 @@ RequestStorageSpaceTest "Click 'Request storage space'. A 'Request Storage Space
 	RSST1 "Enter the space in Megabyte, click 'Submit'. A 'Request Storage Space' should be displayed. Click 'Back' to go to the main LAMUS page"
 
 ManagementConsoleTest "Click 'Management Console'. If you are not allowed the access will be denied. An error message will inform you" 
-	MCT1 "Select 'Send bug report". This option does not work"
+	MCT1 "Select 'Send bug report"
 	MCT2 "Select 'back'. You should be redirected to the previous page"
 	MCT3 "Select 'Main Page'. You should be redirected to the main LAMUS page" 
 	
@@ -104,7 +104,7 @@ LinkCorpusNodeTest "Right click on a corpus node and select 'Link Node'; The var
 	LinkExternalNode "Select 'link external node'. A 'create an external link' window should be displayed in the main interaction window"
 		LEN1 "Enter the url and specify the file type from the pull down menu: is it possible to submit it?"
 		LEN2 "Enter the information to add in the 'create an external link' window and click 'Reset': is the 'create an external link' window resetted?"
-		LEN3 CancelChangeNode "Click 'Cancel': the 'create an external link' window should be closed"
+		LEN3 "Click 'Cancel': the 'create an external link' window should be closed"
 	LinkArchiveNode "Select 'link archive node (outside workspace!)'. A  corpus tree should be displayed in the main interaction window"
 		LAN1 "Right click on a corpus/session node in the main interaction window, select 'select this node as link target'. Is the node linked?"
 			LAN1a "If you right click on an inappropriate node, 'node of this type cannot be linked from the selected node' should pop-up"
@@ -159,7 +159,7 @@ LinkSessionNodeTest "Right click on a session node and select 'Link Node'; The v
 ReplaceTreeTest
 
 RTTforCorpusNode "Right click on a corpus node and select 'replace tree'. A 'Free Corpus Nodes' window should be in the main interaction window"
-RTTforSessionNode "Right click on a session node and select 'replace tree'. Is a "Free Session Nodes' window in the main interaction window?"
+RTTforSessionNode "Right click on a session node and select 'replace tree'. Is a 'Free Session Nodes' window in the main interaction window?"
 	
 DuplicateNodeTest
 
@@ -187,46 +187,41 @@ InfoFile "Right click on an info file. The management functions should be displa
 		RRT1 "Click 'Cancel': the 'Rename Node' window should be closed"
 		RRT2 "Enter the new name and click 'Rename Node'; is the selected node renamed?"
 
-LAMUS Function Buttons Test
+LAMUSFunctionButtonsTest
 
-Upload Files "Click 'Upload Files'. A 'Upload Resources' window should be displayed in the main interaction window"
+UploadFiles "Click 'Upload Files'. A 'Upload Resources' window should be displayed in the main interaction window"
 	UF1 "Click the 'Browse' button and select the resources to add from your PC. Open the files: they should be shown in the graphical window"
 	UF2 "Click 'Upload' to start the transfer: does the blue status bar represent the progress?"
 	UF3 "Click 'Upload' to start the transfer and click the 'Stop'button: is the ongoing transfer cancelled?"
 	UF4 "Click 'Upload' to start the transfer: an 'Upload Result' window should be displayed in the main interaction window"
 	UF5 "Do UF4. Are the uploaded files in the unlinked files container of the workspace?"
 			
-Request Storage "Click 'Request Storage'. A 'Request Storage Space' window should be displayed in the main interaction window"
+RequestStorage "Click 'Request Storage'. A 'Request Storage Space' window should be displayed in the main interaction window"
 	RS1 "Enter the desired amount in Megabytes and click 'Submit'. A 'Request Storage Space' window should be in the main interaction window"
 	RS2 "Do RS1. An email notification should be sent to the user after completion"
 	RS3 "Do RS1 and click 'Back' from the 'Request Storage Space' window. You should be redirected to the previous interaction window"
 		
-Unlinked Files "Click 'Unlinked Files'; a 'Free Nodes' window should be displayed in the main interaction window". 
+UnlinkedFiles "Click 'Unlinked Files'; a 'Free Nodes' window should be displayed in the main interaction window"
 	UF1 "Click 'Select All'. Are all the files selected?" 
 	UF2 "Clcik 'Deselect All'. Are all the files previously selected deselected?"
 	UF3 "Select a file, click 'Delete Selected'. Is a 'Response to Change Request' window in the main interaction window? Is the file deleted?"
 			
-Submit Workspace "Click 'Submit Workspace'. A 'Submit Workspace' window should be displayed in the main interaction window"
+SubmitWorkspace "Click 'Submit Workspace'. A 'Submit Workspace' window should be displayed in the main interaction window"
 	SW1 "Click 'Cancel': the 'Submit Workspace' window should be closed"
 		
-Save and Logout "Click 'Save and Logout'. A short message will show the User name, Used Space, Available Space, Free Nodes, and errors (if any)"
+SaveAndLogout "Click 'Save and Logout'. A short message will show the User name, Used Space, Available Space, Free Nodes, and errors (if any)"
 	SAL1 "Click 'Return to main page'. You should be redirected to the main LAMUS page"
 	SAL2 "Do SAL1, click 'Select existing workspace', select a previously saved workspace, click 'choose': you should be able to work on it again"
 		
-Delete Workspace "Click 'Delete Workspace'. A 'Delete Ingest Request' window should be displayed in the main interaction window"
+DeleteWorkspace "Click 'Delete Workspace'. A 'Delete Ingest Request' window should be displayed in the main interaction window"
 	DW1 "Click 'Cancel': the 'Delete Ingest Request' window should be closed"
 	DW2 "Click 'Delete': a 'deleted workspace' window shpuld be displayed on your screen"
 	DW2a "Click 'Main Page' from the 'deleted workspace' window. You should be redirected to the main LAMUS page"
 		
 Help "Click 'Help'. The main interaction window should show a brief description of the various functions of LAMUS"
 		
-Report a Bug "Click 'Report a Bug'. LAMUS Version 1.1.3 reports an error message"
+ReportABug "Click 'Report a Bug'. LAMUS Version 1.1.3 reports an error message"
 		
 About "Click 'About'. A new page shows information about Lamus Version Info, My Lamus Info and Personal Preferences"
 	A1 "Click 'back': you should be redirected to the previous interaction window"
 	A2 "Change Icon set: this option is not functional at the moment"
-		
-		
-		
-
-	
