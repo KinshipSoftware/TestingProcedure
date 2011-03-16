@@ -1,0 +1,6 @@
+# File to test Arbil's processing of line breaks
+
+LineBreakTest
+  TestWithN "This uses the default newline character\n Now we should be in a new line."
+  TestWithBr "This is an attempt with HTML br <br> Probably this will still be in the same line."
+  ActualLineBreakTest "What does Arbil make of this? A new line?"
