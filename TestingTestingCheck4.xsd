@@ -23,11 +23,11 @@
 
                         <xs:sequence>
 
-                            <xs:element name="TestWithN" maxOccurs="1" minOccurs="1" ann:documentation="This uses the default newline charactern Now we should be in a new line." type="TestResult" />
+                            <xs:element name="TestWithN" maxOccurs="1" minOccurs="1" ann:documentation="This uses the default newline character \n Now we should be in a new line... should" type="TestResult" />
 
-                            <xs:element name="TestWithBr" maxOccurs="1" minOccurs="1" ann:documentation="This is an attempt with HTML br <br> Probably this will still be in the same line." type="TestResult" />
+                            <xs:element name="TestWithBr" maxOccurs="1" minOccurs="1" ann:documentation="This was an attempt with HTML br / But Arbil did not accept the file anymore!." type="TestResult" />
 
-                            <xs:element name="ActualLineBreakTest" maxOccurs="1" minOccurs="1" ann:documentation="What does Arbil make of this? A new line?" type="TestResult" />
+                            <xs:element name="ActualLineBreakTest" maxOccurs="1" minOccurs="1" ann:documentation="Just breaking a line in the xsd file does not do anything..." type="TestResult" />
 
                             <xs:element name="ErrorDescription" maxOccurs="unbounded" minOccurs="1" type="xs:string" ann:documentation="Description of errors in this test node. Can exist multiple times." />
 
