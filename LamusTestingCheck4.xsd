@@ -267,7 +267,7 @@
 
                             <xs:element name="LWR1" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to link a resource other than video-, audio-files or pictures?" type="TestResult" />
 
-                            <xs:element name="LinkLex.MDResource" maxOccurs="1" minOccurs="1" ann:documentation="Select 'link lexicon metadata resource'. A 'Free Lexicon Resource Node' window should be displayed in the main interaction window" type="TestResult" />
+                            <xs:element name="LinkLexMDResource" maxOccurs="1" minOccurs="1" ann:documentation="Select 'link lexicon metadata resource'. A 'Free Lexicon Resource Node' window should be displayed in the main interaction window" type="TestResult" />
 
                             <xs:element name="LLMR1" maxOccurs="1" minOccurs="1" ann:documentation="Is it possible to link a Lexicon Metadata Resource?" type="TestResult" />
 
