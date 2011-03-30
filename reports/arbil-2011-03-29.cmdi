@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.clarin.eu/cmd http://www.mpi.nl/world/data/3439243/arbil/ArbilTesting_21720.xsd">
+   <DateTime>2011-03-29</DateTime>
+   <ProgramVersion>2.2.22347</ProgramVersion>
+   <OSVersion>Windows XP Service Pack 3</OSVersion>
+   <NodeSearchTest>
+      <OpenSearchWindow>Works</OpenSearchWindow>
+      <LocalSearch>Works</LocalSearch>
+      <RemoteSearch>Fails</RemoteSearch>
+      <ErrorDescription>It gives no search results. It gives an message error: "no remote search terms provided. Cannot search remotely."</ErrorDescription>
+   </NodeSearchTest>
+   <GetMetadataTest>
+      <AddCorpus>Works</AddCorpus>
+      <AddSession>Works</AddSession>
+      <ImportExistingBranch>Works</ImportExistingBranch>
+      <ErrorDescription/>
+   </GetMetadataTest>
+   <HandleNodesTests>
+      <DeleteNodeKey>Works</DeleteNodeKey>
+      <DeleteNodeMenu>Works</DeleteNodeMenu>
+      <DropNode>Works</DropNode>
+      <ErrorDescription/>
+   </HandleNodesTests>
+   <NodeRightMouseMenu>
+      <OpenInExternalApp>Strange</OpenInExternalApp>
+      <ViewXML>Works</ViewXML>
+      <ViewImdiFormatted>Fails</ViewImdiFormatted>
+      <OpenImdiFormatted>Fails</OpenImdiFormatted>
+      <ExportImdiToHtml>Fails</ExportImdiToHtml>
+      <CheckXmlConformance>Works</CheckXmlConformance>
+      <ErrorDescription>Open External Application: 1. Fails: when a file is added to the working directories and due to its extention, its type has to be overwritten (in this case an wma file), it wont open in an external application nether in the working directories nor when copied to the local corpus (it gives an error "Access denied"); 2. Fails: an image from the working directories can be open there in an external application but it wont open when copied to any session in the local corpus, it becomes not editable and its name is invisable in the list of the media files under the session node (no message error). 3. Strange: When a file from a remote corpus is added to the favourite list (there is an option to do that), the file becomes not editable (in the blue window there is an information that the file is not found).
+
+View/Open Imdi Formatted: it doesnt seem to function at all.
+
+Export imdi to Html: it gives an java script file but doesnt create an html file.</ErrorDescription>
+   </NodeRightMouseMenu>
+   <ColumnsTests>
+      <HideColumns>Works</HideColumns>
+      <ArrangeColumns>Works</ArrangeColumns>
+      <ShowChildNodes>Works</ShowChildNodes>
+      <SaveColumnView>Works</SaveColumnView>
+      <EditColumnView>Works</EditColumnView>
+      <ShowOnlyCurrent>Works</ShowOnlyCurrent>
+      <ColumnViewForThis>Works</ColumnViewForThis>
+      <CopyTableWeb>Works</CopyTableWeb>
+      <FindAndReplace>Works</FindAndReplace>
+      <ErrorDescription/>
+   </ColumnsTests>
+   <FilesTest>
+      <AddWorkingDirectory>Works</AddWorkingDirectory>
+      <AddJpegImage>Strange</AddJpegImage>
+      <AddPngImage>Works</AddPngImage>
+      <AddOgg>Strange</AddOgg>
+      <ErrorDescription>AddJpeg: see the Favourites errors
+AddOgg: typechecker and mediaFile CV out of sync</ErrorDescription>
+   </FilesTest>
+   <FavouritesTest>
+      <AddToFavourites>Mostly</AddToFavourites>
+      <AddFromFavourites>Works</AddFromFavourites>
+      <ErrorDescription>Under session you cannot add a higher level node with (e.g. all the actors) but only the lower leverl nodes (i.e. actor by actor)</ErrorDescription>
+   </FavouritesTest>
+   <FileMenuTest>
+      <SaveChanges>Works</SaveChanges>
+      <ShowModifiedNodes>Works</ShowModifiedNodes>
+      <Import>Works</Import>
+      <Exit>Works</Exit>
+      <ErrorDescription/>
+   </FileMenuTest>
+   <OptionsMenuTest>
+      <TemplatesAndProfiles>Works</TemplatesAndProfiles>
+      <LocalCorpusStorageDirectory>Works</LocalCorpusStorageDirectory>
+      <EditLanguageList>Works</EditLanguageList>
+      <Re-downloadCurrentVocabularies>Strange</Re-downloadCurrentVocabularies>
+      <SaveWindowsOnExit>Works</SaveWindowsOnExit>
+      <ShowSelectionPreview>Works</ShowSelectionPreview>
+      <CheckForNewVersionOnStart>Strange</CheckForNewVersionOnStart>
+      <CopyNewResourcesIntoCache>Works</CopyNewResourcesIntoCache>
+      <CheckPermissionsForRemoteResources>Works</CheckPermissionsForRemoteResources>
+      <AlwaysCheckLocalMetadataFilesForXMLConformance>Works</AlwaysCheckLocalMetadataFilesForXMLConformance>
+      <TrackTableSelectionInTree>Strange</TrackTableSelectionInTree>
+      <ShowLanguageInColumnName>Strange</ShowLanguageInColumnName>
+      <ColumnViewForNewTables>Works</ColumnViewForNewTables>
+      <EditColumnViews>Strange</EditColumnViews>
+      <ErrorDescription>ShowLanguageColumnNames: only  sometimes  visible when clicking into Language.Description fields. Hard to find.
+
+EditColumnViews: Not implemented yet.
+
+Re-downloadCurrentVocabularies: still to be tested
+
+TrackTableSelectionTree: not impelemted yet
+
+CheckForNewVersionsOnStart: to be tested (I cannot open an older version on Arbil here)
+
+EditColumnViews: not impelemted yet</ErrorDescription>
+   </OptionsMenuTest>
+   <TemplatesTests>
+      <SignLanguageProfile>Works</SignLanguageProfile>
+      <ProfileAddURL>Strange</ProfileAddURL>
+      <ProfileAddFile>Strange</ProfileAddFile>
+      <ErrorDescription>ProfileAdd URL _ ProfileAddFile: yet to be tested</ErrorDescription>
+   </TemplatesTests>
+   <HelpMenuTest>
+      <About>Works</About>
+      <Help>Works</Help>
+      <ArbilForum>Works</ArbilForum>
+      <ErrorLog>Works</ErrorLog>
+      <CheckUpdates>Strange</CheckUpdates>
+      <ShortCutKeys>Works</ShortCutKeys>
+      <ErrorDescription>CheckUpdates: yet to be tested</ErrorDescription>
+   </HelpMenuTest>
+   <MultiLanguageTest>
+      <DescriptionChoise>Works</DescriptionChoise>
+      <LongfieldEditor>Works</LongfieldEditor>
+      <ErrorDescription/>
+   </MultiLanguageTest>
+</BugCheck>
