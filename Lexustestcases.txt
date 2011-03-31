@@ -1,0 +1,76 @@
+﻿# The lines should not be longer than about 150 characters, so the program can still display them on a screen with a width of only 1280 pixel
+# testcases adapted to new testing Lexus on 9 March
+# The generated XSD should be uploaded to:
+#   lux09:/data/corpora/MPI_workspace/tg/test_plans/
+# The version used by Lexus is then accessible under http://lux16.mpi.nl/mpi/lexuscc/index.html
+
+
+
+LoginTest
+	DemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens" 
+	TestLogin "Login with username 'test' (pw: 'omed'). Error message invalid password appears" 
+
+WorkspaceLexicaTabTest
+	AddNewLexicon "Add new lexicon. A pop-up for Name and Description appears" 
+	SaveNewLexicon "Enter Name and Description in Pop-up, Save. Lexicon in the list with given Name and New icon, selection curser goes to new lexicon" 
+	RemoveLexicon "Remove lexicon. Lexicon should disappear from the list of lexica" 
+	SelectLexicon "Select a lexicon that you own (not shared) in the lexicon list. The right tab 'Lexicon' should show: Name, Description and Notes" 
+	ChangeNameExistingLexicon "In the right tab 'Lexicon' change the name of an existing lexicon. Name of lexicon should be changed in the lexicon list"
+	ChangeDescriptionExistingLexicon "Description should be changed in the Description Box" 
+	ChangeNoteExistingLexicon "Change the note of an existing lexicon. The note should be changed in the Note Box"
+	SaveChangeExistingLexicon "Click on 'File' and select 'Save'. Are the changes on the existing lexicon saved (also after logout-login)?"
+	LoadLexusUsers1 "Right tab 'Readers'. Click on 'Load users'. Frame should be populated with alphabetically ordered users"
+	DragAndDropUsers1 "Drag and Drop 'ws1 user' to 'Readers' frame. 'ws1 user' should be added to the frame"
+	LogoutAndLoginAsWs1a "logout and login as 'ws1' (pw 'ws1'). Shared lexicon should appear in the lexicon list, with share icon" 
+	RemoveWs1AsDemoUser "As demo user: remove user 'ws1 user' from readers frame. 'ws1 user' should be removed to the frame" 
+	LogoutAndLoginAsWs1b "logout and login as 'ws1' (pw 'ws1'). Shared lexicon should no longer appear in the lexicon list" 
+	LoadLexusUsers2 "login as 'demo' (pw 'omed'). Right tab 'Writers'. Select 'Load users'. Frame should be populated with alphabetically ordered users"
+	DragAndDropUsers2 "Drag and Drop 'ws2 user' to 'Writers' frame. 'ws2 user' should be added to the frame"
+	LogoutAndLoginAsWs2a "logout and login as ws2 (pw 'ws2'). Shared lexicon should appear in the lexicon list, with share icon" 
+	RemoveUserWs2 "As demo user: remove user 'ws2 user' from Writers frame. 'ws2 user' should be removed to the frame" 
+	LogoutAndLoginAsWs2b "logout and login as 'ws2' (pw 'ws2'). Shared lexicon should no longer appear in the lexicon list" 
+
+SortOrdersTabTest
+	OpenSortOrdersTab "Open 'Sort orders' tab. List of available sort orders should appear in the left frame"
+	SelectSortOrder "Select a sort order in the list. Right frame shows Name, Description and sort order list with two columns" 
+	CreateNewSortOrder1 "Create new sort order. Pop-up for Name and Description appears"
+	CreateNewSortOrder2 "Enter Name/Description in Pop-Up, Save. Sort order in the list, with given Name and New icon, selection curser moves to it"
+	SelectNewSortOrder "Select the newly created sort order in the list. The right frame shows a-z initial characters with a-z followers"
+	RemoveInitialCharacters "Remove initial characters 'c', 'e', 'g' and 'k'. Initial characters 'c', 'e', 'g' and 'k' are removed from sort order"
+	AddInitialCharacters1 "Add Initial character 'lg' above 'm', with [lg][LG] follower, Save. lg, with follower [lg][LG] added to the list"
+	AddInitialCharacters2 "Add initial 'c' above 'q' with follower 'v'. Warning: 'The start Letter must be present in the Characters list'"
+	AddInitialCharacters3 "Change follower of 'c' (above) to 'c'. Initial 'c' appears in the list with follower 'c'"
+
+SortOrdersWithNon-latinCharactersTest
+	CreateNewSortOrder1 "Create a new sort order and name it 'Cyrillic (кириллица)'. A new sort order appears with the given name"
+	CreateInitialCharacters "Create initial characters and equal followers: 'А','Б','В','Г','Д','Е'. Remove all latin characters. Sort order has the defined set of characters (insert from keyboard, NOT copy paste!)
+
+QueriesAndSearchingTabTestAdHocSearchRightTab
+	DropDownLexiconList "Select 'Yeli Dnye' from the drop down list in the lexicon frame. Drop down shows all the lexica available in the workspace, 'Yeli Dnye' remains in the box"
+	DropDownWhereList "Select the datacategory 'lexeme' from the drop down list in 'where'. Drop down shows all the datacategory available in the strcuture of the 'Yeli Dnye' lexicon, lexeme remains in the box"
+	DropDownIsListBeginWith1 "Select 'begins with' and 'T'. 37 search results" 
+	DropDownIsListBeginWith2 "Select 'begins with' and 'c'. 18 search results, lexeme starts with 'c'"
+	LexicalEntryDetails "Open 'chaa' from the results list (or another entry). Pop-up 'Lexical entry details' with two tabs opens (Entry, Details)"
+	DeatailsTab "Open 'details' tab. Edit boxes show"
+	ChangeDetails "Change the value in one of the boxes and save. Value should be adjusted"
+	ClosePop-up "Close pop-up. Pop-up should dissappear"
+	DropDownListEndsWith "In the ad hoc search, select, 'ends with and 'a'. 43 results"
+	CheckPreviousModifiedValue "Open 'chaa' from the results list (or another entry). Check if the modified value is really saved" 
+	
+	
+SchemaAndViewED.,Tab1Test
+Before you can test the schema and view editor, create a new lexicon in the workspace, call it "Schema test" and open the "Schema and View editor" for this lexicon.
+This should show the structure of the newly created lexicon, consisting of lexicalEntry, Form and Sense (see image)
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+		
+	
