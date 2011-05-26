@@ -18,7 +18,7 @@
 	STSchemaAndViewEditor "While being in the Workspace editor, in the 'Switch To' tab chose 'Schema and View Editor'. The view changes accordingly"
 	SToLexiconEditor "While being in the Schema and View editor, in the 'Switch To' tab chose 'Lexicon Editor'. The view changes accordingly"
 	SToWorkspace "While being in the Lexicon Editor, in the 'Switch To' tab choose 'Workspace'. The view changes accordingly"
-	SToWorkspaceVicos "In the Workspace mode select 'VICOS'. Vicos opens in a new tab of your internet browser'
+	SToWorkspaceVicos "In the Workspace mode select 'VICOS'. Vicos opens in a new tab of your internet browser"
 
 4.WorkspaceLexicaTabTest
 	WLAddNewLexicon "Add new lexicon. A pop-up for Name and Description appears" 
