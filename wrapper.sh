@@ -11,5 +11,6 @@ do
  if [ $file -nt $xsdfile ]; then
    echo "creating $xsdfile from $file...";
    ./txt2xsd.sh $file > $xsdfile;
+   /usr/bin/xmllint --noout --schema ./XMLSchema.xsd $xsdfile;
  fi
 done

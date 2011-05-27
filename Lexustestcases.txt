@@ -1,26 +1,25 @@
 # The lines should not be longer than about 150 characters, so the program can still display them on a screen with a width of only 1280 pixel
-# testcases adapted to new testing Lexus on 5 April
 # The generated XSD should be uploaded to:
 # lux09:/data/corpora/MPI_workspace/tg/test_plans/
-# The version used by Lexus is then accessible under http://lux16.mpi.nl/lex/lexuscc/index.html
+# The version used by Lexus is then accessible under http://www.mpi.nl/world/data/3439243/
 
 
 
-1.LoginTest
+LoginTest
 	LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens" 
 	LTTestLogin "Login with username 'test' (pw: 'omed'). Error message invalid password appears" 
 
-2.FileTabTest
+FileTabTest
 	FTSafe "Create a new lexicon/some example of lexical entries/sort orders, save the changes via the Save option in the 'File' tab, subsequently log out and log in. The changes have been saved" 
 	FTLogOut "Log out. The program shows now the initial Lexus page where you can log in again"
 
-3.SwitchTabTest
+SwitchTabTest
 	STSchemaAndViewEditor "While being in the Workspace editor, in the 'Switch To' tab chose 'Schema and View Editor'. The view changes accordingly"
 	SToLexiconEditor "While being in the Schema and View editor, in the 'Switch To' tab chose 'Lexicon Editor'. The view changes accordingly"
 	SToWorkspace "While being in the Lexicon Editor, in the 'Switch To' tab choose 'Workspace'. The view changes accordingly"
 	SToWorkspaceVicos "In the Workspace mode select 'VICOS'. Vicos opens in a new tab of your internet browser"
 
-4.WorkspaceLexicaTabTest
+WorkspaceLexicaTabTest
 	WLAddNewLexicon "Add new lexicon. A pop-up for Name and Description appears" 
 	WLSaveNewLexicon "Enter Name and Description in Pop-up, Save. Lexicon in the list with given Name and New icon, selection curser goes to new lexicon" 
 	WLRemoveLexicon "Remove lexicon. An alert appears, Ok and the lexicon is removed from the list of lexica" 
@@ -41,7 +40,7 @@
 	WLRemoveUserWs2 "As demo user: remove user 'ws2 user' from the 'Writers' frame. 'Ws2 user' should be removed to the frame" 
 	WLLogoutAndLoginAsWs2b "Log out and log in as 'ws2' (pw 'ws2'). Shared lexicon should no longer appear in the lexicon list" 
 	
-5.SortOrdersTabTest
+SortOrdersTabTest
 	SOOpenSortOrdersTab "Open 'Sort orders' tab. List of available sort orders should appear in the left frame"
 	SOSelectSortOrder "Select a sort order in the list. Right frame shows Name, Description and sort order list with two columns" 
 	SOCreateNewSortOrder1 "Create new sort order. Pop-up for Name and Description appears"
@@ -54,12 +53,12 @@
 	SOAddInitialCharacters3 "Change follower of 'c' (above) to 'c'. Initial 'c' appears in the list with follower 'c'"
 	SORechangePositionCharacters "Drag and drop the letter 'd' above 'a'. The letter 'd' appears now before 'a'"
 	SODeteteSortOrder1 "Delete the sort order you have just worked with. Your sort order has been removed from the list of the available sort orders"
-        SOCreateNewSortOrderWithNonLatinCharacters "Create a new sort order and name it 'Cyrillic (кириллица)'. A new sort order appears with the given name"
+    SOCreateNewSortOrderWithNonLatinCharacters "Create a new sort order and name it 'Cyrillic (кириллица)'. A new sort order appears with the given name"
 	SOCreateInitialCharacters "Remove all latin characters and create initial characters and equal followers: 'А','Б','В','Г','Д','Е' (insert from keyboard, NOT copy paste). Sort order has the defined set of the non-latin characters"
-        SOSaveAdjustedSortOrder "Save the new set of characters in 'Cyrillic (кириллица). Your changes have been saved" 
+    SOSaveAdjustedSortOrder "Save the new set of characters in 'Cyrillic (кириллица). Your changes have been saved" 
 	SODeteteSortOrder2 "Delete the кириллица sort order. Your sort order has been removed from the list of the available sort orders" 
 	 
-6.QueriesAndSearchingTabTestRightTab
+QueriesAndSearchingTabTestRightTab
 	QSAdHocSearchDropDownLexiconList "In the ad hoc search select 'Yeli Dnye' from the drop down list in the lexicon frame. Drop down shows all the lexica available in the workspace, 'Yeli Dnye' remains in the box"
 	QSAdHocSearchDropDownWhereList "Select the datacategory 'lexeme' from the drop down list ('where'). Drop down shows all the datacategory available in the strcuture of the 'Yeli Dnye' lexicon, lexeme remains in the box"
 	QSAdHocSearchDropDownListBeginWith1 "Select 'begins with' and 'T'. 37 search results, lexeme starts with 'T'"
@@ -73,7 +72,7 @@
 	QSAdHocSearchCheckPreviousModifiedValue "Open 'tâ' from the results list, modify the field part of speech 'N' with 'V' and save. Check if the modified value has been saved" 
 	QSAdHocSearchCheckPreviousModifiedValueReDo "Re-do the changes in 'tâ'. Its part of speech is again an 'N'"
         
-7.UnicodeInputTest
+UnicodeInputTest
 	UCChangeDescription "In the Workspace, in the subtab Lexicon select Iwaidja lexicon and change the description using e.g a Russian or Thai keyboard (do not copy/paste!). Entering of non-latin characters is possible"
 	UCDescriptionSave "Save the changes you have made. The name/description remain written in Russian/Thai" 
 	UCRedoNonLatinDesc "Re-do the changes you have made: in the name field re-enter 'Iwaidja', in the description field re-enter 'Iwaidja demo lexicon' and save. The changes are saved"
@@ -87,21 +86,21 @@
 	UCEnteringNonLatinCharacters2 "Save the modified entry. 'Ababa' is not in the list anymore and it replaced with 'Українська'"
 	UCDeleteEnteringNonLatinCharacters "Re-do the changes: replace 'Українська' with 'ababa' and save. 'Ababa' re-appears in the list of lexical entries"
 
-8.ReadOnlyTest
+ReadOnlyTest
 	ROLoginAsUserWs1 "Log in as user 'ws1' (pw 'ws1'). Workspace opens, the lexicon with read only rights should appear in the list with a shared icon"
 	RONotEditableFields1 "In the Lexicon tab have a look at the Name, Description and Notes. The fields are not editable"
-	RONotEditableFields2 "See the Readers field. The botton "Load Lexus Users" are disabled"
-	RONotEditableFields3 "See the Writers field. The botton "Load Lexus Users" are disabled"
-        ROSchemaElementsNotEditable1 "In the Schema elements field have a look at the Name, Description and Notes. The fields are not editable"
+	RONotEditableFields2 "See the Readers field. The button 'Load Lexus Users' is disabled"
+	RONotEditableFields3 "See the Writers field. The button 'Load Lexus Users' is disabled"
+    ROSchemaElementsNotEditable1 "In the Schema elements field have a look at the Name, Description and Notes. The fields are not editable"
 	ROSchemaElementsNotEditable2 "In the Schema elements field list View tab and Lexicon view tab. The fields are not editable"
 	ROLexiconEditorEntryFields "Open the lexicon word list and see the entry fields. They should are not editable"
 	ROLexiconEditorFiltersTab "Open the Filters tab. Adding and modifying filters are disabled"
     
-9.SchemaAndViewEditorSchemaElementTest
+SchemaAndViewEditorSchemaElementTest
 	SVENewLexiconInTheWorkspace "Create a new lexicon in the workspace, call it 'Schema test' and open the 'Schema and View editor' for this lexicon. You see a lexicon structure consisting of lexicalEntry: Form and Sense"
 	SVEAddDataComponent "Select Form and add a data component 'Media' to it (click the plus icon to add an element, pop-up for the selection of data category or component). An element 'Media' appears in the tree structure under form, with a data component icon"
 	SVEAddDataCategory "Select the Media component and add a data category 'Image' to it. An element 'Image' appears in the tree structure under 'Media', with a data component icon"
-	SVEMoreElements "Add more data category elements: under LexicalEntry add 'Ps' and under Sense 'Gloss'. 'Ps' and "Gloss' appear in the tree structure" 
+	SVEMoreElements "Add more data category elements: under LexicalEntry add 'Ps' and under Sense 'Gloss'. 'Ps' and 'Gloss' appear in the tree structure" 
 	SVEChangingtoISOCat "Select the data category 'Lexeme' in the tree and click ISOcat (in the right window). ISOcat pop up appears"
 	SVEChangingToISOCat1 "Check name, data element name and definition and search for lexeme. List of results shows up"
 	SVEChangingToISOCat2 "Click on one of the results, and view the content (magnifying glass on the right). ISOCat UI opens with details on dc"
@@ -114,13 +113,13 @@
 	SVEAutoSaveNo "Answer 'No' to the prompt. Check that the sort order applying has not been saved"
 	SVEAssignSortOrder2 "Re-apply sort order and save. Check that the sort order has been saved"
 
-10.SchemaAndViewEditorViewEditorTest
+SchemaAndViewEditorViewEditorTest
 	SVEOpenLexicon "Open 'Schema test' lexicon in the Schema and View Editor. The lexicon's structure opens"
 	SVEAddANewView "Add a new view, name it 'My own view' and add a short description. The new view appears in the list of the available views with the new name/description (you have now two views available: 'List view' and 'My Own View')"
 	SVESaveLexeme "Save the changes. After logging out/in, 'My own view' remains in the list of available lexica"
 	SVEFormattingViewD1 "For 'My Own View': from the Structural elements in the right, drag and drop 'Decorator' under 'View' in the Structure Editor. The element appears hierarchically  under 'View'"
-	SVEFormattingViewD2 "Drag and drop 'lexeme' in the decorator icon. The Decorator icon is named now <lexeme> with the 'lexeme' data category under it"
-	SVEFormattingViewD3 "Double-click on <lexeme>. A pop up window appears'
+	SVEFormattingViewD2 "Drag and drop 'lexeme' in the decorator icon. The Decorator icon is named now <lexeme> with the "lexeme' data category under it"
+	SVEFormattingViewD3 "Double-click on <lexeme>. A pop up window appears'"
 	SVEFormattingViewD4 "Define style of 'lexeme' (font, style, colour etc) and save. The new format is apparent on <lexeme> once you click OK; the changes are saved"
 	SVEFormattingViewD5 "Check whether both drop down menus of 'Standard views' have two view available. Select 'List view' for the 'List View' and 'My own view' for 'Lexical Entry View'"	
 	SVEFormattingViewD6 "In the Standard views select 'My own view' for both List View and Lexical Entry View and save. 'My own view' is selected and the changes are saved"
@@ -143,7 +142,7 @@
 	SVEFormattingViewTable10 "Go to the Lexicon Editor and see the Lexical Entry View tab. The table has been generated according to the style you have applied"
 	SVEFormattingViewTable11 "Apply more rows/columns/texts/decorators in 'My own view' and check the output. The table can handle them all"  
 	
-11.LexiconEditorTest
+LexiconEditorTest
 	LEAddLexicalEntry "Add a new lexical entry to the 'Schema test' lexicon. Right window shows editing boxes and a new item is added to the entry list"
 	LESaveModified1 "Modify the field 'lexeme' value to 'lexeme test' and save it. The word list value has been modified"
 	LENSaveModified "Modify 'ps' value to 'part of speech' but do not save it. The word list value remains unchanged"
@@ -157,10 +156,10 @@
 	LEInstertMPINode "Insert MPI node id for PeWi demo elan file. The ID is inserted"
 	LEResourceSave "MPI600401#, get Resource and OK, Save. The recource is saved "
 	LEMagnifier "Click on the Picture element and the magnifier icon. Annex, opening PeWi demo file, is being opened in a new window"
-	LEWordListSorting1 "Add the following entries to the word list: 'rrarwla', 'lgango', 'certie', 'eccor', 'grop'. Word list sorting should be applied"
-        LEWordListSorting2 "Check. If the sort order is defined, elements with intitial characters that are not in the sort order come first : 'grop', 'eccor'"
-        LEChangePositioninSortOrder "Change the position of 'lg' and 'rr' characters in the sort order and save. Word list should be re-sorted"
-        LETreeView "Switch to structure view on entry: 'grop'. Word list view changes to tree view for 'grop' entry and it shows a word list definition for 'grop' above the tree"
+    LEWordListSorting1 "Add the following entries to the word list: 'rrarwla', 'lgango', 'certie', 'eccor', 'grop'. Word list sorting should be applied"
+    LEWordListSorting2 "Check. If the sort order is defined, elements with intitial characters that are not in the sort order come first : 'grop', 'eccor'"
+    LEChangePositioninSortOrder "Change the position of 'lg' and 'rr' characters in the sort order and save. Word list should be re-sorted"
+    LETreeView "Switch to structure view on entry: 'grop'. Word list view changes to tree view for 'grop' entry and it shows a word list definition for 'grop' above the tree"
 	LEAddFeatureSense "Select 'Sense' element and add feature. 'Gloss' is presented as possible feature to add"
 	LEAddGloss "Via 'Add features' add 'gloss'. 'Gloss' is added to the tree and in the right window both marked in orange"
 	LEAddValueGloss "Add value 'gloss 2' in edit box. Orange color changes to the normal color scheme"
@@ -184,31 +183,31 @@
 	LEdDeleteEntryCheck "Refresh, open lexicon again. Check that entry has still been removed"
 	LEdDeleteLexicon "Delete the 'Schema test' lexicon. The lexicon is removed from the list of the available lexica"
 
-12.FilterTest
+FilterTest
 	FTOpen "Select 'Iwaida' lexicon, subsequently switch to the Lexicon Editor and open the filter tab. The list of available filters is empty" 
 	FTCreateFilter1 "Create a filter that filters all entries which have part of speech 'n' and save. A new filter appears on the filter list and in the Lexicon view tab"
 	FTCreateFilter2 "Create a filter that filters all entries which have NOT part of speech 'n'. A new filter appears on the filter list and in the Lexicon view tab"
 	FTLexicon1 "Filter 'Iwaidja' lexicon on 'n'. 1166 entries found"
 	FTLexicon2 "Filter lexicon on non-'n'. 2254 entries found"
 	FTLexicon "Modify one of the filters and check the results. The results change according to the modified values"
-	FTDelete: "Delete all the filters you have created. The list of available filters is empty"
+	FTDelete "Delete all the filters you have created. The list of available filters is empty"
 
-13.ToolboxConvertTest
+ToolboxConvertTest
 	TCSelectingFiles "Select 'Convert Toolbox Files To Lexus'. A pop up window appears where you can browse for both .typ and .lx files"
 	TCUploading1 "Choose a .typ file. The file is converted in the Convert Toolbox Files window; you can see its size and name"
 	TCUploading2 "Choose a .lx file and convert it. The file is converted in the Convert Toolbox Files window; you can see its size and name"
-        TCUploading3 "Select 'Upload'. The files are being converted; you can see the time line, the message that the process has been finished; after that the window disappears"
-        TCFileErrorTest "Trying to upload a different a file with a different extention. It should not be possible"
+    TCUploading3 "Select 'Upload'. The files are being converted; you can see the time line, the message that the process has been finished; after that the window disappears"
+    TCFileErrorTest "Trying to upload a different a file with a different extention. It should not be possible"
 	
-14.ImportXMLLexusTest
-        IExistingLexica "In 'File' select 'Import Lexus XML'. A pop-up window appears where you can choose files you want to upload"
+ImportXMLLexusTest
+    IExistingLexica "In 'File' select 'Import Lexus XML'. A pop-up window appears where you can choose files you want to upload"
 	IExistingLexicaBrowseXML1 "Select an .xml file containing the structure of the lexicon. When chosen, the file is being uploaded"
 	IExistingLexicaBrowseXML2 "Select an .xml file containing the data of the lexicon. When chosen, the file is being uploaded"
 	IExistingLexicaBrowseXML3 "Select 'Upload'. Both files are being uploaded; you can see the time line, the message that the process has been finished; after that the window disappears"
 	IExistingLexicaLexiconInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)"
 	IExistingLexicaDelete "Delete the newly imported lexicon. The lexicon disappears from the list of the available lexica (log in/log out)"
 
-15.ExportTabTest
+ExportTabTest
 	ExpToPDF1 "In the Lexicon editor mode, click on 'File' and select 'Export to PDF'. A pop-up window prompts for choosing a view that you want to use"
 	ExpToPDF2 "Choose a view and click OK. A PDF document opens in a new tab in your browser"
 	ExpToPDF3 "Check content of the PDF export. Both the file and the applied view are correct"
@@ -216,21 +215,7 @@
 	ExpToXML2 "Specify location and OK. Download starts"
 	ExpToXML3 "Check content of the xml export. The xml format is correct"
 
-16.HelpTabTest
+HelpTabTest
 	HTLexusWebsite "Click on the link "Lexus website". The LAT webpage loads and opens in your internet browser" 
 	HTActivateUnicodeInput "Click on 'Activate Unicode input'. The option remains checked (log out/log in)" 
-
-
-	
-
-	
-	
-	
-	
-	
-	
-	
-
-
-		
 	

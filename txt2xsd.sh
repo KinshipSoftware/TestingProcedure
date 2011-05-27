@@ -92,6 +92,10 @@ while read line; do
       insidetest=0; # "0" is "true" for bash
       element="$(echo $line | sed s/\ .*//)";
       annotation="$(echo $line | sed -e s/$element// -e s/\ *//)";
+       # clean up reserved characters
+	annotation="$(echo $annotation | perl -pe 's/</&lt;/g')";
+	annotation="$(echo $annotation | perl -pe 's/>/&gt;/g')";
+	annotation="$(echo $annotation | perl -pe 's/(.)\"(.)/$1\&quot;$2/g')";
       echo "                            <xs:element name=\"$element\" maxOccurs=\"1\" minOccurs=\"1\" ann:documentation=$annotation type=\"TestResult\" />";
       echo;
     else
