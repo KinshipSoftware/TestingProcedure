@@ -22,7 +22,7 @@ SwitchTabTest
 
 WorkspaceLexicaTabTest
 	WLAddNewLexicon "Add new lexicon. A pop-up for Name and Description appears" 
-	WLSaveNewLexicon "Enter Name and Description in Pop-up, Save. Lexicon in the list with given Name and New icon, selection curser goes to new lexicon" 
+	WLSaveNewLexicon "Enter Name and Description in Pop-up, Save. Lexicon opened in Schema and view editor with given name and description on the top left corner" 
 	WLRemoveLexicon "Remove lexicon. An alert appears, Ok and the lexicon is removed from the list of lexica" 
 	WLSelectLexicon "Select a lexicon that you own (not shared) in the lexicon list. The right tab 'Lexicon' should show: Name, Description and Notes" 
 	WLChangeNameExistingLexicon "In the right tab 'Lexicon' change the name of an existing lexicon (lexicon 'Iwaidja') to 'Test name'. Name of lexicon should be changed in the lexicon list accordingly"
@@ -41,7 +41,7 @@ WorkspaceLexicaTabTest
 	WLRemoveUserWs2 "As demo user: remove user 'ws2 user' from the 'Writers' frame. 'Ws2 user' should be removed to the frame" 
 	WLLogoutAndLoginAsWs2b "Log out and log in as 'ws2' (pw 'ws2'). Shared lexicon should no longer appear in the lexicon list" 
 	
-SortOrdersTabTest
+SortOrdersTabTest 
 	SOOpenSortOrdersTab "Open 'Sort orders' tab. List of available sort orders should appear in the left frame"
 	SOSelectSortOrder "Select a sort order in the list. Right frame shows Name, Description and sort order list with two columns" 
 	SOCreateNewSortOrder1 "Create new sort order. Pop-up for Name and Description appears"
@@ -54,9 +54,9 @@ SortOrdersTabTest
 	SOAddInitialCharacters3 "Change follower of 'c' (above) to 'c'. Initial 'c' appears in the list with follower 'c'"
 	SORechangePositionCharacters "Drag and drop the letter 'd' above 'a'. The letter 'd' appears now before 'a'"
 	SODeteteSortOrder1 "Delete the sort order you have just worked with. Your sort order has been removed from the list of the available sort orders"
-    SOCreateNewSortOrderWithNonLatinCharacters "Create a new sort order and name it 'Cyrillic (кириллица)'. A new sort order appears with the given name"
-	SOCreateInitialCharacters "Remove all latin characters and create initial characters and equal followers: 'А','Б','В','Г','Д','Е' (insert from keyboard, NOT copy paste). Sort order has the defined set of the non-latin characters"
-    SOSaveAdjustedSortOrder "Save the new set of characters in 'Cyrillic (кириллица). Your changes have been saved" 
+    SOCreateNewSortOrderWithNonLatinCharacters "Create a new sort order and name it 'Cyrillic (кириллица)'by coping pasting it and again by typing (кириллица = rbhkkbwf). A new sort order appears with the given name"
+	SOCreateInitialCharacters "Remove all latin characters and create initial characters and equal followers: 'А','Б','В','Г','Д','Е' (insert from keyboard, NOT copy paste: 'А','Б','В','Г','Д','Е' = 'F', ',', 'D', 'U', 'L', 'T'). Sort order has the defined set of the non-latin characters"
+    SOSaveAdjustedSortOrder "Save the new set of characters in 'Cyrillic (кириллица)'. Your changes have been saved" 
 	SODeteteSortOrder2 "Delete the кириллица sort order. Your sort order has been removed from the list of the available sort orders" 
 	 
 QueriesAndSearchingTabTestRightTab
@@ -108,22 +108,21 @@ SchemaAndViewEditorSchemaElementTest
 	SVEChangingToISOCat3 "Select the first search result and OK. The ISOcat reference and description are added to the element and the element name can no longer be modified"
 	SVEChangingToToolbox1 "Select the image data category in the tree and click Toolbox (in the right window). MDF pop up appears"
 	SVEChangingToToolbox2 "Select the Picture marker and OK. Reference 'pc' is added"
-	SVEChangingToToolbox3 "Select the first search result and OK. ISOcat reference and description are added to the element and the element name can no longer be modified"
-	SVEAssignSortOrder1 "Select the lexeme 'dc' in the tree and assign the test sort order to it (do not save). Sort order shows up in the right window of the lower part of the window"
+	SVEAssignSortOrder1 "Select the lexeme data category in the tree and assign the test sort order to it (do not save). Sort order shows up in the right window of the lower part of the window"
 	SVEAutoSave "Switch to Lexicon editor without saving. The following warning pops up: 'Do you want to save your changes?'"
 	SVEAutoSaveNo "Answer 'No' to the prompt. Check that the sort order applying has not been saved"
 	SVEAssignSortOrder2 "Re-apply sort order and save. Check that the sort order has been saved"
 
 SchemaAndViewEditorViewEditorTest
 	SVEOpenLexicon "Open 'Schema test' lexicon in the Schema and View Editor. The lexicon's structure opens"
-	SVEAddANewView "Add a new view, name it 'My own view' and add a short description. The new view appears in the list of the available views with the new name/description (you have now two views available: 'List view' and 'My Own View')"
+	SVEAddANewView "Add a new view, name it 'My own view' and add a short description. The new view appears in the list of the available views with the new name/description (you have now three views available: 'List view', 'Lexical Entry View', and 'My Own View')"
 	SVESaveLexeme "Save the changes. After logging out/in, 'My own view' remains in the list of available lexica"
 	SVEFormattingViewD1 "For 'My Own View': from the Structural elements in the right, drag and drop 'Decorator' under 'View' in the Structure Editor. The element appears hierarchically  under 'View'"
 	SVEFormattingViewD2 "Drag and drop 'lexeme' in the decorator icon. The Decorator icon is named now <lexeme> with the "lexeme' data category under it"
 	SVEFormattingViewD3 "Double-click on <lexeme>. A pop up window appears'"
 	SVEFormattingViewD4 "Define style of 'lexeme' (font, style, colour etc) and save. The new format is apparent on <lexeme> once you click OK; the changes are saved"
 	SVEFormattingViewD5 "Check whether both drop down menus of 'Standard views' have two view available. Select 'List view' for the 'List View' and 'My own view' for 'Lexical Entry View'"	
-	SVEFormattingViewD6 "In the Standard views select 'My own view' for both List View and Lexical Entry View and save. 'My own view' is selected and the changes are saved"
+	SVEFormattingViewD6 "In the Standard views select 'My own view' for both List View and Lexical Entry View. An Alert message appears 'List view and lexical entry view must be different'"
 	SVEFormattingViewDCheck "Go to the Lexicon Editor and select the Lexical Entry View tab. The lexical entries in the 'Schema test' lexicon have a style according to 'My own view' you have just created and applied"
 	SVEFormattingViewSepBl "Go back to the View Editor and open <lexeme> by double clicking on it and mark 'Display as separate block' box. See the modified output"	
 	SVEFormattingViewDReDo "In the same way you have created <lexeme> in View Editor, create another tree structure element <ps> but do not format it. <ps> has been created and its field can be accessed from the Lexicon Editor"
