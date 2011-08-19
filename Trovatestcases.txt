@@ -1,0 +1,66 @@
+# The generated XSD should be uploaded to:
+# lux09:/data/corpora/MPI_workspace/tg/test_plans/
+
+StartUpTest
+	GetIMDI "Open http://corpus1.mpi.nl/ds/imdi_browser/ (depending on which server you are testing Trova), select the "MPI CGN" node in the tree-view of the IMDI browser and by right-clicking on it, select "annotation content search". A new browser frame for the search engine will appear"
+	LoginTrova "Login. You are logged in Trova and the data is accessible"  
+	LimitedAccess "Go back and choose a node in the IMDI browser that is not readable. Trova shows you the following msg: "No data accessible for the current user, please login with another user name""
+	OpenTrova "Select the "MPI CGN" node again and open Trova; three different kinds of search are being offered in three Trova tabs: Simple Layer, Single Layer and Multiple Layer. "Simple" is set by default"
+	
+SimpleSearchTabTest
+	SimpleSearch "The Simple Search Tab shows the name/types of selected node(s) in the archive. You can include or exclude types of annotation files in the search by respectively checking or unchecking them"
+	UseSimple "Enter a search string "tafel" and click on Find (or press Enter) to start the search process (the % progress bar is working). Trova shows tokens that contain the search string and some tokens in the context printed in italic typeface (4837 hits)  "
+	UseSimple1 "The number of hits exceeds the maximum number the window can contain; to view the rest of the hits click on the < and > buttons that appear above the list of hits. You are being moved back or forward one page"
+	UseSimpleOptions "Click on Options. A window with options appears"
+	UseSimpleOptions1 "Click on "Show Frequency View Sorted by Annotation". You are shown the frequency (percentage and count) of the tokens found sorted by annotation"
+	UseSimpleOptions1Freq1 "When you are in the frequency view, the context menu has an additional option "Save frequency info". Click this option"
+	UseSimpleOptions1Freq2 "You are asked to select a directory and enter a file name. The result is a file that contains information on file annotation, percentage and count"
+	UseSimpleOptions2 "Click again on Options and select "Concordance View". You are being moved to the initial window with no frequencies being shown" 
+	UseSimpleOptions3 "Click on Options and select "Show Frequency View Sorted by Frequency". You are shown the frequency (percentage and count) of the tokens"
+	UseSimpleOptions4 "Select one of the hits, click on Options and choose "See Selected Hits in Transcription". Clicking this option shows the transcription in the Annex timeline viewer of the given hit"
+	UseSimpleOptions45 "Double click on one of the hits. As it was the case with the "See Selected Hits in Transcription", the hit is being opened by Annex as well"    
+	UseSimpleOptions5 "Select one of the hits, click on Options and choose "See Selected Hits in Corpus Tree". Clicking this option shows the node that contains the corresponding resource in the IMDI browser"
+	UseSimpleOptions6 "Select one of the hits, click on Options and check "See Information Balloons". An info baloon containing information about the token will appear when your mouse cursor is hovering over it (info about transcription file, tier name, tier type, participant, position in tier, begin time, end time and its duration)"
+	UseSimpleOptions7 "Select one of the hits, click on Options and select "Content Size". This option enables you to decrease and increase the context size of the results"
+	UseSimpleOptions8 "Select one of the hits, click on Options and choose "Change Font". A drop down menu appears where you are able to select a font; when a font is chosen, it is being adapted accordingly throughout the hits"
+	UseSimpleOptions9 "Select one of the hits, click on Options and choose "Font size". After having selected a font size, the size of the hits is being modified accordingly"
+	UseSimpleOptions10 "Select one of the hits, click on Options and choose "Save Hits"(select either as UTF-8 or UTF-16); enter a file name and save it. The result is a file that contains the following information per token found: annotation, hit position in annotation, hit length, hit number in annotation, annotation begin time, annotation end time, hit position in tier, tier name, tier type, left context, right context, transcription name"
+
+SingleLayerSearchTest
+	SingleLayS "Open the Single Layer tab. The Single Layer tab is open"
+	SingleLSearch "Check/uncheck the names/types of selected node(s) in the archive. The files get either included or excluded in the search"
+	SingleLSearchHistory1 "Click on the drop down history menu. It appears to be empty"
+	SLSMode1 "Open the first drop down mode menu. There are three different search modes available to select: annotation, N-gram over annotations and N-gram within annotations"
+	SLSMode2 "Open the second drop down mode menu. There are two different searches available and possible to select: case sensitive and case insensitive"
+	SLSMode3 "Open the third drop down mode menu. There are three search strings available and possible to select: substring match, exact match, regular expression"
+	SLSMode4 "Open the forth dorp down mode menu. All the possible tiers types appear sorted alphabetically"
+	SLSMode5 "Check the option "tier choice sort". All the tires are sorted by the number of their occurrences"
+	SingleLayerST1 "In the search window type "raam" (leave the Mode options unchanged, i.e. annotation, case insensitive, substring match, all triers) and click Find. The hits are being searched for and you can see the % of the search process"
+	SingleLayerST2 "the % progress bar is set on Ready. 2399 hits have been found"
+	UseSingleLST "The number of hits exceeds the maximum number the window can contain; to view the rest of the hits click on the < and > buttons that appear above the list of hits. You are being moved back or forward one page"
+        SingleLayerST3 "In the search bar type the word "Raam" (capital letter); set the mode option on "case sensitive"; all the other mode options remain unchanged; search. 12 hits" 
+	SingleLayerST4 "In the mode options select "N-gram over annotation", "case sensitive", "exact match" and " tier type: lemma"; type "raam # in" and search. 6 hits"
+	SingleLayerST5 "In the mode options select "N-gram over annotation", "case insensitive", "substring match" and " tier type: lemma"; type "raam # # in" and search. 52 hits"
+	SingleLayerST6 "In the mode options select "N-gram over annotation", "case insensitive", "exact match" and " tier type: lemma"; type "raam NOT(die) in" and search. 5 hits"
+	SingleLayerST7 "In the mode options select "N-gram over annotation", "case insensitive", "regular expression" and " tier type: lemma"; type "ra*m" and search. 29379 hits"	
+	SingleLayerST8 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "ra*m" and search. 92370 hits"
+	SingleLayerST9 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "bang" and search. 2759 hits"
+        SingleLayerST10 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "ba+ng" and search. 2761 hits"
+        SingleLayerST11 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "b.ng" and search. 3271 hits"
+	SingleLayerST12 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "b[a-zA-Z]" and search. 5056010 hits"
+        SingleLayerST13 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "[geabc]zien" and search. 10052 hits"
+	SingleLayerST14 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "[^geabc]zien" and search. 4136 hits"
+	SingleLayerST15 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "^ng" and search. 43 hits"
+	SingleLayerST16 "In the mode options select "N-gram within annotation", "case insensitive", "regular expression" and " tier type: all tiers"; type "ung$" and search. 210 hits"
+	SingleSearchHistory2 "Click on the drop down history menu. The entered searches have been rememeberd and can be re-used again"
+
+MultipleLayerSearchTest
+	MultiLayS "Open the Multiple Layer menu and choose a number of options from the mode menu. The options are possible to be selected"
+	MultiLayS2 "Click on the drop down history menu. The entered searches from the Single Layer search have been rememeberd in the Multi Layer search and can be re-used again"
+	MultipleLayerST1 "Click on "Reset form". All the previously selected options have been reset to the default stadium"
+	MultipleLayerST2 "Check the time options: minimal/maximal duration, begin after/end before. It is possible to set the time and the changes remain visible in the main Trova window"
+
+
+HelpTabTest
+	OpenWebsite "In the top menu select Help and click on it. The LAT webpage of Annex&Trova loads up and opens in your internet browser" 
+	
