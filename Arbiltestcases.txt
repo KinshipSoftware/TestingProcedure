@@ -1,97 +1,120 @@
-# The lines should not be longer than about 150 characters, so the program can still display them on a screen with a width of only 1280 pixel
-# testcases adapted to new testing Arbil on 30 November
-# The generated XSD should be uploaded to:
-#   lux09:/data/corpora/MPI_workspace/tg/test_plans/ArbilTestingCheck4.xsd
+# testcases adapted to new testing Arbil on 9 September
 # The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
 
 NodeSearchTest
-
-   OpenSearchWindow "From the local corpus tree right click and select search; a search window should be shown."
-   LocalSearch      "From the local corpus tree right click and select search; enter a few seach terms then run the search"
-   RemoteSearch     "Still INCOMPLETE! From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search."
+   OpenSearchWindow  	"From the local corpus tree right click and select search. A search window should be shown."
+   LocalSearch       	"From the local corpus tree right click and select search; enter a few seach terms then run the search"
+   AdditionSearchAS1 	"In the Local Corpus select two/three nodes; right click on them and Select "Search". A Search window opens"
+   AdditionSearchAS2 	"Click on the drop down menu of the window <column (optional)>. There are 6 default options to select"
+   AdditionSearchAS3 	"Select "Genre", in the <value (optional)> window type "Discourse" and click on Search. The results show you all the fields where within the column "Genre" the vaule "Discourse" is being filled in"
+   AdditionSearchAS4 	"Search again; in the column type "Location.Continent" and in the value type "Europe" in, click Search. The results show you all the fields where within the column "Location.Continent" the vaule "Europe" is being filled in"
+   AdditionSearchAS5 	"Click again on the drop down menu of the window <column (optional)>. There are 7 options available to select; "Location.Continent" has been added"
+   RemoteSearch      	"From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search. The search results are shown"
 
 GetMetadataTest
-
-   AddCorpus            "Right-click on 'Local Corpus' and choose 'Add' / 'Corpus' "
-   AddSession	   	"Right-click on 'Local Corpus' and choose 'Add' / 'Session' " 
-   ImportExistingBranch "Right-click on the branch or session you want in the Remote Corpus Tree. Choose 'Import to Local Corpus'. Then click 'Start'."
-   
+   AddCorpus         	"Right-click on 'Local Corpus' and choose 'Add'>'Corpus'. A new corpus will be added under the local corpus node"
+   AddSession		"Right-click on 'Local Corpus' and choose 'Add' / 'Session'. A new session will be added under the local corpus node"
+   ImprtExistinBrnch 	"In the Remote Corpus Tree right-click on the branch or session you want; choose 'Import to Local Corpus' and then click 'Start'. The selected node has been imported to the Local Corpus"
 
 HandleNodesTests
-   DeleteNodeKey	"Can a node be deleted via the [del] key?"
-   DeleteNodeMenu 	"Can a node be deleted via the right-click menu?"
-   DropNode		"Click on a node and drag it to the Main Work Area. Does it open a table?"
+   DeleteNodeKey	"In the Local Corpus deleted a node by pressing the [del] key. After confirming the deleting in the alert window, the node is deleted from the Local Corpus"
+   DeleteNodeMenu 	"In the Local Corpus deleted a node by right-clicking on it and selecting 'Delete'. After confirming the deleting in the alert window, the node is deleted from the Local Corpus"
+   DropNode		"Click on a node and drag it to the Main Work Area. This opens a table"
 
 NodeRightMouseMenu
-   OpenInExternalApp    "Does it launch the resource file in an external application?"
-   ViewXML              "Does it open a window with the XML source code?"
-   ViewImdiFormatted    "??? not working?"
-   OpenImdiFormatted    "??? not working?"
-   ExportImdiToHtml     "??? only exporting .js and .gif files?"
-   CheckXmlConformance  "Does it perform an XML check and open a window with the results?"
+   OpenInExternalApp    "Right click on a node and select 'Open in Exteral Application'. The option launches the resource file in an external application"
+   ViewXML              "Right click on a node and select 'View XML'. The option launchsDoes it open a window with the XML source code"
+   ViewImdiFormatted    "Not working. Not working"
+   OpenImdiFormatted    "Not working. Not working"
+   ExportImdiToHtml     "Not working. Not working"
+   CheckXmlConformance  "Does it perform an XML check and open a window with the results"
 
 ColumnsTests
-   HideColumns      "Is it possible to hide columns (by right-clicking on the column name and choosing 'hide...')?"
-   ArrangeColumns	"Is it possible to change a column's positions with drag and drop?"
-   ShowChildNodes   "Can identical child nodes be displayed in an additional column (e.g. several Actors' languages)?"
-   SaveColumnView   "Is it possible to save a column-view under a custom name?"
-   EditColumnView   "Does 'Edit this Column View' work as expected (immidiately showing and hiding table rows)?"
-   ShowOnlyCurrent  "Does this hold the current Column View (with maybe some columns hidden) when adding more elements with other nodes?"
-   ColumnViewForThis   "Can saved views be applied?"
-   CopyTableWeb     "Is the table properly copied in HTML layout?"
-   FindAndReplace   "Does find and replace work in tables?"
+   HideColumns       	"Right click on the column and choose Edit this Column View. Is it possible to hide columns"
+   ArrangeColumns	"Drag and drop columns. Is it possible to change a column's positions this way"
+   SaveColumnView   	"Right click on the column and Save Current Column View. Is it possible to save a column-view under a custom name"
+   EditColumnView   	"Right click on the column. 'Edit this Column View' work as expected (immidiately showing and hiding table rows)"
+   ShowOnlyCurrent	"Right click on the column and Save Current Column View. When adding more elements with other nodes, the changes hold for the current Column View (with maybe some columns hidden)"
+   ColumnViewForThis   	"Save the changes. The saved views are applied when chosen"
+   CopyTableWeb     	"Right click on the node and select Export IMDI to HTML. The table properly copied in HTML layout"
+   FindAndReplace   	"Right click in the table, choose Find and Replace and enter some values. The function works in tables"
 
 FilesTest
-  AddWorkingDirectory "Can several directories be added and removed ('Files' area)?"
-  AddJpegImage        "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
-  AddPngImage	      "Is it possible to add a JPEG image? Is a preview displayed? Is the file size correct?"
-  AddOgg	      "Is it possible to add an OGG Vorbis audio file?"
+  AddWorkingDirectory 	"Go to the Files area. Several directories can be added and removed from 'Files'"
+  AddJpegImage        	"In the Files area add a JPEG image. The image is added, a preview displayed and the file size correct"
+  AddPngImage	     	"In the Files area add a PNG image. The image is added, a preview displayed and the file size correct"
+  AddWAV	      	"In the Files area add a WAV audio file. The file is added and it is possible to be played"
   
-
 FavouritesTest
-  AddToFavourites	"Is it possible to add elements (sessions, actors, ...) from the Local Corpus to the Favourites?"
-  AddFromFavourites     "Do node elements (actors, media files, ...) from the Favourites show up in the right-click menu 'Add from Favourites' (when clicking on a sesion in the Local Corpus)?"
-  
+  AddToFavourites	"Righ click a session node (choose one of the elements, e.g. actors) > Add to Favourite List. Elements from the Local Corpus are added to the Favourites List"
+  AddFromFavourites     "Righ click a session node (choose one of the elements, e.g. actors) > Add from Favourite List. Elements (actors, media files, ...) show up in the right-click menu 'Add from Favourites' and subsequently, when selected, are added to the session"
 
 FileMenuTest
-  SaveChanges		"Does 'Save Changes' really save your changes?"
-  ShowModifiedNodes	"Does this show all modified nodes?"
-  Import		"Does the 'Import' function work?"
-  Exit			"Do you get a warning when trying to exit with unsaved modifications?"
+  FileMenuSaveChanges		"Click on File > Save. 'Save Changes' saves the changes"
+  FileMenuShowModifiedNodes	"Click on File > Show Modified Nodes. This options shows all modified nodes"
+  FileMenuImport		"Click on File > Import. 'Import' function works"
+  FileMenuExit			"Click File > Exit; you get a warning when trying to exit with unsaved modifications. The program is shut down"
 
 OptionsMenuTest
-  TemplatesAndProfiles   "Does it show profiles?"
-  LocalCorpusStorageDirectory  "Does it move the Local Corpus files to a different directory?"
-  EditLanguageList		"Does the option show the language list; does it select languages?"
-  Re-downloadCurrentVocabularies   "Are the vocabularies updated (after a restart)?"
-  SaveWindowsOnExit "Does it (not) save the windows on exit?"
-  ShowSelectionPreview "Does the preview window (dis)appear, and does it show previews?"
-  CheckForNewVersionOnStart  "Does it (not) check for new versions on start?"
-  CopyNewResourcesIntoCache  "Does it copy new resources into cache (pay attention to the tooltip)?"
-  CheckPermissionsForRemoteResources  "Does it change icons accordingly (pay attention to the tooltip)?"
-  AlwaysCheckLocalMetadataFilesForXMLConformance "Does it highlight invalid XML metadata in red (pay attention to the tooltip)?"
-  TrackTableSelectionInTree "not implemented yet / when active selections in windows should be mirrored in the Local Corpus tree"
-  ShowLanguageInColumnName "??? only _sometimes_ visible when clicking into Language.Description fields ??? hard to find"
-  ColumnViewForNewTables    "Are new tables opened with the appropriate Column View applied?"
-  EditColumnViews            "not implemented yet / this is to delete saved Column Views etc."
+  TemplatesAndProfiles    	"Click Options > Tamplates and profiles. Available profiles are shown"
+  LocalCorpusStorageDirectory  	"Click Options > Local Corpus Storage Directory > Move Local Corpus Storage Directory and select a new location for your corpus. The Local Corpus files are moved to a different directory"
+  EditLanguageList		"Click Options > Edit Language List. The option shows the language list and let you select languages"
+  Re-downloadCurrentVocabuls   	"Click Options > Redownload Current Vocabularies. The vocabularies are updated (after a restart)"
+  SaveWindowsOnExit 		"Click Options > mark Save Windows on Exit. The options does / does not save the windows on exit"
+  ShowSelectionPreview  	"Click Options > mark Show Selection Preview. The preview window (dis)appear and it shows previews"
+  CheckForNewVersionOnStart  	"Click Options > mark Check for New Version on Start. The option allow to check / does not check for new versions on start"
+  CopyNewResourcesIntoCache   	"Click Options > mark Copy New Resources into cache. The option allow to copy new resources into cache (pay attention to the tooltip)"
+  CheckPermisForRemoteResources	"Click Options > mark Check Permissions For Remote Resources. It changes node icons accordingly (pay attention to the tooltip)"
+  AlwaysCheckLocalMetdatFilesForXMLConformance 	"Click Options > mark Always Check Local Metadata Files For XML Conformance. The option highlights invalid XML metadata in red (pay attention to the tooltip)"
+  ShowLanguageInColumnName  	"Click Options > mark Show Language In Column Name. The option shows language in column names for columns that have langugage attributes"
+  ColumnViewForNewTables        "Click Options > Column view for New Tables > All AND/OR Minimal. New tables are opened with the appropriate Column View applied"
 
 TemplatesTests
-   SignLanguageProfile	  "Go to 'Options' / 'Templates &amp; Profiles', activate 'Sign-Language Session (internal)', add auch a session"
-   ProfileAddURL	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add URL'"
-   ProfileAddFile	  "From 'Templates &amp; Profiles' try to add a Clarin Profile via 'Add File'"
+   SignLanguageProfile	  "Go to 'Options' > 'Templates and Profiles', activate 'Sign-Language Session (internal)', rightclick on the Local Corpus and add Sign Language session. The session is added to the Local Corpus"
+   ProfileAddURL	  "From 'Templates and Profiles' try to add a Clarin Profile via 'Add URL'. A New Clarin Profile is added"
+   ProfileAddFile	  "From 'Templates and Profiles' try to add a Clarin Profile via 'Add File'. A New Clarin Profile is added"
 
 HelpMenuTest
-  About		"Does the 'About' window show?"
-  Help		"Is the help system working?"
-  ArbilForum	"Does a click here direct the web browser to the Arbil forum?"
-  ErrorLog	"Does it open the ErrorLog?"
-  CheckUpdates	"Does it notify find newer versions (when not using the latest version)?"
-  ShortCutKeys	"Does it open the appropriate page in the help viewer? Do the keys work?"
+  AboutHelpMenu		"Select Help > About. The 'About' window opens up"
+  HelpMenu		"Select Help > Help. The help system is working correctly"
+  ArbilForumHelpMenu	"Select Help > Arbil Forum. You are directed to the Arbil forum"
+  ErrorHelpMenu		"Select Help > View Error Log. The Error log opens"
+  CheckUpdatesHelpMenu	"Select Help > Check for Updates. When you are not using the latest version Arbil, you are Arbil searches for newer versions of the program" 
+  ShortCutKeysHelpMenu	"Select Help > Short Cut Keys. This option opens the appropriate page in the help viewer; the keys work correctly"
 
 MultiLanguageTest
-  DescriptionChoise "Is a pull-down box with the selected languages available when entering a node description?"
-  LongfieldEditor   "Is there a means of choosing a description language in the longfield editor?"
+  DescriptionChoise 	"Open a table in which it is possible to select a language and in the description field in a pull-down box select any language. It is possible to choose any language in the node description"
+  LongfieldEditor   	"Open a table in which it is possible to select a language and edit it in the Long Field Editor. It is possible in the longfield editor to choose a language from the language list"
 
-MultiLanguageTest2
-  DescriptionChoise2 "Is a pull-down box with the selected languages available when entering a node description?"
-  LongfieldEditor2   "Is there a means of choosing a description language in the longfield editor?"
+AdditionTest
+  AdditionTablesAT1 	"Open a table and adjust its width as you wish; close and reopen Arbil. The table width has the same size as you have adjusted it"
+  AdditionTablesAT2 	"Right click on the column view and save this view; close/reopen Arbil and select the saved view. The table width has changes accoring to the width that you had saved before"
+  AdditionControlledVocabularies1 	"In any node open a field with controlled vocabulary (and start typing one of the values. The values that you type in are being autocompleted accoring to the values available in this controlled vocabulary field"
+  AdditionControlledVocabularies2 	"Open any node/session and see its table view. You can see an icon indicating the type of vocabulary (open/closed, single value/list) on the field"
+  AdditionControlledVocabularies3 	"Open any node/session in the Long Field Editor. You can see an icon indicating the type of vocabulary (open/closed, single value/list) on the field"
+  AdditionEditAllMetadata1 	"Right click on any of the session/subsession nodes and select "Edit All Metadata". A window gets open that contain tables for the selected node all of its subnodes in an hierarchical view"
+  AdditionEditAllMetadata2 	"Change one of the fields; close the Edit All Metadata window and open the node normally. The altered value has been changed"
+  AdditionTypecheckerConfiguration 	"Put the filetypes.txt file in the Arbil working directory and delete the code part where it reads the jpg files; save. Arbil automatically uses the new internal configuration and does not read the jpg files anymore"
+  AdditionWindows	"Open a number of tables and go to Window>Close all windows. All table windows that were previously open, get closed"
+
+ChangesTest
+  ChangesSearch1 	"Right click on the Local Corpus and select "Search". A search window is being opened"
+  ChangesSearch2 	"In the Search window type a number of search texts and search. The search results are shown in the search window"
+  ChangesMetadataStr 	"Select one of the elements of any session, right click it and select Copy; Open another session, right click it and select Paste. The element has been copied to that session"
+  ChangesTableOrdering 	"Select a number of nodes, by right clicking on them select View selected, subsequently order by of one the colums (e.g. Name, Description etc), change of the values in one of the field from that column (choose a different letter) and save. After having re-opened the table, the values of that column have been re-ordered"
+  ChangesLongFieldE1 	"Select any node, right click on it and choose "Edit in Long Field Editor". A long field editor window opens on the first field of the table"
+  ChangesLongFieldE2 	"In the long field editor click on Previous / Next. You are able to go through various values in the table back and forth"
+  ChangesNodeSortingNS 	"Create three nodes and name them: "Node10", "Node2" and "Node3". The nodes are being re-sorted by the values of the numbers in the tree"
+
+FixesTest
+  FixesFavourites1 	"Drag one of the subnodes (e.g. Actor) to the Favourites. The subnote is being added to Favourites"
+  FixesFavourites2 	"Open a different subnode of the same type and drag the subnode "Actor" from Favourites to it. The subnode is being added to the different subnode of the same type"
+  FixesTreeMenu 	"By right clicking, open a number of nodes and select Add. Some subnodes that are not allowed to be added to a given node according to the schema appear as disabled in the Add submenu of the context menu on nodes in the tree"
+  FixesWindows 		"Adjust windows and save; close down Arbil and open it up again. The windows stay the same as they have adjusted before"
+  FixesQuiteMacOS1 	"On MacOS; change one of the values are go to the File menu>Quit; in the pop up window click on Save. Arbil closes; after having it run, the changes have been saved"
+  FixesQuiteMacOS2 	"On MacOS; change one of the values and press CMD-Q; in the pop up window click on Save. Arbil closes; after having it run, the changes have been saved"
+  FixesFollowUpVoc 	"Select a Genre (CV) field on Content. The proper Subsenres categories are shown"
+  FixesMultipleValues 	"Add multiple values for Location.Region and all the Description fields. Additional fields are being added where it is possible to enter multiple values and saved them"
+
+
+
