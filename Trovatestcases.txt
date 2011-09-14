@@ -62,5 +62,5 @@ MultipleLayerSearchTest
 
 
 HelpTabTest
-	OpenWebsite "In the top menu select Help and click on it. The LAT webpage of Annex&Trova loads up and opens in your internet browser" 
+	OpenWebsite "In the top menu select Help and click on it. The LAT webpage of Annex and Trova loads up and opens in your internet browser" 
 	
