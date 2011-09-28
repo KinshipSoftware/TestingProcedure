@@ -11,7 +11,7 @@ LamusMainPageTest
 RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
 NUT1 "Enter the information and click 'Submit'. An email should be sent to the corpus administration at the MPI"
 CreateNewWorkSpaceTest "Select 'Create new workspace'. You will be asked for your user ID and password"
-CNWS1 "Enter your user ID and password. You should be redirected to the IMDI browser webpage". 
+CNWS1 "Enter your user ID and password. You should be redirected to the IMDI browser webpage"
 CNWS2 "Go back to Lamus main page and select 'Create new workspace'. You should be redirected to the IMDI browser webpage"
 SelectTopNode1 "Right click on a node you are not allowed to change and select 'select this node as top node for a new workspace'. You should get an error message" 
 STN1a "Select 'Send bug report'. An already filled bug report form should appear. Delete the test and write 'this is only an test' and click on 'submit'. You should get a message informing you that you email was sent"
