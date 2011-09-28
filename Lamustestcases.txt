@@ -3,8 +3,8 @@
 # The generated XSD should be uploaded to:
 #   lux09:/data/corpora/MPI_workspace/tg/test_plans/
 # The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
-
-'http://lux17.mpi.nl/jkc/lamus/'
+#
+# 'http://lux17.mpi.nl/jkc/lamus/'
 
 LamusMainPageTest
 
