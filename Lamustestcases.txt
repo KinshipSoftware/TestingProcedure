@@ -34,10 +34,6 @@ Lux17LAMUSOn-lineManualTest "Click 'Lux17 LAMUS on-line manual'. The website 'ht
 AboutLux17LAMUSTest "Click 'About Lux17 LAMUS'. An 'About Lux17 LAMUS' window should be open"
 AL17LT1 "Click 'back': you should be redirected to the previous interaction window"
 
-
-AL17LT2 "GO TO THE LAMUS MAIN PAGE AND REPEAT 'ABOUTLUX17LAMUSTEST'. SELECT 'IMDI' FROM THE DROP DOWN ICON SET MENU AND CLICK 'APPLY'. GO TO THE LAMUS MAIN PAGE : THIS OPTION IS NOT FUNCTIONAL AT THE MOMENT"
-
-
 WorkspaceManagmentTest
 
 StartWorkingWithYourWorkspace "Go to the Lamus main page and select 'Select existing workspace'. Select the workspace created before from the list and click 'choose' to be redirected to the selected workspace" 
@@ -49,24 +45,19 @@ TMT4 "the pop-up menu for a media/ written file should have the following functi
 TMT5 "the pop-up menu for an info file should have the following functions: view, replace, rename, delete, unlink info file and change description"
 TMT6 "the pop-up menu for a protected node should have the following functions: view, delete, and unlink node"
 TMT7 "the pop-up menu for a catalogue node should have the following functions: link, view, modify, delete, and unlink node"
-
 ViewNodeTest "Right click on a node and select 'view node'; its metadata should be displayed in the main interaction window"
 VNT1 "Click the icons in the main interaction window. The metadata information for the corresponding elements should be extended/collapsed"
-	
 AddCorpusNodeTest "Right click on a corpus node and select 'add corpus node'; an 'Add Node' window should be displayed in the main interaction window"
 CancelAddNode "Click 'Cancel', the 'Add Node' window should be closed"
 ResetAddNode "Repeat 'AddCorpusNodeTest'. Enter the name and title in the appropriate fields of the 'Add Node' window and click 'Reset': the 'Add Node' window should be resetted" 
-SubmitNewCorpusNode "Repeat 'AddCorpusNodeTest'. Enter the name and title in the 'Add Node' window and click 'Submit': the new corpus node should be added to the tree structure" 
-		
+SubmitNewCorpusNode "Repeat 'AddCorpusNodeTest'. Enter the name and title in the 'Add Node' window and click 'Submit': the new corpus node should be added to the tree structure" 		
 ModifyNodeTest "Right click on a node, select 'modify node'; a 'Change Node' window should be displayed in the main interaction window"
 ResetChangeNode "Repeat 'ModifyNodeTest'. Enter the information to add in the 'Change Node' window and click 'Reset': the 'Change Node' window should be resetted"
 CancelChangeNode "Repeat 'ModifyNodeTest'. Click 'Cancel': the 'Change Node' window should be closed"
 SubmitModifiedNode "Repeat 'ModifyNodeTest'. Enter new information in the 'Change Node' window and click 'Submit': the node should be successfully modified" 
-	
 DeleteNodeTest "Right click on a node, select 'delete node'; a 'Delete Node' window should be in the main interaction window"
 CancelDeleteNode "Click 'Cancel', the 'Delete Node' window should be closed"
 DeleteDeleteNode "Repeat 'DeleteNodeTest'.Click 'Delete Node': the selected node (and children if any) should be deleted from the tree structure" 
-		
 UnlinkNodeTest "Right click on a node; select 'unlink node': is an 'Unlink Node' window in the main interaction window?"
 CancelUnlinkNode "Click 'Cancel', the 'Unlink Node' window should be closed"
 UN1 "From 'Unlink Node' window click the checkbox; click 'Unlink Node'; Is the node and its contents separately moved to the unlinked files?"
