@@ -67,7 +67,7 @@ FileBrowsersTest2 "Change the number of files to upload from 3 to 5: is the chos
 FileBrowsersTest3 "Browse 'Canoe building', 'Fish preparation' and 'River Legend' one by one in the 3 upload boxes. Do the files appear in the uploaded boxes?"
 FileBrowsersTest4 "Click 'Upload' to start the transfer: Is an 'Upload Result' window displayed in the main interaction window? Are the uploaded files in the unlinked files container of the workspace?"
 
-Link/UnlinkInfoFileTest	
+Link_UnlinkInfoFileTest	
 LinkCorpusNodeTest "Right click on 'North' corpus node and select 'Link Node'; The various Link Node management functions should be shown in a pop-up menu"
 TMT5 "the pop-up menu for an info file should have the following functions: view, replace, rename, delete, unlink info file and change description"
 LinkInfoFile "Select 'link info file'. A 'Free Info File Nodes' window should be displayed in the main interaction window with the media and written files you have previously uploaded"
@@ -91,17 +91,16 @@ RRT1 "Click 'Cancel': the 'Rename Node' window should be closed"
 RRT2 " Right click on 'route_to_kleve.jpg' and select 'Rename info file'. Delete the name in the 'New name' box, enter 'the boring route to kleve' new name and click 'Rename Node'; An Error message should appear informing you that the name must not contain spaces"
 RRT3 "Click on 'Main Page'. 	You should be redirected to Lamus main page"
 RRT4 "Go back to your work space. Expand the 'North' corpus node. Are the info files still linked to the node?"
-RRT5 "Right click on 'route_to_kleve.jpg' and select 'Rename info file'. Delete the name in the 'New name' box, enter 'the boring route to kleve' new name and click 'Rename Node'; an 'Error' window should appear with the following test 'File name estension not appropriate for image/jpeg files. 
+RRT5 "Right click on 'route_to_kleve.jpg' and select 'Rename info file'. Delete the name in the 'New name' box, enter 'the boring route to kleve' new name and click 'Rename Node'; an 'Error' window should appear with the following test File name estension not appropriate for image/jpeg files."
 RRT52 "In the error message page click on 'back'. You should be redirected to the 'Rename Node' window"
 RRT6 "Delete the name in the 'New name' box, enter 'the boring route to kleve' new name and click 'Rename Node'; in the error message page click on 'send bug report'. An already filled bug report form should appear. Delete the test and write 'this is only an test' and click on 'Reset'. Is the added test deleted?"
 RRT7 "Click on  'Cancel'. You should be redirected to the error message window"
-RRT8 "Click 'send bug report', delete the test and write 'this is only an test' and click on
-'submit'. You should get a message informing you that you email was sent"
+RRT8 "Click 'send bug report', delete the test and write 'this is only an test' and click on 'submit'. You should get a message informing you that you email was sent"
 RRT9 "Right click on 'route_to_kleve.jpg' and select 'Rename info file'. Delete the name in the 'New name' box, enter 'the boring route to kleve' new name and click 'Rename Node'. You should get an 'Error' message displayed in the main interaction window that says 'Name must not contain spaces'. Click on 'back'."
 RRT10 "Delete the name in the 'New name' box, enter '@the_boring_route_to_kleve.jpg' new name and click 'Rename Node new name and click 'Rename Node'. You should get an 'Error' message displayed in the main interaction window that says ' Name contains bad characters, marked as _: _the_boring_route_to_kleve.jpg Allowed characters are: alphanumeric characters (a-z, A-Z, 0-9), underscore (_) and hyphen (-). A dot should only be used before the file extension'. Click on 'back'."
-RRT11"Delete the name in the 'New name' box, enter 'the_boring_route_to_kleve.jpg' new name and click 'Rename Node new name and click 'Rename Node'. A 'Response to Change Request' should inform you that the selected node was renamed to 'the_boring_route_to_kleve.jpg'. Is the new name changed in the tree structure?";
+RRT11 "Delete the name in the 'New name' box, enter 'the_boring_route_to_kleve.jpg' new name and click 'Rename Node new name and click 'Rename Node'. A 'Response to Change Request' should inform you that the selected node was renamed to 'the_boring_route_to_kleve.jpg'. Is the new name changed in the tree structure?"
 
-UnlinkInfo/WrittenResourcesTest
+UnlinkInfo_WrittenResourcesTest
 UnlinkNodeTest "Right click on 'the_boring_route_to_kleve.jpg'; select 'unlink info file': is an 'Unlink Node' window in the main interaction window?"
 CancelUnlinkNode "Click 'Cancel', the 'Unlink Node' window should be closed"
 UN1 "Right click on 'the_boring_route_to_kleve.mpg'; select 'unlink info file'. Click 'Unlink Node': is the node moved to the unlinked files?"
@@ -125,14 +124,14 @@ LIM6 "Click on 'Deselect All'. Are all the files deselected?"
 LIM7 "Click on 'Select All' and then 'Link'. In the 'Link Node' window click 'Submit'. Are all the files added in the tree structure with the proper icon (icon for video, for audio and for image files)? If not, report which files were not added."
 LIM8 "In the 'Link Node' window change the Type for 'elan-example1.mp4' from 'video' to 'audio'. (You have to check the changes in the IMDI browser once you have submitted your workspace)"
 
-LinkInfoFileForSessionNodes "Right click on 'Fish Preparation', select 'link node', then select 'link written resource'. A 'Free Written resource Nodes' window should be displayed showing '10.1.1.158.3068 .pdf', 'Google.html', 'Test.txt' and 'elan-example1 .eaf'  written resources". 
+LinkInfoFileForSessionNodes "Right click on 'Fish Preparation', select 'link node', then select 'link written resource'. A 'Free Written resource Nodes' window should be displayed showing '10.1.1.158.3068 .pdf', 'Google.html', 'Test.txt' and 'elan-example1 .eaf'  written resources"
 LIFFSN1 "Select '10.1.1.158.3068 .pdf' and click 'Link'. A 'Link Node' window should appear"
 LIFFSN2 "Change the Type from 'Annotation' to 'Ethnography' and Derivation from 'Analysis' to 'Translation' (You have to check the changes in the IMDI browser once you have submitted your workspace). Click on 'Submit'. The 'Response to Change Request' window should be displayed showing the following message: 'Linking 1 node(s) was successful'. Is the written resource added to the tree structure with the correspondent icon?"
-LIFFSN3 "Right click on 'Fish Preparation', select 'link node', then select 'link info file'. A 'Free Info file Nodes' window should be displayed showing 'elan-example1 .eaf'  info file".
-LIFFSN4 "Select 'elan-example1 .eaf'  and click 'Link'. A 'Link Node' window should appear". 
+LIFFSN3 "Right click on 'Fish Preparation', select 'link node', then select 'link info file'. A 'Free Info file Nodes' window should be displayed showing 'elan-example1 .eaf' info file."
+LIFFSN4 "Select 'elan-example1 .eaf'  and click 'Link'. A 'Link Node' window should appear."
 LIFFSN5 "Click 'Submit'. The 'Response to Change Request' window should be displayed showing the following message: 'Linking 1 node(s) was successful'. Is the info file added to the tree structure with the correspondent info-icon?"
 
-Unlink/link corpus node
+Unlink_LinkCorpusNode
 UnlinkCorpusNode "Right click on 'South' corpus node. Select 'unlink' node. The 'Unlink Node' window should be displayed"
 UCN1 "Click on 'Cancel'. You should be redirected to the previous page"
 UCN2 " Right click on 'South' corpus node. Select 'unlink' node. Click 'Unlink Node'. The 'Response to Change Request' window should display the following message: 'Unlinking selected node(s) was successful'. Is the 'South' node in the Unlinked files box? Did the 'South' node disappear from the tree structure?"
@@ -170,11 +169,11 @@ UNMP10 "Link corpus node 'A1' to corpus node 'A' and corpus node 'A2' to corpus 
 DeleteNodeTest
 DNT1 "Select corpus node 'A1' from the free nodes list. And click 'Delete Selected'. The 'Response to Change Request' window should show the following message 'Deleting 1 unlinked node(s) was successful'. Go to the 'Unlinked Files' box. The corpus node 'A1' shouldn't be part of the free nodes list anymore"
 DNT2 "In the tree view, select the 'B' corpus node and while holding the CTRL key select 'A' corpus node. Right click and select 'delete selected nodes'. A 'Delete Node' window should be displayed asking you the following 'Do you really want to delete the selected node(s)? All subnodes (if any) will be deleted also.' Click on 'Cancel'. You should be redirected to the previous page"
-DNT3 'Right click on the selected nodes, select 'delete selected nodes'. In the 'Delete Node' window click on 'Delete Node'. The 'Response to Change Request' window should be displayed showing the following message 'Deleting selected node was successful deleting selected node was successful deleted 2 nodes'. Did nodes 'A' and 'B' disappear from the tree view?" 
+DNT3 "Right click on the selected nodes, select 'delete selected nodes'. In the 'Delete Node' window click on 'Delete Node'. The 'Response to Change Request' window should be displayed showing the following message 'Deleting selected node was successful deleting selected node was successful deleted 2 nodes'. Did nodes 'A' and 'B' disappear from the tree view?" 
 
 
 MoreOnSessionNodeTest
-MOSNT1 'Select 'Fish preparation' session node and CTRL-click 'Canoe building' session node. Right click and select 'link selected nodes'. In the 'Link Nodes' window select 'Link Nodes'. You should get an error message with the following text 'You have chosen nodes which could not be linked according to the IMDI Metadata framework: corpus nodes can point to corpus nodes, session nodes or info files, session nodes can point to info, media or annotation files'"
+MOSNT1 "Select 'Fish preparation' session node and CTRL-click 'Canoe building' session node. Right click and select 'link selected nodes'. In the 'Link Nodes' window select 'Link Nodes'. You should get an error message with the following text 'You have chosen nodes which could not be linked according to the IMDI Metadata framework: corpus nodes can point to corpus nodes, session nodes or info files, session nodes can point to info, media or annotation files'"
 			
 DuplicateNodeTest
 DuplicateNode "Right click on 'Canoe building' session node and select 'duplicate node'. A 'Duplicate Nodes' window should be displayed in the main interaction window"
