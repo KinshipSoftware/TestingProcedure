@@ -2,7 +2,7 @@
 # The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
 
 StartingLamusTest
-	OpenLamus	"From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node you want to edit and select set access rights. AMS should now be shown."
+	OpenLamus	"From the imdi browser right click on the node you want to edit and select set access rights. AMS should now be shown."
 
 	
 	
