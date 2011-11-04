@@ -4,5 +4,5 @@
 StartingLamusTest
 	OpenLamus	"From the imdi browser right click on the node you want to edit and select set access rights. AMS should now be shown."
 
-	
-	
+
+
