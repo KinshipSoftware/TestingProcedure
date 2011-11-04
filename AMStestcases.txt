@@ -1,0 +1,14 @@
+﻿# AMS testcases made on the 3th of November 2011
+# The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
+
+StartingLamusTest
+	OpenLamus	"From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node you want to edit and select set access rights. AMS should now be shown."
+   OpenSearchWindow  	"From the local corpus tree right click and select search. A search window should be shown."
+   LocalSearch       	"From the local corpus tree right click and select search; enter a few seach terms then run the search"
+   AdditionSearchAS1 	"In the Local Corpus select two/three nodes; right click on them and Select "Search". A Search window opens"
+   AdditionSearchAS2 	"Click on the drop down menu of the window <column (optional)>. There are 6 default options to select"
+   AdditionSearchAS3 	"Select "Genre", in the <value (optional)> window type "Discourse" and click on Search. The results show you all the fields where within the column "Genre" the vaule "Discourse" is being filled in"
+   AdditionSearchAS4 	"Search again; in the column type "Location.Continent" and in the value type "Europe" in, click Search. The results show you all the fields where within the column "Location.Continent" the vaule "Europe" is being filled in"
+   AdditionSearchAS5 	"Click again on the drop down menu of the window <column (optional)>. There are 7 options available to select; "Location.Continent" has been added"
+   RemoteSearch      	"From the remote corpus tree right click and select search; enter a remote search term and a local filter term then run the search. The search results are shown"
+
