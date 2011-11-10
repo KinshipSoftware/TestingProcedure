@@ -2,7 +2,24 @@
 # The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
 
 StartingLamusTest
-	OpenLamus "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node you want to edit and select set access rights. The 'Select an identity provider' windows should now be visible. "
+	OpenLamus "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node (I use http://lux17.mpi.nl/ds/imdi_browser/?openpath=MPI1650240%23) you want to edit and select set access rights. The 'Select an identity provider'-window should now be visible. "
+	LoginFederation "Pick Damlr Federation from the Federation List. Select MPI Nijmegen from the Institution List. Press Select. The Shibboleth login page should now show up."
+	LoginShibboleth "Fill in your username and password and press Login. The AMS page should be shown."
 
+CheckLicensesTest
+	LicensesCheck "All the licenses of the selected node and all the parent nodes should be visible."
+	LicensesCheck2 "Click on 'Manage Node Licenses'. 'Node-Licenses Assignment' is shown. Check to see if under Assigned Licenses the same licenses are checked, as where active on the previous page."
+	ViewLicenses "Next to the License names is a View Link. Click on all these links and see if information on the license is shown."
+	CancelManage "Click on Cancel. The previous page should show up."
 
+ChangingLicensesTest
+	ChangeLicenses "Click on 'Manage Node Licenses', check all the licenses that aren't checked. Deselect all the licenses that were checked. Click Save, a message explaining that it may take up to 2 hours will pop up."
+	CheckLicenses "Wait for a bit. Check if the licenses did change in the Imdi Browser and by selecting 'set access rights'."
+	RemoveLicenses "Back in 'Manage Node Licenses; uncheck all the licenses and click on Save. The 2 hour wait time message appears."
+	CheckRemovalLicenses "Wait for a bit. Check that there are no licenses anymore."
+	ChangeLicensesBack "Hope you still remember the way things were because we're changing the licenses back to what they were. Select the licenses that were selected, deselect the rest. Click on save. The 2 hour message will pop up again."
+	CheckInitialLicenses "Wait for a bit. Check that the licenses succesfully changed back."
+
+AddRulesTest
+	AddRule "Click on 'Add new Rules'. Node Authorization Management-window should be shown."
 
