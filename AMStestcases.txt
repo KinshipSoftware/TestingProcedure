@@ -33,6 +33,8 @@ AddRulesTest
 # User Management
 
 AddNewGroupTest
+	NewGroup "Under 'User Management' select 'Create New Group', LAT Group should be shown."
+	Fill in the ID and Name and click Save. A green message like: Group "AMSTesting" has been saved. should show up."
 
 # ---> First need to add a user as normal users can't just edit random users..
 AddNewUserTest
