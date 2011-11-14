@@ -1,5 +1,7 @@
 ﻿# AMS testcases made on the 3th of November 2011
 # The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
+# Force Export is not possible because doing a recrawl doesn't upset the rules anymore..
+# Effictive user privileges is broken so cannot incorporate that just yet
 
 StartingLamusTest
 	OpenLamus "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node (I use http://lux17.mpi.nl/ds/imdi_browser/?openpath=MPI1650240%23) you want to edit and select set access rights. The 'Select an identity provider'-window should now be visible. "
@@ -22,4 +24,32 @@ ChangingLicensesTest
 
 AddRulesTest
 	AddRule "Click on 'Add new Rules'. Node Authorization Management-window should be shown."
+	AddRegUserRule "Select 'REGISTERED USERs' as your selection, under rules select everything."
+	CheckRule "Wait a while. Check if the changes have been made, so logoff and check if you can acces the underlying files. You might have to remove licenses and/or previous rules that conflict. (e.g. rules that apply to EVERYBODY)"
+	RemoveRule "Click on 'Edit' next too 'REGISTERED USERs'. Deselect all the checked Rules and click on 'Save'."
+	CheckRemove "Wait for a while, check to see if the changes have occured."
 
+# Topbar
+# User Management
+
+AddNewGroupTest
+
+# ---> First need to add a user as normal users can't just edit random users..
+AddNewUserTest
+	NewUser "Under 'User Management' click on 'Create New User', the LAT User window should appear." 
+	FillIn "Fill in all the necessary fields, and assign the user to a test group."
+	
+
+EditUserTest
+	SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User & Groups should now be shown."
+	PickUser "From first name select the first letter or alternatively select the first letter of the Last Name. Or if you're really clever type part of the name into the search box. Click on the user you want to edit. The LAT User page should show up."
+	
+
+# Node Authorization
+
+# My Account
+
+# ?
+HelpMenu
+	MenuOpen "Hover your cursor on the '?' sign. The menu should unfold. You should be able to read the current version number."
+	ManualOpen "Click on 'Manual & Help', a new window should open in your browser containing all the documentation on AMS."
