@@ -31,21 +31,27 @@ AddRulesTest
 
 # Topbar
 # User Management
-
 AddNewGroupTest
 	NewGroup "Under 'User Management' select 'Create New Group', LAT Group should be shown."
-	Fill in the ID and Name and click Save. A green message like: Group "AMSTesting" has been saved. should show up."
+	AddGroup "Fill in the ID and Name and click Save. A green message like: Group "AMSTesting" has been saved. should show up."
+
+EditGroupTest
+	SelectGroup "Under 'User Management' select 'Edit Group', LAT User & Groups should be visible."
+	EditGroup "Find the group (search for it) that you just created and click on its name. The groups information should be visible."
+	ChangeGroupData "Change the Name, ID and possible the Hosting Institution. Subsequently add yourself to the group. Click on Save. Group "GROUPNAME" has been saved should appear in green."
+	ReverseChanges "Go to Edit Group again, find the same group and revert the changes you've just made. The same message should be shown."
 
 # ---> First need to add a user as normal users can't just edit random users..
 AddNewUserTest
 	NewUser "Under 'User Management' click on 'Create New User', the LAT User window should appear." 
-	FillIn "Fill in all the necessary fields, and assign the user to a test group."
-	
+	FillIn "Fill in all the necessary (yellow) fields, click on Save. User "USER" has been saved will appear in green."
+	AddGroup "Go to Edit User and find the user you've just created. Fill in the passwords and add the user to your previously created test group. Click on Save again, the message in green will appear again."
 
 EditUserTest
 	SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User & Groups should now be shown."
 	PickUser "From first name select the first letter or alternatively select the first letter of the Last Name. Or if you're really clever type part of the name into the search box. Click on the user you want to edit. The LAT User page should show up."
-	
+	ChangeFields "Change all the fields, remove the user from the fields it's in now and add new ones. Click on Save, a green message should appear indicating that the user has been saved."
+	RevertChanges "Change everything back and Save, check to see if the green message roars it's greenish head again."
 
 # Node Authorization
 
