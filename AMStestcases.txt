@@ -38,13 +38,12 @@ AddNewGroupTest
 EditGroupTest
 	SelectGroup "Under 'User Management' select 'Edit Group', LAT User & Groups should be visible."
 	EditGroup "Find the group (search for it) that you just created and click on its name. The groups information should be visible."
-	ChangeGroupData "Change the Name, ID and possible the Hosting Institution. Subsequently add yourself to the group. Click on Save. Group "GROUPNAME" has been saved should appear in green."
+	ChangeGroupData "Change the Name, ID and possible the Hosting Institution. Subsequently add yourself to the group. Click on Save. Group 'GROUPNAME' has been saved should appear in green."
 	ReverseChanges "Go to Edit Group again, find the same group and revert the changes you've just made. The same message should be shown."
 
-# ---> First need to add a user as normal users can't just edit random users..
 AddNewUserTest
 	NewUser "Under 'User Management' click on 'Create New User', the LAT User window should appear." 
-	FillIn "Fill in all the necessary (yellow) fields, click on Save. User "USER" has been saved will appear in green."
+	FillIn "Fill in all the necessary (yellow) fields, click on Save. User 'USER' has been saved will appear in green."
 	AddGroup "Go to Edit User and find the user you've just created. Fill in the passwords and add the user to your previously created test group. Click on Save again, the message in green will appear again."
 
 EditUserTest
@@ -92,7 +91,7 @@ MyAcceptedLicensesTest
 	LicensesCheck "All the licenses you have accepted should be visible."
 	ViewLicenses "Next to the License names is a View Link. Click on all these links and see if information on the license is shown."
 
-# ?
+# Help
 HelpMenu
 	MenuOpen "Hover your cursor on the '?' sign. The menu should unfold. You should be able to read the current version number."
 	ManualOpen "Click on 'Manual & Help', a new window should open in your browser containing all the documentation on AMS."
