@@ -69,7 +69,7 @@ Node-LicenseAssignmentTest
 
 LicensesRequiredTest
 	SelectLicensesRequired "Under 'Node Authorization' click on Node-Licenses Assignment. Required Licenses Page should be shown."
-	AddLicenses "If you haven't done so before you can accept licenses from this page, but you cannot (!) revert them back. Try adding some (with a test account)."
+	AddLicenses "If you haven't done so before you can accept licenses from this page, but you CANNOT revert them back. Try adding some (with a test account)."
 
 AddEditLicenseTest
 	AddEditLicenses "Under 'Node Authorization' click on Add/Edit a License. Licenses management page should be shown."
