@@ -53,9 +53,44 @@ EditUserTest
 	ChangeFields "Change all the fields, remove the user from the fields it's in now and add new ones. Click on Save, a green message should appear indicating that the user has been saved."
 	RevertChanges "Change everything back and Save, check to see if the green message roars it's greenish head again."
 
+DeleteUserTest
+	SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User & Groups should now be shown."
+	PickUser "Click on the user you want to remove. The LAT User page should show up."
+	ChangeFields "Click on Delete, a green message should appear indicating that the user has been deleted."
+
 # Node Authorization
+OverViewTest
+	OverviewClick "Under 'Node Authorization' click on Overview. Node Authorization Overview should be shown."
+
+EffictiveUserPrivilegesTest
+	DoesntWork "Contemplate the meaning of life and everything.. .. .. Did it work?"
+
+EditNodeRulesTest
+	SelectEditNode "Under 'Node Authorization' click on Edit Node Rules. Node Authorization Management should be shown."
+
+Node-LicenseAssignmentTest
+	SelectNodeLicenseAssignment "Under 'Node Authorization' click on Node-Licenses Assignment. Node-Licenses Assignment should be shown."
+
+LicensesRequiredTest
+	SelectLicensesRequired "Under 'Node Authorization' click on Node-Licenses Assignment. Required Licenses Page should be shown."
+	AddLicenses "If you haven't done so before you can accept licenses from this page, but you cannot (!) revert them back. Try adding some (with a test account)."
+
+AddEditLicenseTest
+	AddEditLicenses "Under 'Node Authorization' click on Add/Edit a License. Licenses management page should be shown."
+	ViewLicenses "Next to the License names is a View Link. Click on all these links and see if information on the license is being shown."
+#### NOT DONE YET HERE ... :)
 
 # My Account
+MyUserAccountTest
+	SelectUserAccount "In the 'My Account'-menu select 'My User Account'. LAT User should now be shown."
+	UserCheck "If there is an orange message saying you cannot modify his data, then make a new test user to test this feature. Login as this user and try again."
+	ChangeFields "Change all the fields, remove the user from the fields it's in now and add new ones. Click on Save, a green message should appear indicating that the user has been saved."
+	RevertChanges "Change everything back and Save, check to see if the green message roars it's greenish head again."
+
+MyAcceptedLicensesTest
+	SelectLicensesInfo "In the 'My Account'-menu select 'My Accepted Licenses'. My Accepted Licenses should now be shown."
+	LicensesCheck "All the licenses you have accepted should be visible."
+	ViewLicenses "Next to the License names is a View Link. Click on all these links and see if information on the license is shown."
 
 # ?
 HelpMenu
