@@ -89,3 +89,4 @@ MyAcceptedLicensesTest
 HelpMenu
 	MenuOpen "Hover your cursor on the '?' sign. The menu should unfold. You should be able to read the current version number."
 	ManualOpen "Click on 'Manual & Help', a new window should open in your browser containing all the documentation on AMS."
+
