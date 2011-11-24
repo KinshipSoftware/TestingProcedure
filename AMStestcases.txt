@@ -31,7 +31,7 @@ AddRulesTest
 
 AddNewGroupTest
 	NewGroup "Under 'User Management' select 'Create New Group', LAT Group should be shown."
-	AddGroup "Fill in the ID and Name and click Save. A green message like: Group "AMSTesting" has been saved. should show up."
+	AddGroup "Fill in the ID and Name and click Save. A green message like: Group 'AMSTesting' has been saved. should show up."
 
 EditGroupTest
 	SelectGroup "Under 'User Management' select 'Edit Group', LAT User & Groups should be visible."
