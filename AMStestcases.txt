@@ -45,13 +45,13 @@ AddNewUserTest
 	AddGroup "Go to Edit User and find the user you've just created. Fill in the passwords and add the user to your previously created test group. Click on Save again, the message in green will appear again."
 
 EditUserTest
-	SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User & Groups should now be shown."
+	SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User and Groups should now be shown."
 	PickUser "From first name select the first letter or alternatively select the first letter of the Last Name. Or if you're really clever type part of the name into the search box. Click on the user you want to edit. The LAT User page should show up."
 	ChangeFields "Change all the fields, remove the user from the fields it's in now and add new ones. Click on Save, a green message should appear indicating that the user has been saved."
 	RevertChanges "Change everything back and Save, check to see if the green message roars it's greenish head again."
 
 DeleteUserTest
-	SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User & Groups should now be shown."
+	SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User and Groups should now be shown."
 	PickUser "Click on the user you want to remove. The LAT User page should show up."
 	ChangeFields "Click on Delete, a green message should appear indicating that the user has been deleted."
 
@@ -88,5 +88,5 @@ MyAcceptedLicensesTest
 
 HelpMenu
 	MenuOpen "Hover your cursor on the '?' sign. The menu should unfold. You should be able to read the current version number."
-	ManualOpen "Click on 'Manual & Help', a new window should open in your browser containing all the documentation on AMS."
+	ManualOpen "Click on 'Manual and Help', a new window should open in your browser containing all the documentation on AMS."
 
