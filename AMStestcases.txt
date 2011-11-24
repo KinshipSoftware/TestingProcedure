@@ -34,7 +34,7 @@ AddNewGroupTest
 	AddGroup "Fill in the ID and Name and click Save. A green message like: Group 'AMSTesting' has been saved. should show up."
 
 EditGroupTest
-	SelectGroup "Under 'User Management' select 'Edit Group', LAT User & Groups should be visible."
+	SelectGroup "Under 'User Management' select 'Edit Group', LAT User and Groups should be visible."
 	EditGroup "Find the group (search for it) that you just created and click on its name. The groups information should be visible."
 	ChangeGroupData "Change the Name, ID and possible the Hosting Institution. Subsequently add yourself to the group. Click on Save. Group 'GROUPNAME' has been saved should appear in green."
 	ReverseChanges "Go to Edit Group again, find the same group and revert the changes you've just made. The same message should be shown."
