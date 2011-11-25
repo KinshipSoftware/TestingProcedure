@@ -44,6 +44,9 @@ EditGroupTest
 AddNewUserTest
  NewUser "Under 'User Management' click on 'Create New User', the LAT User window should appear."
  FillIn "Fill in all the necessary (yellow) fields, click on Save. User 'USER' has been saved will appear in green."
+ Logout "Click on logout, in the topright corner and restart your browser"
+ Login "Wait for a bit. Try to login as the new user."
+ CheckRules "Login (in the IMDI browser) as the user you've given access to pictures and check if you can access them." 
  AddGroup "Go to Edit User and find the user you've just created. Fill in the passwords and add the user to your previously created test group. Click on Save again, the message in green will appear again."
  NewDomainEditor "Fill in all the necessary fields again but this time you will make an account for a domain editor, so change the name accordingly. Click on Save. The green message should appear again."
  NewDomainManager "Fill in all the necessary fields again but this time you will make an account for a domain manager, so change the name accordingly. Click on Save. The green message should appear again."
