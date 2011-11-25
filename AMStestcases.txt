@@ -3,13 +3,13 @@
 # Force Export is not possible because doing a recrawl doesn't upset the rules anymore..
 # Effictive user privileges is broken so cannot incorporate that just yet, same holds for adding a new license
 
-StartingLamusTest
+StartingAMSTest
  OpenLamus "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node (I use http://lux17.mpi.nl/ds/imdi_browser/?openpath=MPI1650240%23) you want to edit and select set access rights. The 'Select an identity provider'-window should now be visible. "
  LoginFederation "Pick Damlr Federation from the Federation List. Select MPI Nijmegen from the Institution List. Press Select. The Shibboleth login page should now show up."
  LoginShibboleth "Fill in your username and password and press Login. The AMS page should be shown."
 
 CheckLicensesTest
- LicensesCheck "All the licenses of the selected node and all the parent nodes should be visible."
+ LicensesCheck "All the licenses of the selected node and all the parent nodes should be visible (on the home page that is)."
  LicensesCheck2 "Click on 'Manage Node Licenses'. 'Node-Licenses Assignment' is shown. Check to see if under Assigned Licenses the same licenses are checked, as where active on the previous page."
  ViewLicenses "Next to the License names is a View Link. Click on all these links and see if information on the license is shown."
  CancelManage "Click on Cancel. The previous page should show up."
@@ -17,6 +17,7 @@ CheckLicensesTest
 ChangingLicensesTest
  ChangeLicenses "Click on 'Manage Node Licenses', check all the licenses that aren't checked. Deselect all the licenses that were checked. Click Save, a message explaining that it may take up to 2 hours will pop up."
  CheckLicenses "Wait for a bit. Check if the licenses did change in the Imdi Browser and by selecting 'set access rights'."
+ SelectNodeLicenseAssignment "Instead of clicking on 'Manage Node Licenses', click under 'Node Authorization' on Node-Licenses Assignment. Node-Licenses Assignment should be shown."
  RemoveLicenses "Back in 'Manage Node Licenses; uncheck all the licenses and click on Save. The 2 hour wait time message appears."
  CheckRemovalLicenses "Wait for a bit. Check that there are no licenses anymore."
  ChangeLicensesBack "Hope you still remember the way things were because we're changing the licenses back to what they were. Select the licenses that were selected, deselect the rest. Click on save. The 2 hour message will pop up again."
@@ -26,6 +27,7 @@ AddRulesTest
  AddRule "Click on 'Add new Rules'. Node Authorization Management-window should be shown."
  AddRegUserRule "Select 'REGISTERED USERs' as your selection, under rules select everything."
  CheckRule "Wait a while. Check if the changes have been made, so logoff and check if you can acces the underlying files. You might have to remove licenses and/or previous rules that conflict. (e.g. rules that apply to EVERYBODY)"
+ SelectEditNode "Under 'Node Authorization' click on Edit Node Rules. Node Authorization Management should be shown."
  RemoveRule "Click on 'Edit' next too 'REGISTERED USERs'. Deselect all the checked Rules and click on 'Save'."
  CheckRemove "Wait for a while, check to see if the changes have occured."
 
@@ -43,6 +45,27 @@ AddNewUserTest
  NewUser "Under 'User Management' click on 'Create New User', the LAT User window should appear."
  FillIn "Fill in all the necessary (yellow) fields, click on Save. User 'USER' has been saved will appear in green."
  AddGroup "Go to Edit User and find the user you've just created. Fill in the passwords and add the user to your previously created test group. Click on Save again, the message in green will appear again."
+ NewDomainEditor "Fill in all the necessary fields again but this time you will make an account for a domain editor, so change the name accordingly. Click on Save. The green message should appear again."
+ NewDomainManager "Fill in all the necessary fields again but this time you will make an account for a domain manager, so change the name accordingly. Click on Save. The green message should appear again."
+
+DomainEditorTest
+ DomainEditorRights "Under 'Node Authorization' click on 'Edit Node Rules'. Under Rule Settings, select the Domain Editor user you've just created and under Assign Roles click on Domain Editor. Then Save."
+ CheckInLamus "Go to http://lux17.mpi.nl/jkc/lamus/ and login with the just created domain editor account."
+ CreateWorkspace "Click on 'Create New Workspace', navigate to the AMS test corpus (MPI corpora -> Demo -> Ams Demo -> AMS Testing). Right click on AMS Testing and click on 'select this node as top node for a new workspace'."
+ DeleteWorkspace "If the previous step worked than you have successfully made a new domain editor. So click on 'Delete Workspace', 'delete' and then 'Main Page'. Click on logout. Restart your browser."
+
+DomainManagerTest
+ DomainManagerRights "Under 'Node Authorization' click on 'Edit Node Rules'. Under Rule Settings, select the Domain Manager user you've just created and under Assign Roles click on Domain Manager. Then Save."
+ Logout "Click in the topright on 'logout'. Restart your browser."
+ LoginDomainManager "Login as the domain manager that you've created"
+ CreateUser "Under 'User Management' click on 'Create New User'."
+ FillIn "Fill in all the necessary (yellow) fields, click on Save. User 'USER' has been saved will appear in green."
+ AddRules "Under 'Node Authorization' click on 'Edit Node Rules'. Under Rule Settings select the user you've just created, and give the user rights to read image files. Click on save. A message will pop up that it might take ages.."
+ Logout "Click on logout, in the topright corner and restart your browser"
+ CheckRules "Login (in the IMDI browser) as the user you've given access to pictures and check if you can access them."
+ EditUser "Under 'User Management' click on 'Edit User'. LAT User and Groups should now be shown."
+ PickUser "Click on the user you want to remove. The LAT User page should show up."
+ DeleteUser "Click on Delete, a green message should appear indicating that the user has been deleted."
 
 EditUserTest
  SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User and Groups should now be shown."
@@ -53,19 +76,13 @@ EditUserTest
 DeleteUserTest
  SelectEditUser "In the 'User Management'-menu select 'Edit User'. LAT User and Groups should now be shown."
  PickUser "Click on the user you want to remove. The LAT User page should show up."
- ChangeFields "Click on Delete, a green message should appear indicating that the user has been deleted."
+ DeleteUser "Click on Delete, a green message should appear indicating that the user has been deleted."
 
 OverViewTest
  OverviewClick "Under 'Node Authorization' click on Overview. Node Authorization Overview should be shown."
 
-EffictiveUserPrivilegesTest
+EffectiveUserPrivilegesTest
  DoesntWork "Contemplate the meaning of life and everything.. .. .. Did it work?"
-
-EditNodeRulesTest
- SelectEditNode "Under 'Node Authorization' click on Edit Node Rules. Node Authorization Management should be shown."
-
-Node-LicenseAssignmentTest
- SelectNodeLicenseAssignment "Under 'Node Authorization' click on Node-Licenses Assignment. Node-Licenses Assignment should be shown."
 
 LicensesRequiredTest
  SelectLicensesRequired "Under 'Node Authorization' click on Node-Licenses Assignment. Required Licenses Page should be shown."
