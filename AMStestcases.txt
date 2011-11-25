@@ -14,7 +14,7 @@ CheckLicensesTest
  ViewLicenses "Next to the License names is a View Link. Click on all these links and see if information on the license is shown."
  CancelManage "Click on Cancel. The previous page should show up."
 
-ChangingLicensesTest
+AddingLicensesTest
  ChangeLicenses "Click on 'Manage Node Licenses', check all the licenses that aren't checked. Deselect all the licenses that were checked. Click Save, a message explaining that it may take up to 2 hours will pop up."
  CheckLicenses "Wait for a bit. Check if the licenses did change in the Imdi Browser and by selecting 'set access rights'."
  SelectNodeLicenseAssignment "Instead of clicking on 'Manage Node Licenses', click under 'Node Authorization' on Node-Licenses Assignment. Node-Licenses Assignment should be shown."
