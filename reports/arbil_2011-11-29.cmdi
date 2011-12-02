@@ -26,14 +26,19 @@
     <ImprtExistinBrnch2>Works</ImprtExistinBrnch2>
   </GetMetadataTest>
   <NodeSearchTest>
+    <StartSearch>Works</StartSearch>
     <OpenSearchWindow>Works</OpenSearchWindow>
-    <LocalSearch></LocalSearch>
-    <AdditionSearchAS1></AdditionSearchAS1>
-    <AdditionSearchAS2></AdditionSearchAS2>
-    <AdditionSearchAS3></AdditionSearchAS3>
-    <AdditionSearchAS4></AdditionSearchAS4>
-    <AdditionSearchAS5></AdditionSearchAS5>
-    <RemoteSearch></RemoteSearch>
+    <CheckSearchWindow>Works</CheckSearchWindow>
+    <LocalSearch>Works</LocalSearch>
+    <LocalSearch2>Works</LocalSearch2>
+    <LocalSearch3>Works</LocalSearch3>
+    <AdditionSearchAS>Works</AdditionSearchAS>
+    <AdditionSearchAS1>Works</AdditionSearchAS1>
+    <AdditionSearchAS2>Works</AdditionSearchAS2>
+    <AdditionSearchAS3>Works</AdditionSearchAS3>
+    <AdditionSearchAS4>Works</AdditionSearchAS4>
+    <AdditionSearchAS5>Works</AdditionSearchAS5>
+    <RemoteSearch error="">Strange</RemoteSearch>
   </NodeSearchTest>
   <HandleNodesTests>
     <DeleteNodeKey></DeleteNodeKey>
