@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd http://ems03.mpi.nl/testing/plans/arbil_kasia.xml">
+<BugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd http://ems03.mpi.nl/testing/plans/arbil_kasia_2Dec.xml">
   <DateTime>2011-11-29</DateTime>
-  <ProgramVersion></ProgramVersion>
-  <OSVersion></OSVersion>
+  <ProgramVersion>2.3.26628</ProgramVersion>
+  <OSVersion>Linux</OSVersion>
+  <StartingArbil>
+    <SA1>Works</SA1>
+    <SA1A>Works</SA1A>
+    <SA1B>Works</SA1B>
+    <SA1B1>Works</SA1B1>
+    <SA1B2>Works</SA1B2>
+    <SA1B3>Works</SA1B3>
+    <SA1C1>Works</SA1C1>
+    <SA2>Works</SA2>
+    <SA3>Works</SA3>
+  </StartingArbil>
+  <GetMetadataTest>
+    <AddCorpus>Works</AddCorpus>
+    <AddCorpusConName>Works</AddCorpusConName>
+    <AddCorpusNode>Works</AddCorpusNode>
+    <AddSessionConName>Works</AddSessionConName>
+    <ImportExistinBrnchSavN>Works</ImportExistinBrnchSavN>
+    <ImportExistinBrnchSve>Works</ImportExistinBrnchSve>
+    <ImprtExistinBrnch>Works</ImprtExistinBrnch>
+    <ImprtExistinBrnch1>Works</ImprtExistinBrnch1>
+    <ImprtExistinBrnch2>Works</ImprtExistinBrnch2>
+  </GetMetadataTest>
   <NodeSearchTest>
-    <OpenSearchWindow error="trac link #123 # 444">Mostly</OpenSearchWindow>
+    <OpenSearchWindow>Works</OpenSearchWindow>
     <LocalSearch></LocalSearch>
     <AdditionSearchAS1></AdditionSearchAS1>
     <AdditionSearchAS2></AdditionSearchAS2>
@@ -13,11 +35,6 @@
     <AdditionSearchAS5></AdditionSearchAS5>
     <RemoteSearch></RemoteSearch>
   </NodeSearchTest>
-  <GetMetadataTest>
-    <AddCorpus></AddCorpus>
-    <AddSession></AddSession>
-    <ImprtExistinBrnch></ImprtExistinBrnch>
-  </GetMetadataTest>
   <HandleNodesTests>
     <DeleteNodeKey></DeleteNodeKey>
     <DeleteNodeMenu></DeleteNodeMenu>
