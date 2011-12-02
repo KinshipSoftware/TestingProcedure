@@ -42,32 +42,33 @@
     <RemoteSearch>Strange</RemoteSearch>
   </NodeSearchTest>
   <NodeRightMouseMenu>
-    <OpenInExternalApp>Fails</OpenInExternalApp>
-    <OpenInEnternalAppSession>Fails</OpenInEnternalAppSession>
+    <OpenInExternalApp>Works</OpenInExternalApp>
+    <OpenInEnternalAppSession>Works</OpenInEnternalAppSession>
     <OpenInEnternalAppMedia>Works</OpenInEnternalAppMedia>
     <ReImportBranch1>Works</ReImportBranch1>
     <ReImportBranch2>Works</ReImportBranch2>
     <ReImportBranch3>Works</ReImportBranch3>
     <ViewXML>Works</ViewXML>
     <ViewImdiFormatted>Works</ViewImdiFormatted>
-    <OpenImdiFormatted>Fails</OpenImdiFormatted>
+    <OpenImdiFormatted error="#1288">Fails</OpenImdiFormatted>
     <ExportImdiToHtml>Works</ExportImdiToHtml>
     <CheckXmlConformance>Works</CheckXmlConformance>
   </NodeRightMouseMenu>
   <ColumnsTests>
-    <HideColumns></HideColumns>
-    <ArrangeColumns></ArrangeColumns>
-    <SaveColumnView></SaveColumnView>
-    <EditColumnView></EditColumnView>
-    <ShowOnlyCurrent></ShowOnlyCurrent>
-    <ColumnViewForThis></ColumnViewForThis>
-    <CopyTableWeb></CopyTableWeb>
-    <FindAndReplace></FindAndReplace>
+    <ArrangementColumns1 error="#1287  ">Strange</ArrangementColumns1>
+    <HideColumns>Works</HideColumns>
+    <ArrangeColumns>Works</ArrangeColumns>
+    <SaveColumnView>Works</SaveColumnView>
+    <EditColumnView>Works</EditColumnView>
+    <ShowOnlyCurrent>Works</ShowOnlyCurrent>
+    <ColumnViewForThis>Works</ColumnViewForThis>
+    <CopyTableWeb>Works</CopyTableWeb>
+    <FindAndReplace>Works</FindAndReplace>
   </ColumnsTests>
   <FilesTest>
-    <AddWorkingDirectory></AddWorkingDirectory>
-    <AddJpegImage></AddJpegImage>
-    <AddPngImage></AddPngImage>
+    <AddWorkingDirectory>Works</AddWorkingDirectory>
+    <AddJpegImage error="#137 ">Fails</AddJpegImage>
+    <AddPngImage error="#137 ">Fails</AddPngImage>
     <AddWAV></AddWAV>
   </FilesTest>
   <FavouritesTest>
