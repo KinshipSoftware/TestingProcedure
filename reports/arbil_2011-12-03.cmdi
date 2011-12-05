@@ -69,17 +69,27 @@
     <AddWorkingDirectory>Works</AddWorkingDirectory>
     <AddJpegImage error="#137 ">Fails</AddJpegImage>
     <AddPngImage error="#137 ">Fails</AddPngImage>
-    <AddWAV></AddWAV>
+    <AddWAV>Works</AddWAV>
+    <FilesShowHidden>Works</FilesShowHidden>
   </FilesTest>
   <FavouritesTest>
-    <AddToFavourites></AddToFavourites>
-    <AddFromFavourites></AddFromFavourites>
+    <AddToFavourites>Works</AddToFavourites>
+    <AddFromFavourites>Works</AddFromFavourites>
+    <Remove>Works</Remove>
+    <AddRechangeFav>Works</AddRechangeFav>
+    <EditMetaData>Works</EditMetaData>
+    <EditMeteData1>Works</EditMeteData1>
+    <AddToElemInFav>Works</AddToElemInFav>
+    <AddToElemInFav2>Works</AddToElemInFav2>
+    <LongFieldEd>Works</LongFieldEd>
+    <LongFieldEd1>Works</LongFieldEd1>
   </FavouritesTest>
   <FileMenuTest>
-    <FileMenuSaveChanges></FileMenuSaveChanges>
-    <FileMenuShowModifiedNodes></FileMenuShowModifiedNodes>
+    <FileMenuSaveChanges>Works</FileMenuSaveChanges>
+    <FileMenuSaveChanges1>Works</FileMenuSaveChanges1>
+    <FileMenuShowModifiedNodes>Works</FileMenuShowModifiedNodes>
     <FileMenuImport></FileMenuImport>
-    <FileMenuExit></FileMenuExit>
+    <FileMenuExit>Works</FileMenuExit>
   </FileMenuTest>
   <OptionsMenuTest>
     <TemplatesAndProfiles></TemplatesAndProfiles>
@@ -101,40 +111,42 @@
     <ProfileAddFile></ProfileAddFile>
   </TemplatesTests>
   <HelpMenuTest>
-    <AboutHelpMenu></AboutHelpMenu>
-    <HelpMenu></HelpMenu>
-    <ArbilForumHelpMenu></ArbilForumHelpMenu>
-    <ErrorHelpMenu></ErrorHelpMenu>
-    <CheckUpdatesHelpMenu></CheckUpdatesHelpMenu>
-    <ShortCutKeysHelpMenu></ShortCutKeysHelpMenu>
+    <AboutHelpMenu>Works</AboutHelpMenu>
+    <HelpMenu>Works</HelpMenu>
+    <HelpMenuF1>Works</HelpMenuF1>
+    <ArbilForumHelpMenu>Works</ArbilForumHelpMenu>
+    <RunSetUpWizard>Works</RunSetUpWizard>
+    <ErrorHelpMenu>Works</ErrorHelpMenu>
+    <CheckUpdatesHelpMenu>Works</CheckUpdatesHelpMenu>
+    <ShortCutKeysHelpMenu>Works</ShortCutKeysHelpMenu>
   </HelpMenuTest>
   <MultiLanguageTest>
-    <DescriptionChoise></DescriptionChoise>
-    <LongfieldEditor></LongfieldEditor>
+    <DescriptionChoise>Works</DescriptionChoise>
+    <LongfieldEditor>Works</LongfieldEditor>
   </MultiLanguageTest>
   <AdditionTest>
-    <AdditionTablesAT1></AdditionTablesAT1>
-    <AdditionTablesAT2></AdditionTablesAT2>
-    <AdditionControlledVocabularies1></AdditionControlledVocabularies1>
-    <AdditionControlledVocabularies2></AdditionControlledVocabularies2>
-    <AdditionControlledVocabularies3></AdditionControlledVocabularies3>
-    <AdditionEditAllMetadata1></AdditionEditAllMetadata1>
-    <AdditionEditAllMetadata2></AdditionEditAllMetadata2>
+    <AdditionTablesAT1>Fails</AdditionTablesAT1>
+    <AdditionTablesAT2>Fails</AdditionTablesAT2>
+    <AdditionControlledVocabularies1>Works</AdditionControlledVocabularies1>
+    <AdditionControlledVocabularies2>Works</AdditionControlledVocabularies2>
+    <AdditionControlledVocabularies3>Works</AdditionControlledVocabularies3>
+    <AdditionEditAllMetadata1>Works</AdditionEditAllMetadata1>
+    <AdditionEditAllMetadata2>Works</AdditionEditAllMetadata2>
     <AdditionTypecheckerConfiguration></AdditionTypecheckerConfiguration>
-    <AdditionWindows></AdditionWindows>
+    <AdditionWindows>Works</AdditionWindows>
   </AdditionTest>
   <ChangesTest>
-    <ChangesSearch1></ChangesSearch1>
-    <ChangesSearch2></ChangesSearch2>
-    <ChangesMetadataStr></ChangesMetadataStr>
-    <ChangesTableOrdering></ChangesTableOrdering>
-    <ChangesLongFieldE1></ChangesLongFieldE1>
-    <ChangesLongFieldE2></ChangesLongFieldE2>
-    <ChangesNodeSortingNS></ChangesNodeSortingNS>
+    <ChangesSearch1>Works</ChangesSearch1>
+    <ChangesSearch2>Works</ChangesSearch2>
+    <ChangesMetadataStr>Works</ChangesMetadataStr>
+    <ChangesTableOrdering>Works</ChangesTableOrdering>
+    <ChangesLongFieldE1>Works</ChangesLongFieldE1>
+    <ChangesLongFieldE2>Works</ChangesLongFieldE2>
+    <ChangesNodeSortingNS>Works</ChangesNodeSortingNS>
   </ChangesTest>
   <FixesTest>
-    <FixesFavourites1></FixesFavourites1>
-    <FixesFavourites2></FixesFavourites2>
+    <FixesFavourites1>Works</FixesFavourites1>
+    <FixesFavourites2>Works</FixesFavourites2>
     <FixesTreeMenu></FixesTreeMenu>
     <FixesWindows></FixesWindows>
     <FixesQuiteMacOS1></FixesQuiteMacOS1>
@@ -143,7 +155,7 @@
     <FixesMultipleValues></FixesMultipleValues>
   </FixesTest>
   <HandleNodesTests>
-    <DeleteNodeKey></DeleteNodeKey>
-    <DeleteNodeMenu></DeleteNodeMenu>
+    <DeleteNodeKey>Works</DeleteNodeKey>
+    <DeleteNodeMenu>Works</DeleteNodeMenu>
   </HandleNodesTests>
 </BugCheck>
