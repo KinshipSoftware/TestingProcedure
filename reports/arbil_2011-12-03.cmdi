@@ -18,8 +18,10 @@
     <AddCorpus>Works</AddCorpus>
     <AddCorpusConName>Works</AddCorpusConName>
     <AddCorpusNode>Works</AddCorpusNode>
+    <MaximumNumberNodesReached></MaximumNumberNodesReached>
     <AddSessionConName1>Works</AddSessionConName1>
     <AddInvalidElements>Works</AddInvalidElements>
+    <SaveMenuChanges></SaveMenuChanges>
     <ChangesNodeSortingNS>Works</ChangesNodeSortingNS>
     <ChangesTableOrdering>Works</ChangesTableOrdering>
     <ChangesMetadataStr>Works</ChangesMetadataStr>
@@ -139,12 +141,16 @@
   <MultiLanguageTest>
     <DescriptionChoise>Works</DescriptionChoise>
     <LongfieldEditor>Works</LongfieldEditor>
-    <AdditionControlledVocabularies1>Works</AdditionControlledVocabularies1>
-    <AdditionControlledVocabularies2>Works</AdditionControlledVocabularies2>
-    <AdditionControlledVocabularies3>Works</AdditionControlledVocabularies3>
+    <ControlledVocabularies1></ControlledVocabularies1>
+    <ControlledVocabularies2></ControlledVocabularies2>
+    <ClosedVocabularies></ClosedVocabularies>
+    <ControlledVocabulariesLongFE></ControlledVocabulariesLongFE>
+    <MPILanguagesDescription></MPILanguagesDescription>
   </MultiLanguageTest>
   <AdditionalTests>
     <TypecheckerConfiguration></TypecheckerConfiguration>
+    <Resource_TypeNotInferredFromMimetype></Resource_TypeNotInferredFromMimetype>
+    <PresenceOfUnSavedIcon></PresenceOfUnSavedIcon>
   </AdditionalTests>
   <HandleNodesTests>
     <DeleteNodeKey>Works</DeleteNodeKey>
@@ -152,11 +158,13 @@
   </HandleNodesTests>
   <CMDITest>
     <WizardRun></WizardRun>
+    <CreateReflectCMDIMetadataHierarchy></CreateReflectCMDIMetadataHierarchy>
     <CMDIExportImportLocalSchema></CMDIExportImportLocalSchema>
     <ArbitraryResourceProxyReferences></ArbitraryResourceProxyReferences>
     <PresentationOfContainerNodes></PresentationOfContainerNodes>
     <CMDIEditAttributes></CMDIEditAttributes>
     <ProfileFiltering></ProfileFiltering>
     <ISOcat></ISOcat>
+    <CMDIErroneousResourceTypeValue></CMDIErroneousResourceTypeValue>
   </CMDITest>
 </BugCheck>
