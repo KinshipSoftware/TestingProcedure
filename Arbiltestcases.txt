@@ -1,4 +1,4 @@
-# Test plan exported from 'arbil_kasia_dec2afternoon.xml' by user 'kasia' on 2011-12-09 (17:29 h).
+# Test plan exported from 'arbil_kasia_dec2afternoon.xml' by user 'kasia' on 2011-12-09 (18:18 h).
 
 WizardTest ""
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -100,12 +100,14 @@ OptionsMenuTest ""
   LocalCorpusStorageDirectory "Click Options > Local Corpus Storage Directory > Move Local Corpus Storage Directory and select a new location for your corpus. The Local Corpus files are moved to a different directory"
   EditLanguageList "Click Options > Edit Language List. The option shows the language list and let you select languages"
   Re-downloadCurrentVocabuls "Click Options > Redownload Current Vocabularies. The vocabularies are updated (after a restart)"
-  SaveWindowsOnExit "Click Options > mark Save Windows on Exit. The options does / does not save the windows on exit"
+  SaveWindowsOnExit "Click Options > mark Save Windows on Exit. The options does save the windows on exit"
+  SaveWindowsOnExit1 "Click Options > unmark Save Windows on Exit. The options does not save the windows on exit"
   ShowSelectionPreview "Click Options > mark Show Selection Preview. The preview window (dis)appear and it shows previews"
   CheckForNewVersionOnStart "Click Options > mark Check for New Version on Start. The option allow to check / does not check for new versions on start"
+  CheckForNewVersionOnStart1 "Click Options > unmark Check for New Version on Start. The option does not check for new version of Arbil on start"
   CopyNewResourcesIntoCache "Click Options > mark Copy New Resources into cache. The option allow to copy new resources into cache (pay attention to the tooltip)"
   CheckPermisForRemoteResources "Click Options > mark Check Permissions For Remote Resources. It changes node icons accordingly (pay attention to the tooltip)"
-  AlwaysCheckLocalMetdatFilesForXMLConformance "Click Options > mark Always Check Local Metadata Files For XML Conformance. The option highlights invalid XML metadata in red (pay attention to the tooltip)"
+  AlwaysCheckLocalMetdatFilesForXMLConformance "Click Options > mark Always Check Local Metadata Files For XML Conformance. The option highlights invalid XML metadata in red only after you save (pay attention to the tooltip)"
   ShowLanguageInColumnName "Click Options > mark Show Language In Column Name. The option shows language in column names for columns that have langugage attributes"
   ColumnViewForNewTables "Click Options > Column view for New Tables > All AND/OR Minimal. New tables are opened with the appropriate Column View applied"
   CloseAllWindows "Open a number of tables and go to  > Close all windows. Confirm by clicking on OK. All table windows that were previously open, got closed"
