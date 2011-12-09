@@ -108,19 +108,21 @@
     <ExitMacOS2></ExitMacOS2>
   </FileMenuTest>
   <OptionsMenuTest>
-    <TemplatesAndProfiles></TemplatesAndProfiles>
-    <LocalCorpusStorageDirectory></LocalCorpusStorageDirectory>
-    <EditLanguageList></EditLanguageList>
-    <Re-downloadCurrentVocabuls></Re-downloadCurrentVocabuls>
-    <SaveWindowsOnExit></SaveWindowsOnExit>
-    <ShowSelectionPreview></ShowSelectionPreview>
-    <CheckForNewVersionOnStart></CheckForNewVersionOnStart>
-    <CopyNewResourcesIntoCache></CopyNewResourcesIntoCache>
-    <CheckPermisForRemoteResources></CheckPermisForRemoteResources>
-    <AlwaysCheckLocalMetdatFilesForXMLConformance></AlwaysCheckLocalMetdatFilesForXMLConformance>
-    <ShowLanguageInColumnName></ShowLanguageInColumnName>
-    <ColumnViewForNewTables></ColumnViewForNewTables>
-    <CloseAllWindows></CloseAllWindows>
+    <TemplatesAndProfiles>Works</TemplatesAndProfiles>
+    <LocalCorpusStorageDirectory>Works</LocalCorpusStorageDirectory>
+    <EditLanguageList>Works</EditLanguageList>
+    <Re-downloadCurrentVocabuls>Mostly</Re-downloadCurrentVocabuls>
+    <SaveWindowsOnExit>Works</SaveWindowsOnExit>
+    <SaveWindowsOnExit1 error="#1307">Fails</SaveWindowsOnExit1>
+    <ShowSelectionPreview>Works</ShowSelectionPreview>
+    <CheckForNewVersionOnStart>Strange</CheckForNewVersionOnStart>
+    <CheckForNewVersionOnStart1>Strange</CheckForNewVersionOnStart1>
+    <CopyNewResourcesIntoCache error="#46">Mostly</CopyNewResourcesIntoCache>
+    <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
+    <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
+    <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
+    <ColumnViewForNewTables>Works</ColumnViewForNewTables>
+    <CloseAllWindows>Works</CloseAllWindows>
   </OptionsMenuTest>
   <TemplatesTests>
     <SignLanguageProfile></SignLanguageProfile>
