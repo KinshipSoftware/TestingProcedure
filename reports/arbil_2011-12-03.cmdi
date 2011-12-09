@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.clarin.eu/cmd http://ems03.mpi.nl/testing/plans/arbil_kasia_dec2afternoon.xml">
-  <DateTime></DateTime>
-  <ProgramVersion></ProgramVersion>
-  <OSVersion></OSVersion>
-  <StartingArbil>
+  <DateTime>09-12-2011</DateTime>
+  <ProgramVersion>2.3.27823</ProgramVersion>
+  <OSVersion>Linux Suse</OSVersion>
+  <Tester>kasia</Tester>
+  <WizardTest>
     <SA1>Works</SA1>
     <SA1A>Works</SA1A>
     <SA1B>Works</SA1B>
     <SA1B1>Works</SA1B1>
     <SA1B2>Works</SA1B2>
     <SA1B3>Works</SA1B3>
-    <SA1C1>Works</SA1C1>
     <SA2>Works</SA2>
-    <SA3>Works</SA3>
-  </StartingArbil>
+  </WizardTest>
   <GetMetadataTest>
     <AddCorpus>Works</AddCorpus>
     <AddCorpusConName>Works</AddCorpusConName>
@@ -157,14 +156,31 @@
     <DeleteNodeMenu>Works</DeleteNodeMenu>
   </HandleNodesTests>
   <CMDITest>
-    <WizardRun></WizardRun>
-    <CreateReflectCMDIMetadataHierarchy></CreateReflectCMDIMetadataHierarchy>
-    <CMDIExportImportLocalSchema></CMDIExportImportLocalSchema>
-    <ArbitraryResourceProxyReferences></ArbitraryResourceProxyReferences>
-    <PresentationOfContainerNodes></PresentationOfContainerNodes>
-    <CMDIEditAttributes></CMDIEditAttributes>
-    <ProfileFiltering></ProfileFiltering>
-    <ISOcat></ISOcat>
-    <CMDIErroneousResourceTypeValue></CMDIErroneousResourceTypeValue>
+    <CMDITestWizard>Works</CMDITestWizard>
+    <CMDITestWizard1>Works</CMDITestWizard1>
+    <CMDITestWizard2>Fails</CMDITestWizard2>
+    <CMDITestWizard3></CMDITestWizard3>
+    <CMDITestWizard4></CMDITestWizard4>
+    <CMDITestWizard5>Works</CMDITestWizard5>
+    <CMDITestWizard6>Works</CMDITestWizard6>
+    <AddCMDIProfileToLocalCorpus>Works</AddCMDIProfileToLocalCorpus>
+    <CMDIProfileCheck>Works</CMDIProfileCheck>
+    <ProfileFiltering>Works</ProfileFiltering>
+    <ProfileFiltering1>Works</ProfileFiltering1>
+    <ProfileFiltering2>Works</ProfileFiltering2>
+    <ProfileFiltering3></ProfileFiltering3>
+    <ProfileFiltering4 error="#1306">Mostly</ProfileFiltering4>
+    <ProfileFiltering5>Works</ProfileFiltering5>
+    <ProfileFiltering6>Works</ProfileFiltering6>
+    <ProfileFiltering7>Works</ProfileFiltering7>
+    <ProfileFiltering8>Works</ProfileFiltering8>
+    <ProfileFiltering9>Fails</ProfileFiltering9>
+    <ArbitraryResourceProxyReferences>Works</ArbitraryResourceProxyReferences>
+    <CMDIExportImportLocalSchema>Strange</CMDIExportImportLocalSchema>
+    <PresentationOfContainerNodes>Works</PresentationOfContainerNodes>
+    <ISOcatViewableCheck>Works</ISOcatViewableCheck>
+    <CMDIErroneousResourceTypeValue>Works</CMDIErroneousResourceTypeValue>
+    <CreateReflectCMDIMetadataHierarchy>Works</CreateReflectCMDIMetadataHierarchy>
+    <CMDIEditAttributes>Strange</CMDIEditAttributes>
   </CMDITest>
 </BugCheck>
