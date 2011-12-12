@@ -121,7 +121,6 @@
     <ColumnViewForNewTables>Works</ColumnViewForNewTables>
     <CloseAllWindows>Works</CloseAllWindows>
   </OptionsMenuTest>
-  <TemplatesTests/>
   <HelpMenuTest>
     <AboutHelpMenu>Works</AboutHelpMenu>
     <HelpMenu>Works</HelpMenu>
@@ -154,8 +153,8 @@
     <CMDITestWizard>Works</CMDITestWizard>
     <CMDITestWizard1>Works</CMDITestWizard1>
     <CMDITestWizard2>Fails</CMDITestWizard2>
-    <CMDITestWizard3></CMDITestWizard3>
-    <CMDITestWizard4></CMDITestWizard4>
+    <CMDITestWizard3>Works</CMDITestWizard3>
+    <CMDITestWizard4>Works</CMDITestWizard4>
     <CMDITestWizard5>Works</CMDITestWizard5>
     <CMDITestWizard6>Works</CMDITestWizard6>
     <AddCMDIProfileToLocalCorpus>Works</AddCMDIProfileToLocalCorpus>
