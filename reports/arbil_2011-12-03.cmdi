@@ -17,10 +17,10 @@
     <AddCorpus>Works</AddCorpus>
     <AddCorpusConName>Works</AddCorpusConName>
     <AddCorpusNode>Works</AddCorpusNode>
-    <MaximumNumberNodesReached></MaximumNumberNodesReached>
+    <MaximumNumberNodesReached>Works</MaximumNumberNodesReached>
     <AddSessionConName1>Works</AddSessionConName1>
     <AddInvalidElements>Works</AddInvalidElements>
-    <SaveMenuChanges></SaveMenuChanges>
+    <SaveMenuChanges>Works</SaveMenuChanges>
     <ChangesNodeSortingNS>Works</ChangesNodeSortingNS>
     <ChangesTableOrdering>Works</ChangesTableOrdering>
     <ChangesMetadataStr>Works</ChangesMetadataStr>
@@ -50,7 +50,7 @@
     <AdditionSearchAS4>Works</AdditionSearchAS4>
     <AdditionSearchAS5>Works</AdditionSearchAS5>
     <DroppingInTheSearchField>Works</DroppingInTheSearchField>
-    <RemoteSearch>Strange</RemoteSearch>
+    <RemoteSearch error="#651">Mostly</RemoteSearch>
   </NodeSearchTest>
   <NodeRightMouseMenu>
     <OpenInExternalApp>Works</OpenInExternalApp>
@@ -66,9 +66,8 @@
     <CheckXmlConformance>Works</CheckXmlConformance>
   </NodeRightMouseMenu>
   <ColumnsTests>
-    <ArrangementColumns1 error="#1287  ">Strange</ArrangementColumns1>
-    <HideColumns>Works</HideColumns>
     <ArrangeColumns>Works</ArrangeColumns>
+    <ArrangementColumns1>Works</ArrangementColumns1>
     <SaveColumnView>Works</SaveColumnView>
     <EditColumnView>Works</EditColumnView>
     <ShowOnlyCurrent>Works</ShowOnlyCurrent>
@@ -102,7 +101,7 @@
     <FileMenuSaveChanges>Works</FileMenuSaveChanges>
     <FileMenuSaveChanges1>Works</FileMenuSaveChanges1>
     <FileMenuShowModifiedNodes>Works</FileMenuShowModifiedNodes>
-    <FileMenuImport></FileMenuImport>
+    <FileMenuImport>Works</FileMenuImport>
     <FileMenuExit>Works</FileMenuExit>
     <ExitMacOS1></ExitMacOS1>
     <ExitMacOS2></ExitMacOS2>
@@ -111,12 +110,10 @@
     <TemplatesAndProfiles>Works</TemplatesAndProfiles>
     <LocalCorpusStorageDirectory>Works</LocalCorpusStorageDirectory>
     <EditLanguageList>Works</EditLanguageList>
-    <Re-downloadCurrentVocabuls>Mostly</Re-downloadCurrentVocabuls>
+    <Re-downloadCurrentVocabuls>Works</Re-downloadCurrentVocabuls>
     <SaveWindowsOnExit>Works</SaveWindowsOnExit>
     <SaveWindowsOnExit1 error="#1307">Fails</SaveWindowsOnExit1>
     <ShowSelectionPreview>Works</ShowSelectionPreview>
-    <CheckForNewVersionOnStart>Strange</CheckForNewVersionOnStart>
-    <CheckForNewVersionOnStart1>Strange</CheckForNewVersionOnStart1>
     <CopyNewResourcesIntoCache error="#46">Mostly</CopyNewResourcesIntoCache>
     <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
     <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
@@ -124,11 +121,7 @@
     <ColumnViewForNewTables>Works</ColumnViewForNewTables>
     <CloseAllWindows>Works</CloseAllWindows>
   </OptionsMenuTest>
-  <TemplatesTests>
-    <SignLanguageProfile></SignLanguageProfile>
-    <ProfileAddURL></ProfileAddURL>
-    <ProfileAddFile></ProfileAddFile>
-  </TemplatesTests>
+  <TemplatesTests/>
   <HelpMenuTest>
     <AboutHelpMenu>Works</AboutHelpMenu>
     <HelpMenu>Works</HelpMenu>
@@ -142,10 +135,10 @@
   <MultiLanguageTest>
     <DescriptionChoise>Works</DescriptionChoise>
     <LongfieldEditor>Works</LongfieldEditor>
-    <ControlledVocabularies1></ControlledVocabularies1>
-    <ControlledVocabularies2></ControlledVocabularies2>
-    <ClosedVocabularies></ClosedVocabularies>
-    <ControlledVocabulariesLongFE></ControlledVocabulariesLongFE>
+    <ControlledVocabularies1>Works</ControlledVocabularies1>
+    <ControlledVocabularies2>Works</ControlledVocabularies2>
+    <ClosedVocabularies>Works</ClosedVocabularies>
+    <ControlledVocabulariesLongFE>Works</ControlledVocabulariesLongFE>
     <MPILanguagesDescription></MPILanguagesDescription>
   </MultiLanguageTest>
   <AdditionalTests>
@@ -168,6 +161,7 @@
     <AddCMDIProfileToLocalCorpus>Works</AddCMDIProfileToLocalCorpus>
     <CMDIProfileCheck>Works</CMDIProfileCheck>
     <ProfileFiltering>Works</ProfileFiltering>
+    <ProfileFilteringLanuageSignSession>Works</ProfileFilteringLanuageSignSession>
     <ProfileFiltering1>Works</ProfileFiltering1>
     <ProfileFiltering2>Works</ProfileFiltering2>
     <ProfileFiltering3></ProfileFiltering3>
@@ -178,11 +172,14 @@
     <ProfileFiltering8>Works</ProfileFiltering8>
     <ProfileFiltering9>Fails</ProfileFiltering9>
     <ArbitraryResourceProxyReferences>Works</ArbitraryResourceProxyReferences>
-    <CMDIExportImportLocalSchema>Strange</CMDIExportImportLocalSchema>
+    <CMDIExportImportLocalSchema1>Works</CMDIExportImportLocalSchema1>
+    <CMDIExportImportLocalSchema2>Works</CMDIExportImportLocalSchema2>
+    <CMDIExportImportLocalSchema3>Works</CMDIExportImportLocalSchema3>
+    <CMDIExportImportLocalSchema4>Works</CMDIExportImportLocalSchema4>
     <PresentationOfContainerNodes>Works</PresentationOfContainerNodes>
     <ISOcatViewableCheck>Works</ISOcatViewableCheck>
     <CMDIErroneousResourceTypeValue>Works</CMDIErroneousResourceTypeValue>
     <CreateReflectCMDIMetadataHierarchy>Works</CreateReflectCMDIMetadataHierarchy>
-    <CMDIEditAttributes>Strange</CMDIEditAttributes>
+    <CMDIEditAttributes error="# 551">Mostly</CMDIEditAttributes>
   </CMDITest>
 </BugCheck>
