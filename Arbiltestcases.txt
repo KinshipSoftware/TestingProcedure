@@ -1,4 +1,4 @@
-# Test plan exported from 'arbil_kasia_dec2afternoon.xml' by user 'kasia' on 2011-12-12 (15:02 h).
+# Test plan exported from 'arbil_kasia_dec2afternoon.xml' by user 'vlapla@mpi.nl' on 2011-12-13 (08:51 h).
 
 WizardTest ""
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
