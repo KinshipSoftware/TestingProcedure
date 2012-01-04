@@ -14,7 +14,7 @@ SimpleSearchTabTest
 	UseSimpleOptions "Click on Options. A window with options appears"
 	UseSimpleOptions1 "Click on "Show Frequency View Sorted by Annotation". You are shown the frequency (percentage and count) of the tokens found sorted by annotation"
 	UseSimpleOptions1Freq1 "When you are in the frequency view, the context menu has an additional option "Save frequency info". Click this option"
-	UseSimpleOptions1Freq2 "You are asked to select a directory and enter a file name. The result is a file that contains information on file annotation, percentage and count"
+	UseSimpleOptions1Freq2 "You are asked to select a directory and enter a file name.  The result is a file that contains information on file annotation, percentage and count"
 	UseSimpleOptions2 "Click again on Options and select "Concordance View". You are being moved to the initial window with no frequencies being shown" 
 	UseSimpleOptions3 "Click on Options and select "Show Frequency View Sorted by Frequency". You are shown the frequency (percentage and count) of the tokens"
 	UseSimpleOptions4 "Select one of the hits, click on Options and choose "See Selected Hits in Transcription". Clicking this option shows the transcription in the Annex timeline viewer of the given hit"
