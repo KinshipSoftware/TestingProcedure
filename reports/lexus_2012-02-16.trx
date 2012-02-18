@@ -45,7 +45,7 @@
     <SOSelectNewSortOrder>Works</SOSelectNewSortOrder>
     <SORemoveInitialCharacters>Works</SORemoveInitialCharacters>
     <SOSaveAdjustedSortOrder>Works</SOSaveAdjustedSortOrder>
-    <SOAddInitialCharacters1>Works</SOAddInitialCharacters1>
+    <SOAddInitialCharacters1 error="#1535, #1536">Mostly</SOAddInitialCharacters1>
     <SOAddInitialCharacters2>Works</SOAddInitialCharacters2>
     <SORechangePositionCharacters>Works</SORechangePositionCharacters>
     <SODeteteSortOrder1 error="#1520">Mostly</SODeteteSortOrder1>
@@ -53,35 +53,36 @@
     <SOCreateInitialCharacters>Works</SOCreateInitialCharacters>
     <SOSaveAdjustedSortOrder>Works</SOSaveAdjustedSortOrder>
     <SODeteteSortOrder2>Works</SODeteteSortOrder2>
-    <FileTabSaveTest>Works</FileTabSaveTest>
+    <FileTabSaveTest error="#1537">Mostly</FileTabSaveTest>
   </SortOrdersTabTest>
   <QueriesAndSearchingTabTestRightTab>
-    <QSAdHocSearchDropDownLexiconList></QSAdHocSearchDropDownLexiconList>
-    <QSAdHocSearchDropDownWhereList></QSAdHocSearchDropDownWhereList>
-    <QSAdHocSearchDropDownListBeginWith1></QSAdHocSearchDropDownListBeginWith1>
-    <QSAdHocSearchDropDownListBeginWith2></QSAdHocSearchDropDownListBeginWith2>
-    <QSAdHocSearchLexicalEntryDetails></QSAdHocSearchLexicalEntryDetails>
-    <QSAdHocSearchDeatailsTab></QSAdHocSearchDeatailsTab>
-    <QSAdHocSearchChangeDetails></QSAdHocSearchChangeDetails>
-    <QSAdHocSearchClosePop-up></QSAdHocSearchClosePop-up>
-    <QSAdHocSearchLexicalEntryReDo></QSAdHocSearchLexicalEntryReDo>
-    <QSAdHocSearchDropDownListEndsWith></QSAdHocSearchDropDownListEndsWith>
-    <QSAdHocSearchCheckPreviousModifiedValue></QSAdHocSearchCheckPreviousModifiedValue>
-    <QSAdHocSearchCheckPreviousModifiedValueReDo></QSAdHocSearchCheckPreviousModifiedValueReDo>
+    <QSAdHocSearchDropDownLexiconList>Works</QSAdHocSearchDropDownLexiconList>
+    <QSAdHocSearchDropDownWhereList>Works</QSAdHocSearchDropDownWhereList>
+    <QSAdHocSearchDropDownListBeginWith1 error=" #1474">Mostly</QSAdHocSearchDropDownListBeginWith1>
+    <QSAdHocSearchDropDownListBeginWith2>Works</QSAdHocSearchDropDownListBeginWith2>
+    <QSAdHocSearchLexicalEntryDetails>Works</QSAdHocSearchLexicalEntryDetails>
+    <QSAdHocSearchDeatailsTab>Works</QSAdHocSearchDeatailsTab>
+    <QSAdHocSearchChangeDetails error=" #1478">Mostly</QSAdHocSearchChangeDetails>
+    <QSAdHocSearchClosePop-up>Works</QSAdHocSearchClosePop-up>
+    <QSAdHocSearchLexicalEntryReDo>Works</QSAdHocSearchLexicalEntryReDo>
+    <QSAdHocSearchDropDownListEndsWith>Works</QSAdHocSearchDropDownListEndsWith>
+    <QSAdHocSearchCheckPreviousModifiedValue>Works</QSAdHocSearchCheckPreviousModifiedValue>
+    <QSAdHocSearchCheckPreviousModifiedValueReDo>Works</QSAdHocSearchCheckPreviousModifiedValueReDo>
   </QueriesAndSearchingTabTestRightTab>
   <UnicodeInputTest>
-    <UCChangeDescription></UCChangeDescription>
-    <UCDescriptionSave></UCDescriptionSave>
-    <UCRedoNonLatinDesc></UCRedoNonLatinDesc>
-    <UCAddANewSortOrder></UCAddANewSortOrder>
-    <UCDeleteUnicodeSortOrder></UCDeleteUnicodeSortOrder>
-    <UCCreateANewQuery></UCCreateANewQuery>
-    <UCDeleteANewQuery></UCDeleteANewQuery>
-    <UCOpenATestLexica></UCOpenATestLexica>
-    <UCSelectLexicalEntry></UCSelectLexicalEntry>
-    <UCEnteringNonLatinCharacters1></UCEnteringNonLatinCharacters1>
-    <UCEnteringNonLatinCharacters2></UCEnteringNonLatinCharacters2>
-    <UCDeleteEnteringNonLatinCharacters></UCDeleteEnteringNonLatinCharacters>
+    <UCChangeDescription>Works</UCChangeDescription>
+    <UCDescriptionSave>Works</UCDescriptionSave>
+    <UCRedoNonLatinDesc>Works</UCRedoNonLatinDesc>
+    <UCAddANewSortOrder>Works</UCAddANewSortOrder>
+    <UCDeleteUnicodeSortOrder>Works</UCDeleteUnicodeSortOrder>
+    <UCEnterLettersUniC>Works</UCEnterLettersUniC>
+    <UCCreateANewQuery>Works</UCCreateANewQuery>
+    <UCDeleteANewQuery>Works</UCDeleteANewQuery>
+    <UCOpenATestLexica>Works</UCOpenATestLexica>
+    <UCSelectLexicalEntry>Works</UCSelectLexicalEntry>
+    <UCEnteringNonLatinCharacters1>Works</UCEnteringNonLatinCharacters1>
+    <UCEnteringNonLatinCharacters2>Works</UCEnteringNonLatinCharacters2>
+    <UCDeleteEnteringNonLatinCharacters>Works</UCDeleteEnteringNonLatinCharacters>
   </UnicodeInputTest>
   <ReadOnlyTest>
     <ROLoginAsUserWs1>Works</ROLoginAsUserWs1>
@@ -111,7 +112,7 @@
   </SchemaAndViewEditorSchemaElementTest>
   <SchemaAndViewEditorViewEditorTest>
     <SVEOpenLexicon>Works</SVEOpenLexicon>
-    <SVEOpenLexicon2></SVEOpenLexicon2>
+    <SVEOpenLexicon2>Works</SVEOpenLexicon2>
     <SVEAddANewView>Works</SVEAddANewView>
     <SVESaveLexeme>Works</SVESaveLexeme>
     <SVEFormattingViewD1>Works</SVEFormattingViewD1>
@@ -129,92 +130,92 @@
     <SVEFormattingViewClass3>Works</SVEFormattingViewClass3>
     <SVEFormattingViewClass4>Works</SVEFormattingViewClass4>
     <SVEFormattingViewClass5>Works</SVEFormattingViewClass5>
-    <SVEFormattingViewClass6 error="background-color:#7722EE doesnt work">Fails</SVEFormattingViewClass6>
-    <SVEFormattingViewTable1></SVEFormattingViewTable1>
-    <SVEFormattingViewTable2></SVEFormattingViewTable2>
-    <SVEFormattingViewTable3></SVEFormattingViewTable3>
-    <SVEFormattingViewTable4></SVEFormattingViewTable4>
-    <SVEFormattingViewTable5></SVEFormattingViewTable5>
-    <SVEFormattingViewTable6></SVEFormattingViewTable6>
-    <SVEFormattingViewTable7></SVEFormattingViewTable7>
-    <SVEFormattingViewTable9></SVEFormattingViewTable9>
-    <SVEFormattingViewTable10></SVEFormattingViewTable10>
-    <SVEFormattingViewTable11></SVEFormattingViewTable11>
+    <SVEFormattingViewClass6 error="the background-color comment doesnt seem to be working. Needs to be checked by Andre">Fails</SVEFormattingViewClass6>
+    <SVEFormattingViewTable1>Works</SVEFormattingViewTable1>
+    <SVEFormattingViewTable2>Works</SVEFormattingViewTable2>
+    <SVEFormattingViewTable3>Works</SVEFormattingViewTable3>
+    <SVEFormattingViewTable4>Works</SVEFormattingViewTable4>
+    <SVEFormattingViewTable5>Works</SVEFormattingViewTable5>
+    <SVEFormattingViewTable6 error="#1469">Strange</SVEFormattingViewTable6>
+    <SVEFormattingViewTable7>Works</SVEFormattingViewTable7>
+    <SVEFormattingViewTable9>Works</SVEFormattingViewTable9>
+    <SVEFormattingViewTable10>Works</SVEFormattingViewTable10>
+    <SVEFormattingViewTable11 error="#1469">Strange</SVEFormattingViewTable11>
   </SchemaAndViewEditorViewEditorTest>
   <LexiconEditorTest>
     <LEAddLexicalEntry>Works</LEAddLexicalEntry>
-    <LESaveModified1></LESaveModified1>
-    <LENSaveModified></LENSaveModified>
-    <LESaveModified2></LESaveModified2>
-    <LEModifyPicture></LEModifyPicture>
-    <LEUploadImage></LEUploadImage>
-    <LESaveModified3></LESaveModified3>
-    <LESaveModified4></LESaveModified4>
-    <LEPictureEditBox></LEPictureEditBox>
-    <LEArchivePopUp></LEArchivePopUp>
-    <LEInstertMPINode></LEInstertMPINode>
-    <LEResourceSave></LEResourceSave>
-    <LEMagnifier></LEMagnifier>
-    <LEWordListSorting1></LEWordListSorting1>
-    <LEWordListSorting2></LEWordListSorting2>
-    <LEChangePositioninSortOrder></LEChangePositioninSortOrder>
-    <LETreeView></LETreeView>
-    <LEAddFeatureSense></LEAddFeatureSense>
-    <LEAddGloss></LEAddGloss>
-    <LEAddValueGloss></LEAddValueGloss>
-    <LEModifyNonLatin></LEModifyNonLatin>
-    <LEChangeSortOrderCyrillic></LEChangeSortOrderCyrillic>
-    <LECheckSortOrderAdjusted></LECheckSortOrderAdjusted>
-    <LEChangingCyrillicLetterPosition></LEChangingCyrillicLetterPosition>
-    <LESwitchLexicon></LESwitchLexicon>
-    <LESelectingGrapheme1></LESelectingGrapheme1>
-    <LEVideoImage></LEVideoImage>
-    <LEVideoSound></LEVideoSound>
-    <LELinkToArchive></LELinkToArchive>
-    <LEOpenLinkToArchive></LEOpenLinkToArchive>
-    <LELexiconWordCheck1></LELexiconWordCheck1>
-    <LEFilterCheck></LEFilterCheck>
-    <LEResultsFilterCheck></LEResultsFilterCheck>
-    <LEResultsFilterDelete></LEResultsFilterDelete>
-    <LELexiconWordCheck2></LELexiconWordCheck2>
-    <LEdOpenWordList></LEdOpenWordList>
-    <LEdDeleteEntry></LEdDeleteEntry>
-    <LEdDeleteEntryCheck></LEdDeleteEntryCheck>
-    <LEdDeleteLexicon></LEdDeleteLexicon>
+    <LESaveModified1>Works</LESaveModified1>
+    <LENSaveModified>Works</LENSaveModified>
+    <LESaveModified2>Works</LESaveModified2>
+    <LEModifyPicture>Works</LEModifyPicture>
+    <LEUploadImage>Works</LEUploadImage>
+    <LESaveModified3 error="No icon appears next to the entry in the entry list.">Mostly</LESaveModified3>
+    <LESaveModified4>Works</LESaveModified4>
+    <LEPictureEditBox error="#1467">Mostly</LEPictureEditBox>
+    <LEArchivePopUp error="No icon appears next to the entry in the entry list.">Mostly</LEArchivePopUp>
+    <LEInstertMPINode>Works</LEInstertMPINode>
+    <LEResourceSave error="MPI600401# doesnt work, MPI600399# does.">Mostly</LEResourceSave>
+    <LEMagnifier error="#1487; checked for MPI600399#; elan file gets downloaded.">Mostly</LEMagnifier>
+    <LEWordListSorting1>Works</LEWordListSorting1>
+    <LEWordListSorting2 error="#1450">Strange</LEWordListSorting2>
+    <LEChangePositioninSortOrder>Works</LEChangePositioninSortOrder>
+    <LETreeView>Works</LETreeView>
+    <LEAddFeatureSense>Works</LEAddFeatureSense>
+    <LEAddGloss>Works</LEAddGloss>
+    <LEAddValueGloss>Works</LEAddValueGloss>
+    <LEModifyNonLatin>Works</LEModifyNonLatin>
+    <LEChangeSortOrderCyrillic>Works</LEChangeSortOrderCyrillic>
+    <LECheckSortOrderAdjusted>Works</LECheckSortOrderAdjusted>
+    <LEChangingCyrillicLetterPosition>Works</LEChangingCyrillicLetterPosition>
+    <LESwitchLexicon>Works</LESwitchLexicon>
+    <LESelectingGrapheme1>Works</LESelectingGrapheme1>
+    <LEVideoImage>Works</LEVideoImage>
+    <LEVideoSound>Works</LEVideoSound>
+    <LELinkToArchive error="No link to archive is available under &quot;chete&quot; (it used to be). Provide me please with an entry which does have a link.">Fails</LELinkToArchive>
+    <LEOpenLinkToArchive error="No link to archive is available under &quot;chete&quot; (it used to be). Provide me please with an entry which does have a link.">Fails</LEOpenLinkToArchive>
+    <LELexiconWordCheck1>Works</LELexiconWordCheck1>
+    <LEFilterCheck>Works</LEFilterCheck>
+    <LEResultsFilterCheck error="The quick seach gives me just 3 pages. Related to #1474?">Mostly</LEResultsFilterCheck>
+    <LEdOpenWordList>Works</LEdOpenWordList>
+    <LEdDeleteEntry>Works</LEdDeleteEntry>
+    <LEdDeleteEntryCheck>Works</LEdDeleteEntryCheck>
+    <LEdDeleteLexicon>Works</LEdDeleteLexicon>
   </LexiconEditorTest>
   <FilterTest>
-    <FTOpen></FTOpen>
-    <FTCreate></FTCreate>
-    <FTCreate1></FTCreate1>
-    <FTCreateFilter1></FTCreateFilter1>
-    <FTCreateFilter2></FTCreateFilter2>
-    <FTLexicon1></FTLexicon1>
-    <FTLexicon2></FTLexicon2>
-    <FTLexicon></FTLexicon>
-    <FTDelete></FTDelete>
+    <FTOpen>Works</FTOpen>
+    <FTCreate>Works</FTCreate>
+    <FTCreate1 error="#1493, #1492, ">Fails</FTCreate1>
+    <FTCreateFilter1>Works</FTCreateFilter1>
+    <FTCreateFilter2>Works</FTCreateFilter2>
+    <FTLexicon1>Works</FTLexicon1>
+    <FTLexicon2>Works</FTLexicon2>
+    <FTLexicon error="#1489">Strange</FTLexicon>
+    <FTDelete error="#1491">Strange</FTDelete>
   </FilterTest>
   <ToolboxConvertTest>
-    <TCSelectingFiles></TCSelectingFiles>
-    <TCUploading1></TCUploading1>
-    <TCUploading2></TCUploading2>
-    <TCUploading3></TCUploading3>
-    <TCFileErrorTest></TCFileErrorTest>
+    <TCSelectingFiles>Works</TCSelectingFiles>
+    <TCUploading1>Works</TCUploading1>
+    <TCUploading2>Works</TCUploading2>
+    <TCUploading3>Works</TCUploading3>
+    <TCUploading4 error="I cannot verify this since I do know now what the structure of the Toolbox file was. Moreover there is a problem with import of these converted files (see below).">Fails</TCUploading4>
+    <TCFileErrorTest>Works</TCFileErrorTest>
   </ToolboxConvertTest>
   <ImportXMLLexusTest>
-    <IExistingLexica></IExistingLexica>
-    <IExistingLexicaBrowseXML1></IExistingLexicaBrowseXML1>
-    <IExistingLexicaBrowseXML2></IExistingLexicaBrowseXML2>
-    <IExistingLexicaBrowseXML3></IExistingLexicaBrowseXML3>
-    <IExistingLexicaLexiconInTheList></IExistingLexicaLexiconInTheList>
-    <IExistingLexicaDelete></IExistingLexicaDelete>
+    <IExistingLexica>Works</IExistingLexica>
+    <IExistingLexicaBrowseXML1>Works</IExistingLexicaBrowseXML1>
+    <IExistingLexicaBrowseXML2>Works</IExistingLexicaBrowseXML2>
+    <IExistingLexicaBrowseXML3>Works</IExistingLexicaBrowseXML3>
+    <IExistingLexicaLexiconInTheList>Works</IExistingLexicaLexiconInTheList>
+    <ExistingLexicaLexiconContentCheck error="I cannot verify it since the imported lexicon contains 0 entries. ">Fails</ExistingLexicaLexiconContentCheck>
+    <IExistingLexicaDelete>Works</IExistingLexicaDelete>
   </ImportXMLLexusTest>
   <ExportTabTest>
-    <ExpToPDF1></ExpToPDF1>
-    <ExpToPDF2></ExpToPDF2>
-    <ExpToPDF3></ExpToPDF3>
-    <ExpToXML1></ExpToXML1>
-    <ExpToXML2></ExpToXML2>
-    <ExpToXML3></ExpToXML3>
+    <ExpToPDF1>Works</ExpToPDF1>
+    <ExpToPDF2>Works</ExpToPDF2>
+    <ExpToPDF3>Works</ExpToPDF3>
+    <ExpToXML1>Works</ExpToXML1>
+    <ExpToXML2>Works</ExpToXML2>
+    <ExpToXML3 error="I cannot open it in Oxygen.  I cannot verify if the xml format is correct. Needs to be checked by Andre.">Fails</ExpToXML3>
   </ExportTabTest>
   <HelpTabTest>
     <HTLexusWebsite>Works</HTLexusWebsite>
