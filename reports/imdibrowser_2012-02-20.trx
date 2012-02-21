@@ -38,7 +38,7 @@
     <MetadataSearch1>Works</MetadataSearch1>
     <MetadataSearch2>Works</MetadataSearch2>
     <AnnotationContentSearch1>Works</AnnotationContentSearch1>
-    <SetAccessRights error="On the content panel it tells me that am error has occured during my request. In the error message detail it says: &quot;Cannot get value for expression '#{!curUserBB.canCreatePcpl}' &quot;">Fails</SetAccessRights>
+    <SetAccessRights>Works</SetAccessRights>
     <DownloadCorpusFile>Works</DownloadCorpusFile>
     <AccessCorpusFile>Works</AccessCorpusFile>
     <DownloadSessionFile>Works</DownloadSessionFile>
@@ -57,7 +57,7 @@
     <RegisterTest1>Works</RegisterTest1>
     <ExistingUserCheck>Works</ExistingUserCheck>
     <ExistingUserRegistration error="see #1548">Mostly</ExistingUserRegistration>
-    <ExistingUserVerification error="you get the e-mail with your user ID and password, but when you type them it does not let you log in">Fails</ExistingUserVerification>
+    <ExistingUserVerification error="creating a new account from scratch doesn't work, but you can create an AMS account when you're already logged in to Shibboleth">Mostly</ExistingUserVerification>
   </RegisterTest>
   <LogInTest>
     <LogInTest1>Works</LogInTest1>
