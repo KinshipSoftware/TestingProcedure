@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImdibrowserBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/imdibrowser_1.xml">
-  <DateTime></DateTime>
-  <ImdibrowserVersion></ImdibrowserVersion>
+  <DateTime>21 - 02 - 2012   1302508501048</DateTime>
+  <ImdibrowserVersion>1.2.9.1</ImdibrowserVersion>
   <OSVersion>Windows 7, Internet Explorer 8, Java 1.6.0_30</OSVersion>
   <Tester>frabec</Tester>
   <StartingIMDI_Browser>
@@ -32,7 +32,7 @@
     <ViewImageResourceFile>Works</ViewImageResourceFile>
     <ViewVideoResourceFile>Works</ViewVideoResourceFile>
     <ViewAudioResourceFile>Works</ViewAudioResourceFile>
-    <ViewInformationFile></ViewInformationFile>
+    <ViewInformationFile>Works</ViewInformationFile>
     <CreateBookmark>Works</CreateBookmark>
     <Links>Works</Links>
     <MetadataSearch1>Works</MetadataSearch1>
@@ -56,11 +56,11 @@
   <RegisterTest>
     <RegisterTest1>Works</RegisterTest1>
     <ExistingUserCheck>Works</ExistingUserCheck>
-    <ExistingUserRegistration error="no e-mail arrived to my address">Fails</ExistingUserRegistration>
-    <ExistingUserVerification></ExistingUserVerification>
+    <ExistingUserRegistration error="see #1548">Mostly</ExistingUserRegistration>
+    <ExistingUserVerification error="you get the e-mail with your user ID and password, but when you type them it does not let you log in">Fails</ExistingUserVerification>
   </RegisterTest>
   <LogInTest>
-    <LogInTest1></LogInTest1>
+    <LogInTest1>Works</LogInTest1>
   </LogInTest>
   <LogOutTest>
     <LogOutTest1>Works</LogOutTest1>
