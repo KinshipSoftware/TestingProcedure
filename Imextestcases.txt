@@ -1,0 +1,13 @@
+
+NodeSearchTest ""
+  OpenMdSession "left click on md session in the tree; select view images; images should appear in a new window as thumbnails"
+OpenThumbnails "opening the thumbnails"
+  OpenThumbnail "left click on the thumbnail to see in full view"
+PreviousButton ""
+  PreviousButton "In full view press on \"previous\" button to see one image before"
+NextButton ""
+  NextButton "In full view press on \"next\" button to see the following image"
+LoggedOutTest ""
+  DragAndDrop ""
+  FullView "Images do not open in full view when not logged in"
+  ViewThumbnails "thumbnails appear blurry when viewing them without being logged in"
