@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImexBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/imex_2012-02-17.xml">
+  <DateTime></DateTime>
+  <ImexVersion></ImexVersion>
+  <OSVersion></OSVersion>
+  <Tester>anavog</Tester>
+  <NodeSearchTest>
+    <OpenMdSession></OpenMdSession>
+  </NodeSearchTest>
+  <OpenThumbnails>
+    <OpenThumbnail></OpenThumbnail>
+  </OpenThumbnails>
+  <PreviousButton>
+    <PreviousButton></PreviousButton>
+  </PreviousButton>
+  <NextButton>
+    <NextButton></NextButton>
+  </NextButton>
+  <LoggedOutTest>
+    <DragAndDrop>Works</DragAndDrop>
+    <DragAndDrop>Works</DragAndDrop>
+    <FullView></FullView>
+    <ViewThumbnails></ViewThumbnails>
+  </LoggedOutTest>
+</ImexBugCheck>
