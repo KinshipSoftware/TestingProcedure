@@ -1,5 +1,7 @@
 
 Metadata_IMD_search ""
+  PullDownMenu "when changing the \"name\" option from pull down menu more buttons appear to the right (each with pull down options)"
+  SessionButton "change \"session\" button to \"catalogue\"; pull down list changes in the (default) \"name\" button"
   AdvancedSearch "click on the \"advanced search\" button; advanced search options appear."
   SimpleSearch "from IMD-corpora node run a simple search, i.e. \"endangered languages\"; results appear in the same window."
   DemonstrationVideo "In Help environment click on demonstration video; video starts"
