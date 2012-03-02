@@ -5,6 +5,9 @@
   <OSVersion></OSVersion>
   <Tester>anavog</Tester>
   <Metadata_IMD_search>
+    <PullDownMenu>Works</PullDownMenu>
+    <SessionButton>Works</SessionButton>
+    <AdvancedSearch>Works</AdvancedSearch>
     <SimpleSearch>Works</SimpleSearch>
     <DemonstrationVideo error="there is no demostration video">Mostly</DemonstrationVideo>
     <HelpKey>Works</HelpKey>
