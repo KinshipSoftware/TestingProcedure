@@ -1,0 +1,7 @@
+
+Metadata_IMD_search ""
+  AdvancedSearch "click on the \"advanced search\" button; advanced search options appear."
+  SimpleSearch "from IMD-corpora node run a simple search, i.e. \"endangered languages\"; results appear in the same window."
+  DemonstrationVideo "In Help environment click on demonstration video; video starts"
+  HelpKey "select HELP key; information on the search appear"
+  OpenMetadataSearch "right click on a corpus node and select metadata search; metadata search opens"
