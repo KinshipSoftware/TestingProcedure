@@ -13,5 +13,14 @@
     <LogIn></LogIn>
     <LogInVerification></LogInVerification>
   </LogInTest>
+  <SimpleSearch>
+    <Find></Find>
+    <ActionConcordanceView></ActionConcordanceView>
+    <ShowInfoBallons></ShowInfoBallons>
+    <ActionFrequencyViewAnnotation></ActionFrequencyViewAnnotation>
+    <ActionFrequencyViewFrequency></ActionFrequencyViewFrequency>
+    <ActionHitTranscription></ActionHitTranscription>
+    <ActionHitCorpusTree></ActionHitCorpusTree>
+  </SimpleSearch>
   <group2/>
 </TrovaBugCheck>
