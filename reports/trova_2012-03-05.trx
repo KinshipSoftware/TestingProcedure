@@ -21,6 +21,9 @@
     <ActionFrequencyViewFrequency></ActionFrequencyViewFrequency>
     <ActionHitTranscription></ActionHitTranscription>
     <ActionHitCorpusTree></ActionHitCorpusTree>
+    <ActionSaveUTF-8></ActionSaveUTF-8>
+    <Page></Page>
+    <Font></Font>
   </SimpleSearch>
   <group2/>
 </TrovaBugCheck>
