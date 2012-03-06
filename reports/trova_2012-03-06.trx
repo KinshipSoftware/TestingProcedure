@@ -34,6 +34,14 @@
     <Domain></Domain>
     <ModeAnnotation></ModeAnnotation>
     <ModeN-GramOverAnnotations></ModeN-GramOverAnnotations>
+    <ModeN-GramWithinAnnotation></ModeN-GramWithinAnnotation>
+    <ModeAnnotationExtraTier1></ModeAnnotationExtraTier1>
+    <ModeAnnotationExtraTier2></ModeAnnotationExtraTier2>
+    <ModeAnnotationExtraTier3></ModeAnnotationExtraTier3>
+    <ModeCaseSensitive></ModeCaseSensitive>
+    <ModeCaseInsensitive></ModeCaseInsensitive>
+    <ModeSubstringMatch></ModeSubstringMatch>
+    <ModeExactMatch></ModeExactMatch>
     <History></History>
     <ActionConcordanceView></ActionConcordanceView>
     <ShowInfoBallons></ShowInfoBallons>
