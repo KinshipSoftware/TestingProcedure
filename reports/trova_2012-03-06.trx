@@ -32,6 +32,8 @@
   <SingleLayerSearch>
     <AnnotationTypes></AnnotationTypes>
     <Domain></Domain>
+    <ModeAnnotation></ModeAnnotation>
+    <ModeN-GramOverAnnotations></ModeN-GramOverAnnotations>
     <History></History>
     <ActionConcordanceView></ActionConcordanceView>
     <ShowInfoBallons></ShowInfoBallons>
