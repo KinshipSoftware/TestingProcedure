@@ -38,10 +38,12 @@
     <ModeAnnotationExtraTier1></ModeAnnotationExtraTier1>
     <ModeAnnotationExtraTier2></ModeAnnotationExtraTier2>
     <ModeAnnotationExtraTier3></ModeAnnotationExtraTier3>
+    <TierChoiceSort></TierChoiceSort>
     <ModeCaseSensitive></ModeCaseSensitive>
     <ModeCaseInsensitive></ModeCaseInsensitive>
     <ModeSubstringMatch></ModeSubstringMatch>
     <ModeExactMatch></ModeExactMatch>
+    <ModeRegularExpression></ModeRegularExpression>
     <History></History>
     <ActionConcordanceView></ActionConcordanceView>
     <ShowInfoBallons></ShowInfoBallons>
@@ -51,6 +53,7 @@
     <ActionHitCorpusTree></ActionHitCorpusTree>
     <Page></Page>
     <Font></Font>
+    <ContextSize></ContextSize>
   </SingleLayerSearch>
   <MultipleLayerSearch/>
 </TrovaBugCheck>
