@@ -23,5 +23,7 @@
     <SearchResults>Works</SearchResults>
     <RightClickOnSearchResults>Works</RightClickOnSearchResults>
     <ShowSessionWithTree>Works</ShowSessionWithTree>
+    <ShowSession>Works</ShowSession>
+    <ContentSearch error="#1604 ">Mostly</ContentSearch>
   </Search_Results>
 </MetadataBugCheck>
