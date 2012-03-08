@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetadataBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/Metadata_IMD_search_2012-03-02.xml">
+  <DateTime></DateTime>
+  <MetadataVersion></MetadataVersion>
+  <OSVersion></OSVersion>
+  <Tester>anavog</Tester>
+  <Metadata_IMD_search>
+    <OpenMetadataSearch></OpenMetadataSearch>
+    <SearchOptions_></SearchOptions_>
+    <SimpleSearch></SimpleSearch>
+    <AdvancedSearch></AdvancedSearch>
+    <AdvancedSearchKeys></AdvancedSearchKeys>
+    <DropDownList></DropDownList>
+    <ExtendSearchOptions></ExtendSearchOptions>
+    <AddConstraint></AddConstraint>
+    <Constraint></Constraint>
+    <AdditionalConstraint error="#1603">Mostly</AdditionalConstraint>
+    <Xkey>Works</Xkey>
+    <DemonstrationVideo></DemonstrationVideo>
+    <HelpKey></HelpKey>
+  </Metadata_IMD_search>
+  <Search_Results>
+    <SearchResults>Works</SearchResults>
+    <RightClickOnSearchResults>Works</RightClickOnSearchResults>
+    <ShowSessionWithTree>Works</ShowSessionWithTree>
+  </Search_Results>
+</MetadataBugCheck>
