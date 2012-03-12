@@ -36,6 +36,7 @@
     <ModeN-GramOverAnnotations></ModeN-GramOverAnnotations>
     <ModeN-GramWithinAnnotation></ModeN-GramWithinAnnotation>
     <Wildcard></Wildcard>
+    <Negation></Negation>
     <ModeAnnotationExtraTier1></ModeAnnotationExtraTier1>
     <ModeAnnotationExtraTier2></ModeAnnotationExtraTier2>
     <ModeAnnotationExtraTier3></ModeAnnotationExtraTier3>
@@ -45,16 +46,47 @@
     <ModeSubstringMatch></ModeSubstringMatch>
     <ModeExactMatch></ModeExactMatch>
     <ModeRegularExpression></ModeRegularExpression>
-    <History></History>
     <ActionConcordanceView></ActionConcordanceView>
     <ShowInfoBallons></ShowInfoBallons>
     <ActionFrequencyViewAnnotation></ActionFrequencyViewAnnotation>
     <ActionFrequencyViewFrequency></ActionFrequencyViewFrequency>
     <ActionHitTranscription></ActionHitTranscription>
     <ActionHitCorpusTree></ActionHitCorpusTree>
+    <ActionSaveUTF-8></ActionSaveUTF-8>
+    <ActionSaveUTF-16></ActionSaveUTF-16>
     <Page></Page>
     <Font></Font>
     <ContextSize></ContextSize>
+    <History></History>
   </SingleLayerSearch>
-  <MultipleLayerSearch/>
+  <MultipleLayerSearch>
+    <AnnotationTypes></AnnotationTypes>
+    <Domain></Domain>
+    <StringSearch1></StringSearch1>
+    <SearchString2></SearchString2>
+    <TierChoiceSort></TierChoiceSort>
+    <ModeCaseSensitive></ModeCaseSensitive>
+    <ModeCaseInsensitive></ModeCaseInsensitive>
+    <ModeSubstringMatch></ModeSubstringMatch>
+    <ModeExactMatch></ModeExactMatch>
+    <ModeRegularExpression></ModeRegularExpression>
+    <ModeResetForm></ModeResetForm>
+    <ModeUnicodeInput></ModeUnicodeInput>
+    <TimeMinimalDuration></TimeMinimalDuration>
+    <TimeMaximalDuration></TimeMaximalDuration>
+    <ImpossibleQuery></ImpossibleQuery>
+    <TimeBeginAfter></TimeBeginAfter>
+    <TimeEndBefore></TimeEndBefore>
+    <ImpossibleQuery></ImpossibleQuery>
+    <TimeVerification></TimeVerification>
+    <ActionShowHits></ActionShowHits>
+    <ShowInfoBalloons></ShowInfoBalloons>
+    <ActionHitTranscription></ActionHitTranscription>
+    <ActionHitCorpusTree></ActionHitCorpusTree>
+    <ActionSaveUTF-8></ActionSaveUTF-8>
+    <ActionSaveUTF-16></ActionSaveUTF-16>
+    <Page></Page>
+    <Font></Font>
+    <History></History>
+  </MultipleLayerSearch>
 </TrovaBugCheck>
