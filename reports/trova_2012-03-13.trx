@@ -41,8 +41,8 @@
     <ModeAnnotationExtraTier2></ModeAnnotationExtraTier2>
     <ModeAnnotationExtraTier3></ModeAnnotationExtraTier3>
     <TierChoiceSort></TierChoiceSort>
-    <ModeCaseSensitive></ModeCaseSensitive>
     <ModeCaseInsensitive></ModeCaseInsensitive>
+    <ModeCaseSensitive></ModeCaseSensitive>
     <ModeSubstringMatch></ModeSubstringMatch>
     <ModeExactMatch></ModeExactMatch>
     <ModeRegularExpression></ModeRegularExpression>
@@ -64,14 +64,25 @@
     <Domain></Domain>
     <StringSearch1></StringSearch1>
     <SearchString2></SearchString2>
+    <SearchString3></SearchString3>
+    <SearchString4></SearchString4>
+    <SearchString5></SearchString5>
+    <SearchString6></SearchString6>
+    <ActionShowHits></ActionShowHits>
+    <ShowInfoBalloons></ShowInfoBalloons>
+    <ActionHitTranscritpion></ActionHitTranscritpion>
+    <ActionHitCorpusTree></ActionHitCorpusTree>
+    <ActionSaveUTF-8></ActionSaveUTF-8>
+    <ActionSaveUTF-16></ActionSaveUTF-16>
     <TierChoiceSort></TierChoiceSort>
-    <ModeCaseSensitive></ModeCaseSensitive>
     <ModeCaseInsensitive></ModeCaseInsensitive>
+    <ModeCaseSensitive></ModeCaseSensitive>
     <ModeSubstringMatch></ModeSubstringMatch>
     <ModeExactMatch></ModeExactMatch>
     <ModeRegularExpression></ModeRegularExpression>
     <ModeResetForm></ModeResetForm>
-    <ModeUnicodeInput></ModeUnicodeInput>
+    <ModeUnicodeInput1></ModeUnicodeInput1>
+    <ModeUnicodeInput2></ModeUnicodeInput2>
     <TimeMinimalDuration></TimeMinimalDuration>
     <TimeMaximalDuration></TimeMaximalDuration>
     <ImpossibleQuery></ImpossibleQuery>
@@ -79,14 +90,11 @@
     <TimeEndBefore></TimeEndBefore>
     <ImpossibleQuery></ImpossibleQuery>
     <TimeVerification></TimeVerification>
-    <ActionShowHits></ActionShowHits>
-    <ShowInfoBalloons></ShowInfoBalloons>
-    <ActionHitTranscription></ActionHitTranscription>
-    <ActionHitCorpusTree></ActionHitCorpusTree>
-    <ActionSaveUTF-8></ActionSaveUTF-8>
-    <ActionSaveUTF-16></ActionSaveUTF-16>
     <Page></Page>
     <Font></Font>
     <History></History>
   </MultipleLayerSearch>
+  <LogOutTest>
+    <LogOut></LogOut>
+  </LogOutTest>
 </TrovaBugCheck>
