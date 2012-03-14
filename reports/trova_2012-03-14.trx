@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TrovaBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/trova_2012-03-05.xml">
-  <DateTime></DateTime>
-  <TrovaVersion></TrovaVersion>
-  <OSVersion></OSVersion>
+  <DateTime>14 - 03 - 2012</DateTime>
+  <TrovaVersion>TROVA 1.1.28838</TrovaVersion>
+  <OSVersion>Windows 7, Internet Explorer 9</OSVersion>
   <Tester>frabec</Tester>
   <StartingTrova>
-    <StartingIMDI_Browser></StartingIMDI_Browser>
-    <StartingTrova></StartingTrova>
-    <AddMoreNodes></AddMoreNodes>
+    <StartingIMDI_Browser>Works</StartingIMDI_Browser>
+    <StartingTrova>Works</StartingTrova>
+    <AddMoreNodes>Works</AddMoreNodes>
   </StartingTrova>
   <LogInTest>
-    <LogIn></LogIn>
-    <LogInVerification></LogInVerification>
+    <LogIn>Works</LogIn>
+    <LogInVerification>Works</LogInVerification>
   </LogInTest>
   <SimpleSearch>
-    <Find></Find>
-    <AnnotationTypes></AnnotationTypes>
-    <Domain></Domain>
-    <ActionConcordanceView></ActionConcordanceView>
-    <ShowInfoBalloons></ShowInfoBalloons>
-    <ActionFrequencyViewAnnotation></ActionFrequencyViewAnnotation>
-    <ActionFrequencyViewFrequency></ActionFrequencyViewFrequency>
-    <ActionHitTranscription></ActionHitTranscription>
-    <ActionHitCorpusTree></ActionHitCorpusTree>
+    <Find>Works</Find>
+    <AnnotationTypes>Works</AnnotationTypes>
+    <Domain>Works</Domain>
+    <ActionConcordanceView>Works</ActionConcordanceView>
+    <ShowInfoBalloons>Works</ShowInfoBalloons>
+    <ActionFrequencyViewAnnotation>Works</ActionFrequencyViewAnnotation>
+    <ActionFrequencyViewFrequency>Works</ActionFrequencyViewFrequency>
+    <ActionHitTranscription error="#1613">Fails</ActionHitTranscription>
+    <ActionHitCorpusTree>Works</ActionHitCorpusTree>
     <ActionSaveUTF-8></ActionSaveUTF-8>
     <ActionSaveUTF-16></ActionSaveUTF-16>
     <Page></Page>
