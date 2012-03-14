@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TrovaBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/trova_2012-03-05.xml">
   <DateTime>14 - 03 - 2012</DateTime>
-  <TrovaVersion>TROVA 1.1.28838</TrovaVersion>
-  <OSVersion>Windows 7, Internet Explorer 9</OSVersion>
+  <TrovaVersion>TROVA 1.1.29759</TrovaVersion>
+  <OSVersion>Windows 7, Internet Explorer 9, Java 1.6.0_30</OSVersion>
   <Tester>frabec</Tester>
   <StartingTrova>
     <StartingIMDI_Browser>Works</StartingIMDI_Browser>
@@ -21,44 +21,44 @@
     <ShowInfoBalloons>Works</ShowInfoBalloons>
     <ActionFrequencyViewAnnotation>Works</ActionFrequencyViewAnnotation>
     <ActionFrequencyViewFrequency>Works</ActionFrequencyViewFrequency>
-    <ActionHitTranscription error="#1613">Fails</ActionHitTranscription>
+    <ActionHitTranscription>Works</ActionHitTranscription>
     <ActionHitCorpusTree>Works</ActionHitCorpusTree>
-    <ActionSaveUTF-8></ActionSaveUTF-8>
-    <ActionSaveUTF-16></ActionSaveUTF-16>
-    <Page></Page>
-    <Font></Font>
-    <ContextSize></ContextSize>
+    <ActionSaveUTF-8>Works</ActionSaveUTF-8>
+    <ActionSaveUTF-16>Works</ActionSaveUTF-16>
+    <Page>Works</Page>
+    <Font>Works</Font>
+    <ContextSize>Works</ContextSize>
   </SimpleSearch>
   <SingleLayerSearch>
-    <Find></Find>
-    <AnnotationTypes></AnnotationTypes>
-    <Domain></Domain>
-    <ModeAnnotation></ModeAnnotation>
-    <ModeN-GramOverAnnotations></ModeN-GramOverAnnotations>
-    <ModeN-GramWithinAnnotation></ModeN-GramWithinAnnotation>
-    <Wildcard></Wildcard>
-    <Negation></Negation>
-    <ModeAnnotationExtraTier1></ModeAnnotationExtraTier1>
-    <ModeAnnotationExtraTier2></ModeAnnotationExtraTier2>
-    <ModeAnnotationExtraTier3></ModeAnnotationExtraTier3>
-    <TierChoiceSort></TierChoiceSort>
-    <ModeCaseInsensitive></ModeCaseInsensitive>
-    <ModeCaseSensitive></ModeCaseSensitive>
-    <ModeSubstringMatch></ModeSubstringMatch>
-    <ModeExactMatch></ModeExactMatch>
-    <ModeRegularExpression></ModeRegularExpression>
-    <ActionConcordanceView></ActionConcordanceView>
-    <ShowInfoBalloons></ShowInfoBalloons>
-    <ActionFrequencyViewAnnotation></ActionFrequencyViewAnnotation>
-    <ActionFrequencyViewFrequency></ActionFrequencyViewFrequency>
-    <ActionHitTranscription></ActionHitTranscription>
-    <ActionHitCorpusTree></ActionHitCorpusTree>
-    <ActionSaveUTF-8></ActionSaveUTF-8>
-    <ActionSaveUTF-16></ActionSaveUTF-16>
-    <Page></Page>
-    <Font></Font>
-    <ContextSize></ContextSize>
-    <History></History>
+    <Find>Works</Find>
+    <AnnotationTypes>Works</AnnotationTypes>
+    <Domain>Works</Domain>
+    <ModeAnnotation>Works</ModeAnnotation>
+    <ModeN-GramOverAnnotations>Works</ModeN-GramOverAnnotations>
+    <ModeN-GramWithinAnnotation>Works</ModeN-GramWithinAnnotation>
+    <Wildcard>Works</Wildcard>
+    <Negation>Works</Negation>
+    <ModeAnnotationExtraTier1>Works</ModeAnnotationExtraTier1>
+    <ModeAnnotationExtraTier2>Works</ModeAnnotationExtraTier2>
+    <ModeAnnotationExtraTier3>Works</ModeAnnotationExtraTier3>
+    <TierChoiceSort>Works</TierChoiceSort>
+    <ModeCaseInsensitive>Works</ModeCaseInsensitive>
+    <ModeCaseSensitive>Works</ModeCaseSensitive>
+    <ModeSubstringMatch>Works</ModeSubstringMatch>
+    <ModeExactMatch>Works</ModeExactMatch>
+    <ModeRegularExpression>Works</ModeRegularExpression>
+    <ActionConcordanceView>Works</ActionConcordanceView>
+    <ShowInfoBalloons>Works</ShowInfoBalloons>
+    <ActionFrequencyViewAnnotation error="Instead of the results in alphabetical order this sentence appeared: [Requested sub-list array index span out of range: [0...15]]">Strange</ActionFrequencyViewAnnotation>
+    <ActionFrequencyViewFrequency error="As in the previous test, I don">Strange</ActionFrequencyViewFrequency>
+    <ActionHitTranscription>Works</ActionHitTranscription>
+    <ActionHitCorpusTree error="The first time you try it you have to reload the page. Then if you try it again it works immediately.">Mostly</ActionHitCorpusTree>
+    <ActionSaveUTF-8>Works</ActionSaveUTF-8>
+    <ActionSaveUTF-16>Works</ActionSaveUTF-16>
+    <Page>Works</Page>
+    <Font>Works</Font>
+    <ContextSize>Works</ContextSize>
+    <History>Works</History>
   </SingleLayerSearch>
   <MultipleLayerSearch>
     <SearchString1></SearchString1>
