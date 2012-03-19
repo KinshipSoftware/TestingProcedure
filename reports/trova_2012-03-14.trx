@@ -85,18 +85,18 @@
     <ModeResetForm>Works</ModeResetForm>
     <ModeUnicodeInput1>Works</ModeUnicodeInput1>
     <ModeUnicodeInput2>Works</ModeUnicodeInput2>
-    <TimeMinimalDuration></TimeMinimalDuration>
-    <TimeMaximalDuration></TimeMaximalDuration>
-    <ImpossibleQuery></ImpossibleQuery>
-    <TimeBeginAfter></TimeBeginAfter>
-    <TimeEndBefore></TimeEndBefore>
-    <ImpossibleQuery></ImpossibleQuery>
-    <TimeVerification></TimeVerification>
+    <TimeMinimalDuration>Works</TimeMinimalDuration>
+    <TimeMaximalDuration>Works</TimeMaximalDuration>
+    <ImpossibleQuery>Works</ImpossibleQuery>
+    <TimeBeginAfter>Works</TimeBeginAfter>
+    <TimeEndBefore>Works</TimeEndBefore>
+    <ImpossibleQuery>Works</ImpossibleQuery>
+    <TimeVerification>Works</TimeVerification>
     <Page>Works</Page>
     <Font>Works</Font>
     <History>Works</History>
   </MultipleLayerSearch>
   <LogOutTest>
-    <LogOut></LogOut>
+    <LogOut>Works</LogOut>
   </LogOutTest>
 </TrovaBugCheck>
