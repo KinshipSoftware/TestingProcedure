@@ -88,8 +88,8 @@
     <TimeMinimalDuration>Works</TimeMinimalDuration>
     <TimeMaximalDuration>Works</TimeMaximalDuration>
     <ImpossibleQuery>Works</ImpossibleQuery>
-    <TimeBeginAfter>Works</TimeBeginAfter>
-    <TimeEndBefore>Works</TimeEndBefore>
+    <TimeBeginAfter error="see #1624">Mostly</TimeBeginAfter>
+    <TimeEndBefore error="see #1624">Mostly</TimeEndBefore>
     <ImpossibleQuery>Works</ImpossibleQuery>
     <TimeVerification>Works</TimeVerification>
     <Page>Works</Page>
