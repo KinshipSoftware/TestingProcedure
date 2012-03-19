@@ -2,7 +2,7 @@
 <TrovaBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/trova_2012-03-05.xml">
   <DateTime>14 - 03 - 2012</DateTime>
   <TrovaVersion>TROVA 1.1.29759</TrovaVersion>
-  <OSVersion>Windows 7, Internet Explorer 9, Java 1.6.0_30</OSVersion>
+  <OSVersion>Windows 7, Internet Explorer 9, Java 6.0.300.12</OSVersion>
   <Tester>frabec</Tester>
   <StartingTrova>
     <StartingIMDI_Browser>Works</StartingIMDI_Browser>
@@ -49,10 +49,10 @@
     <ModeRegularExpression>Works</ModeRegularExpression>
     <ActionConcordanceView>Works</ActionConcordanceView>
     <ShowInfoBalloons>Works</ShowInfoBalloons>
-    <ActionFrequencyViewAnnotation error="Instead of the results in alphabetical order this sentence appeared: [Requested sub-list array index span out of range: [0...15]]">Strange</ActionFrequencyViewAnnotation>
-    <ActionFrequencyViewFrequency error="As in the previous test, I don">Strange</ActionFrequencyViewFrequency>
+    <ActionFrequencyViewAnnotation error="#1623 Instead of the results in alphabetical order this sentence appeared: [Requested sub-list array index span out of range: [0...15]]">Strange</ActionFrequencyViewAnnotation>
+    <ActionFrequencyViewFrequency error="#1623 As in the previous test, instead of percentages in decrescent order, it showed only one, negative, percentage">Strange</ActionFrequencyViewFrequency>
     <ActionHitTranscription>Works</ActionHitTranscription>
-    <ActionHitCorpusTree error="The first time you try it you have to reload the page. Then if you try it again it works immediately.">Mostly</ActionHitCorpusTree>
+    <ActionHitCorpusTree>Works</ActionHitCorpusTree>
     <ActionSaveUTF-8>Works</ActionSaveUTF-8>
     <ActionSaveUTF-16>Works</ActionSaveUTF-16>
     <Page>Works</Page>
@@ -61,30 +61,30 @@
     <History>Works</History>
   </SingleLayerSearch>
   <MultipleLayerSearch>
-    <SearchString1></SearchString1>
-    <AnnotationTypes></AnnotationTypes>
-    <Domain></Domain>
-    <SearchString2></SearchString2>
-    <SearchString3></SearchString3>
-    <SearchString4></SearchString4>
-    <SearchString5></SearchString5>
-    <SearchString6></SearchString6>
-    <ActionShowHits></ActionShowHits>
-    <ShowInfoBalloons></ShowInfoBalloons>
-    <ActionHitTranscritpion></ActionHitTranscritpion>
-    <ActionHitCorpusTree></ActionHitCorpusTree>
-    <ActionSaveUTF-8></ActionSaveUTF-8>
-    <ActionSaveUTF-16></ActionSaveUTF-16>
-    <TierChoiceSort></TierChoiceSort>
-    <ModeCaseInsensitive></ModeCaseInsensitive>
-    <ModeCaseSensitive></ModeCaseSensitive>
-    <ModeSubstringMatch></ModeSubstringMatch>
-    <ModeExactMatch></ModeExactMatch>
-    <ModeRegularExpression></ModeRegularExpression>
-    <ModeRegularExpression2></ModeRegularExpression2>
-    <ModeResetForm></ModeResetForm>
-    <ModeUnicodeInput1></ModeUnicodeInput1>
-    <ModeUnicodeInput2></ModeUnicodeInput2>
+    <SearchString1>Works</SearchString1>
+    <AnnotationTypes>Works</AnnotationTypes>
+    <Domain>Works</Domain>
+    <SearchString2>Works</SearchString2>
+    <SearchString3>Works</SearchString3>
+    <SearchString4>Works</SearchString4>
+    <SearchString5>Works</SearchString5>
+    <SearchString6>Works</SearchString6>
+    <ActionShowHits>Works</ActionShowHits>
+    <ShowInfoBalloons>Works</ShowInfoBalloons>
+    <ActionHitTranscritpion>Works</ActionHitTranscritpion>
+    <ActionHitCorpusTree>Works</ActionHitCorpusTree>
+    <ActionSaveUTF-8>Works</ActionSaveUTF-8>
+    <ActionSaveUTF-16>Works</ActionSaveUTF-16>
+    <TierChoiceSort>Works</TierChoiceSort>
+    <ModeCaseInsensitive>Works</ModeCaseInsensitive>
+    <ModeCaseSensitive>Works</ModeCaseSensitive>
+    <ModeSubstringMatch>Works</ModeSubstringMatch>
+    <ModeExactMatch>Works</ModeExactMatch>
+    <ModeRegularExpression>Works</ModeRegularExpression>
+    <ModeRegularExpression2>Works</ModeRegularExpression2>
+    <ModeResetForm>Works</ModeResetForm>
+    <ModeUnicodeInput1>Works</ModeUnicodeInput1>
+    <ModeUnicodeInput2>Works</ModeUnicodeInput2>
     <TimeMinimalDuration></TimeMinimalDuration>
     <TimeMaximalDuration></TimeMaximalDuration>
     <ImpossibleQuery></ImpossibleQuery>
@@ -92,9 +92,9 @@
     <TimeEndBefore></TimeEndBefore>
     <ImpossibleQuery></ImpossibleQuery>
     <TimeVerification></TimeVerification>
-    <Page></Page>
-    <Font></Font>
-    <History></History>
+    <Page>Works</Page>
+    <Font>Works</Font>
+    <History>Works</History>
   </MultipleLayerSearch>
   <LogOutTest>
     <LogOut></LogOut>
