@@ -69,6 +69,8 @@
     <SearchString4>Works</SearchString4>
     <SearchString5>Works</SearchString5>
     <SearchString6>Works</SearchString6>
+    <Wildcard>Works</Wildcard>
+    <Negation>Works</Negation>
     <ActionShowHits>Works</ActionShowHits>
     <ShowInfoBalloons>Works</ShowInfoBalloons>
     <ActionHitTranscritpion>Works</ActionHitTranscritpion>
