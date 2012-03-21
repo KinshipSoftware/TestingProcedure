@@ -69,6 +69,9 @@
     <SearchString4>Works</SearchString4>
     <SearchString5>Works</SearchString5>
     <SearchString6>Works</SearchString6>
+    <SameParent>Works</SameParent>
+    <ParentChild>Works</ParentChild>
+    <SameFile>Works</SameFile>
     <Wildcard>Works</Wildcard>
     <Negation>Works</Negation>
     <ActionShowHits>Works</ActionShowHits>
@@ -90,8 +93,8 @@
     <TimeMinimalDuration>Works</TimeMinimalDuration>
     <TimeMaximalDuration>Works</TimeMaximalDuration>
     <ImpossibleQuery>Works</ImpossibleQuery>
-    <TimeBeginAfter error="see #1624">Mostly</TimeBeginAfter>
-    <TimeEndBefore error="see #1624">Mostly</TimeEndBefore>
+    <TimeBeginAfter>Works</TimeBeginAfter>
+    <TimeEndBefore>Works</TimeEndBefore>
     <ImpossibleQuery>Works</ImpossibleQuery>
     <TimeVerification>Works</TimeVerification>
     <Page>Works</Page>
