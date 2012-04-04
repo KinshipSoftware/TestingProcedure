@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KinoathBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/kinoath_2012-04-04.xml">
+  <DateTime></DateTime>
+  <KinoathVersion></KinoathVersion>
+  <OSVersion></OSVersion>
+  <Tester>frabec</Tester>
+  <SampleDiagramTest/>
+  <StandardDiagram/>
+</KinoathBugCheck>
