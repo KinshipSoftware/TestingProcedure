@@ -56,5 +56,23 @@
     <QueryDiagram1></QueryDiagram1>
     <QueryDiagram2></QueryDiagram2>
     <EntitySearch1></EntitySearch1>
+    <EntitySearch2></EntitySearch2>
+    <EntitySearch3></EntitySearch3>
+    <ArchiveLinker1></ArchiveLinker1>
+    <ArchiveLinker2></ArchiveLinker2>
   </NewDiagramsTest>
+  <Menus>
+    <Edit></Edit>
+    <DiagramOptions></DiagramOptions>
+    <KinTerms></KinTerms>
+    <Panels></Panels>
+    <DiagramSettings1></DiagramSettings1>
+    <DiagramSettings2></DiagramSettings2>
+    <DiagramSettings3></DiagramSettings3>
+    <DiagramSettings4></DiagramSettings4>
+    <DiagramSettings5></DiagramSettings5>
+    <DiagramSettings6></DiagramSettings6>
+    <Window></Window>
+    <Help></Help>
+  </Menus>
 </KinoathBugCheck>
