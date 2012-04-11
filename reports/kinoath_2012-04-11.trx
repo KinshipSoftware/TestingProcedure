@@ -60,13 +60,16 @@
     <EntitySearch3></EntitySearch3>
     <ArchiveLinker1></ArchiveLinker1>
     <ArchiveLinker2></ArchiveLinker2>
+    <ArchiveLinker3></ArchiveLinker3>
+    <ArchiveLinker4></ArchiveLinker4>
+    <ArchiveLinker5></ArchiveLinker5>
   </NewDiagramsTest>
   <Menus>
-    <FileOpen></FileOpen>
     <RecentDiagram></RecentDiagram>
     <Gedcom_CSV></Gedcom_CSV>
     <EntityUpload></EntityUpload>
     <SaveFile></SaveFile>
+    <OpenFile></OpenFile>
     <ExportPDF></ExportPDF>
     <ExportR_SPSS></ExportR_SPSS>
     <Close></Close>
