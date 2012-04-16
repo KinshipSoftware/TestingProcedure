@@ -47,6 +47,21 @@
     <StandardDiagram3></StandardDiagram3>
     <StandardDiagram4></StandardDiagram4>
     <StandardDiagram5></StandardDiagram5>
+    <ChromosomeType></ChromosomeType>
+    <Gedcom_entity></Gedcom_entity>
+    <Geometry1></Geometry1>
+    <Geometry2></Geometry2>
+    <Delete></Delete>
+    <Merge></Merge>
+    <Duplicate></Duplicate>
+    <SetEgo></SetEgo>
+    <AddEgoList></AddEgoList>
+    <RemoveEgoList></RemoveEgoList>
+    <Keep></Keep>
+    <Release></Release>
+    <ResetZoom></ResetZoom>
+    <ResetLayout></ResetLayout>
+    <SaveChanges></SaveChanges>
     <FreeformDiagram1></FreeformDiagram1>
     <FreeformDiagram2></FreeformDiagram2>
     <KinTerms1></KinTerms1>
@@ -66,6 +81,7 @@
   </NewDiagramsTest>
   <Menus>
     <RecentDiagram></RecentDiagram>
+    <RecentDiagram2></RecentDiagram2>
     <Gedcom_CSV></Gedcom_CSV>
     <SaveFile></SaveFile>
     <OpenFile></OpenFile>
@@ -77,6 +93,8 @@
     <Edit></Edit>
     <DiagramOptions></DiagramOptions>
     <KinTerms></KinTerms>
+    <Import></Import>
+    <Export></Export>
     <Panels></Panels>
     <DiagramSettings1></DiagramSettings1>
     <DiagramSettings2></DiagramSettings2>
@@ -86,5 +104,6 @@
     <DiagramSettings6></DiagramSettings6>
     <Window></Window>
     <Help></Help>
+    <Exit></Exit>
   </Menus>
 </KinoathBugCheck>
