@@ -50,6 +50,10 @@
     <ImportedData2></ImportedData2>
     <ImportedData3></ImportedData3>
     <ImportData4></ImportData4>
+    <HaemophiliaEu1></HaemophiliaEu1>
+    <HaemophiliaEu2></HaemophiliaEu2>
+    <HaemophiliaEu3></HaemophiliaEu3>
+    <HaemophiliaEu4></HaemophiliaEu4>
   </SampleDiagramsTest>
   <NewDiagramsTest>
     <StandardDiagram1></StandardDiagram1>
@@ -115,8 +119,6 @@
     <RelationType></RelationType>
     <LineColour></LineColour>
     <LineWidth></LineWidth>
-    <LineDash></LineDash>
-    <LineOrientation></LineOrientation>
     <DeleteSelected></DeleteSelected>
     <Window></Window>
     <Help></Help>
