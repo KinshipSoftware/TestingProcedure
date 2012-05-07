@@ -1,111 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <KinoathBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/kinoath_2012-04-04.xml">
-  <DateTime></DateTime>
-  <KinoathVersion></KinoathVersion>
-  <OSVersion></OSVersion>
+  <DateTime>2012-05-07</DateTime>
+  <KinoathVersion>KinOath 1.0.30691</KinoathVersion>
+  <OSVersion>Windows 7, Internet Explorer 9, Java 1.6.0_30</OSVersion>
   <Tester>frabec</Tester>
   <StartKinOath>
-    <Start></Start>
+    <Start>Works</Start>
   </StartKinOath>
   <SampleDiagramsTest>
-    <FreeformDiagramSyntax1></FreeformDiagramSyntax1>
-    <FreeformDiagramSyntax2></FreeformDiagramSyntax2>
-    <FreeformDiagramSyntax3></FreeformDiagramSyntax3>
-    <FreeformDiagramSyntax4></FreeformDiagramSyntax4>
-    <QueryDiagramSyntax1></QueryDiagramSyntax1>
-    <QueryDiagramSyntax2></QueryDiagramSyntax2>
-    <QueryDiagramSyntax3></QueryDiagramSyntax3>
-    <QueryDiagramSyntax4></QueryDiagramSyntax4>
-    <HawaiianKinTerms1></HawaiianKinTerms1>
-    <HawaiianKinTerms2></HawaiianKinTerms2>
-    <HawaiianKinTerms3></HawaiianKinTerms3>
-    <HawaiianKinTerms4></HawaiianKinTerms4>
-    <HawaiianKinTerms5></HawaiianKinTerms5>
-    <HawaiianKinTerms6></HawaiianKinTerms6>
-    <HawaiianKinTerms7></HawaiianKinTerms7>
-    <JapaneseKinTerms1></JapaneseKinTerms1>
-    <JapaneseKinTerms2></JapaneseKinTerms2>
-    <JapaneseKinTerms3></JapaneseKinTerms3>
-    <JapaneseKinTerms4></JapaneseKinTerms4>
-    <JapaneseKinTerms5></JapaneseKinTerms5>
-    <JapaneseKinTerms6></JapaneseKinTerms6>
-    <JapaneseKinTerms7></JapaneseKinTerms7>
-    <SwedishKinTerms1></SwedishKinTerms1>
-    <SwedishKinTerms2></SwedishKinTerms2>
-    <SwedishKinTerms3></SwedishKinTerms3>
-    <SwedishKinTerms4></SwedishKinTerms4>
-    <SwedishKinTerms5></SwedishKinTerms5>
-    <SwedishKinTerms6></SwedishKinTerms6>
-    <SwedishKinTerms7></SwedishKinTerms7>
-    <NamedTransientEntities1></NamedTransientEntities1>
-    <NamedTransientEntities2></NamedTransientEntities2>
-    <NamedTransientEntities3></NamedTransientEntities3>
-    <MatrimonialRingsExamples1></MatrimonialRingsExamples1>
-    <MatrimonialRingsExamples2></MatrimonialRingsExamples2>
-    <MatrimonialRingsExamples3></MatrimonialRingsExamples3>
-    <CharlesIIOfSpain1></CharlesIIOfSpain1>
-    <CharlesIIOfSpain2></CharlesIIOfSpain2>
-    <CharlesIIOfSpain3></CharlesIIOfSpain3>
-    <ImportedData1></ImportedData1>
-    <ImportedData2></ImportedData2>
-    <ImportedData3></ImportedData3>
-    <ImportData4></ImportData4>
-    <HaemophiliaEu1></HaemophiliaEu1>
-    <HaemophiliaEu2></HaemophiliaEu2>
-    <HaemophiliaEu3></HaemophiliaEu3>
+    <FreeformDiagramSyntax1>Works</FreeformDiagramSyntax1>
+    <FreeformDiagramSyntax2>Works</FreeformDiagramSyntax2>
+    <FreeformDiagramSyntax3>Works</FreeformDiagramSyntax3>
+    <FreeformDiagramSyntax4 error="Sometimes - not always - it happens that the entities (both new and already existing) do appear in the diagram, but they are placed in the wrong position. See ticket #1691">Mostly</FreeformDiagramSyntax4>
+    <QueryDiagramSyntax1>Works</QueryDiagramSyntax1>
+    <QueryDiagramSyntax2>Works</QueryDiagramSyntax2>
+    <QueryDiagramSyntax3>Works</QueryDiagramSyntax3>
+    <QueryDiagramSyntax4>Works</QueryDiagramSyntax4>
+    <QueryDiagramSyntax5>Works</QueryDiagramSyntax5>
+    <QueryDiagramSyntax6>Works</QueryDiagramSyntax6>
+    <HawaiianKinTerms1>Works</HawaiianKinTerms1>
+    <HawaiianKinTerms2>Works</HawaiianKinTerms2>
+    <HawaiianKinTerms3>Works</HawaiianKinTerms3>
+    <HawaiianKinTerms3b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</HawaiianKinTerms3b>
+    <HawaiianKinTerms4>Works</HawaiianKinTerms4>
+    <HawaiianKinTerms5>Works</HawaiianKinTerms5>
+    <HawaiianKinTerms6>Works</HawaiianKinTerms6>
+    <HawaiianKinTerms7>Works</HawaiianKinTerms7>
+    <JapaneseKinTerms1>Works</JapaneseKinTerms1>
+    <JapaneseKinTerms2>Works</JapaneseKinTerms2>
+    <JapaneseKinTerms3 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</JapaneseKinTerms3>
+    <JapaneseKinTerms4>Works</JapaneseKinTerms4>
+    <JapaneseKinTerms5>Works</JapaneseKinTerms5>
+    <JapaneseKinTerms5b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</JapaneseKinTerms5b>
+    <JapaneseKinTerms6>Works</JapaneseKinTerms6>
+    <JapaneseKinTerms7>Works</JapaneseKinTerms7>
+    <SwedishKinTerms1>Works</SwedishKinTerms1>
+    <SwedishKinTerms2>Works</SwedishKinTerms2>
+    <SwedishKinTerms3 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</SwedishKinTerms3>
+    <SwedishKinTerms4>Works</SwedishKinTerms4>
+    <SwedishKinTerms5>Works</SwedishKinTerms5>
+    <SwedishKinTerms5b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</SwedishKinTerms5b>
+    <SwedishKinTerms6>Works</SwedishKinTerms6>
+    <SwedishKinTerms7>Works</SwedishKinTerms7>
+    <NamedTransientEntities1>Works</NamedTransientEntities1>
+    <NamedTransientEntities2>Works</NamedTransientEntities2>
+    <NamedTransientEntities3>Works</NamedTransientEntities3>
+    <NamedTransientEntities4 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</NamedTransientEntities4>
+    <MatrimonialRingsExamples1>Works</MatrimonialRingsExamples1>
+    <MatrimonialRingsExamples2>Works</MatrimonialRingsExamples2>
+    <CharlesIIOfSpain1>Works</CharlesIIOfSpain1>
+    <CharlesIIOfSpain2>Works</CharlesIIOfSpain2>
+    <CharlesIIOfSpain3>Works</CharlesIIOfSpain3>
+    <CharlesIIOfSpain4 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</CharlesIIOfSpain4>
+    <ImportedData1>Works</ImportedData1>
+    <ImportedData2>Works</ImportedData2>
+    <ImportedData3>Works</ImportedData3>
+    <ImportedData4>Works</ImportedData4>
+    <ImportedData5>Works</ImportedData5>
+    <ImportedData6>Works</ImportedData6>
+    <HaemophiliaEu1>Works</HaemophiliaEu1>
+    <HaemophiliaEu2>Works</HaemophiliaEu2>
+    <HaemophiliaEu3>Works</HaemophiliaEu3>
     <HaemophiliaEu4></HaemophiliaEu4>
+    <HaemophiliaEu5></HaemophiliaEu5>
   </SampleDiagramsTest>
   <NewDiagramsTest>
-    <StandardDiagram1></StandardDiagram1>
-    <StandardDiagram2></StandardDiagram2>
-    <StandardDiagram3></StandardDiagram3>
-    <StandardDiagram4></StandardDiagram4>
-    <StandardDiagram5></StandardDiagram5>
+    <StandardDiagram1>Works</StandardDiagram1>
+    <StandardDiagram2>Works</StandardDiagram2>
+    <StandardDiagram3>Works</StandardDiagram3>
+    <StandardDiagram4>Works</StandardDiagram4>
+    <StandardDiagram5>Works</StandardDiagram5>
     <ChromosomeType></ChromosomeType>
-    <Geometry1></Geometry1>
-    <Geometry2></Geometry2>
-    <Delete></Delete>
-    <Merge></Merge>
-    <Duplicate></Duplicate>
-    <SetEgo></SetEgo>
-    <AddEgoList></AddEgoList>
-    <RemoveEgoList></RemoveEgoList>
-    <Keep></Keep>
-    <Release></Release>
-    <ResetZoom></ResetZoom>
-    <ResetLayout></ResetLayout>
-    <SaveChanges></SaveChanges>
-    <StandardDiagram6></StandardDiagram6>
-    <FreeformDiagram1></FreeformDiagram1>
-    <FreeformDiagram2></FreeformDiagram2>
-    <KinTerms1></KinTerms1>
-    <KinTerms2></KinTerms2>
-    <KinTerms3></KinTerms3>
-    <KinTerms4></KinTerms4>
-    <KinTerms5></KinTerms5>
-    <KinTerms6></KinTerms6>
-    <QueryDiagram1></QueryDiagram1>
-    <QueryDiagram2></QueryDiagram2>
-    <ArchiveLinker1></ArchiveLinker1>
-    <ArchiveLinker2></ArchiveLinker2>
-    <ArchiveLinker3></ArchiveLinker3>
-    <ArchiveLinker4></ArchiveLinker4>
-    <ArchiveLinker5></ArchiveLinker5>
+    <Geometry1>Works</Geometry1>
+    <Geometry2>Works</Geometry2>
+    <Delete>Works</Delete>
+    <Merge error="This option is not yet fully functional for this first version of KinOath because after merging the new entity carries the information of only one of the two entities. To be tested for next versions.">Empty</Merge>
+    <Duplicate>Works</Duplicate>
+    <SetEgo>Works</SetEgo>
+    <AddEgoList>Works</AddEgoList>
+    <RemoveEgoList>Works</RemoveEgoList>
+    <Keep>Works</Keep>
+    <Release>Works</Release>
+    <ResetZoom>Works</ResetZoom>
+    <ResetLayout>Works</ResetLayout>
+    <SaveChanges>Works</SaveChanges>
+    <StandardDiagram6>Works</StandardDiagram6>
+    <FreeformDiagram1>Works</FreeformDiagram1>
+    <FreeformDiagram2>Works</FreeformDiagram2>
+    <FreeformDiagram3 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</FreeformDiagram3>
+    <KinTerms1>Works</KinTerms1>
+    <KinTerms2>Works</KinTerms2>
+    <KinTerms2b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</KinTerms2b>
+    <KinTerms3>Works</KinTerms3>
+    <KinTerms4>Works</KinTerms4>
+    <KinTerms4b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</KinTerms4b>
+    <KinTerms5>Works</KinTerms5>
+    <KinTerms6>Works</KinTerms6>
+    <QueryDiagram1>Works</QueryDiagram1>
+    <QueryDiagram2>Works</QueryDiagram2>
+    <QueryDiagram3>Works</QueryDiagram3>
+    <ArchiveLinker1>Works</ArchiveLinker1>
+    <ArchiveLinker2>Works</ArchiveLinker2>
+    <ArchiveLinker3>Works</ArchiveLinker3>
+    <ArchiveLinker4>Works</ArchiveLinker4>
+    <ArchiveLinker5>Works</ArchiveLinker5>
   </NewDiagramsTest>
   <Menus>
     <RecentDiagram></RecentDiagram>
     <RecentDiagram2></RecentDiagram2>
     <Gedcom_CSV></Gedcom_CSV>
-    <SaveFile></SaveFile>
-    <OpenDiagram></OpenDiagram>
+    <SaveFile>Works</SaveFile>
+    <OpenDiagram>Works</OpenDiagram>
     <ExportPDFetc></ExportPDFetc>
     <ExportR_SPSS></ExportR_SPSS>
-    <Close></Close>
-    <SetDefaultDiagram></SetDefaultDiagram>
-    <NewDefaultDiagram></NewDefaultDiagram>
-    <Edit></Edit>
-    <DiagramOptions></DiagramOptions>
+    <Close>Works</Close>
+    <SetDefaultDiagram>Works</SetDefaultDiagram>
+    <NewDefaultDiagram>Works</NewDefaultDiagram>
+    <Edit>Works</Edit>
+    <DiagramOptions>Works</DiagramOptions>
     <KinTerms></KinTerms>
+    <KinTerms2></KinTerms2>
     <Export></Export>
     <Import></Import>
     <Panels></Panels>
