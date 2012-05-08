@@ -106,36 +106,42 @@
     <ArchiveLinker5>Works</ArchiveLinker5>
   </NewDiagramsTest>
   <Menus>
-    <RecentDiagram></RecentDiagram>
-    <RecentDiagram2></RecentDiagram2>
+    <RecentDiagram>Works</RecentDiagram>
+    <RecentDiagram2>Works</RecentDiagram2>
     <Gedcom_CSV></Gedcom_CSV>
+    <EntityUpload error="">Empty</EntityUpload>
     <SaveFile>Works</SaveFile>
     <OpenDiagram>Works</OpenDiagram>
     <ExportPDFetc></ExportPDFetc>
-    <ExportR_SPSS></ExportR_SPSS>
+    <ExportR_SPSS>Works</ExportR_SPSS>
     <Close>Works</Close>
     <SetDefaultDiagram>Works</SetDefaultDiagram>
     <NewDefaultDiagram>Works</NewDefaultDiagram>
     <Edit>Works</Edit>
     <DiagramOptions>Works</DiagramOptions>
-    <KinTerms></KinTerms>
-    <KinTerms2></KinTerms2>
-    <Export></Export>
-    <Import></Import>
-    <Panels></Panels>
-    <DiagramSettings1></DiagramSettings1>
-    <DiagramSettings2></DiagramSettings2>
-    <DiagramSettings3></DiagramSettings3>
-    <DiagramSettings4></DiagramSettings4>
-    <DiagramSettings5></DiagramSettings5>
-    <DiagramSettings6></DiagramSettings6>
-    <DisplayName></DisplayName>
-    <RelationType></RelationType>
-    <LineColour></LineColour>
-    <LineWidth></LineWidth>
-    <DeleteSelected></DeleteSelected>
-    <Window></Window>
-    <Help></Help>
-    <Exit></Exit>
+    <KinTerms>Works</KinTerms>
+    <KinTerms2 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</KinTerms2>
+    <Export>Works</Export>
+    <Import>Works</Import>
+    <ArchiveLinker error="">Empty</ArchiveLinker>
+    <Panels>Works</Panels>
+    <DiagramSettings1>Works</DiagramSettings1>
+    <DiagramSettings2>Works</DiagramSettings2>
+    <DiagramSettings3>Works</DiagramSettings3>
+    <DiagramSettings3b>Works</DiagramSettings3b>
+    <DiagramSettings4>Works</DiagramSettings4>
+    <DiagramSettings5>Works</DiagramSettings5>
+    <DiagramSettings6>Works</DiagramSettings6>
+    <CustomName>Works</CustomName>
+    <DataCategory error="">Empty</DataCategory>
+    <RelationType>Works</RelationType>
+    <LineColour>Works</LineColour>
+    <LineWidth>Works</LineWidth>
+    <LineDash error="">Empty</LineDash>
+    <LineOrientation error="">Empty</LineOrientation>
+    <DeleteSelected>Works</DeleteSelected>
+    <Window>Works</Window>
+    <Help>Works</Help>
+    <Exit>Works</Exit>
   </Menus>
 </KinoathBugCheck>
