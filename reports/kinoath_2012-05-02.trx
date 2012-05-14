@@ -61,8 +61,9 @@
     <HaemophiliaEu1>Works</HaemophiliaEu1>
     <HaemophiliaEu2>Works</HaemophiliaEu2>
     <HaemophiliaEu3>Works</HaemophiliaEu3>
-    <HaemophiliaEu4></HaemophiliaEu4>
-    <HaemophiliaEu5></HaemophiliaEu5>
+    <HaemophiliaEu4>Works</HaemophiliaEu4>
+    <HaemophiliaEu5>Works</HaemophiliaEu5>
+    <HaemophiliaEu6>Works</HaemophiliaEu6>
   </SampleDiagramsTest>
   <NewDiagramsTest>
     <StandardDiagram1>Works</StandardDiagram1>
@@ -70,7 +71,7 @@
     <StandardDiagram3>Works</StandardDiagram3>
     <StandardDiagram4>Works</StandardDiagram4>
     <StandardDiagram5>Works</StandardDiagram5>
-    <ChromosomeType></ChromosomeType>
+    <ChromosomeType>Works</ChromosomeType>
     <Geometry1>Works</Geometry1>
     <Geometry2>Works</Geometry2>
     <Delete>Works</Delete>
