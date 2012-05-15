@@ -6,6 +6,7 @@
   <Tester>frabec</Tester>
   <StartKinOath>
     <Start>Works</Start>
+    <InfoFile error="The files are not yet present in the application.">Fails</InfoFile>
   </StartKinOath>
   <SampleDiagramsTest>
     <FreeformDiagramSyntax1>Works</FreeformDiagramSyntax1>
@@ -100,11 +101,7 @@
     <QueryDiagram1>Works</QueryDiagram1>
     <QueryDiagram2>Works</QueryDiagram2>
     <QueryDiagram3>Works</QueryDiagram3>
-    <ArchiveLinker1>Works</ArchiveLinker1>
-    <ArchiveLinker2>Works</ArchiveLinker2>
-    <ArchiveLinker3>Works</ArchiveLinker3>
-    <ArchiveLinker4>Works</ArchiveLinker4>
-    <ArchiveLinker5>Works</ArchiveLinker5>
+    <ArchiveLinker1 error="">Empty</ArchiveLinker1>
   </NewDiagramsTest>
   <Menus>
     <RecentDiagram>Works</RecentDiagram>
