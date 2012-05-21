@@ -1,5 +1,6 @@
 
 StartingIMDI_Browser ""
+  InfoFile "Before starting to test the program check whether the following info files are present in the application and if they work correctly: README, CHANGES, INSTALL and LICENSE. For web applications like this ask the developer to do it for you. "
   Starting "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
 NavigationTest ""
   ExpansionTest "Try to expand the tree by double clicking a node."
