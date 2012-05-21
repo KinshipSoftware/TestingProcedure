@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnnexBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/Annex.xml">
+  <DateTime>21-05-2012</DateTime>
+  <AnnexVersion>1.1.30641</AnnexVersion>
+  <OSVersion>Windows7 (64b) - Firefox</OSVersion>
+  <Tester>frabec</Tester>
+  <StartingAnnex>
+    <OpeningAnnexForPublic>Works</OpeningAnnexForPublic>
+    <OpenAnnexIMDIbrowser>Works</OpenAnnexIMDIbrowser>
+    <LogIn>Works</LogIn>
+  </StartingAnnex>
+  <MenuBar>
+    <Manual>Works</Manual>
+    <HelpQuestionMark>Works</HelpQuestionMark>
+    <SelectingStripforEmbedding>Works</SelectingStripforEmbedding>
+    <Embed>Works</Embed>
+    <Embed2>Works</Embed2>
+    <EmbedSize>Works</EmbedSize>
+    <EmbedDV>Works</EmbedDV>
+    <EmbedF>Works</EmbedF>
+    <EmbedTiers>Works</EmbedTiers>
+    <CopyToClipboard1>Works</CopyToClipboard1>
+    <OpeningWebPage>Works</OpeningWebPage>
+    <ObservingFunctions error="The entire video is played.">Fails</ObservingFunctions>
+    <EmbedSuccess>Works</EmbedSuccess>
+    <Embed6>Works</Embed6>
+    <CompactMode>Works</CompactMode>
+  </MenuBar>
+  <Video_Display>
+    <VideoDisplayMin>Works</VideoDisplayMin>
+    <Play>Works</Play>
+    <ProgressThroughTimeline>Works</ProgressThroughTimeline>
+    <SwitchingThroughTimeline error="When moving back and forth from the timeline, the clips pauses and one must then manually resume it.">Strange</SwitchingThroughTimeline>
+    <Rewind>Works</Rewind>
+    <FastFwd>Works</FastFwd>
+    <FfwdNRewind_Pause error="It automatically resumes playing">Mostly</FfwdNRewind_Pause>
+    <Volume>Works</Volume>
+    <ToBegnStop>Works</ToBegnStop>
+    <ToEndnStop>Works</ToEndnStop>
+    <FullScreen>Works</FullScreen>
+    <Buffer>Works</Buffer>
+    <Buffer1 error="Since I clicked on buffer 3 times, I had to also click on the ">Mostly</Buffer1>
+    <Buffer2>Works</Buffer2>
+    <Buffer3>Works</Buffer3>
+    <Max>Works</Max>
+  </Video_Display>
+  <Information>
+    <MinMax>Works</MinMax>
+    <GeneralTab>Works</GeneralTab>
+    <GeneralTab1>Works</GeneralTab1>
+    <SessionTab>Works</SessionTab>
+  </Information>
+  <Mini_Data_Frame>
+    <MinMax>Works</MinMax>
+    <TierList>Works</TierList>
+    <YellowInfoBox>Works</YellowInfoBox>
+    <HighlightText>Works</HighlightText>
+    <FontSize>Works</FontSize>
+  </Mini_Data_Frame>
+  <Control_Panel>
+    <TextGeneral>Works</TextGeneral>
+    <TextTierScroll error="The mouse scroll does not work">Fails</TextTierScroll>
+    <Text_Tier>Works</Text_Tier>
+    <TierFontSize>Works</TierFontSize>
+    <TierTextFont>Works</TierTextFont>
+    <Tier1HighlightText error="Only the first item in tier 2 and 3 is highlighted. As in, for the entire ">Strange</Tier1HighlightText>
+    <Tier1HighlightText1 error="When you click on it for the third time it does not enable any correspondence from other tiers. Nothing happens actually. ">Mostly</Tier1HighlightText1>
+    <Tier2Highlight_text>Works</Tier2Highlight_text>
+    <Tier2HighlightText1 error="">Strange</Tier2HighlightText1>
+    <Tier2HighlightText2>Works</Tier2HighlightText2>
+    <Tier2HighlightText3>Works</Tier2HighlightText3>
+    <GridChangeTiers>Works</GridChangeTiers>
+    <GridScroll error="The mouse scroll does not work.">Fails</GridScroll>
+    <GridHighlight>Works</GridHighlight>
+    <GridHighlight2>Works</GridHighlight2>
+    <GridEndTime>Works</GridEndTime>
+    <GridBeginTime>Works</GridBeginTime>
+    <GridTier3 error="This makes sense. However, when you play the clip (and the highlighting is checked) , the grid constantly switches back and forth, up an down.">Mostly</GridTier3>
+    <GridTier2>Works</GridTier2>
+    <GridTier1>Works</GridTier1>
+    <GridColumnWidth>Works</GridColumnWidth>
+    <Subtitle>Works</Subtitle>
+    <Waveform>Works</Waveform>
+    <Waveform1>Works</Waveform1>
+    <WaveformFrequency>Works</WaveformFrequency>
+    <TimelineSwtichTiers error="Nothing happens when trying to switch tiers.">Fails</TimelineSwtichTiers>
+    <TimelineSwtichTiersCompact error="Nothing happens when moving tiers around.">Fails</TimelineSwtichTiersCompact>
+    <TimelineSwitchFont error="">Strange</TimelineSwitchFont>
+    <TimelineSwitchRedLine error="When you move the red line to a previous instance the video display stops and you need to start it again manually.">Fails</TimelineSwitchRedLine>
+    <TimelineCreateSelection>Works</TimelineCreateSelection>
+    <TimelinePlaySelection>Works</TimelinePlaySelection>
+    <TimelineLink2Selection error="Although the selection itself was identical, some things about the timeline makeup were different. The frequency scale changed, as did the font and the order of the tiers.">Strange</TimelineLink2Selection>
+    <TimelineLink2Selection2 error="Ticket #1508. These feautures work. However, when zooming out, the timeline always goes back to the beginning and this can be unhandy when only wanting to focus on a selection.">Mostly</TimelineLink2Selection2>
+    <NavigationButtonsMvBeginningEnd>Works</NavigationButtonsMvBeginningEnd>
+    <NavigationButtonsRwdFfwdFAST>Works</NavigationButtonsRwdFfwdFAST>
+    <NavigationButtonsRwdFfwdSLOW>Works</NavigationButtonsRwdFfwdSLOW>
+    <NavigationButtonsPlusMinus>Works</NavigationButtonsPlusMinus>
+    <PlayByScreen>Works</PlayByScreen>
+    <PlayContinually>Works</PlayContinually>
+  </Control_Panel>
+  <AudioTest>
+    <OpenIMDIBroswerAudio>Works</OpenIMDIBroswerAudio>
+    <Play>Works</Play>
+    <Rewind>Works</Rewind>
+    <Fast_forward>Works</Fast_forward>
+    <ToBegNStop_ToEndNStop>Works</ToBegNStop_ToEndNStop>
+    <Mute>Works</Mute>
+    <Link2selectionAudio>Works</Link2selectionAudio>
+  </AudioTest>
+</AnnexBugCheck>
