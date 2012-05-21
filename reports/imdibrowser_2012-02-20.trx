@@ -5,6 +5,7 @@
   <OSVersion>Windows 7, Internet Explorer 8, Java 1.6.0_30</OSVersion>
   <Tester>frabec</Tester>
   <StartingIMDI_Browser>
+    <InfoFile></InfoFile>
     <Starting>Works</Starting>
   </StartingIMDI_Browser>
   <NavigationTest>
@@ -57,7 +58,7 @@
     <RegisterTest1>Works</RegisterTest1>
     <ExistingUserCheck>Works</ExistingUserCheck>
     <ExistingUserRegistration error="see #1548">Mostly</ExistingUserRegistration>
-    <ExistingUserVerification error="creating a new account from scratch doesn't work, but you can create an AMS account when you're already logged in to Shibboleth">Mostly</ExistingUserVerification>
+    <ExistingUserVerification error="creating a new account from scratch doesn">Mostly</ExistingUserVerification>
   </RegisterTest>
   <LogInTest>
     <LogInTest1>Works</LogInTest1>
