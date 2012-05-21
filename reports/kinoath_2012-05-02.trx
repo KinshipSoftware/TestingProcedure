@@ -7,6 +7,9 @@
   <StartKinOath>
     <Start>Works</Start>
     <InfoFile error="The files are not yet present in the application.">Fails</InfoFile>
+    <InstallWindow error="See ticket #1908">Mostly</InstallWindow>
+    <InstallLinux>Works</InstallLinux>
+    <InstallMac>Works</InstallMac>
   </StartKinOath>
   <SampleDiagramsTest>
     <FreeformDiagramSyntax1>Works</FreeformDiagramSyntax1>
@@ -106,11 +109,11 @@
   <Menus>
     <RecentDiagram>Works</RecentDiagram>
     <RecentDiagram2>Works</RecentDiagram2>
-    <Gedcom_CSV></Gedcom_CSV>
+    <Gedcom_CSV error="Once you click on ">Fails</Gedcom_CSV>
     <EntityUpload error="">Empty</EntityUpload>
     <SaveFile>Works</SaveFile>
     <OpenDiagram>Works</OpenDiagram>
-    <ExportPDFetc></ExportPDFetc>
+    <ExportPDFetc error="See ticket #1903">Fails</ExportPDFetc>
     <ExportR_SPSS>Works</ExportR_SPSS>
     <Close>Works</Close>
     <SetDefaultDiagram>Works</SetDefaultDiagram>
