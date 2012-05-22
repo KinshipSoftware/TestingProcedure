@@ -5,7 +5,6 @@
   <OSVersion>Windows 7, Internet Explorer 8, Java 1.6.0_30</OSVersion>
   <Tester>frabec</Tester>
   <StartingIMDI_Browser>
-    <InfoFile></InfoFile>
     <Starting>Works</Starting>
   </StartingIMDI_Browser>
   <NavigationTest>
