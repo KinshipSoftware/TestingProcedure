@@ -1,6 +1,5 @@
 
 StartingTrova "To do the testing, from the IMDI browser tree choose 'DoBeS archive' > 'Awetí' > 'From Language and Culture' > 'Linguistic Data' > 'Monological' > 'Biographies', and then pick up the written resources under the different session nodes belonging to the same corpus node."
-  InfoFile "Before starting to test the program check if the following info files are present in the application and if they work properly: README, CHANGES, INSTALL, LICENSE. For web applications like this ask the developer to do it for you."
   StartingIMDI_Browser "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
   StartingTrova "Right click on a written resource under a session node of the IMDI tree; select 'annotation content search': Trova interface should open."
   AddMoreNodes "Holding down the CTRL key on the keyboard select more than one written resource in the IMDI tree; right click; 'annotation content search'; Trova interface should open"
