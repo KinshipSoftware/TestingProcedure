@@ -30,10 +30,9 @@
     <VideoDisplayMin>Works</VideoDisplayMin>
     <Play>Works</Play>
     <ProgressThroughTimeline>Works</ProgressThroughTimeline>
-    <SwitchingThroughTimeline error="When moving back and forth from the timeline, the clips pauses and one must then manually resume it.">Strange</SwitchingThroughTimeline>
+    <SwitchingThroughTimeline error="When moving back and forth from the timeline, the clips pauses and one must then manually resume it.">Fails</SwitchingThroughTimeline>
     <Rewind>Works</Rewind>
     <FastFwd>Works</FastFwd>
-    <FfwdNRewind_Pause error="It automatically resumes playing">Mostly</FfwdNRewind_Pause>
     <Volume>Works</Volume>
     <ToBegnStop>Works</ToBegnStop>
     <ToEndnStop>Works</ToEndnStop>
@@ -63,11 +62,11 @@
     <Text_Tier>Works</Text_Tier>
     <TierFontSize>Works</TierFontSize>
     <TierTextFont>Works</TierTextFont>
-    <Tier1HighlightText error="Only the first item in tier 2 and 3 is highlighted. As in, for the entire ">Strange</Tier1HighlightText>
+    <Tier1HighlightText error="See ticket #1449">Strange</Tier1HighlightText>
     <Tier1HighlightText1 error="When you click on it for the third time it does not enable any correspondence from other tiers. Nothing happens actually. ">Mostly</Tier1HighlightText1>
-    <Tier2Highlight_text>Works</Tier2Highlight_text>
+    <Tier2Highlight_text error="in tier 3 nothing is highlighted">Mostly</Tier2Highlight_text>
     <Tier2HighlightText1 error="">Strange</Tier2HighlightText1>
-    <Tier2HighlightText2>Works</Tier2HighlightText2>
+    <Tier2HighlightText2 error="">Mostly</Tier2HighlightText2>
     <Tier2HighlightText3>Works</Tier2HighlightText3>
     <GridChangeTiers>Works</GridChangeTiers>
     <GridScroll error="The mouse scroll does not work.">Fails</GridScroll>
@@ -81,20 +80,20 @@
     <GridColumnWidth>Works</GridColumnWidth>
     <Subtitle>Works</Subtitle>
     <Waveform>Works</Waveform>
-    <Waveform1>Works</Waveform1>
+    <Waveform1 error="When I move the red line back and forth the wave the video stops and I have to resume it manually">Fails</Waveform1>
     <WaveformFrequency>Works</WaveformFrequency>
-    <TimelineSwtichTiers error="Nothing happens when trying to switch tiers.">Fails</TimelineSwtichTiers>
+    <TimelineSwtichTiers error="Not always tiers manage to be switched. They do only from on and off. ">Strange</TimelineSwtichTiers>
     <TimelineSwtichTiersCompact error="Nothing happens when moving tiers around.">Fails</TimelineSwtichTiersCompact>
     <TimelineSwitchFont error="">Strange</TimelineSwitchFont>
     <TimelineSwitchRedLine error="When you move the red line to a previous instance the video display stops and you need to start it again manually.">Fails</TimelineSwitchRedLine>
     <TimelineCreateSelection>Works</TimelineCreateSelection>
     <TimelinePlaySelection>Works</TimelinePlaySelection>
-    <TimelineLink2Selection error="Although the selection itself was identical, some things about the timeline makeup were different. The frequency scale changed, as did the font and the order of the tiers.">Strange</TimelineLink2Selection>
-    <TimelineLink2Selection2 error="Ticket #1508. These feautures work. However, when zooming out, the timeline always goes back to the beginning and this can be unhandy when only wanting to focus on a selection.">Mostly</TimelineLink2Selection2>
+    <TimelineClearSelection>Works</TimelineClearSelection>
+    <TimelineCreateBookmark>Works</TimelineCreateBookmark>
     <NavigationButtonsMvBeginningEnd>Works</NavigationButtonsMvBeginningEnd>
     <NavigationButtonsRwdFfwdFAST>Works</NavigationButtonsRwdFfwdFAST>
     <NavigationButtonsRwdFfwdSLOW>Works</NavigationButtonsRwdFfwdSLOW>
-    <NavigationButtonsPlusMinus>Works</NavigationButtonsPlusMinus>
+    <NavigationButtonsPlusMinus error="Ticket #1508. These feautures work. However, when zooming out, the timeline always goes back to the beginning and this can be unhandy when only wanting to focus on a selection. ">Mostly</NavigationButtonsPlusMinus>
     <PlayByScreen>Works</PlayByScreen>
     <PlayContinually>Works</PlayContinually>
   </Control_Panel>
