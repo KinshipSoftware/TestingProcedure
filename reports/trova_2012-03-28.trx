@@ -5,7 +5,6 @@
   <OSVersion>Windows 7, Internet Explorer 9, Java 6.0.300.12</OSVersion>
   <Tester>frabec</Tester>
   <StartingTrova>
-    <InfoFile>Works</InfoFile>
     <StartingIMDI_Browser>Works</StartingIMDI_Browser>
     <StartingTrova>Works</StartingTrova>
     <AddMoreNodes>Works</AddMoreNodes>
