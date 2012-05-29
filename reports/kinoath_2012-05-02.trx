@@ -109,11 +109,11 @@
   <Menus>
     <RecentDiagram>Works</RecentDiagram>
     <RecentDiagram2>Works</RecentDiagram2>
-    <Gedcom_CSV error="Once you click on ">Fails</Gedcom_CSV>
+    <Gedcom_CSV>Works</Gedcom_CSV>
     <EntityUpload error="">Empty</EntityUpload>
     <SaveFile>Works</SaveFile>
     <OpenDiagram>Works</OpenDiagram>
-    <ExportPDFetc error="See ticket #1903">Fails</ExportPDFetc>
+    <ExportPDFetc error="See ticket #1903">Strange</ExportPDFetc>
     <ExportR_SPSS>Works</ExportR_SPSS>
     <Close>Works</Close>
     <SetDefaultDiagram>Works</SetDefaultDiagram>
