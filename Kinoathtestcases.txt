@@ -101,7 +101,7 @@ NewDiagramsTest "Once you have created new diagrams leave them open so that you 
 Menus ""
   RecentDiagram "From the File menu go to 'Open recent diagram' and select one from the list. "
   RecentDiagram2 "Go again to 'Open recent diagram', but this time select 'clear list': all the diagrams which were in the list should disappear.  "
-  Gedcom_CSV "From the File menu go to 'Import Gedcom/CSV File'. A window should appear with the documents you can open. Choose one and click on 'Open'."
+  Gedcom_CSV "From the File menu go to 'Import Gedcom/CSV File'. A window should appear with the documents you can open. Choose one and click on 'Open'. The import window should open, and once the import has finished you should see the 'Project Tree' on the left getting bigger.  "
   EntityUpload "NOT IMPLEMENTED YET. NOT TESTED. TO BE TESTED FOR NEXT VERSIONS."
   SaveFile "Take one of the diagrams you created. Choose 'Save as (...)' and - after naming it - save the file. "
   OpenDiagram "From the File menu go to 'Open Diagram'. A new window should appear with all the documents you can open. Choose the one you saved in the previous test and 'Open'. Then try to recalculate it."
