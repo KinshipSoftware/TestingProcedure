@@ -8,6 +8,9 @@
     <OpeningAnnexForPublic>Works</OpeningAnnexForPublic>
     <OpenAnnexIMDIbrowser>Works</OpenAnnexIMDIbrowser>
     <LogIn>Works</LogIn>
+    <LogIn2>Works</LogIn2>
+    <LogIn3>Works</LogIn3>
+    <LogIn3b>Works</LogIn3b>
   </StartingAnnex>
   <MenuBar>
     <Manual>Works</Manual>
@@ -19,9 +22,10 @@
     <EmbedDV>Works</EmbedDV>
     <EmbedF>Works</EmbedF>
     <EmbedTiers>Works</EmbedTiers>
+    <EmbedStartingPoint>Works</EmbedStartingPoint>
     <CopyToClipboard1>Works</CopyToClipboard1>
     <OpeningWebPage>Works</OpeningWebPage>
-    <ObservingFunctions error="The entire video is played.">Fails</ObservingFunctions>
+    <EmbedCheck>Works</EmbedCheck>
     <EmbedSuccess>Works</EmbedSuccess>
     <Embed6>Works</Embed6>
     <CompactMode>Works</CompactMode>
@@ -30,7 +34,7 @@
     <VideoDisplayMin>Works</VideoDisplayMin>
     <Play>Works</Play>
     <ProgressThroughTimeline>Works</ProgressThroughTimeline>
-    <SwitchingThroughTimeline error="When moving back and forth from the timeline, the clips pauses and one must then manually resume it.">Fails</SwitchingThroughTimeline>
+    <SwitchingThroughTimeline>Works</SwitchingThroughTimeline>
     <Rewind>Works</Rewind>
     <FastFwd>Works</FastFwd>
     <Volume>Works</Volume>
@@ -38,7 +42,6 @@
     <ToEndnStop>Works</ToEndnStop>
     <FullScreen>Works</FullScreen>
     <Buffer>Works</Buffer>
-    <Buffer1 error="Since I clicked on buffer 3 times, I had to also click on the ">Mostly</Buffer1>
     <Buffer2>Works</Buffer2>
     <Buffer3>Works</Buffer3>
     <Max>Works</Max>
@@ -58,34 +61,29 @@
   </Mini_Data_Frame>
   <Control_Panel>
     <TextGeneral>Works</TextGeneral>
-    <TextTierScroll error="The mouse scroll does not work">Fails</TextTierScroll>
+    <TextTierScroll error="See ticket #1925">Strange</TextTierScroll>
     <Text_Tier>Works</Text_Tier>
     <TierFontSize>Works</TierFontSize>
     <TierTextFont>Works</TierTextFont>
     <Tier1HighlightText error="See ticket #1449">Strange</Tier1HighlightText>
-    <Tier1HighlightText1 error="When you click on it for the third time it does not enable any correspondence from other tiers. Nothing happens actually. ">Mostly</Tier1HighlightText1>
-    <Tier2Highlight_text error="in tier 3 nothing is highlighted">Mostly</Tier2Highlight_text>
-    <Tier2HighlightText1 error="">Strange</Tier2HighlightText1>
-    <Tier2HighlightText2 error="">Mostly</Tier2HighlightText2>
-    <Tier2HighlightText3>Works</Tier2HighlightText3>
     <GridChangeTiers>Works</GridChangeTiers>
-    <GridScroll error="The mouse scroll does not work.">Fails</GridScroll>
+    <GridScroll error="See ticket #1925">Strange</GridScroll>
     <GridHighlight>Works</GridHighlight>
     <GridHighlight2>Works</GridHighlight2>
     <GridEndTime>Works</GridEndTime>
     <GridBeginTime>Works</GridBeginTime>
-    <GridTier3 error="This makes sense. However, when you play the clip (and the highlighting is checked) , the grid constantly switches back and forth, up an down.">Mostly</GridTier3>
+    <GridTier3>Works</GridTier3>
     <GridTier2>Works</GridTier2>
     <GridTier1>Works</GridTier1>
     <GridColumnWidth>Works</GridColumnWidth>
     <Subtitle>Works</Subtitle>
     <Waveform>Works</Waveform>
-    <Waveform1 error="When I move the red line back and forth the wave the video stops and I have to resume it manually">Fails</Waveform1>
+    <Waveform1>Works</Waveform1>
     <WaveformFrequency>Works</WaveformFrequency>
-    <TimelineSwtichTiers error="Not always tiers manage to be switched. They do only from on and off. ">Strange</TimelineSwtichTiers>
-    <TimelineSwtichTiersCompact error="Nothing happens when moving tiers around.">Fails</TimelineSwtichTiersCompact>
-    <TimelineSwitchFont error="">Strange</TimelineSwitchFont>
-    <TimelineSwitchRedLine error="When you move the red line to a previous instance the video display stops and you need to start it again manually.">Fails</TimelineSwitchRedLine>
+    <TimelineSwtichTiers>Works</TimelineSwtichTiers>
+    <TimelineSwtichTiersCompact error="See ticket #1459">Strange</TimelineSwtichTiersCompact>
+    <TimelineSwitchFont error="With Calibri everything is fine. But with other fonts, like for e.g. Cambria Math, the tiers content disappears. BROWSER-DEPENDENT BUG.">Strange</TimelineSwitchFont>
+    <TimelineProgressBar>Works</TimelineProgressBar>
     <TimelineCreateSelection>Works</TimelineCreateSelection>
     <TimelinePlaySelection>Works</TimelinePlaySelection>
     <TimelineClearSelection>Works</TimelineClearSelection>
@@ -106,4 +104,7 @@
     <Mute>Works</Mute>
     <Link2selectionAudio>Works</Link2selectionAudio>
   </AudioTest>
+  <LogOut>
+    <LogOut>Works</LogOut>
+  </LogOut>
 </AnnexBugCheck>
