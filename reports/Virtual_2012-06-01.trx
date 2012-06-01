@@ -5,7 +5,7 @@
   <OSVersion></OSVersion>
   <Tester>anavog</Tester>
   <Facets>
-    <NAtional_project></NAtional_project>
+    <National_project>Works</National_project>
     <Resoursce_type>Works</Resoursce_type>
     <Subject>Works</Subject>
     <Genre>Works</Genre>
@@ -16,4 +16,9 @@
     <Continent>Works</Continent>
     <Collection>Works</Collection>
   </Facets>
+  <facet_options>
+    <all>Works</all>
+    <more...></more...>
+  </facet_options>
+  <Results_box/>
 </VirtualBugCheck>
