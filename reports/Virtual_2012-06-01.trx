@@ -20,5 +20,8 @@
     <all>Works</all>
     <more...></more...>
   </facet_options>
-  <Results_box/>
+  <Results_box>
+    <description>Works</description>
+    <Select_a_result>Works</Select_a_result>
+  </Results_box>
 </VirtualBugCheck>
