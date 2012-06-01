@@ -1,0 +1,12 @@
+
+Facets "Selecting a facet reduces the results in the rest of the facets"
+  National_project ""
+  Resoursce_type ""
+  Subject ""
+  Genre ""
+  Language ""
+  Data_provider ""
+  Organization ""
+  Country ""
+  Continent ""
+  Collection ""
