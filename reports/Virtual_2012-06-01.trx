@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VirtualBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/Virtual_Language|_Observatory.xml">
+  <DateTime></DateTime>
+  <VirtualVersion></VirtualVersion>
+  <OSVersion></OSVersion>
+  <Tester>anavog</Tester>
+  <Facets>
+    <NAtional_project></NAtional_project>
+    <Resoursce_type>Works</Resoursce_type>
+    <Subject>Works</Subject>
+    <Genre>Works</Genre>
+    <Language>Works</Language>
+    <Data_provider>Works</Data_provider>
+    <Organization>Works</Organization>
+    <Country>Works</Country>
+    <Continent>Works</Continent>
+    <Collection>Works</Collection>
+  </Facets>
+</VirtualBugCheck>
