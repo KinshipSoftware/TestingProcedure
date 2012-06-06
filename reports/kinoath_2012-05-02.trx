@@ -15,7 +15,7 @@
     <FreeformDiagramSyntax1>Works</FreeformDiagramSyntax1>
     <FreeformDiagramSyntax2>Works</FreeformDiagramSyntax2>
     <FreeformDiagramSyntax3>Works</FreeformDiagramSyntax3>
-    <FreeformDiagramSyntax4 error="Sometimes - not always - it happens that the entities (both new and already existing) do appear in the diagram, but they are placed in the wrong position. See ticket #1691">Mostly</FreeformDiagramSyntax4>
+    <FreeformDiagramSyntax4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</FreeformDiagramSyntax4>
     <QueryDiagramSyntax1>Works</QueryDiagramSyntax1>
     <QueryDiagramSyntax2>Works</QueryDiagramSyntax2>
     <QueryDiagramSyntax3>Works</QueryDiagramSyntax3>
@@ -25,37 +25,37 @@
     <HawaiianKinTerms1>Works</HawaiianKinTerms1>
     <HawaiianKinTerms2>Works</HawaiianKinTerms2>
     <HawaiianKinTerms3>Works</HawaiianKinTerms3>
-    <HawaiianKinTerms3b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</HawaiianKinTerms3b>
+    <HawaiianKinTerms3b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</HawaiianKinTerms3b>
     <HawaiianKinTerms4>Works</HawaiianKinTerms4>
     <HawaiianKinTerms5>Works</HawaiianKinTerms5>
     <HawaiianKinTerms6>Works</HawaiianKinTerms6>
     <HawaiianKinTerms7>Works</HawaiianKinTerms7>
     <JapaneseKinTerms1>Works</JapaneseKinTerms1>
     <JapaneseKinTerms2>Works</JapaneseKinTerms2>
-    <JapaneseKinTerms3 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</JapaneseKinTerms3>
+    <JapaneseKinTerms3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</JapaneseKinTerms3>
     <JapaneseKinTerms4>Works</JapaneseKinTerms4>
     <JapaneseKinTerms5>Works</JapaneseKinTerms5>
-    <JapaneseKinTerms5b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</JapaneseKinTerms5b>
+    <JapaneseKinTerms5b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</JapaneseKinTerms5b>
     <JapaneseKinTerms6>Works</JapaneseKinTerms6>
     <JapaneseKinTerms7>Works</JapaneseKinTerms7>
     <SwedishKinTerms1>Works</SwedishKinTerms1>
     <SwedishKinTerms2>Works</SwedishKinTerms2>
-    <SwedishKinTerms3 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</SwedishKinTerms3>
+    <SwedishKinTerms3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</SwedishKinTerms3>
     <SwedishKinTerms4>Works</SwedishKinTerms4>
     <SwedishKinTerms5>Works</SwedishKinTerms5>
-    <SwedishKinTerms5b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</SwedishKinTerms5b>
+    <SwedishKinTerms5b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</SwedishKinTerms5b>
     <SwedishKinTerms6>Works</SwedishKinTerms6>
     <SwedishKinTerms7>Works</SwedishKinTerms7>
     <NamedTransientEntities1>Works</NamedTransientEntities1>
     <NamedTransientEntities2>Works</NamedTransientEntities2>
     <NamedTransientEntities3>Works</NamedTransientEntities3>
-    <NamedTransientEntities4 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</NamedTransientEntities4>
+    <NamedTransientEntities4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</NamedTransientEntities4>
     <MatrimonialRingsExamples1>Works</MatrimonialRingsExamples1>
     <MatrimonialRingsExamples2>Works</MatrimonialRingsExamples2>
     <CharlesIIOfSpain1>Works</CharlesIIOfSpain1>
     <CharlesIIOfSpain2>Works</CharlesIIOfSpain2>
     <CharlesIIOfSpain3>Works</CharlesIIOfSpain3>
-    <CharlesIIOfSpain4 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</CharlesIIOfSpain4>
+    <CharlesIIOfSpain4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH. ">Mostly</CharlesIIOfSpain4>
     <ImportedData1>Works</ImportedData1>
     <ImportedData2>Works</ImportedData2>
     <ImportedData3>Works</ImportedData3>
@@ -67,7 +67,6 @@
     <HaemophiliaEu3>Works</HaemophiliaEu3>
     <HaemophiliaEu4>Works</HaemophiliaEu4>
     <HaemophiliaEu5>Works</HaemophiliaEu5>
-    <HaemophiliaEu6>Works</HaemophiliaEu6>
   </SampleDiagramsTest>
   <NewDiagramsTest>
     <StandardDiagram1>Works</StandardDiagram1>
