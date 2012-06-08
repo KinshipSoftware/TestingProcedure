@@ -6,7 +6,7 @@
   <Tester>frabec</Tester>
   <StartKinOath>
     <Start>Works</Start>
-    <InfoFile error="The files are not yet present in the application.">Fails</InfoFile>
+    <InfoFile error="The &quot;changes&quot; file is present, the others are not yet.">Mostly</InfoFile>
     <InstallWindow error="See ticket #1908">Mostly</InstallWindow>
     <InstallLinux>Works</InstallLinux>
     <InstallMac>Works</InstallMac>
@@ -58,7 +58,7 @@
     <CharlesIIOfSpain4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH. ">Mostly</CharlesIIOfSpain4>
     <ImportedData1>Works</ImportedData1>
     <ImportedData2>Works</ImportedData2>
-    <ImportedData3>Works</ImportedData3>
+    <ImportedData3 error="No kinship data table appears at the bottom of the page">Strange</ImportedData3>
     <ImportedData4>Works</ImportedData4>
     <ImportedData5>Works</ImportedData5>
     <ImportedData6>Works</ImportedData6>
@@ -67,6 +67,7 @@
     <HaemophiliaEu3>Works</HaemophiliaEu3>
     <HaemophiliaEu4>Works</HaemophiliaEu4>
     <HaemophiliaEu5>Works</HaemophiliaEu5>
+    <HaemophiliaEu6 error="The table with the kinship data appear but it consists of only a blank line with the symbol of the not found file">Strange</HaemophiliaEu6>
   </SampleDiagramsTest>
   <NewDiagramsTest>
     <StandardDiagram1>Works</StandardDiagram1>
@@ -78,7 +79,7 @@
     <Geometry1>Works</Geometry1>
     <Geometry2>Works</Geometry2>
     <Delete>Works</Delete>
-    <Merge error="This option is not yet fully functional for this first version of KinOath because after merging the new entity carries the information of only one of the two entities. To be tested for next versions.">Empty</Merge>
+    <Merge error="This option is not yet fully functional for this first version of KinOath because, after merging, the new entity carries the information of only one of the two entities. To be tested for next versions.">Empty</Merge>
     <Duplicate>Works</Duplicate>
     <SetEgo>Works</SetEgo>
     <AddEgoList>Works</AddEgoList>
@@ -86,18 +87,18 @@
     <Keep>Works</Keep>
     <Release>Works</Release>
     <ResetZoom>Works</ResetZoom>
-    <ResetLayout>Works</ResetLayout>
+    <ResetLayout error="See ticket #1969.">Strange</ResetLayout>
     <SaveChanges>Works</SaveChanges>
     <StandardDiagram6>Works</StandardDiagram6>
     <FreeformDiagram1>Works</FreeformDiagram1>
     <FreeformDiagram2>Works</FreeformDiagram2>
-    <FreeformDiagram3 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</FreeformDiagram3>
+    <FreeformDiagram3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</FreeformDiagram3>
     <KinTerms1>Works</KinTerms1>
     <KinTerms2>Works</KinTerms2>
-    <KinTerms2b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</KinTerms2b>
+    <KinTerms2b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</KinTerms2b>
     <KinTerms3>Works</KinTerms3>
     <KinTerms4>Works</KinTerms4>
-    <KinTerms4b error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</KinTerms4b>
+    <KinTerms4b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</KinTerms4b>
     <KinTerms5>Works</KinTerms5>
     <KinTerms6>Works</KinTerms6>
     <QueryDiagram1>Works</QueryDiagram1>
@@ -112,7 +113,7 @@
     <EntityUpload error="">Empty</EntityUpload>
     <SaveFile>Works</SaveFile>
     <OpenDiagram>Works</OpenDiagram>
-    <ExportPDFetc error="See ticket #1903">Strange</ExportPDFetc>
+    <ExportPDFetc error="See ticket #1903. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH. ">Strange</ExportPDFetc>
     <ExportR_SPSS>Works</ExportR_SPSS>
     <Close>Works</Close>
     <SetDefaultDiagram>Works</SetDefaultDiagram>
@@ -120,7 +121,7 @@
     <Edit>Works</Edit>
     <DiagramOptions>Works</DiagramOptions>
     <KinTerms>Works</KinTerms>
-    <KinTerms2 error="Sometimes - not always - it happens that the new entities created do appear in the diagram, but they are placed in the wrong position. See ticket #1691 ">Mostly</KinTerms2>
+    <KinTerms2 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH. ">Mostly</KinTerms2>
     <Export>Works</Export>
     <Import>Works</Import>
     <ArchiveLinker error="">Empty</ArchiveLinker>
