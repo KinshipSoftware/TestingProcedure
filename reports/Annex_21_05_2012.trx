@@ -32,6 +32,7 @@
   </MenuBar>
   <Video_Display>
     <VideoDisplayMin>Works</VideoDisplayMin>
+    <Max>Works</Max>
     <Play>Works</Play>
     <ProgressThroughTimeline>Works</ProgressThroughTimeline>
     <SwitchingThroughTimeline>Works</SwitchingThroughTimeline>
@@ -44,7 +45,6 @@
     <Buffer>Works</Buffer>
     <Buffer2>Works</Buffer2>
     <Buffer3>Works</Buffer3>
-    <Max>Works</Max>
   </Video_Display>
   <Information>
     <MinMax>Works</MinMax>
