@@ -2,7 +2,7 @@
 <AnnexBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/Annex.xml">
   <DateTime>21-05-2012</DateTime>
   <AnnexVersion>1.1.30641</AnnexVersion>
-  <OSVersion>Windows7 (64b) - Firefox</OSVersion>
+  <OSVersion>Windows7 (64b) - Firefox 10.0.1</OSVersion>
   <Tester>frabec</Tester>
   <StartingAnnex>
     <OpeningAnnexForPublic>Works</OpeningAnnexForPublic>
@@ -67,7 +67,7 @@
     <TierTextFont>Works</TierTextFont>
     <Tier1HighlightText error="See ticket #1449">Strange</Tier1HighlightText>
     <GridChangeTiers>Works</GridChangeTiers>
-    <GridScroll error="See ticket #1925">Strange</GridScroll>
+    <GridScroll error="The mouse do not scroll down in the grid.">Fails</GridScroll>
     <GridHighlight>Works</GridHighlight>
     <GridHighlight2>Works</GridHighlight2>
     <GridEndTime>Works</GridEndTime>
@@ -82,7 +82,7 @@
     <WaveformFrequency>Works</WaveformFrequency>
     <TimelineSwtichTiers>Works</TimelineSwtichTiers>
     <TimelineSwtichTiersCompact error="See ticket #1459">Strange</TimelineSwtichTiersCompact>
-    <TimelineSwitchFont error="With Calibri everything is fine. But with other fonts, like for e.g. Cambria Math, the tiers content disappears. BROWSER-DEPENDENT BUG.">Strange</TimelineSwitchFont>
+    <TimelineSwitchFont error="With Calibri everything is fine. But with other fonts, like for e.g. Cambria Math, the tiers content disappears.">Fails</TimelineSwitchFont>
     <TimelineProgressBar>Works</TimelineProgressBar>
     <TimelineCreateSelection>Works</TimelineCreateSelection>
     <TimelinePlaySelection>Works</TimelinePlaySelection>
@@ -91,7 +91,7 @@
     <NavigationButtonsMvBeginningEnd>Works</NavigationButtonsMvBeginningEnd>
     <NavigationButtonsRwdFfwdFAST>Works</NavigationButtonsRwdFfwdFAST>
     <NavigationButtonsRwdFfwdSLOW>Works</NavigationButtonsRwdFfwdSLOW>
-    <NavigationButtonsPlusMinus error="Ticket #1508. These feautures work. However, when zooming out, the timeline always goes back to the beginning and this can be unhandy when only wanting to focus on a selection. ">Mostly</NavigationButtonsPlusMinus>
+    <NavigationButtonsPlusMinus error="See ticket #1508. ">Mostly</NavigationButtonsPlusMinus>
     <PlayByScreen>Works</PlayByScreen>
     <PlayContinually>Works</PlayContinually>
   </Control_Panel>
