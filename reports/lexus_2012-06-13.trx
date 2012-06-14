@@ -177,7 +177,7 @@
     <SVEFormattingViewTable7>Works</SVEFormattingViewTable7>
     <SVEFormattingViewTable9>Works</SVEFormattingViewTable9>
     <SVEFormattingViewTable10>Works</SVEFormattingViewTable10>
-    <SVEFormattingViewTable11>Works</SVEFormattingViewTable11>
+    <SVEFormattingViewTable11 error="#1989">Strange</SVEFormattingViewTable11>
     <SVEFormattingViewCopyMove1>Works</SVEFormattingViewCopyMove1>
     <SVEFormattingViewCopyMove2>Works</SVEFormattingViewCopyMove2>
     <SVEFormattingViewCopyMove3>Works</SVEFormattingViewCopyMove3>
