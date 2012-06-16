@@ -164,23 +164,23 @@
     <SVEFormattingViewSepBlock>Works</SVEFormattingViewSepBlock>
     <SVEFormattingViewDReDo>Works</SVEFormattingViewDReDo>
     <SVEFormattingViewClass1>Works</SVEFormattingViewClass1>
-    <SVEFormattingViewClass2></SVEFormattingViewClass2>
-    <SVEFormattingViewClass3></SVEFormattingViewClass3>
-    <SVEFormattingViewClass4></SVEFormattingViewClass4>
-    <SVEFormattingViewClass5></SVEFormattingViewClass5>
-    <SVEFormattingViewTable1></SVEFormattingViewTable1>
-    <SVEFormattingViewTable2></SVEFormattingViewTable2>
-    <SVEFormattingViewTable3></SVEFormattingViewTable3>
-    <SVEFormattingViewTable4></SVEFormattingViewTable4>
-    <SVEFormattingViewTable5></SVEFormattingViewTable5>
-    <SVEFormattingViewTable6></SVEFormattingViewTable6>
-    <SVEFormattingViewTable7></SVEFormattingViewTable7>
-    <SVEFormattingViewTable9></SVEFormattingViewTable9>
-    <SVEFormattingViewTable10></SVEFormattingViewTable10>
-    <SVEFormattingViewTable11></SVEFormattingViewTable11>
-    <SVEFormattingViewCopyMove1></SVEFormattingViewCopyMove1>
-    <SVEFormattingViewCopyMove2></SVEFormattingViewCopyMove2>
-    <SVEFormattingViewCopyMove3></SVEFormattingViewCopyMove3>
+    <SVEFormattingViewClass2 error="Sometimes it works, sometimes it does not">Strange</SVEFormattingViewClass2>
+    <SVEFormattingViewClass3>Works</SVEFormattingViewClass3>
+    <SVEFormattingViewClass4>Works</SVEFormattingViewClass4>
+    <SVEFormattingViewClass5>Works</SVEFormattingViewClass5>
+    <SVEFormattingViewTable1>Works</SVEFormattingViewTable1>
+    <SVEFormattingViewTable2>Works</SVEFormattingViewTable2>
+    <SVEFormattingViewTable3>Works</SVEFormattingViewTable3>
+    <SVEFormattingViewTable4>Works</SVEFormattingViewTable4>
+    <SVEFormattingViewTable5>Works</SVEFormattingViewTable5>
+    <SVEFormattingViewTable6>Works</SVEFormattingViewTable6>
+    <SVEFormattingViewTable7>Works</SVEFormattingViewTable7>
+    <SVEFormattingViewTable9>Works</SVEFormattingViewTable9>
+    <SVEFormattingViewTable10>Works</SVEFormattingViewTable10>
+    <SVEFormattingViewTable11>Works</SVEFormattingViewTable11>
+    <SVEFormattingViewCopyMove1 error="#2015">Mostly</SVEFormattingViewCopyMove1>
+    <SVEFormattingViewCopyMove2>Works</SVEFormattingViewCopyMove2>
+    <SVEFormattingViewCopyMove3>Works</SVEFormattingViewCopyMove3>
   </SchemaAndViewEditorViewEditorTest>
   <LexiconEditorTest>
     <LEAddLexicalEntry>Works</LEAddLexicalEntry>
@@ -189,9 +189,9 @@
     <LESaveModified2>Works</LESaveModified2>
     <LEModifyPicture>Works</LEModifyPicture>
     <LEUploadImage>Works</LEUploadImage>
-    <LET2></LET2>
-    <LEPictureEditBox></LEPictureEditBox>
-    <LEPictureEditBox2></LEPictureEditBox2>
+    <LET2>Works</LET2>
+    <LEPictureEditBox>Works</LEPictureEditBox>
+    <LEPictureEditBox2 error="#1467">Mostly</LEPictureEditBox2>
     <LEArchivePopUpAnnex>Works</LEArchivePopUpAnnex>
     <LEArchivePopUpAnnex1>Works</LEArchivePopUpAnnex1>
     <LEArchivePopUpAnnex2>Works</LEArchivePopUpAnnex2>
