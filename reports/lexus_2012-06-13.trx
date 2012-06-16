@@ -29,7 +29,7 @@
     <WLDeleteChanges>Works</WLDeleteChanges>
     <WLLoadLexusUsers1>Works</WLLoadLexusUsers1>
     <WLDragAndDropUsers1>Works</WLDragAndDropUsers1>
-    <WLLogoutAndLoginAsWs1a>Works</WLLogoutAndLoginAsWs1a>
+    <WLLogoutAndLoginAsWs1a error="#2012">Mostly</WLLogoutAndLoginAsWs1a>
     <WLLogoutAndLoginAsWs1b error="#1995">Strange</WLLogoutAndLoginAsWs1b>
     <ReadOnlyNotEditableFields1>Works</ReadOnlyNotEditableFields1>
     <ReadOnlyNotEditableFields2>Works</ReadOnlyNotEditableFields2>
@@ -280,6 +280,6 @@
     <ExpToXMLVerify>Works</ExpToXMLVerify>
   </ExportTabTest>
   <HelpTabTest>
-    <HTLexusWebsite error="">Mostly</HTLexusWebsite>
+    <HTLexusWebsite error="#1992">Mostly</HTLexusWebsite>
   </HelpTabTest>
 </LexusBugCheck>
