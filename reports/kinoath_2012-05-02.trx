@@ -15,7 +15,7 @@
     <FreeformDiagramSyntax1>Works</FreeformDiagramSyntax1>
     <FreeformDiagramSyntax2>Works</FreeformDiagramSyntax2>
     <FreeformDiagramSyntax3>Works</FreeformDiagramSyntax3>
-    <FreeformDiagramSyntax4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</FreeformDiagramSyntax4>
+    <FreeformDiagramSyntax4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</FreeformDiagramSyntax4>
     <QueryDiagramSyntax1>Works</QueryDiagramSyntax1>
     <QueryDiagramSyntax2>Works</QueryDiagramSyntax2>
     <QueryDiagramSyntax3>Works</QueryDiagramSyntax3>
@@ -25,49 +25,43 @@
     <HawaiianKinTerms1>Works</HawaiianKinTerms1>
     <HawaiianKinTerms2>Works</HawaiianKinTerms2>
     <HawaiianKinTerms3>Works</HawaiianKinTerms3>
-    <HawaiianKinTerms3b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</HawaiianKinTerms3b>
+    <HawaiianKinTerms3b error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</HawaiianKinTerms3b>
     <HawaiianKinTerms4>Works</HawaiianKinTerms4>
     <HawaiianKinTerms5>Works</HawaiianKinTerms5>
     <HawaiianKinTerms6>Works</HawaiianKinTerms6>
     <HawaiianKinTerms7>Works</HawaiianKinTerms7>
     <JapaneseKinTerms1>Works</JapaneseKinTerms1>
     <JapaneseKinTerms2>Works</JapaneseKinTerms2>
-    <JapaneseKinTerms3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</JapaneseKinTerms3>
+    <JapaneseKinTerms3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</JapaneseKinTerms3>
     <JapaneseKinTerms4>Works</JapaneseKinTerms4>
     <JapaneseKinTerms5>Works</JapaneseKinTerms5>
-    <JapaneseKinTerms5b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</JapaneseKinTerms5b>
+    <JapaneseKinTerms5b error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</JapaneseKinTerms5b>
     <JapaneseKinTerms6>Works</JapaneseKinTerms6>
     <JapaneseKinTerms7>Works</JapaneseKinTerms7>
     <SwedishKinTerms1>Works</SwedishKinTerms1>
     <SwedishKinTerms2>Works</SwedishKinTerms2>
-    <SwedishKinTerms3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</SwedishKinTerms3>
+    <SwedishKinTerms3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</SwedishKinTerms3>
     <SwedishKinTerms4>Works</SwedishKinTerms4>
     <SwedishKinTerms5>Works</SwedishKinTerms5>
-    <SwedishKinTerms5b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</SwedishKinTerms5b>
+    <SwedishKinTerms5b error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</SwedishKinTerms5b>
     <SwedishKinTerms6>Works</SwedishKinTerms6>
     <SwedishKinTerms7>Works</SwedishKinTerms7>
     <NamedTransientEntities1>Works</NamedTransientEntities1>
     <NamedTransientEntities2>Works</NamedTransientEntities2>
     <NamedTransientEntities3>Works</NamedTransientEntities3>
-    <NamedTransientEntities4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</NamedTransientEntities4>
+    <NamedTransientEntities4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</NamedTransientEntities4>
     <MatrimonialRingsExamples1>Works</MatrimonialRingsExamples1>
     <MatrimonialRingsExamples2>Works</MatrimonialRingsExamples2>
     <CharlesIIOfSpain1>Works</CharlesIIOfSpain1>
     <CharlesIIOfSpain2>Works</CharlesIIOfSpain2>
     <CharlesIIOfSpain3>Works</CharlesIIOfSpain3>
-    <CharlesIIOfSpain4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH. ">Mostly</CharlesIIOfSpain4>
-    <ImportedData1>Works</ImportedData1>
-    <ImportedData2>Works</ImportedData2>
-    <ImportedData3 error="No kinship data table appears at the bottom of the page">Strange</ImportedData3>
-    <ImportedData4>Works</ImportedData4>
-    <ImportedData5>Works</ImportedData5>
-    <ImportedData6>Works</ImportedData6>
+    <CharlesIIOfSpain4 error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH. ">Mostly</CharlesIIOfSpain4>
     <HaemophiliaEu1>Works</HaemophiliaEu1>
     <HaemophiliaEu2>Works</HaemophiliaEu2>
     <HaemophiliaEu3>Works</HaemophiliaEu3>
     <HaemophiliaEu4>Works</HaemophiliaEu4>
     <HaemophiliaEu5>Works</HaemophiliaEu5>
-    <HaemophiliaEu6 error="The table with the kinship data appear but it consists of only a blank line with the symbol of the not found file">Strange</HaemophiliaEu6>
+    <HaemophiliaEu6 error="See ticket #2019">Strange</HaemophiliaEu6>
   </SampleDiagramsTest>
   <NewDiagramsTest>
     <StandardDiagram1>Works</StandardDiagram1>
@@ -92,13 +86,13 @@
     <StandardDiagram6>Works</StandardDiagram6>
     <FreeformDiagram1>Works</FreeformDiagram1>
     <FreeformDiagram2>Works</FreeformDiagram2>
-    <FreeformDiagram3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</FreeformDiagram3>
+    <FreeformDiagram3 error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</FreeformDiagram3>
     <KinTerms1>Works</KinTerms1>
     <KinTerms2>Works</KinTerms2>
-    <KinTerms2b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</KinTerms2b>
+    <KinTerms2b error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</KinTerms2b>
     <KinTerms3>Works</KinTerms3>
     <KinTerms4>Works</KinTerms4>
-    <KinTerms4b error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH.">Mostly</KinTerms4b>
+    <KinTerms4b error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH.">Mostly</KinTerms4b>
     <KinTerms5>Works</KinTerms5>
     <KinTerms6>Works</KinTerms6>
     <QueryDiagram1>Works</QueryDiagram1>
@@ -110,10 +104,15 @@
     <RecentDiagram>Works</RecentDiagram>
     <RecentDiagram2>Works</RecentDiagram2>
     <Gedcom_CSV>Works</Gedcom_CSV>
+    <GedcomResources>Works</GedcomResources>
+    <GedcomResources2>Works</GedcomResources2>
     <EntityUpload error="">Empty</EntityUpload>
     <SaveFile>Works</SaveFile>
     <OpenDiagram>Works</OpenDiagram>
-    <ExportPDFetc error="See ticket #1903. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH. ">Strange</ExportPDFetc>
+    <ExportPDF>Works</ExportPDF>
+    <ExportJPEG error="See ticket #1903. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF THE APPLICATION">Mostly</ExportJPEG>
+    <ExportPNG error="See ticket #1903. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF THE APPLICATION">Mostly</ExportPNG>
+    <ExportTIFF error="See ticket #1903. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF THE APPLICATION">Mostly</ExportTIFF>
     <ExportR_SPSS>Works</ExportR_SPSS>
     <Close>Works</Close>
     <SetDefaultDiagram>Works</SetDefaultDiagram>
@@ -121,7 +120,7 @@
     <Edit>Works</Edit>
     <DiagramOptions>Works</DiagramOptions>
     <KinTerms>Works</KinTerms>
-    <KinTerms2 error="See ticket #1691. THIS BUG WILL BE FIXED FOR NEXT VERSIONS OF KINOATH. ">Mostly</KinTerms2>
+    <KinTerms2 error="See ticket #1691. THIS BUG WILL BE FIXED FOR LATER VERSIONS OF KINOATH. ">Mostly</KinTerms2>
     <Export>Works</Export>
     <Import>Works</Import>
     <ArchiveLinker error="">Empty</ArchiveLinker>
