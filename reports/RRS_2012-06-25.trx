@@ -50,7 +50,7 @@
     <IMDINode>Works</IMDINode>
     <Login>Works</Login>
     <LogIn2>Works</LogIn2>
-    <IMDINode2 error="I need to pass through the login again. I don't go directly to the request form.">Fails</IMDINode2>
+    <IMDINode2>Works</IMDINode2>
   </ShibbolethUnfederated>
   <ShibbolethFederated>
     <OpenRRS-Sh.Fed.></OpenRRS-Sh.Fed.>
