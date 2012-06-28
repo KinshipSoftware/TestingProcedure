@@ -2,7 +2,7 @@
 LoginTest ""
   LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens"
   LTDemoLogout "Log out (File > Log out). The program shows now the initial Lexus page where you can log in again"
-  LTDemoLogoutBack "Switch to another mode (e.g. Lexicon Editor) and go back one page (click the Back button in your browser). You are not logged in anymore and the program shows now the initial Lexus page where you can log in again"
+  LTDemoLogoutBack "Go back one page (click the Back button in your browser). LEXUS shows now the initial Lexus page where you can log in again"
   LTLoginFail "Login with username 'test' (pw: 'omed'). Error message \\"Login unsuccessful, please try again\\" appears. Log in again as the 'demo' user and procede with the testing"
 SwitchTabTest ""
   STTSchemaAndViewEditor "While being in the Workspace editor, in the 'Switch To' tab chose 'Schema and View Editor'. The view changes accordingly"
