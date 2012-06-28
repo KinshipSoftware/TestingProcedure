@@ -7,13 +7,13 @@
   <LoginTest>
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
-    <LTDemoLogoutBack>Works</LTDemoLogoutBack>
+    <LTDemoLogoutBack error="">Empty</LTDemoLogoutBack>
     <LTLoginFail>Works</LTLoginFail>
   </LoginTest>
   <SwitchTabTest>
     <STTSchemaAndViewEditor>Works</STTSchemaAndViewEditor>
     <STTLexiconEditor>Works</STTLexiconEditor>
-    <STTWorkspace>Works</STTWorkspace>
+    <STTWorkspace error="">Empty</STTWorkspace>
     <STTVicos>Works</STTVicos>
   </SwitchTabTest>
   <WorkspaceLexicaTabTest>
