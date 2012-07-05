@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VirtualBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/Virtual_Language|_Observatory.xml">
+  <DateTime></DateTime>
+  <VirtualVersion></VirtualVersion>
+  <OSVersion></OSVersion>
+  <Tester>anavog</Tester>
+  <Facets>
+    <National_project></National_project>
+    <Resoursce_type></Resoursce_type>
+    <Subject></Subject>
+    <Genre></Genre>
+    <Language></Language>
+    <Data_provider></Data_provider>
+    <Organization></Organization>
+    <Country></Country>
+    <Continent></Continent>
+    <Collection></Collection>
+  </Facets>
+  <facet_options>
+    <all></all>
+    <more...></more...>
+  </facet_options>
+  <Results_box>
+    <description></description>
+    <Select_a_result></Select_a_result>
+  </Results_box>
+  <Additional_testing>
+    <Handle_resolver error="under resources :hdl:1839/00-0000-0000-0008-A42D-3">Fails</Handle_resolver>
+    <lang_codes error="there are some two or three code language codes">Fails</lang_codes>
+    <feedback_button error="there is no such a button">Fails</feedback_button>
+    <Resources error="without a selected facet, the resources take a long time to load">Fails</Resources>
+  </Additional_testing>
+</VirtualBugCheck>
