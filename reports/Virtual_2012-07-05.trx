@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VirtualBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://idp.mpi.nl/testing https://idp.mpi.nl/testing/xsd_out.php?file=plans/Virtual_Language|_Observatory.xml">
+  <DateTime>2012-06-01</DateTime>
+  <VirtualVersion></VirtualVersion>
+  <OSVersion>Mac Osx. Firefox 13.0.01</OSVersion>
+  <Tester>anavog</Tester>
+  <Facets>
+    <National_project></National_project>
+    <Resoursce_type></Resoursce_type>
+    <Subject></Subject>
+    <Genre></Genre>
+    <Language></Language>
+    <Data_provider></Data_provider>
+    <Organization></Organization>
+    <Country></Country>
+    <Continent></Continent>
+    <Collection></Collection>
+  </Facets>
+  <facet_options>
+    <all></all>
+    <more...></more...>
+  </facet_options>
+  <Results_box>
+    <description></description>
+    <Select_a_result></Select_a_result>
+  </Results_box>
+</VirtualBugCheck>
