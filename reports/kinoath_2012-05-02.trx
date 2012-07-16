@@ -61,7 +61,7 @@
     <HaemophiliaEu3>Works</HaemophiliaEu3>
     <HaemophiliaEu4>Works</HaemophiliaEu4>
     <HaemophiliaEu5>Works</HaemophiliaEu5>
-    <HaemophiliaEu6 error="See ticket #2019">Strange</HaemophiliaEu6>
+    <HaemophiliaEu6>Works</HaemophiliaEu6>
   </SampleDiagramsTest>
   <NewDiagramsTest>
     <StandardDiagram1>Works</StandardDiagram1>
