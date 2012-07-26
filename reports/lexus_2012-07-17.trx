@@ -4,6 +4,7 @@
   <LexusVersion>Lexus 3.0</LexusVersion>
   <OSVersion>Windows 7 64bit</OSVersion>
   <Tester>clazab</Tester>
+  <TestPlanRevision>32236</TestPlanRevision>
   <LoginTest>
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
@@ -182,34 +183,34 @@
     <SVEFormattingViewTable2>Works</SVEFormattingViewTable2>
     <SVEFormattingViewTable3>Works</SVEFormattingViewTable3>
     <SVEFormattingViewTable4>Works</SVEFormattingViewTable4>
-    <SVEFormattingViewTable5></SVEFormattingViewTable5>
-    <SVEFormattingViewTable5b></SVEFormattingViewTable5b>
-    <SVEFormattingViewTable6></SVEFormattingViewTable6>
-    <SVEFormattingViewTable7></SVEFormattingViewTable7>
-    <SVEFormattingViewTable9></SVEFormattingViewTable9>
-    <SVEFormattingViewTable10></SVEFormattingViewTable10>
-    <SVEFormattingViewTable11></SVEFormattingViewTable11>
+    <SVEFormattingViewTable5>Works</SVEFormattingViewTable5>
+    <SVEFormattingViewTable5b>Works</SVEFormattingViewTable5b>
+    <SVEFormattingViewTable6>Works</SVEFormattingViewTable6>
+    <SVEFormattingViewTable7>Works</SVEFormattingViewTable7>
+    <SVEFormattingViewTable9>Works</SVEFormattingViewTable9>
+    <SVEFormattingViewTable10>Works</SVEFormattingViewTable10>
+    <SVEFormattingViewTable11>Works</SVEFormattingViewTable11>
   </SchemaAndViewEditorViewEditorTest>
   <LexiconEditorTest>
-    <LEAddLexicalEntry></LEAddLexicalEntry>
-    <LESaveModified1></LESaveModified1>
-    <LENSaveModified></LENSaveModified>
-    <LESaveModified2></LESaveModified2>
-    <LEModifyPicture></LEModifyPicture>
-    <LEUploadImage></LEUploadImage>
-    <LET2></LET2>
-    <LEPictureEditBox></LEPictureEditBox>
-    <LEPictureEditBox2></LEPictureEditBox2>
-    <LEArchivePopUpAnnex></LEArchivePopUpAnnex>
-    <LEArchivePopUpAnnex1></LEArchivePopUpAnnex1>
-    <LEArchivePopUpAnnex3></LEArchivePopUpAnnex3>
-    <LEArchivePopUpAnnex4></LEArchivePopUpAnnex4>
-    <LEPropertiesTab></LEPropertiesTab>
-    <LENotesTab1></LENotesTab1>
-    <LENotesTab2></LENotesTab2>
-    <LEArchivePopUp1></LEArchivePopUp1>
-    <LEImportField></LEImportField>
-    <LEWordListSorting1></LEWordListSorting1>
+    <LEAddLexicalEntry>Works</LEAddLexicalEntry>
+    <LESaveModified1>Works</LESaveModified1>
+    <LENSaveModified>Works</LENSaveModified>
+    <LESaveModified2>Works</LESaveModified2>
+    <LEModifyPicture>Works</LEModifyPicture>
+    <LEUploadImage>Works</LEUploadImage>
+    <LET2>Works</LET2>
+    <LEPictureEditBox>Works</LEPictureEditBox>
+    <LEPictureEditBox2>Works</LEPictureEditBox2>
+    <LEArchivePopUpAnnex>Works</LEArchivePopUpAnnex>
+    <LEArchivePopUpAnnex1>Works</LEArchivePopUpAnnex1>
+    <LEArchivePopUpAnnex3>Works</LEArchivePopUpAnnex3>
+    <LEArchivePopUpAnnex4>Works</LEArchivePopUpAnnex4>
+    <LEPropertiesTab>Works</LEPropertiesTab>
+    <LENotesTab1>Works</LENotesTab1>
+    <LENotesTab2>Works</LENotesTab2>
+    <LEArchivePopUp1>Works</LEArchivePopUp1>
+    <LEImportField>Works</LEImportField>
+    <LEWordListSorting1>Works</LEWordListSorting1>
     <LEWordListSorting2></LEWordListSorting2>
     <LEChangePositioninSortOrder></LEChangePositioninSortOrder>
     <LETreeView></LETreeView>
