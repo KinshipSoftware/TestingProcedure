@@ -1,15 +1,18 @@
+# test cases exported from test plan file lexus_28_06_2012.xml on 2012-07-26 (16:53).
 
-LoginTest ""
+LoginTest
   LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens"
   LTDemoLogout "Log out (File > Log out). The program shows now the initial Lexus page where you can log in again"
   LTDemoLogoutBack "Go back one page (click the Back button in your browser). LEXUS shows now the initial Lexus page where you can log in again"
   LTLoginFail "Login with username 'test' (pw: 'omed'). Error message \\"Login unsuccessful, please try again\\" appears. Log in again as the 'demo' user and procede with the testing"
-SwitchTabTest ""
+
+SwitchTabTest
   STTSchemaAndViewEditor "While being in the Workspace editor, in the 'Switch To' tab chose 'Schema and View Editor'. The view changes accordingly"
   STTLexiconEditor "While being in the Schema and View editor, in the 'Switch To' tab chose 'Lexicon Editor'. The view changes accordingly"
   STTWorkspace "While being in the Lexicon Editor, in the 'Switch To' tab choose 'Workspace'. The view changes accordingly"
   STTVicos "In the Workspace mode select 'VICOS'. Vicos opens in a new tab of your internet browser"
-WorkspaceLexicaTabTest ""
+
+WorkspaceLexicaTabTest
   WLTTAddNewLexicon "Add new lexicon. A pop-up for Name, Description, Note and Template (+description) appears"
   WLTTSaveNewLexicon "Enter Name, Description, Note fields in the pop-up window (leave the default template). Save. Lexicon opened in Schema and View Editor with the given name, description and note"
   WLTTRemoveLexicon "Go back to the Workspace and remove lexicon. An alert appears and press OK. The lexicon is removed from the list of lexica"
@@ -43,7 +46,8 @@ WorkspaceLexicaTabTest ""
   WriterRightsEditableFields5 "Log out and log in again as the ws1 user. See if the changes you have previously introduced have been saved "
   WriterRightsEditableFields6 "Log out and log in as demo. Check the modified field in the Iwaidja lexicon. The changes you have saved as the ws1 user has been saved. Undo the changed made as the ws1 user"
   WriterRightsEditableFields7 "As Demo user: remove user 'ws1 user' from the 'Writers' frame. 'Ws1 user' should be removed to the frame. Log in with the 'demo' account and continue the test"
-SortOrdersTabTest ""
+
+SortOrdersTabTest
   SOOpen "Open 'Sort orders' tab. List of available sort orders should appear in the left frame"
   SOSelect "By default the first sort order has already been selected. Right frame shows its Name, Description and Start letters/Characters"
   SOScroll "Scroll down the sort order. All the Start Letters and Characters are shown"
@@ -71,7 +75,8 @@ SortOrdersTabTest ""
   SaveTestAutoYES "Create a new sort order. Modify it. Do not save but move away from it. A pop up message appears asking for the changes to be saved. Choose YES. The changes have been saved (also after login/louout)"
   SaveTestFromFile "Create a new sort order. Modify it. Save it from File>Save. The changes have been saved (also after login/louout). Delete all the sort orders that you have created for this test"
   SortOrdersRemoving "Remove all the sort orders that you created for the test of the sort orders tab"
-QueriesAndSearchingTabTestRightTab ""
+
+QueriesAndSearchingTabTestRightTab
   SQT1 "Go to the Search Tab in the Workspace. You are in the Query Search tab that is empty (if it is not empty, remove all the available queries in the left frame). The only button that is available is the \\"+\\" button is the Query list. All the other buttons have been grayed out and it is not possible to click on them"
   SQT2 "Click on the \\"+\\" button. A pop up appears in which you enter the name of your query (e.g. \\"Test query\\") and its description (\\"New Query\\" is a default name given automatically by Lexus). Click Next"
   SQT3 "In the subsequent pop up you are able to select a lexicon from the drop down menu. Select some of the lexica and see whether its description appears in the Query builder once you selected it"
@@ -113,7 +118,8 @@ QueriesAndSearchingTabTestRightTab ""
   QSAdHocSearchDropDownListEndsWith "In the ad hoc search, select, 'ends with' and write 'â'. 15 search results"
   QSAdHocSearchCheckPreviousModifiedValue "Open 'tâ' from the results list, modify the field part of speech 'N' with 'V' and save. Check if the modified value has been saved"
   QSAdHocSearchCheckPreviousModifiedValueReDo "Re-do the changes in 'tâ'. Its part of speech is again an 'N'"
-UnicodeInputTest ""
+
+UnicodeInputTest
   HTActivateUnicodeInput "In the Workspace module: click on top menu > Help > Activate Unicode Input. It is possible to check/uncheck this option"
   HTActivateUnicodeInput2 "Leave the  'Activate Unicode input' option checked. The option remains checked when move between the modules"
   UCChangeDescription "In the Workspace, in the tab Lexicon, select Iwaidja lexicon and change the description using e.g a Russian or Thai keyboard (do not copy/paste!). Entering of non-latin characters is possible"
@@ -129,7 +135,8 @@ UnicodeInputTest ""
   UCEnteringNonLatinCharacters2 "Save the modified entry. 'Ababa' is not in the list anymore and it replaced with 'Українська'"
   UCDeleteEnteringNonLatinCharacters "Re-do the changes: replace 'Українська' with 'ababa' and save. 'Ababa' re-appears in the list of lexical entries"
   RerunTheTestWithoutUnicode "Re-run the whole Unicode Input Test with the Unicode Input option unmarked"
-SchemaAndViewEditorSchemaElementTest ""
+
+SchemaAndViewEditorSchemaElementTest
   SVENewLexiconInTheWorkspace "Create a new lexicon in the workspace, call it 'Schema test'. You get automatically moved to the 'Schema and View editor'. You see a lexicon structure consisting of lexicalEntry: Form (+lexeme) and Sense"
   SVEAddDataComponent "Select Form and add a container 'Media' to it (click the plus icon to add an element, pop-up for the selection of data category/container). An element 'Media' appears in the tree structure under Form, with a data container icon"
   SVEAddDataCategory "Select the Media container and add a data category 'Image' to it. An element 'Image' appears in the tree structure under 'Media', with a data container icon"
@@ -146,7 +153,8 @@ SchemaAndViewEditorSchemaElementTest ""
   SVEAutoSave "Switch to Lexicon editor without saving. The following warning pops up: 'Do you want to save your changes?'"
   SVEAutoSaveNo "Answer 'No' to the prompt. Check that the sort order applying has not been saved ('Yes' will be tested in a different section; for the purpose of the current test, no sort order can be assigned at this point)"
   SVENotesCheck "Go to Notes under  Schema Element and enter a text for any of the datcats/data containers. It is possible to enter the text and it  remains in the box upon saving (move away from the Schema and View Editor; logout/login)"
-SchemaAndViewEditorViewEditorTest ""
+
+SchemaAndViewEditorViewEditorTest
   SVEOpenLexiconInViewEditor "Make sure that the 'Schema test' lexicon is open in the Schema and View Editor (View Editor tab). Check whether both drop down menus of 'Apply Views' have two views available: List View and Lexical Entry View (they are not deletable, you can see the \\"-\\" button being grayed out)"
   SVEAddANewView "Add a new view, name it 'My own view' and add a short description. The new view appears in the list of the available views with the new name/description (you have now three views available: 'List view', 'Lexical Entry View', and 'My Own View')"
   SVESaveLexeme "Save the changes. After logging out/in, 'My own view' remains in the list of available lexica"
@@ -170,14 +178,15 @@ SchemaAndViewEditorViewEditorTest ""
   SVEFormattingViewTable2 "Open the Table element in the Structural Element View (if unfolded). You see its two parts: 'Row' and 'Column'"
   SVEFormattingViewTable3 "Drag and drop 'Row' into 'header' and 'body' (tree structure). Drag and drop 'Column' into 'Row'. The dragged elements appear in the tree structure"
   SVEFormattingViewTable4 "To add textual values to the created table, drag and drop the structural element 'Text' for each of the created columns. The element 'Text' appears under 'column' in the tree structure"
-  SVEFormattingViewTable5 "Drag and drop element 'lexeme' between the two 'Text' values (in this operation the dragged elements will be placed as the last children of the element under the drop location). Move the 'lexeme' to the right place. The data category appears in the tree structure between the Text elements"
-  SVEFormattingViewTable5b "Add the dc 'Image' to the second column in the header that you have previously created. To the element 'Body' add another 'Row' and 'Column' into 'Row'. Add other dcs from the lexicon structure under each of the created columns. "
+  SVEFormattingViewTable5 "Drag and drop element 'lexeme' in the two columns. In this operation the dragged elements will be placed as the last children of the element under the drop location, namely under the Text element."
+  SVEFormattingViewTable5b "Add the dc 'Image' to the second column in the header that you have previously created. To the element 'Body' add another 'Row' and 'Column'. Add other dcs from the lexicon structure under each of the created columns. "
   SVEFormattingViewTable6 "Save. Apply the new view and go to the Lexicon Editor and see the Lexical Entry View tab. The table have been generated according to the structure chosen by you"
-  SVEFormattingViewTable7 "Go back to 'My own view' and drag/drop the structural element 'Decorator' above any of the columns and subsequently move the column into the Decorator. The Decorator element appears under the column"
+  SVEFormattingViewTable7 "Go back to 'Table view' and drag/drop the structural element 'Decorator' in any of the columns. The Decorator element appears under the column. Drag and drop it above the element of every column and subsequently the element into the Decorator. The element will now change accordingly."
   SVEFormattingViewTable9 "Double click on the 'Decorator' element and define style of this column (font, colour etc.). The new format appears once you click OK"
   SVEFormattingViewTable10 "Go to the Lexicon Editor and see the Lexical Entry View tab. The table has been generated according to the style you have applied"
-  SVEFormattingViewTable11 "Apply more rows/columns/texts/decorators in 'My own view' and check the output. The table can handle them all"
-LexiconEditorTest ""
+  SVEFormattingViewTable11 "Apply more rows/columns/texts/decorators in 'Table view' and check the output. The table can handle them all"
+
+LexiconEditorTest
   LEAddLexicalEntry "Add a new lexical entry to the 'Schema test' lexicon by clicking on the \\"+\\" button. Right window shows editing boxes and a new item is added to the entry list. Add a couple of entries to see if everything works properly"
   LESaveModified1 "Modify the field 'lexeme' value to 'lexeme test' and save it by moving away from the entry (an alert msg appears to confirm). The word list value has been modified in both the field and in the list view"
   LENSaveModified "Modify 'ps' value to 'part of speech' but do not save it (move away and when asked to confim, choose NO). The word list value remains unchanged"
@@ -223,7 +232,8 @@ LexiconEditorTest ""
   LEdDeleteEntry "Switch to 'Schema test' lexicon. Word list opens. Delete one of the entries and save. The entry dissapears from word list. Open lexicon again. Check that entry has still been removed"
   LEdDeleteAllEntries "Delete all entries one by one. Once the list is full, the \\"-\\" button is grayed out and it is not possible to click on it anymore"
   LEdDeleteLexicon "Delete the 'Schema test' lexicon. The lexicon is removed from the list of the available lexica"
-FilterTest ""
+
+FilterTest
   FTOpen "Select 'Iwaida' lexicon, subsequently switch to the Lexicon Editor and open the Filters tab. The list of available filters is empty (in case it is not, remove all the available filters)"
   FTCreate "Create a filter named \\"Test filter\\" (\\"Iwaidja\\" \\"headword\\" \\"begins with\\" \\"c\\"). Save. The filter has been created and it is available in the filter list"
   FTCreate1 "Create a new filter and name it again \\"Test filter\\". Lexus doesnt allow to have more than one filter of the same name. Click on Cancel. The filter disappears from the filter list"
@@ -239,7 +249,8 @@ FilterTest ""
   FTLRunTheFilter4 "Run the filter. 300 entries are found"
   FTReRunTheFiltersForYeli "Rerun the similarily built filters for the Yeli Dyne lexicon. See the results."
   FTDelete "Delete all the filters you have created. The list of available filters is empty"
-ToolboxConvertTest ""
+
+ToolboxConvertTest
   TCSelectingFiles "In the Workspace select 'Convert Toolbox Files To Lexus'. A pop up window appears where you can browse for both .typ and .lx files"
   TCXPopUp "Close the pop up window by pressing the X button. The window is closed. Reselect 'Convert Toolbox Files To Lexus' to open the convert pop up window again"
   TCUploading1 "Choose a .typ file. The file appears in the Convert Toolbox Files window; you can see its size and name"
@@ -251,7 +262,8 @@ ToolboxConvertTest ""
   TCUUploading7 "Once again redo the upload of the files that you want to convert into Lexus. Upload these files via 'Convert Toolbox Files To Lexus', start the download and save the files in a chosen directory. The files are saved as a .zip file; you can see the progress bar. A pop up message appears that the process has been finished. Click OK for the pop up window to disappear"
   TCUploadingCheck "Unzip the files that you have converted to assure the future import. Check the content of the converted files. Everything has been properly converted"
   TCFileErrorTest "Trying to upload a file with a different extention is not possible"
-ImportXMLLexusTest ""
+
+ImportXMLLexusTest
   IExistingLexica "In the Workspace mode in 'File' menu select 'Import Lexus XML'. A pop-up window appears where you can choose files you want to upload"
   IEXThePopUP "Close the pop up window by pressing the X button. The window is closed. Reselect 'Import Lexus XML' to open the import pop up again"
   IExistingLexicaBrowseXML1 "Select .xml files (that you have previously unziped) containing the structure and data of the lexicon. The files appear in the Import XML Files window"
@@ -260,7 +272,8 @@ ImportXMLLexusTest ""
   IExistingLexicaLexiconInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)"
   ExistingLexicaLexiconContentCheck "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
   IExistingLexicaDelete "Delete the newly imported lexicon. The lexicon disappears from the list of the available lexica (log in/log out)"
-ExportTabTest ""
+
+ExportTabTest
   ExpToPDF1 "In the Lexicon Editor mode, click on 'File' and select 'Export to PDF' (you will have to define a PDF view first in the Schema and View Editor). A pop-up window prompts for choosing a view that you want to use"
   ExpToPDF2 "Choose a view and click OK. A PDF document opens in a new tab in your browser"
   ExpToPDF3 "Check content of the PDF export. Both the file and the applied view are correct"
@@ -268,5 +281,6 @@ ExportTabTest ""
   ExpToXML2 "Specify location and OK. Download starts and you see the download progress on the progress bar."
   ExpToXML3 "When the download completes and it is successful, close the pop up window by clicking OK"
   ExpToXMLVerify "Unzip the files and check content of the xml export. The xml format is correct"
-HelpTabTest ""
+
+HelpTabTest
   HTLexusWebsite "In the Help menu, click on the link \\"Lexus website\\". The TLA webpage loads and opens in your internet browser"
