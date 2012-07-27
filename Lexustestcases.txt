@@ -1,4 +1,4 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2012-07-26 (16:53).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2012-07-27 (14:05).
 
 LoginTest
   LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens"
