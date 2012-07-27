@@ -4,7 +4,7 @@
   <LexusVersion>Lexus 3.0</LexusVersion>
   <OSVersion>Windows 7 64bit</OSVersion>
   <Tester>clazab</Tester>
-  <TestPlanRevision>32236</TestPlanRevision>
+  <TestPlanRevision>32253</TestPlanRevision>
   <LoginTest>
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
@@ -211,19 +211,19 @@
     <LEArchivePopUp1>Works</LEArchivePopUp1>
     <LEImportField>Works</LEImportField>
     <LEWordListSorting1>Works</LEWordListSorting1>
-    <LEWordListSorting2></LEWordListSorting2>
-    <LEChangePositioninSortOrder></LEChangePositioninSortOrder>
-    <LETreeView></LETreeView>
-    <LEPropertiesTab1></LEPropertiesTab1>
-    <LENotesTab3></LENotesTab3>
-    <LENotesTab4></LENotesTab4>
-    <LENotesTab5></LENotesTab5>
-    <LENotesTab6></LENotesTab6>
-    <LEAddFeatureSense></LEAddFeatureSense>
-    <LEAddGloss></LEAddGloss>
-    <LEAddValueGloss></LEAddValueGloss>
+    <LEWordListSorting2 error="Ticket 2191">Mostly</LEWordListSorting2>
+    <LEChangePositioninSortOrder>Works</LEChangePositioninSortOrder>
+    <LETreeView>Works</LETreeView>
+    <LEPropertiesTab1>Works</LEPropertiesTab1>
+    <LENotesTab3>Works</LENotesTab3>
+    <LENotesTab4>Works</LENotesTab4>
+    <LENotesTab5>Works</LENotesTab5>
+    <LENotesTab6>Works</LENotesTab6>
+    <LEAddFeatureSense>Works</LEAddFeatureSense>
+    <LEAddGloss>Works</LEAddGloss>
+    <LEAddValueGloss>Works</LEAddValueGloss>
     <LECopyMoveStructureView></LECopyMoveStructureView>
-    <LEModifyNonLatin></LEModifyNonLatin>
+    <LEModifyNonLatin>Works</LEModifyNonLatin>
     <LEChangeSortOrderCyrillic></LEChangeSortOrderCyrillic>
     <LECheckSortOrderAdjusted></LECheckSortOrderAdjusted>
     <LEChangingCyrillicLetterPosition></LEChangingCyrillicLetterPosition>
