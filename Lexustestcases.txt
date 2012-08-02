@@ -1,4 +1,4 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2012-07-27 (14:05).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2012-08-02 (16:47).
 
 LoginTest
   LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens"
@@ -230,7 +230,7 @@ LexiconEditorTest
   LELexiconWordCheck1 "Switch to 'Iwaidja' lexicon, open grapheme 'a' on the last page. Is the last entry 'ayuwunnga-'?"
   LEFilterCheck "Quick search for ayun-. ayun- appears in the list view."
   LEdDeleteEntry "Switch to 'Schema test' lexicon. Word list opens. Delete one of the entries and save. The entry dissapears from word list. Open lexicon again. Check that entry has still been removed"
-  LEdDeleteAllEntries "Delete all entries one by one. Once the list is full, the \\"-\\" button is grayed out and it is not possible to click on it anymore"
+  LEdDeleteAllEntries "Delete all entries one by one. Once the list is empty, the \"-\" button is grayed out and it is not possible to click on it anymore"
   LEdDeleteLexicon "Delete the 'Schema test' lexicon. The lexicon is removed from the list of the available lexica"
 
 FilterTest
@@ -253,6 +253,7 @@ FilterTest
 ToolboxConvertTest
   TCSelectingFiles "In the Workspace select 'Convert Toolbox Files To Lexus'. A pop up window appears where you can browse for both .typ and .lx files"
   TCXPopUp "Close the pop up window by pressing the X button. The window is closed. Reselect 'Convert Toolbox Files To Lexus' to open the convert pop up window again"
+  TCUploading "Go to https://trac.mpi.nl/wiki/LATSoftwareTesting#no1 and download the file 'Dtra_toolbox.zip'. it contains two files, a .typ and a .lx to use for the test. "
   TCUploading1 "Choose a .typ file. The file appears in the Convert Toolbox Files window; you can see its size and name"
   TCUploading2 "Choose a .lx file. The file appears in the Convert Toolbox Files pop up window; you can see its size and name"
   TCUploading3 "Select 'Upload'. While the files are being uploaded (the progress bars of the .typ and .lx files are visible), press the Cancel button. The cancel pop up appears and the convert gets cancelled. Select OK to close the pop up window "
