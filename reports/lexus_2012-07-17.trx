@@ -4,7 +4,7 @@
   <LexusVersion>Lexus 3.0</LexusVersion>
   <OSVersion>Windows 7 64bit</OSVersion>
   <Tester>clazab</Tester>
-  <TestPlanRevision>32253</TestPlanRevision>
+  <TestPlanRevision>32428</TestPlanRevision>
   <LoginTest>
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
@@ -222,25 +222,25 @@
     <LEAddFeatureSense>Works</LEAddFeatureSense>
     <LEAddGloss>Works</LEAddGloss>
     <LEAddValueGloss>Works</LEAddValueGloss>
-    <LECopyMoveStructureView></LECopyMoveStructureView>
+    <LECopyMoveStructureView>Works</LECopyMoveStructureView>
     <LEModifyNonLatin>Works</LEModifyNonLatin>
-    <LEChangeSortOrderCyrillic></LEChangeSortOrderCyrillic>
-    <LECheckSortOrderAdjusted></LECheckSortOrderAdjusted>
-    <LEChangingCyrillicLetterPosition></LEChangingCyrillicLetterPosition>
-    <LESelectingGrapheme></LESelectingGrapheme>
-    <LEVideoImage></LEVideoImage>
-    <LEVideoSound></LEVideoSound>
-    <LELinkToArchive></LELinkToArchive>
-    <LEOpenLinkToArchive></LEOpenLinkToArchive>
-    <LELexiconWordCheck1></LELexiconWordCheck1>
-    <LEFilterCheck></LEFilterCheck>
-    <LEdDeleteEntry></LEdDeleteEntry>
-    <LEdDeleteAllEntries></LEdDeleteAllEntries>
-    <LEdDeleteLexicon></LEdDeleteLexicon>
+    <LEChangeSortOrderCyrillic>Works</LEChangeSortOrderCyrillic>
+    <LECheckSortOrderAdjusted>Works</LECheckSortOrderAdjusted>
+    <LEChangingCyrillicLetterPosition>Works</LEChangingCyrillicLetterPosition>
+    <LESelectingGrapheme>Works</LESelectingGrapheme>
+    <LEVideoImage>Works</LEVideoImage>
+    <LEVideoSound>Works</LEVideoSound>
+    <LELinkToArchive>Works</LELinkToArchive>
+    <LEOpenLinkToArchive>Works</LEOpenLinkToArchive>
+    <LELexiconWordCheck1>Works</LELexiconWordCheck1>
+    <LEFilterCheck>Works</LEFilterCheck>
+    <LEdDeleteEntry>Works</LEdDeleteEntry>
+    <LEdDeleteAllEntries>Works</LEdDeleteAllEntries>
+    <LEdDeleteLexicon>Works</LEdDeleteLexicon>
   </LexiconEditorTest>
   <FilterTest>
-    <FTOpen></FTOpen>
-    <FTCreate></FTCreate>
+    <FTOpen>Works</FTOpen>
+    <FTCreate>Works</FTCreate>
     <FTCreate1></FTCreate1>
     <FTCreateAndRun></FTCreateAndRun>
     <FTCreateFilter1></FTCreateFilter1>
@@ -256,17 +256,18 @@
     <FTDelete></FTDelete>
   </FilterTest>
   <ToolboxConvertTest>
-    <TCSelectingFiles></TCSelectingFiles>
-    <TCXPopUp></TCXPopUp>
-    <TCUploading1></TCUploading1>
-    <TCUploading2></TCUploading2>
-    <TCUploading3></TCUploading3>
-    <TCUploading4></TCUploading4>
-    <TCUploading5></TCUploading5>
-    <TCUploading6></TCUploading6>
-    <TCUUploading7></TCUUploading7>
-    <TCUploadingCheck></TCUploadingCheck>
-    <TCFileErrorTest></TCFileErrorTest>
+    <TCSelectingFiles>Works</TCSelectingFiles>
+    <TCXPopUp>Works</TCXPopUp>
+    <TCUploading>Works</TCUploading>
+    <TCUploading1>Works</TCUploading1>
+    <TCUploading2>Works</TCUploading2>
+    <TCUploading3>Works</TCUploading3>
+    <TCUploading4>Works</TCUploading4>
+    <TCUploading5>Works</TCUploading5>
+    <TCUploading6>Works</TCUploading6>
+    <TCUUploading7>Works</TCUUploading7>
+    <TCUploadingCheck>Works</TCUploadingCheck>
+    <TCFileErrorTest>Works</TCFileErrorTest>
   </ToolboxConvertTest>
   <ImportXMLLexusTest>
     <IExistingLexica></IExistingLexica>
