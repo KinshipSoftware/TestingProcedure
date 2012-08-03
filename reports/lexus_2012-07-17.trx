@@ -4,7 +4,7 @@
   <LexusVersion>Lexus 3.0</LexusVersion>
   <OSVersion>Windows 7 64bit</OSVersion>
   <Tester>clazab</Tester>
-  <TestPlanRevision>32428</TestPlanRevision>
+  <TestPlanRevision>32463</TestPlanRevision>
   <LoginTest>
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
@@ -241,7 +241,7 @@
   <FilterTest>
     <FTOpen>Works</FTOpen>
     <FTCreate>Works</FTCreate>
-    <FTCreate1></FTCreate1>
+    <FTCreate1 error="Ticket #2216">Fails</FTCreate1>
     <FTCreateAndRun></FTCreateAndRun>
     <FTCreateFilter1></FTCreateFilter1>
     <FTCreateFilter1A></FTCreateFilter1A>
@@ -270,8 +270,8 @@
     <TCFileErrorTest>Works</TCFileErrorTest>
   </ToolboxConvertTest>
   <ImportXMLLexusTest>
-    <IExistingLexica></IExistingLexica>
-    <IEXThePopUP></IEXThePopUP>
+    <IExistingLexica>Works</IExistingLexica>
+    <IEXThePopUP>Works</IEXThePopUP>
     <IExistingLexicaBrowseXML1></IExistingLexicaBrowseXML1>
     <IExistingLexicaBrowseXML2></IExistingLexicaBrowseXML2>
     <IExistingLexicaBrowseXML3></IExistingLexicaBrowseXML3>
@@ -280,15 +280,15 @@
     <IExistingLexicaDelete></IExistingLexicaDelete>
   </ImportXMLLexusTest>
   <ExportTabTest>
-    <ExpToPDF1></ExpToPDF1>
-    <ExpToPDF2></ExpToPDF2>
-    <ExpToPDF3></ExpToPDF3>
-    <ExpToXML1></ExpToXML1>
-    <ExpToXML2></ExpToXML2>
-    <ExpToXML3></ExpToXML3>
-    <ExpToXMLVerify></ExpToXMLVerify>
+    <ExpToPDF1>Works</ExpToPDF1>
+    <ExpToPDF2>Works</ExpToPDF2>
+    <ExpToPDF3>Works</ExpToPDF3>
+    <ExpToXML1>Works</ExpToXML1>
+    <ExpToXML2>Works</ExpToXML2>
+    <ExpToXML3>Works</ExpToXML3>
+    <ExpToXMLVerify>Works</ExpToXMLVerify>
   </ExportTabTest>
   <HelpTabTest>
-    <HTLexusWebsite></HTLexusWebsite>
+    <HTLexusWebsite>Works</HTLexusWebsite>
   </HelpTabTest>
 </LexusBugCheck>
