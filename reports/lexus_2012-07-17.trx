@@ -4,22 +4,22 @@
   <LexusVersion>Lexus 3.0</LexusVersion>
   <OSVersion>Windows 7 64bit</OSVersion>
   <Tester>clazab</Tester>
-  <TestPlanRevision>32463</TestPlanRevision>
+  <TestPlanRevision>32516</TestPlanRevision>
   <LoginTest>
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
-    <LTDemoLogoutBack></LTDemoLogoutBack>
+    <LTDemoLogoutBack>Works</LTDemoLogoutBack>
     <LTLoginFail>Works</LTLoginFail>
   </LoginTest>
   <SwitchTabTest>
     <STTSchemaAndViewEditor>Works</STTSchemaAndViewEditor>
     <STTLexiconEditor>Works</STTLexiconEditor>
     <STTWorkspace>Works</STTWorkspace>
-    <STTVicos></STTVicos>
+    <STTVicos>Works</STTVicos>
   </SwitchTabTest>
   <WorkspaceLexicaTabTest>
     <WLTTAddNewLexicon>Works</WLTTAddNewLexicon>
-    <WLTTSaveNewLexicon></WLTTSaveNewLexicon>
+    <WLTTSaveNewLexicon>Works</WLTTSaveNewLexicon>
     <WLTTRemoveLexicon>Works</WLTTRemoveLexicon>
     <WLTTSelectLexicon>Works</WLTTSelectLexicon>
     <WLTTChangeNameLexicon1>Works</WLTTChangeNameLexicon1>
@@ -41,7 +41,7 @@
     <ReadOnlyNotEditableFields5>Works</ReadOnlyNotEditableFields5>
     <ReadOnlyNotEditableFields6>Works</ReadOnlyNotEditableFields6>
     <ReadOnlyNotEditableFields7>Works</ReadOnlyNotEditableFields7>
-    <ReadOnlyNotEditableFields8></ReadOnlyNotEditableFields8>
+    <ReadOnlyNotEditableFields8>Works</ReadOnlyNotEditableFields8>
     <ReadOnlyNotEditableFields9>Works</ReadOnlyNotEditableFields9>
     <ReadOnlyNotEditableFields10>Works</ReadOnlyNotEditableFields10>
     <WriterRightsEditableFields1>Works</WriterRightsEditableFields1>
@@ -60,7 +60,7 @@
     <SOCreateNew2>Works</SOCreateNew2>
     <SOCreateNew3>Works</SOCreateNew3>
     <SOCreateNew4>Works</SOCreateNew4>
-    <SOHelp1></SOHelp1>
+    <SOHelp1>Works</SOHelp1>
     <SOHelp2>Works</SOHelp2>
     <SORemoveCharacters1>Works</SORemoveCharacters1>
     <SORemoveCharacters2>Works</SORemoveCharacters2>
@@ -178,7 +178,7 @@
     <SVEFormattingViewClass3>Works</SVEFormattingViewClass3>
     <SVEFormattingViewClass4>Works</SVEFormattingViewClass4>
     <SVEFormattingViewClass5>Works</SVEFormattingViewClass5>
-    <SVEFormattingCopy></SVEFormattingCopy>
+    <SVEFormattingCopy>Works</SVEFormattingCopy>
     <SVEFormattingViewTable1>Works</SVEFormattingViewTable1>
     <SVEFormattingViewTable2>Works</SVEFormattingViewTable2>
     <SVEFormattingViewTable3>Works</SVEFormattingViewTable3>
