@@ -4,7 +4,7 @@
   <LexusVersion>Lexus 3.0</LexusVersion>
   <OSVersion>Windows 7 64bit</OSVersion>
   <Tester>clazab</Tester>
-  <TestPlanRevision>32516</TestPlanRevision>
+  <TestPlanRevision>32550</TestPlanRevision>
   <LoginTest>
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
@@ -255,6 +255,16 @@
     <FTReRunTheFiltersForYeli></FTReRunTheFiltersForYeli>
     <FTDelete></FTDelete>
   </FilterTest>
+  <ImportXMLLexusTest>
+    <IExistingLexica>Works</IExistingLexica>
+    <IEXThePopUP>Works</IEXThePopUP>
+    <IExistingLexicaBrowseXML1>Works</IExistingLexicaBrowseXML1>
+    <IExistingLexicaBrowseXML2>Works</IExistingLexicaBrowseXML2>
+    <IExistingLexicaBrowseXML3>Works</IExistingLexicaBrowseXML3>
+    <IExistingLexicaLexiconInTheList>Works</IExistingLexicaLexiconInTheList>
+    <ExistingLexicaLexiconContentCheck>Works</ExistingLexicaLexiconContentCheck>
+    <IExistingLexicaDelete>Works</IExistingLexicaDelete>
+  </ImportXMLLexusTest>
   <ToolboxConvertTest>
     <TCSelectingFiles>Works</TCSelectingFiles>
     <TCXPopUp>Works</TCXPopUp>
@@ -267,18 +277,9 @@
     <TCUploading6>Works</TCUploading6>
     <TCUUploading7>Works</TCUUploading7>
     <TCUploadingCheck>Works</TCUploadingCheck>
+    <TCUploadingCheck2>Works</TCUploadingCheck2>
     <TCFileErrorTest>Works</TCFileErrorTest>
   </ToolboxConvertTest>
-  <ImportXMLLexusTest>
-    <IExistingLexica>Works</IExistingLexica>
-    <IEXThePopUP>Works</IEXThePopUP>
-    <IExistingLexicaBrowseXML1></IExistingLexicaBrowseXML1>
-    <IExistingLexicaBrowseXML2></IExistingLexicaBrowseXML2>
-    <IExistingLexicaBrowseXML3></IExistingLexicaBrowseXML3>
-    <IExistingLexicaLexiconInTheList></IExistingLexicaLexiconInTheList>
-    <ExistingLexicaLexiconContentCheck></ExistingLexicaLexiconContentCheck>
-    <IExistingLexicaDelete></IExistingLexicaDelete>
-  </ImportXMLLexusTest>
   <ExportTabTest>
     <ExpToPDF1>Works</ExpToPDF1>
     <ExpToPDF2>Works</ExpToPDF2>
