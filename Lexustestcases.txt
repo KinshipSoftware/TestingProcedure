@@ -1,4 +1,4 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2012-08-08 (16:47).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2012-08-09 (14:50).
 
 LoginTest
   LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens"
@@ -250,6 +250,16 @@ FilterTest
   FTReRunTheFiltersForYeli "Rerun the similarily built filters for the Yeli Dyne lexicon. See the results."
   FTDelete "Delete all the filters you have created. The list of available filters is empty"
 
+ImportXMLLexusTest
+  IExistingLexica "In the Workspace mode in 'File' menu select 'Import Lexus XML'. A pop-up window appears where you can choose files you want to upload"
+  IEXThePopUP "Close the pop up window by pressing the X button. The window is closed. Reselect 'Import Lexus XML' to open the import pop up again"
+  IExistingLexicaBrowseXML1 "Select .xml files (that you have previously unziped) containing the structure and data of the lexicon. The files appear in the Import XML Files window"
+  IExistingLexicaBrowseXML2 "Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
+  IExistingLexicaBrowseXML3 "Select 'Upload'. Both .xml files are being uploaded; you can see the time line, the message that the import process was successful. Press OK"
+  IExistingLexicaLexiconInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)"
+  ExistingLexicaLexiconContentCheck "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
+  IExistingLexicaDelete "Delete the newly imported lexicon. The lexicon disappears from the list of the available lexica (log in/log out)"
+
 ToolboxConvertTest
   TCSelectingFiles "In the Workspace select 'Convert Toolbox Files To Lexus'. A pop up window appears where you can browse for both .typ and .lx files"
   TCXPopUp "Close the pop up window by pressing the X button. The window is closed. Reselect 'Convert Toolbox Files To Lexus' to open the convert pop up window again"
@@ -262,17 +272,8 @@ ToolboxConvertTest
   TCUploading6 "Redo the upload again but now, instead of cancelling it right before it comence, click on \\"Start\\". Download starts. Before it finishes, press Cancel. A cancel pop up appears, the download is cancelled. Press OK. The pop up disappears"
   TCUUploading7 "Once again redo the upload of the files that you want to convert into Lexus. Upload these files via 'Convert Toolbox Files To Lexus', start the download and save the files in a chosen directory. The files are saved as a .zip file; you can see the progress bar. A pop up message appears that the process has been finished. Click OK for the pop up window to disappear"
   TCUploadingCheck "Unzip the files that you have converted to assure the future import. Check the content of the converted files. Everything has been properly converted"
+  TCUploadingCheck2 "Upload the .xml file (the schema and the lexicon files) through \"Import XML file\" and check if it works properly. "
   TCFileErrorTest "Trying to upload a file with a different extention is not possible"
-
-ImportXMLLexusTest
-  IExistingLexica "In the Workspace mode in 'File' menu select 'Import Lexus XML'. A pop-up window appears where you can choose files you want to upload"
-  IEXThePopUP "Close the pop up window by pressing the X button. The window is closed. Reselect 'Import Lexus XML' to open the import pop up again"
-  IExistingLexicaBrowseXML1 "Select .xml files (that you have previously unziped) containing the structure and data of the lexicon. The files appear in the Import XML Files window"
-  IExistingLexicaBrowseXML2 "Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
-  IExistingLexicaBrowseXML3 "Select 'Upload'. Both .xml files are being uploaded; you can see the time line, the message that the import process was successful. Press OK"
-  IExistingLexicaLexiconInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)"
-  ExistingLexicaLexiconContentCheck "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
-  IExistingLexicaDelete "Delete the newly imported lexicon. The lexicon disappears from the list of the available lexica (log in/log out)"
 
 ExportTabTest
   ExpToPDF1 "In the Lexicon Editor mode, click on 'File' and select 'Export to PDF' (you will have to define a PDF view first in the Schema and View Editor). A pop-up window prompts for choosing a view that you want to use"
