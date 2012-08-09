@@ -1,14 +1,19 @@
+# test cases exported from test plan file imex_2012-02-17.xml on 2012-08-09 (15:31).
 
-NodeSearchTest ""
+NodeSearchTest
   OpenMdSession "left click on md session in the tree; select view images; images should appear in a new window as thumbnails"
+
 OpenThumbnails "opening the thumbnails"
   OpenThumbnail "left click on the thumbnail to see in full view"
-PreviousButton ""
-  PreviousButton "In full view press on \"previous\" button to see one image before"
-NextButton ""
-  NextButton "In full view press on \"next\" button to see the following image"
-LoggedOutTest ""
-  DragAndDrop "when loggen in, drag images from the gallery and move them to desktop in order to use as files etc."
-  DragAndDrop "not logged in, drag thumbnails from the blurry gallery and move them to the desktop. images appear blurry on desktop as well."
+
+PreviousButton
+  PreviousButton "In full view press on \\"previous\\" button to see one image before"
+
+NextButton
+  NextButton "In full view press on \\"next\\" button to see the following image"
+
+LoggedOutTest
+  DragAndDrop1 "when loggen in, drag images from the gallery and move them to desktop in order to use as files etc."
+  DragAndDrop2 "not loggen in, drag images from the gallery and move them to desktop, images appear blurry"
   FullView "Images do not open in full view when not logged in"
   ViewThumbnails "thumbnails appear blurry when viewing them without being logged in"
