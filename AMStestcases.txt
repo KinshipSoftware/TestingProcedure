@@ -1,4 +1,4 @@
-﻿# AMS testcases made on the 3th of November 2011
+# AMS testcases made on the 3th of November 2011
 # The version used by Arbil is then accessible under http://www.mpi.nl/world/data/3439243/
 # Force Export is not possible because doing a recrawl doesn't upset the rules anymore..
 # Effictive user privileges is broken so cannot incorporate that just yet, same holds for adding a new license
