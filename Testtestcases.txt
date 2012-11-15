@@ -1,11 +1,5 @@
-# test cases exported from test plan file test_1.xml on 2012-07-19 (14:37).
+# test cases exported from test plan file test_3.xml on 2012-11-15 (17:16).
 
-t2 "This is a testplan for [i]TEST[/i] itself."
-  initial_test "nice testing..."
-  second_test "Now what happens if I change the test plan?"
-  third_test "The new numbering really is nice to have."
-  fourth_test "can this already work?"
-  t2 "fasdf ? xxx"
-  t3 "dfasd"
-  t4 "still testing..."
-  t4 "still testing... and no improvement"
+NodeSearchTest
+  OpenSearchWindow "From the local corpus tree right click and select search; a search window should be shown."
+  LocalSearch "From the local corpus tree right click and select search; enter something..."
