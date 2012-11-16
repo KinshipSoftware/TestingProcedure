@@ -4,7 +4,7 @@
   <TestVersion>2012-11-16</TestVersion>
   <OSVersion>Kubuntu 12.10</OSVersion>
   <Tester>docman</Tester>
-  <TestPlanRevision></TestPlanRevision>
+  <TestPlanRevision>0</TestPlanRevision>
   <NodeSearchTest>
     <wunder.bar>Works</wunder.bar>
     <dot.>Works</dot.>
@@ -15,6 +15,6 @@
     <grün>Works</grün>
     <系统标识符>Works</系统标识符>
     <dot.four>Works</dot.four>
-    <dot.five error="The problems were strange.">Strange</dot.five>
+    <dot.five>Works</dot.five>
   </Group·two>
 </TestBugCheck>
