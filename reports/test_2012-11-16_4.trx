@@ -4,9 +4,10 @@
   <TestVersion>2012-11-16</TestVersion>
   <OSVersion>Kubuntu 12.10</OSVersion>
   <Tester>docman</Tester>
-  <TestPlanRevision>34319</TestPlanRevision>
+  <TestPlanRevision>34321</TestPlanRevision>
   <newOne>
-    <anyTest>Works</anyTest>
+    <anyTest error="really?">Mostly</anyTest>
+    <neverEndingTesting error="That can't be it!">Fails</neverEndingTesting>
   </newOne>
   <Group·two>
     <test_without_dot>Works</test_without_dot>
