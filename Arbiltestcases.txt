@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil_IMDI.xml on 2012-11-16 (13:54).
+# test cases exported from test plan file arbil_IMDI.xml on 2012-11-16 (16:18).
 
 IMDIWizardTest
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -121,13 +121,12 @@ FileMenuTest
 
 OptionsMenuTest
   TemplatesAndProfiles "Click Options > Templates and profiles. Available profiles are shown"
-  LocalCorpusStorageDirectory "Click Options > Local Corpus Storage Directory > Move Local Corpus Storage Directory and select a new location for your corpus. The Local Corpus files are moved to a different directory"
   EditLanguageList "Click Options > Edit Language List. The option shows the language list and let you select languages"
-  IMDIRe-downloadCurrentVocabulary "Open .arbil > ArbilWorkingFiles > http > www.mpi.nl > IMDI > schema"
+  IMDIRe-downloadCurrentVocabulary "Open .arbil > ArbilWorkingFiles > http > www.mpi.nl > IMDI > schema. Note that for Mac users hidden folders such as .arbil cannot easily be made visible in Finder, they need to be accessed via Terminal using this script: open ~/.arbil/"
   Re-downloadCurrentVocabulary1 "Right click on Content-Interactivity.xml and edit it (e.g. in the 9th line, add the words 'to their parents'after the word 'hearer(s)')."
   Re-downloadCurrentVocabulary2 "Go back to Arbil, click Options > Redownload Current Vocabularies. The vocabularies are updated (after a restart) and there are no errors."
-  SaveWindowsOnExit "Click Options > mark Save Windows on Exit. Make some changes to the open windows and exit Arbil. The options does save the windows on exit"
-  SaveWindowsOnExit1 "Click Options > unmark Save Windows on Exit. Make some changes to the open windows and exit Arbil. The options does not save the windows on exit"
+  SaveWindowsOnExit "Click Options > mark Save Windows on Exit. Make some changes to the open windows and exit Arbil. Reopen Arbil, the position and content of windows should be the same as when the application closed."
+  SaveWindowsOnExit1 "Click Options > unmark Save Windows on Exit. Make some changes to the open windows and exit Arbil. When it is reopened the windows will not be open in the state in which they were left."
   ShowSelectionPreview "Click Options > mark Show Selection Preview. The preview window (dis)appear and it shows previews"
   CopyNewResourcesIntoCache "Click Options > mark Copy New Resources into cache. Now create a new session. Copy a jpg file from the working directory into this session. Now check the resource link. It should be stored in the ArbilWorkingFiles directory."
   CopyNewResourcesIntoCacheN "Now unmark Copy New Resources into cache and copy another jpg from the WD into the same session. The resource link should suggest that the file remains stored in the working directory."
@@ -136,6 +135,7 @@ OptionsMenuTest
   ShowLanguageInColumnName "Click Options > mark Show Language In Column Name. The option shows language in column names for columns that have langugage attributes"
   ColumnViewForNewTables "Click Options > Column view for New Tables > All AND/OR Minimal. New tables are opened with the appropriate Column View applied"
   CloseAllWindows "Open a number of tables and go to >Window > Close all windows. Confirm by clicking on OK. All table windows that were previously open, got closed"
+  LocalCorpusStorageDirect_ "Click Options > Local Corpus Storage Directory > Move Local Corpus Storage Directory and select a new location for your corpus. The Local Corpus files are moved to a different directory."
 
 HelpMenuTest
   AboutHelpMenu "Select Help > About. The 'About' window opens up. All info about the version of Arbil etc. are visible. (NOTE: for Mac the About menu appears in the program-specific option (i.e.: one before File) of the menu bar)."
@@ -168,7 +168,7 @@ AddResourcesTest
   AddResourceLocation "Right clicking on a node and select \"Insert Manual Resource Location\" and add the URL in the window that appears. "
 
 TypeCheckerTest
-  TypecheckerConfiguration1 "Make sure there is no file 'filetypes.txt' in the .arbil directory"
+  TypecheckerConfiguration1 "Make sure there is no file 'filetypes.txt' in the .arbil directory (Note: for mac you will only be able to view .arbil by using terminal to enable hidden files)."
   TypecheckerConfiguration2 "Collect three JPG files that have been typechecked in Arbil (or start from a fresh .arbil directory). Do not put them in an Arbil Working directory yet. "
   TypecheckerConfiguration3 "Make an empty directory that will serve as working directory. Configure it in Arbil"
   TypecheckerConfiguration4 "Copy the *first* JPG to this directory and reload the working directory. The JPG should appear as *archivable*. Quit Arbil. "
