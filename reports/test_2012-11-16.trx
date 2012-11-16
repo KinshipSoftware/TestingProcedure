@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/test_3.xml">
+  <DateTime>2012-11-16</DateTime>
+  <TestVersion></TestVersion>
+  <OSVersion></OSVersion>
+  <Tester>vlapla</Tester>
+  <TestPlanRevision>34326</TestPlanRevision>
+  <newOne>
+    <anyTest>Works</anyTest>
+  </newOne>
+  <Group·two>
+    <test_without_dot></test_without_dot>
+    <grün></grün>
+    <系统标识符></系统标识符>
+  </Group·two>
+</TestBugCheck>
