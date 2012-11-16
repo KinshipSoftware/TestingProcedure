@@ -1,8 +1,7 @@
-# test cases exported from test plan file test_3.xml on 2012-11-16 (11:48).
+# test cases exported from test plan file test_3.xml on 2012-11-16 (13:33).
 
 newOne "More revisions are required!"
   anyTest "no description"
-  neverEndingTesting "..."
 
 Group·two "with a new dot!"
   test_without_dot "just to be sure..."
