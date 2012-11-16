@@ -8,7 +8,7 @@
   <NodeSearchTest>
     <wunder.bar>Works</wunder.bar>
     <dot.>Works</dot.>
-    <x error="Now this new problem with the revisions...">Strange</x>
+    <x>Works</x>
   </NodeSearchTest>
   <Group·two>
     <test_without_dot>Works</test_without_dot>
