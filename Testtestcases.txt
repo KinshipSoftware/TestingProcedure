@@ -1,5 +1,19 @@
-# test cases exported from test plan file test_3.xml on 2012-11-15 (17:16).
+# test cases exported from test plan file test_3.xml on 2012-11-16 (10:04).
 
 NodeSearchTest
-  OpenSearchWindow "From the local corpus tree right click and select search; a search window should be shown."
   LocalSearch "From the local corpus tree right click and select search; enter something..."
+  wunder.bar "what happens now?"
+  dot. "where's the problem?"
+  x "nothing"
+
+Group·two "with a new dot!"
+  test_without_dot "just to be sure..."
+  test_three "what?"
+  grün "mit umlaut?"
+  dot.four "now it's ok!"
+  dot.five "now that's interesting"
+
+group.three "now with a real dot"
+  test.one "testing dots"
+  test.two "and so on..."
+  test.three "dots are possible! :-)"
