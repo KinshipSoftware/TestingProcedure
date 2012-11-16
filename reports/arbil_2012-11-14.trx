@@ -4,7 +4,7 @@
   <ArbilVersion>2.4.34017</ArbilVersion>
   <OSVersion>OSX 10.6.8</OSVersion>
   <Tester>andsmi</Tester>
-  <TestPlanRevision>34329</TestPlanRevision>
+  <TestPlanRevision>34337</TestPlanRevision>
   <IMDIWizardTest>
     <SA1>Works</SA1>
     <SA1A>Works</SA1A>
@@ -126,21 +126,21 @@
   </FileMenuTest>
   <OptionsMenuTest>
     <TemplatesAndProfiles>Works</TemplatesAndProfiles>
-    <LocalCorpusStorageDirectory>Works</LocalCorpusStorageDirectory>
     <EditLanguageList>Works</EditLanguageList>
-    <IMDIRe-downloadCurrentVocabulary error="Unclear, not apparent on options menu">Empty</IMDIRe-downloadCurrentVocabulary>
-    <Re-downloadCurrentVocabulary1></Re-downloadCurrentVocabulary1>
+    <IMDIRe-downloadCurrentVocabulary>Works</IMDIRe-downloadCurrentVocabulary>
+    <Re-downloadCurrentVocabulary1>Works</Re-downloadCurrentVocabulary1>
     <Re-downloadCurrentVocabulary2>Works</Re-downloadCurrentVocabulary2>
-    <SaveWindowsOnExit error="Testplan unclear. A prompt appears asking if you wish to save before exit, but no different from above in this respect.">Mostly</SaveWindowsOnExit>
-    <SaveWindowsOnExit1 error="Option to save window appears again upon selecting exit.">Mostly</SaveWindowsOnExit1>
+    <SaveWindowsOnExit>Works</SaveWindowsOnExit>
+    <SaveWindowsOnExit1>Works</SaveWindowsOnExit1>
     <ShowSelectionPreview>Works</ShowSelectionPreview>
     <CopyNewResourcesIntoCache>Works</CopyNewResourcesIntoCache>
     <CopyNewResourcesIntoCacheN>Works</CopyNewResourcesIntoCacheN>
     <CheckPermisForRemoteResources error="This required me to restart Arbil, but there was no visible changes. ">Mostly</CheckPermisForRemoteResources>
     <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
-    <ShowLanguageInColumnName error="Could not locate any files with language attributes">Mostly</ShowLanguageInColumnName>
+    <ShowLanguageInColumnName error="Unclear, no difference discernible.">Mostly</ShowLanguageInColumnName>
     <ColumnViewForNewTables>Works</ColumnViewForNewTables>
     <CloseAllWindows>Works</CloseAllWindows>
+    <LocalCorpusStorageDirect_>Works</LocalCorpusStorageDirect_>
   </OptionsMenuTest>
   <HelpMenuTest>
     <AboutHelpMenu>Works</AboutHelpMenu>
@@ -158,7 +158,7 @@
     <LongfieldEditor>Works</LongfieldEditor>
     <ControlledVocabularies1>Works</ControlledVocabularies1>
     <ControlledVocabularies2>Works</ControlledVocabularies2>
-    <ControlledVocabularies3></ControlledVocabularies3>
+    <ControlledVocabularies3 error="">Empty</ControlledVocabularies3>
     <ControlledVocabularies4>Works</ControlledVocabularies4>
     <ClosedVocabularies>Works</ClosedVocabularies>
     <ControlledVocabulariesLongFE>Works</ControlledVocabulariesLongFE>
@@ -177,16 +177,16 @@
     <TypecheckerConfiguration2>Works</TypecheckerConfiguration2>
     <TypecheckerConfiguration3>Works</TypecheckerConfiguration3>
     <TypecheckerConfiguration4>Works</TypecheckerConfiguration4>
-    <TypecheckerConfiguration5></TypecheckerConfiguration5>
-    <TypecheckerConfiguration6></TypecheckerConfiguration6>
-    <TypecheckerConfiguration6a></TypecheckerConfiguration6a>
-    <TypecheckerConfiguration6b></TypecheckerConfiguration6b>
-    <TypecheckerConfiguration7></TypecheckerConfiguration7>
-    <TypecheckerConfiguration8></TypecheckerConfiguration8>
+    <TypecheckerConfiguration5>Works</TypecheckerConfiguration5>
+    <TypecheckerConfiguration6>Works</TypecheckerConfiguration6>
+    <TypecheckerConfiguration6a>Works</TypecheckerConfiguration6a>
+    <TypecheckerConfiguration6b>Works</TypecheckerConfiguration6b>
+    <TypecheckerConfiguration7>Works</TypecheckerConfiguration7>
+    <TypecheckerConfiguration8>Works</TypecheckerConfiguration8>
     <Resource_TypeNotInferredFromMimetype></Resource_TypeNotInferredFromMimetype>
   </TypeCheckerTest>
   <HandleNodesTests>
-    <DeleteNodeKey></DeleteNodeKey>
-    <DeleteNodeMenu></DeleteNodeMenu>
+    <DeleteNodeKey>Works</DeleteNodeKey>
+    <DeleteNodeMenu>Works</DeleteNodeMenu>
   </HandleNodesTests>
 </ArbilBugCheck>
