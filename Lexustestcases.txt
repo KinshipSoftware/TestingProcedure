@@ -1,4 +1,4 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2012-08-09 (14:50).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2012-11-20 (14:13).
 
 LoginTest
   LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens"
@@ -20,7 +20,7 @@ WorkspaceLexicaTabTest
   WLTTChangeNameLexicon1 "In the right tab 'Lexicon' change the name of an existing lexicon (lexicon 'Iwaidja') to 'Test name'. File > Save. Name of lexicon should be changed in the lexicon list accordingly (also after loggin out/loggin in)"
   WLTTChangeNameLexicon2 "Modify the Name field further but do not save it via File > Save. Move away from the lexicon (e.g. select a different lexicon). An alert message appears. Select OK and see if the changes have been saved"
   WLTTChangeNameLexicon3 "Modify the Description field and File > Log out. An alert message appears. Select NO and see if the changes have not been saved"
-  WLTTChangeNameLexicon4 "Modify the Description field and File > Log out. An alert message appears. Select OK and see if the changes have been saved"
+  WLTTChangeNameLexicon4 "Modify the Description field and File > Log out. An alert message appears. Select YES and see if the changes have been saved"
   WLChangeDescriptionExistingLexicon "Change the description of the existing lexicon (lexicon 'Iwaidja') into 'Test description'. Click on another lexicon in the list and in the save alert window select YES. 'Iwaidja demo lexicon' should be changed in the Description Box into 'Test description'  (also after loggin out/loggin in)"
   WLChangeOwnerModificationField "Try to modify the Owner field. The field is not editable"
   WLChangeNoteExistingLexicon "Add a note in the 'Iwaidja' lexicon. Save. The note should appear in the Note Box  (also after loggin out/loggin in)"
@@ -74,7 +74,7 @@ SortOrdersTabTest
   SaveTestAutoNO "Create a new sort order and modify it a bit. Do not save but move away from it (e.g. by selecting a different sort order). A pop up message appears asking for the changes to be saved. Choose NO. The changes have not been saved. "
   SaveTestAutoYES "Create a new sort order. Modify it. Do not save but move away from it. A pop up message appears asking for the changes to be saved. Choose YES. The changes have been saved (also after login/louout)"
   SaveTestFromFile "Create a new sort order. Modify it. Save it from File>Save. The changes have been saved (also after login/louout). Delete all the sort orders that you have created for this test"
-  SortOrdersRemoving "Remove all the sort orders that you created for the test of the sort orders tab"
+  SortOrdersRemoving "Remove all the sort orders that you created for the test from the sort orders tab"
 
 QueriesAndSearchingTabTestRightTab
   SQT1 "Go to the Search Tab in the Workspace. You are in the Query Search tab that is empty (if it is not empty, remove all the available queries in the left frame). The only button that is available is the \\"+\\" button is the Query list. All the other buttons have been grayed out and it is not possible to click on them"
@@ -89,7 +89,7 @@ QueriesAndSearchingTabTestRightTab
   SQT11 "Select the second element in the tree sturcture of your query \"Iwaidja\". Double click it (or select the Tool button). A pop up appears in which you can select various lexica. From the drop down menu select \"Yeli Dyne Lexicon\". Click OK (an alert msg will appear to confirm). You get redirected to the following step of the Query builder Element in which you should choose data categories of the query. Note that the \"headword\" condition has changed to \"lexeme\" (\"headword\" is available for Iwaidja but it doesnt exist in Yeli lexicon). Make sure \"lexeme\" \"begins with\" \"t\" is selected"
   SQT12 "The elements in the tree structure of the Query Editor have changed accordingly for \\"Modified query\\""
   SQT13 "In the Query window (left frame) make sure \\"Modified query\\" has been selected and click on the magnifying glass button. A new tab opens in which you can see 33 entries found. Close the tab and go back to your query (\\"Modified query\\"). "
-  SQT14 "In the Query builder select the second element (\\"Yeli Dyne Lexicon\\") and click +. Specify \\"lexeme\\" \\"contains\\" \\"a\\". In the tree structure you see that under the \\"Yeli Dyne Lexicon\\" element, except for \\"lexeme begins with t\\", now you have another element \\"OR lexeme contains a\\" and it appears under Yeli Dyne Lexicon."
+  SQT14 "In the Query builder select the second element (\"Yeli Dyne Lexicon\") and click +. Specify \"lexeme\" \"contains\" \"a\". In the tree structure you see that under the \"Yeli Dyne Lexicon\" element, in addition to \"lexeme begins with t\", now you have another element \"OR lexeme contains a\" and it appears under Yeli Dyne Lexicon."
   SQT15 "Run the query. 106 results found. Close the tab and go back to your query."
   SQT16 "Remove the newly created \\"or lexeme contains a\\" from the tree structure and select \\"lexeme begins with t\\" element. Click on \\"+\\" button. In the pop up specify \\"lexeme\\" \\"contains\\" \\"a\\". Click on OK. "
   SQT17 "See the query structure in the Query Builder. Now \\"AND lexeme contains a\\" appears under (!) \\"lexeme begins with t\\" (as a child, not as a sister element)"
@@ -107,7 +107,7 @@ QueriesAndSearchingTabTestRightTab
   QSAdHocSearchDropDownListContainNOTEmpty "Use the condition 'contain', check the 'NOT' box and leave the search string empty again (you will be searching for all the lexical entries wich do not have the specified datacategory). Run the Ad Hoc Search. 0 results found"
   QSAdHocSearchDropDownListOtherConditionsEmpty "See the 'begins with' and 'ends with' conditions. They do not work when the search string is empty"
   QSAdHocSearchDropDownListBeginWith1A "Select 'begins with' and 'T'. 33 search results, lexeme begis with 'T' (the 'aBc' window unchecked)"
-  QSAdHocSearchDropDownListBeginWith1B "Select 'begins with' and 'T'. 0 search results, lexeme begis with 'T' (this time check the 'aBc' window)"
+  QSAdHocSearchDropDownListBeginWith1B "Select 'begins with' and 'T'. This time check the 'aBc' window. 0 search results."
   QSAdHocSearchDropDownListBeginWith2A "Select 'begins with' and 't'. 33 search results, lexeme starts with 't' (the 'aBc' window unchecked)"
   QSAdHocSearchDropDownListBeginWith2B "Select 'begins with' and 't'. 33 search results, lexeme starts with 't' (the 'aBc' window checked)"
   QSAdHocSearchLexicalEntryDetails "Open 'tâ' from the results list. Pop-up 'Lexical entry details' with two tabs opens (Entry, Details)"
