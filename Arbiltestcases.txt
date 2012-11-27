@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil_clarin.xml on 2012-11-27 (15:41).
+# test cases exported from test plan file arbil_clarin.xml on 2012-11-27 (16:49).
 
 CMDIWizardTest
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -131,9 +131,6 @@ FileMenuTest
 OptionsMenuTest
   TemplatesAndProfiles "Click Options > Tamplates and profiles. Available profiles are shown"
   LocalCorpusStorageDirectory "Click Options > Local Corpus Storage Directory > Move Local Corpus Storage Directory and select a new location for your corpus. The Local Corpus files are moved to a different directory"
-  IMDIRe-downloadCurrentVocabulary "Open .arbil > ArbilWorkingFiles > http > www.mpi.nl > IMDI > schema"
-  Re-downloadCurrentVocabulary1 "Right click on Content-Interactivity.xml and edit it (e.g. in the 9th line, add the words 'to their parents'after the word 'hearer(s)')."
-  Re-downloadCurrentVocabulary2 "Go back to Arbil, click Options > Redownload Current Vocabularies. The vocabularies are updated (after a restart) and there are no errors."
   SaveWindowsOnExit "Click Options > mark Save Windows on Exit. Make some changes to the open windows and exit Arbil. The options does save the windows on exit"
   SaveWindowsOnExit1 "Click Options > unmark Save Windows on Exit. Make some changes to the open windows and exit Arbil. The options does not save the windows on exit"
   ShowSelectionPreview "Click Options > mark Show Selection Preview. The preview window (dis)appear and it shows previews"
@@ -186,7 +183,6 @@ TypeCheckerTest
   TypecheckerConfiguration6b "Now right click on the item and select 'overwrite type checker'. The file becomes archivable and you should now be able to drag it into the local corpus."
   TypecheckerConfiguration7 "Open the filetypes.txt in an editor and re-add the line removed in step 5; save and start Arbil. "
   TypecheckerConfiguration8 "Copy the *third* JPG to this directory and reload the working directory. The JPG should appear as *archivable*."
-  Resource_TypeNotInferredFromMimetype "(Save for the future testing, reedit): When using custom typechecker configuration, a user might drag a file onto a session that has a mimetype that does not occur in the controlled vocabularies for WrittenResource? or MediaFile? formats. Then, Arbil does cannot determine which of these resource types to create and gives an (rather technical) error message and fails. This can be improved by telling the user it is probably trying to do something undesirable but can proceed by choosing either type (much like when overriding typechecker decision"
 
 HandleNodesTests
   DeleteNodeKey "In the Local Corpus deleted a node by pressing the [del] key. After confirming the deleting in the alert window, the node is deleted from the Local Corpus"
