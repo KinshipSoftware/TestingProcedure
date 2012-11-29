@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil_clarin.xml on 2012-11-27 (16:49).
+# test cases exported from test plan file arbil_clarin.xml on 2012-11-29 (14:29).
 
 CMDIWizardTest
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -34,7 +34,7 @@ GetMetadataTest
   CMDIAddProfile "Right-click on 'Local Corpus' and choose 'Add'> and the name of the profile you want to add. The profile will be added under the local corpus node"
   CMDAddProfileConName "In the table change the name of the corpus node that you have just created. The name has been changed in the tree structure of the local corpus. The name, when not saved via File > Save Changes, remains in blue."
   CMDIAddProfileNode "Right click on the just created node. Select Add>and choose a component. The new comonent has been created under the node and as such it is visible in the tree structure. "
-  IMDIMaximumNumberNodesReached "Add a (second) \\"Project\\" to a session. \\"The maximum nodes of this type have already been added.\\" The term \\"project\\" is disabled (grey text) in the menu already"
+  CMDIMaximumNumberNodesReached "In Templates and Profiles select the profile TextCorpusProfile. Add it to the Local Corpus. Add to it the component TextTechnical. The maximum nodes of this type have already been added. It is not possible to add another TextTechical components. It turns grey in the Add menu."
   CMDIAddComponentConName1 "In the table change the name of the component that you have just added. The name has been changed in the tree structure of the local corpus. The name, when not saved via File > Save Changes, remains in blue."
   SaveMenuChanges "Check the context menu of the Arbil table. It allowes to save changes if any have been made in or displayed in that table."
   CMDIChangesNodeSortingNS "Change the name of three profiles in your local corpus in \"Node10\", \"Node2\" and \"Node3\". The nodes are being re-sorted by the values of the numbers in the tree"
