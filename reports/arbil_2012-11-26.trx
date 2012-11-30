@@ -4,7 +4,7 @@
   <ArbilVersion>2.4</ArbilVersion>
   <OSVersion>Ubuntu 12.10</OSVersion>
   <Tester>andsmi</Tester>
-  <TestPlanRevision>34537</TestPlanRevision>
+  <TestPlanRevision>34540</TestPlanRevision>
   <IMDIWizardTest>
     <SA1 error="Skipping the webstart section as does not work with Ubuntu (known issue) ">Empty</SA1>
     <SA1A></SA1A>
@@ -138,7 +138,7 @@
     <CopyNewResourcesIntoCacheN>Works</CopyNewResourcesIntoCacheN>
     <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
     <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
-    <ShowLanguageInColumnName></ShowLanguageInColumnName>
+    <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
     <ColumnViewForNewTables>Works</ColumnViewForNewTables>
     <CloseAllWindows>Works</CloseAllWindows>
     <LocalCorpusStorageDirect_>Works</LocalCorpusStorageDirect_>
