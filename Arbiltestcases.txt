@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil_IMDI.xml on 2012-11-30 (12:11).
+# test cases exported from test plan file arbil_IMDI.xml on 2012-11-30 (14:05).
 
 IMDIWizardTest
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -133,7 +133,7 @@ OptionsMenuTest
   CopyNewResourcesIntoCacheN "Now unmark Copy New Resources into cache and copy another jpg from the WD into the same session. The resource link should suggest that the file remains stored in the working directory."
   CheckPermisForRemoteResources "Click Options > mark Check Permissions For Remote Resources. It changes node icons accordingly (pay attention to the tooltip)"
   AlwaysCheckLocalMetdatFilesForXMLConformance "Click Options > mark Always Check Local Metadata Files For XML Conformance. The option highlights invalid XML metadata in red only after you save (pay attention to the tooltip)"
-  ShowLanguageInColumnName "Click Options > mark Show Language In Column Name. The option shows language in column names for columns that have langugage attributes"
+  ShowLanguageInColumnName "Choose a session node and add one or two additional description fields, fill in some values and set a language using the drop down field to the right. Click Options > mark Show Language In Column Name. The option shows language in column for field names for descriptions that have specified langugage attributes."
   ColumnViewForNewTables "Click Options > Column view for New Tables > All AND/OR Minimal. New tables are opened with the appropriate Column View applied"
   CloseAllWindows "Open a number of tables and go to >Window > Close all windows. Confirm by clicking on OK. All table windows that were previously open, got closed"
   LocalCorpusStorageDirect_ "Click Options > Local Corpus Storage Directory > Move Local Corpus Storage Directory and select a new location for your corpus. The Local Corpus files are moved to a different directory."
