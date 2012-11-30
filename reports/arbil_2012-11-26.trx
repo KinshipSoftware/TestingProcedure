@@ -4,7 +4,7 @@
   <ArbilVersion>2.4</ArbilVersion>
   <OSVersion>Ubuntu 12.10</OSVersion>
   <Tester>andsmi</Tester>
-  <TestPlanRevision>34535</TestPlanRevision>
+  <TestPlanRevision>34537</TestPlanRevision>
   <IMDIWizardTest>
     <SA1 error="Skipping the webstart section as does not work with Ubuntu (known issue) ">Empty</SA1>
     <SA1A></SA1A>
@@ -97,7 +97,7 @@
   </ColumnsTests>
   <FilesTest>
     <AddWorkingDirectory>Works</AddWorkingDirectory>
-    <AddJpegImage error="Not working currently; issue with *imagemagicks* currently">Fails</AddJpegImage>
+    <AddJpegImage>Works</AddJpegImage>
     <AddWAV>Works</AddWAV>
     <FilesShowHidden>Works</FilesShowHidden>
   </FilesTest>
