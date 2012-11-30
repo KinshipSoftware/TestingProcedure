@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil_IMDI.xml on 2012-11-30 (10:35).
+# test cases exported from test plan file arbil_IMDI.xml on 2012-11-30 (12:11).
 
 IMDIWizardTest
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -92,7 +92,7 @@ ColumnsTests
 
 FilesTest
   AddWorkingDirectory "Go to the Files area. Several directories can be added and removed from 'Files'"
-  AddJpegImage "In a session add a JPG image from your Working Directories. The image is added, a preview displayed (when View Selected is selected) and the file size is correct"
+  AddJpegImage "In a session add a JPG image from your Working Directories to a session in the Local Corpus. The image is added and a window opens where a preview (thumbnail) is displayed and the file size is correct. If you close this window, but leave the JPG unsaved the thumbnail will reappear when you view selected. Once the image is saved, the thumbnail no longer appears in View Selected."
   AddWAV "Download the WAV audio file (http://corpus1.mpi.nl/qfs1/media-archive/demo/pewi/Media/elan-example1.wav) onto the same directory used for the previous JPG file. Right click on the Folder and select reload. The wav file should then be uploaded to the working directory. The file is added and it is possible to be played when opened with an external application. (Windows 7 offers to show the directory, from where it can be opened)."
   FilesShowHidden "Right click on Files and check the \\\"Show Hidden Files\\\". Previously hidden files are shown now."
 
