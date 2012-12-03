@@ -10,12 +10,12 @@
     <ReplaceResource1>Works</ReplaceResource1>
     <ReplaceResource1_SubmitTest>Works</ReplaceResource1_SubmitTest>
     <ReplaceResource1_VersionCheck>Works</ReplaceResource1_VersionCheck>
-    <ReplaceResource2></ReplaceResource2>
-    <ReplaceSession1_preface></ReplaceSession1_preface>
-    <ReplaceSession1></ReplaceSession1>
-    <ReplaceSession1_SubmitTest></ReplaceSession1_SubmitTest>
-    <ReplaceSession1_VersionCheck></ReplaceSession1_VersionCheck>
-    <ReplaceCorpus1></ReplaceCorpus1>
+    <ReplaceResource2>Works</ReplaceResource2>
+    <ReplaceSession1_preface>Works</ReplaceSession1_preface>
+    <ReplaceSession1>Works</ReplaceSession1>
+    <ReplaceSession1_SubmitTest>Works</ReplaceSession1_SubmitTest>
+    <ReplaceSession1_VersionCheck>Works</ReplaceSession1_VersionCheck>
+    <ReplaceCorpus1 error="I get the follow error message: Exception occurred (null) ">Fails</ReplaceCorpus1>
     <ReplaceCorpus1_SubmitTest></ReplaceCorpus1_SubmitTest>
     <ReplaceCorpus2></ReplaceCorpus2>
     <ReplaceCorpus2_2></ReplaceCorpus2_2>
