@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LamusBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/lamus_tree-replace.xml">
+  <DateTime>2012-11-13</DateTime>
+  <LamusVersion>1.1.7.5</LamusVersion>
+  <OSVersion>Windows7</OSVersion>
+  <Tester>sauciv</Tester>
+  <TestPlanRevision>34558</TestPlanRevision>
+  <ReplaceTreeTest>
+    <Preface1>Works</Preface1>
+    <ReplaceResource1>Works</ReplaceResource1>
+    <ReplaceResource1_SubmitTest>Works</ReplaceResource1_SubmitTest>
+    <ReplaceResource1_VersionCheck>Works</ReplaceResource1_VersionCheck>
+    <ReplaceResource2></ReplaceResource2>
+    <ReplaceSession1_preface></ReplaceSession1_preface>
+    <ReplaceSession1></ReplaceSession1>
+    <ReplaceSession1_SubmitTest></ReplaceSession1_SubmitTest>
+    <ReplaceSession1_VersionCheck></ReplaceSession1_VersionCheck>
+    <ReplaceCorpus1></ReplaceCorpus1>
+    <ReplaceCorpus1_SubmitTest></ReplaceCorpus1_SubmitTest>
+    <ReplaceCorpus2></ReplaceCorpus2>
+    <ReplaceCorpus2_2></ReplaceCorpus2_2>
+    <ReplaceCorpus3></ReplaceCorpus3>
+    <ReplaceCorpus3_CreateWorkspace></ReplaceCorpus3_CreateWorkspace>
+    <ReplaceCorpus3_1></ReplaceCorpus3_1>
+    <ReplaceCorpus3_2></ReplaceCorpus3_2>
+    <ReplaceCorpus3_3></ReplaceCorpus3_3>
+    <ReplaceCorpus4></ReplaceCorpus4>
+    <ReplaceCorpus4_CreateWorkspace></ReplaceCorpus4_CreateWorkspace>
+    <ReplaceCorpus4_2></ReplaceCorpus4_2>
+    <ReplaceCorpus5></ReplaceCorpus5>
+    <ReplaceCorpus5_CreateWorkspace></ReplaceCorpus5_CreateWorkspace>
+    <ReplaceCorpus5_2 error="">Empty</ReplaceCorpus5_2>
+    <ReplaceCorpus5_ExportTree></ReplaceCorpus5_ExportTree>
+    <ReplaceCorpus5_Export></ReplaceCorpus5_Export>
+    <ReplaceCorpus5_2 error="">Empty</ReplaceCorpus5_2>
+    <ReplaceExternalNode></ReplaceExternalNode>
+    <ReplaceExternalNode_CreateCorpus></ReplaceExternalNode_CreateCorpus>
+    <ReplaceExternalNode_VersionCheck></ReplaceExternalNode_VersionCheck>
+    <ReplaceNodeMultipleParents></ReplaceNodeMultipleParents>
+    <ReplaceNodeMultipleParents_CreateNewWorkspace></ReplaceNodeMultipleParents_CreateNewWorkspace>
+    <ReplaceNodeMultipleParents_CreateNewCorpusNode></ReplaceNodeMultipleParents_CreateNewCorpusNode>
+    <ReplaceNodeMultipleParents_2></ReplaceNodeMultipleParents_2>
+    <ReplaceNodeMultipleParents_3></ReplaceNodeMultipleParents_3>
+    <ReplaceNodeMultipleParents_4></ReplaceNodeMultipleParents_4>
+    <ReplaceNodeMultipleParents_5></ReplaceNodeMultipleParents_5>
+  </ReplaceTreeTest>
+</LamusBugCheck>
