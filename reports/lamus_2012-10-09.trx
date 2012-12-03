@@ -20,14 +20,14 @@
     <ReplaceCorpus2>Works</ReplaceCorpus2>
     <ReplaceCorpus2_2>Works</ReplaceCorpus2_2>
     <ReplaceCorpus3>Works</ReplaceCorpus3>
-    <ReplaceCorpus3_CreateWorkspace></ReplaceCorpus3_CreateWorkspace>
-    <ReplaceCorpus3_1></ReplaceCorpus3_1>
-    <ReplaceCorpus3_2></ReplaceCorpus3_2>
-    <ReplaceCorpus3_3></ReplaceCorpus3_3>
-    <ReplaceCorpus4></ReplaceCorpus4>
-    <ReplaceCorpus4_CreateWorkspace></ReplaceCorpus4_CreateWorkspace>
-    <ReplaceCorpus4_2></ReplaceCorpus4_2>
-    <ReplaceCorpus5></ReplaceCorpus5>
+    <ReplaceCorpus3_CreateWorkspace error="">Fails</ReplaceCorpus3_CreateWorkspace>
+    <ReplaceCorpus3_1 error="">Empty</ReplaceCorpus3_1>
+    <ReplaceCorpus3_2 error="">Empty</ReplaceCorpus3_2>
+    <ReplaceCorpus3_3 error="">Empty</ReplaceCorpus3_3>
+    <ReplaceCorpus4>Works</ReplaceCorpus4>
+    <ReplaceCorpus4_CreateWorkspace>Works</ReplaceCorpus4_CreateWorkspace>
+    <ReplaceCorpus4_2>Works</ReplaceCorpus4_2>
+    <ReplaceCorpus5>Works</ReplaceCorpus5>
     <ReplaceCorpus5_CreateWorkspace></ReplaceCorpus5_CreateWorkspace>
     <ReplaceCorpus5_2 error="">Empty</ReplaceCorpus5_2>
     <ReplaceCorpus5_ExportTree></ReplaceCorpus5_ExportTree>
