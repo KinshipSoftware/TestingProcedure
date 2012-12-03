@@ -15,11 +15,11 @@
     <ReplaceSession1>Works</ReplaceSession1>
     <ReplaceSession1_SubmitTest>Works</ReplaceSession1_SubmitTest>
     <ReplaceSession1_VersionCheck>Works</ReplaceSession1_VersionCheck>
-    <ReplaceCorpus1 error="I get the follow error message: Exception occurred (null) ">Fails</ReplaceCorpus1>
-    <ReplaceCorpus1_SubmitTest></ReplaceCorpus1_SubmitTest>
-    <ReplaceCorpus2></ReplaceCorpus2>
-    <ReplaceCorpus2_2></ReplaceCorpus2_2>
-    <ReplaceCorpus3></ReplaceCorpus3>
+    <ReplaceCorpus1>Works</ReplaceCorpus1>
+    <ReplaceCorpus1_SubmitTest>Works</ReplaceCorpus1_SubmitTest>
+    <ReplaceCorpus2>Works</ReplaceCorpus2>
+    <ReplaceCorpus2_2>Works</ReplaceCorpus2_2>
+    <ReplaceCorpus3>Works</ReplaceCorpus3>
     <ReplaceCorpus3_CreateWorkspace></ReplaceCorpus3_CreateWorkspace>
     <ReplaceCorpus3_1></ReplaceCorpus3_1>
     <ReplaceCorpus3_2></ReplaceCorpus3_2>
