@@ -20,28 +20,28 @@
     <ReplaceCorpus2>Works</ReplaceCorpus2>
     <ReplaceCorpus2_2>Works</ReplaceCorpus2_2>
     <ReplaceCorpus3>Works</ReplaceCorpus3>
-    <ReplaceCorpus3_CreateWorkspace error="">Fails</ReplaceCorpus3_CreateWorkspace>
-    <ReplaceCorpus3_1 error="">Empty</ReplaceCorpus3_1>
-    <ReplaceCorpus3_2 error="">Empty</ReplaceCorpus3_2>
-    <ReplaceCorpus3_3 error="">Empty</ReplaceCorpus3_3>
+    <ReplaceCorpus3_CreateWorkspace>Works</ReplaceCorpus3_CreateWorkspace>
+    <ReplaceCorpus3_1>Works</ReplaceCorpus3_1>
+    <ReplaceCorpus3_2>Works</ReplaceCorpus3_2>
+    <ReplaceCorpus3_3>Works</ReplaceCorpus3_3>
     <ReplaceCorpus4>Works</ReplaceCorpus4>
     <ReplaceCorpus4_CreateWorkspace>Works</ReplaceCorpus4_CreateWorkspace>
     <ReplaceCorpus4_2>Works</ReplaceCorpus4_2>
     <ReplaceCorpus5>Works</ReplaceCorpus5>
-    <ReplaceCorpus5_CreateWorkspace></ReplaceCorpus5_CreateWorkspace>
-    <ReplaceCorpus5_2 error="">Empty</ReplaceCorpus5_2>
-    <ReplaceCorpus5_ExportTree></ReplaceCorpus5_ExportTree>
-    <ReplaceCorpus5_Export></ReplaceCorpus5_Export>
-    <ReplaceCorpus5_2 error="">Empty</ReplaceCorpus5_2>
-    <ReplaceExternalNode></ReplaceExternalNode>
-    <ReplaceExternalNode_CreateCorpus></ReplaceExternalNode_CreateCorpus>
-    <ReplaceExternalNode_VersionCheck></ReplaceExternalNode_VersionCheck>
-    <ReplaceNodeMultipleParents></ReplaceNodeMultipleParents>
-    <ReplaceNodeMultipleParents_CreateNewWorkspace></ReplaceNodeMultipleParents_CreateNewWorkspace>
-    <ReplaceNodeMultipleParents_CreateNewCorpusNode></ReplaceNodeMultipleParents_CreateNewCorpusNode>
-    <ReplaceNodeMultipleParents_2></ReplaceNodeMultipleParents_2>
-    <ReplaceNodeMultipleParents_3></ReplaceNodeMultipleParents_3>
-    <ReplaceNodeMultipleParents_4></ReplaceNodeMultipleParents_4>
-    <ReplaceNodeMultipleParents_5></ReplaceNodeMultipleParents_5>
+    <ReplaceCorpus5_CreateWorkspace>Works</ReplaceCorpus5_CreateWorkspace>
+    <ReplaceCorpus5_2>Works</ReplaceCorpus5_2>
+    <ReplaceCorpus5_ExportTree>Works</ReplaceCorpus5_ExportTree>
+    <ReplaceCorpus5_Export>Works</ReplaceCorpus5_Export>
+    <ReplaceCorpus5_2>Works</ReplaceCorpus5_2>
+    <ReplaceExternalNode>Works</ReplaceExternalNode>
+    <ReplaceExternalNode_CreateCorpus>Works</ReplaceExternalNode_CreateCorpus>
+    <ReplaceExternalNode_VersionCheck>Works</ReplaceExternalNode_VersionCheck>
+    <ReplaceNodeMultipleParents>Works</ReplaceNodeMultipleParents>
+    <ReplaceNodeMultipleParents_CreateNewWorkspace>Works</ReplaceNodeMultipleParents_CreateNewWorkspace>
+    <ReplaceNodeMultipleParents_CreateNewCorpusNode>Works</ReplaceNodeMultipleParents_CreateNewCorpusNode>
+    <ReplaceNodeMultipleParents_2>Works</ReplaceNodeMultipleParents_2>
+    <ReplaceNodeMultipleParents_3>Works</ReplaceNodeMultipleParents_3>
+    <ReplaceNodeMultipleParents_4>Works</ReplaceNodeMultipleParents_4>
+    <ReplaceNodeMultipleParents_5>Works</ReplaceNodeMultipleParents_5>
   </ReplaceTreeTest>
 </LamusBugCheck>
