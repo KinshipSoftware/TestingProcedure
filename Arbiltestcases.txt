@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil_clarin.xml on 2012-12-05 (16:53).
+# test cases exported from test plan file arbil_clarin.xml on 2012-12-06 (16:10).
 
 CMDIWizardTest
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -121,11 +121,11 @@ FavouritesTest
 
 FileMenuTest
   FileMenuSaveChanges "Click on File > Save. 'Save Changes' saves the changes"
-  FileMenuSaveChanges1 "Modify a node in the Local Corpus. Click on Crtl + S on your keyboard. The changes have been saved."
+  FileMenuSaveChanges1 "Modify a node in the Local Corpus. Click on Crtl + S (or cmd+S for Mac) on your keyboard. The changes have been saved."
   FileMenuShowModifiedNodes "Modify 2-3 nodes in your Local Corpus. Do not save. Click on File > Show Modified Nodes. This options shows all modified nodes"
   FileMenuImport "Click on File > Import. You will first be asked to save changes. 'Import' function works"
   FileMenuExit "Click File > Exit; you get a warning when trying to exit with unsaved modifications. The program is shut down"
-  ExitMacOS1 "On MacOS; change one of the values are go to the File menu>Exit; in the pop up window click on Save. Arbil closes; after having it run, the changes have been saved"
+  ExitMacOS1 "On MacOS; change one of the values and go to the File menu>Exit; in the pop up window click on Save. Arbil closes; after running it, the changes have been saved"
   ExitMacOS2 "On MacOS; change one of the values and press CMD-Q; in the pop up window click on Save. Arbil closes; after having it run, the changes have been saved"
 
 OptionsMenuTest
@@ -134,8 +134,8 @@ OptionsMenuTest
   SaveWindowsOnExit "Click Options > mark Save Windows on Exit. Make some changes to the open windows and exit Arbil. The options does save the windows on exit"
   SaveWindowsOnExit1 "Click Options > unmark Save Windows on Exit. Make some changes to the open windows and exit Arbil. The options does not save the windows on exit"
   ShowSelectionPreview "Click Options > mark Show Selection Preview. The preview window (dis)appear and it shows previews"
-  CopyNewResourcesIntoCache "Click Options > mark Copy New Resources into cache. Now create a new session. Copy a jpg file from the working directory into this session. Now check the resource link. It should be stored in the ArbilWorkingFiles directory."
-  CopyNewResourcesIntoCacheN "Now unmark Copy New Resources into cache and copy another jpg from the WD into the same session. The resource link should suggest that the file remains stored in the working directory."
+  CopyNewResourcesIntoCache "Click Options > mark Copy New Resources into cache. Now create a new instance. Copy a jpg file from the working directory into this instance. Check the HTML file. It should be stored in the ArbilWorkingFiles directory."
+  CopyNewResourcesIntoCacheN "Now unmark Copy New Resources into cache and copy another jpg from the WD into the same instances. In the HTML file you should be able to see that the file remains stored in the working directory."
   CheckPermisForRemoteResources "Click Options > mark Check Permissions For Remote Resources. It changes node icons accordingly (pay attention to the tooltip)"
   AlwaysCheckLocalMetdatFilesForXMLConformance "Click Options > mark Always Check Local Metadata Files For XML Conformance. The option highlights invalid XML metadata in red only after you save (pay attention to the tooltip)"
   ShowLanguageInColumnName "Click Options > mark Show Language In Column Name. The option shows language in column names for columns that have langugage attributes"
@@ -162,8 +162,6 @@ MultiLanguageTest
   ControlledVocabularies4 "When searching for a value by typing, the shortest match gets selected first instead of the first. For CMDI: In the language list in the language code field of a ComicBook instance, open the drop down and type 'Dutch'. It should jump to Dutch, not Dutch Sign Language."
   ClosedVocabularies "Edit/view info of a node and look for cells either with a close vocabulary only. Try to type \"abcdef\". The closed vocabulary does not allow to type your own value. The typed text remains red."
   ControlledVocabulariesLongFE "Open any node in the Long Field Editor. You can see an icon indicating the type of vocabulary (open/closed, single value/list) on the field"
-  CMDIMPILanguagesDescription1 "Go to Options > Edit language list. Click on clear selection and check Abaza, Adyghe, and Afrikaans. Then close the available languages window."
-  CMDIMPILanguagesDescription2 "Right click on any session node and click on 'view selected'. In the description value click on the list of available language. The list should include only the languages that were previously checked."
 
 AddResourcesTest
   AddWorkingDirectories "Right click on Working Directories and select Add Working Directory. Choose a directory to import (e.g. Desktop). It has been correctly added. You can open it and see the files that it contains."
