@@ -4,7 +4,7 @@
   <ArbilVersion>2.4</ArbilVersion>
   <OSVersion>Windows 7, Firefox 12.0</OSVersion>
   <Tester>clazab</Tester>
-  <TestPlanRevision>34646</TestPlanRevision>
+  <TestPlanRevision>34673</TestPlanRevision>
   <CMDIWizardTest>
     <SA1>Works</SA1>
     <SA1A>Works</SA1A>
@@ -79,12 +79,12 @@
     <CMDIReImportBranch1>Works</CMDIReImportBranch1>
     <CMDIReImportBranch2>Works</CMDIReImportBranch2>
     <IMDIReImportBranch3>Works</IMDIReImportBranch3>
-    <ReImportMultipleNodes></ReImportMultipleNodes>
+    <ReImportMultipleNodes>Works</ReImportMultipleNodes>
     <ViewXML>Works</ViewXML>
-    <ExportMetadata1></ExportMetadata1>
-    <ExportMetadata2></ExportMetadata2>
-    <ExportMetadata3></ExportMetadata3>
-    <ExportMetadataWithResources></ExportMetadataWithResources>
+    <ExportMetadata1>Works</ExportMetadata1>
+    <ExportMetadata2>Works</ExportMetadata2>
+    <ExportMetadata3>Works</ExportMetadata3>
+    <ExportMetadataWithResources>Works</ExportMetadataWithResources>
     <ExportMetadataHierarchy>Works</ExportMetadataHierarchy>
     <CheckXmlConformance>Works</CheckXmlConformance>
     <CMDICheckXmlConformance1>Works</CMDICheckXmlConformance1>
@@ -96,86 +96,84 @@
     <ArrangementMultipleColumns>Works</ArrangementMultipleColumns>
     <SaveColumnView>Works</SaveColumnView>
     <EditColumnView>Works</EditColumnView>
-    <ShowOnlyCurrent></ShowOnlyCurrent>
-    <ColumnViewForThis></ColumnViewForThis>
+    <ShowOnlyCurrent>Works</ShowOnlyCurrent>
+    <ColumnViewForThis>Works</ColumnViewForThis>
     <CopyTableWeb>Works</CopyTableWeb>
     <Embed></Embed>
     <FindAndReplace></FindAndReplace>
   </ColumnsTests>
   <FilesTest>
-    <AddWorkingDirectory></AddWorkingDirectory>
-    <AddJpegImage></AddJpegImage>
-    <AddWAV></AddWAV>
-    <FilesShowHidden></FilesShowHidden>
+    <AddWorkingDirectory>Works</AddWorkingDirectory>
+    <AddJpegImage>Works</AddJpegImage>
+    <AddWAV>Works</AddWAV>
+    <FilesShowHidden>Works</FilesShowHidden>
   </FilesTest>
   <FavouritesTest>
-    <AddToFavourites></AddToFavourites>
-    <AddFromFavourites></AddFromFavourites>
-    <CMDIAddtoFavourites></CMDIAddtoFavourites>
-    <CMDIaddfromFavourites></CMDIaddfromFavourites>
-    <Remove></Remove>
-    <CMDIAddRechangeFav></CMDIAddRechangeFav>
-    <CMDIAddIntoDiffSubnodeFav></CMDIAddIntoDiffSubnodeFav>
-    <EditMetaData></EditMetaData>
-    <EditMetaData1></EditMetaData1>
-    <EditMeteData1></EditMeteData1>
-    <AddToElemInFav></AddToElemInFav>
-    <AddToElemInFav2></AddToElemInFav2>
-    <LongFieldEd></LongFieldEd>
-    <LongFieldEd1></LongFieldEd1>
+    <AddToFavourites>Works</AddToFavourites>
+    <AddFromFavourites>Works</AddFromFavourites>
+    <CMDIAddtoFavourites>Works</CMDIAddtoFavourites>
+    <CMDIaddfromFavourites>Works</CMDIaddfromFavourites>
+    <Remove>Works</Remove>
+    <CMDIAddRechangeFav>Works</CMDIAddRechangeFav>
+    <CMDIAddIntoDiffSubnodeFav>Works</CMDIAddIntoDiffSubnodeFav>
+    <EditMetaData>Works</EditMetaData>
+    <EditMetaData1>Works</EditMetaData1>
+    <EditMeteData1>Works</EditMeteData1>
+    <AddToElemInFav>Works</AddToElemInFav>
+    <AddToElemInFav2>Works</AddToElemInFav2>
+    <LongFieldEd>Works</LongFieldEd>
+    <LongFieldEd1>Works</LongFieldEd1>
   </FavouritesTest>
   <FileMenuTest>
-    <FileMenuSaveChanges></FileMenuSaveChanges>
-    <FileMenuSaveChanges1></FileMenuSaveChanges1>
-    <FileMenuShowModifiedNodes></FileMenuShowModifiedNodes>
-    <FileMenuImport></FileMenuImport>
-    <FileMenuExit></FileMenuExit>
-    <ExitMacOS1></ExitMacOS1>
-    <ExitMacOS2></ExitMacOS2>
+    <FileMenuSaveChanges>Works</FileMenuSaveChanges>
+    <FileMenuSaveChanges1>Works</FileMenuSaveChanges1>
+    <FileMenuShowModifiedNodes>Works</FileMenuShowModifiedNodes>
+    <FileMenuImport>Works</FileMenuImport>
+    <FileMenuExit>Works</FileMenuExit>
+    <ExitMacOS1>Works</ExitMacOS1>
+    <ExitMacOS2>Works</ExitMacOS2>
   </FileMenuTest>
   <OptionsMenuTest>
-    <TemplatesAndProfiles></TemplatesAndProfiles>
-    <LocalCorpusStorageDirectory></LocalCorpusStorageDirectory>
-    <SaveWindowsOnExit></SaveWindowsOnExit>
-    <SaveWindowsOnExit1></SaveWindowsOnExit1>
-    <ShowSelectionPreview></ShowSelectionPreview>
-    <CopyNewResourcesIntoCache></CopyNewResourcesIntoCache>
+    <TemplatesAndProfiles>Works</TemplatesAndProfiles>
+    <LocalCorpusStorageDirectory>Works</LocalCorpusStorageDirectory>
+    <SaveWindowsOnExit>Works</SaveWindowsOnExit>
+    <SaveWindowsOnExit1>Works</SaveWindowsOnExit1>
+    <ShowSelectionPreview>Works</ShowSelectionPreview>
+    <CopyNewResourcesIntoCache error="">Fails</CopyNewResourcesIntoCache>
     <CopyNewResourcesIntoCacheN></CopyNewResourcesIntoCacheN>
-    <CheckPermisForRemoteResources></CheckPermisForRemoteResources>
-    <AlwaysCheckLocalMetdatFilesForXMLConformance></AlwaysCheckLocalMetdatFilesForXMLConformance>
-    <ShowLanguageInColumnName></ShowLanguageInColumnName>
-    <ColumnViewForNewTables></ColumnViewForNewTables>
-    <CloseAllWindows></CloseAllWindows>
+    <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
+    <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
+    <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
+    <ColumnViewForNewTables>Works</ColumnViewForNewTables>
+    <CloseAllWindows>Works</CloseAllWindows>
   </OptionsMenuTest>
   <HelpMenuTest>
-    <AboutHelpMenu></AboutHelpMenu>
-    <HelpMenu></HelpMenu>
-    <HelpMenuF1></HelpMenuF1>
-    <ArbilForumHelpMenu></ArbilForumHelpMenu>
+    <AboutHelpMenu>Works</AboutHelpMenu>
+    <HelpMenu>Works</HelpMenu>
+    <HelpMenuF1>Works</HelpMenuF1>
+    <ArbilForumHelpMenu>Works</ArbilForumHelpMenu>
     <HelpMenuInSyncManual></HelpMenuInSyncManual>
-    <RunSetUpWizard></RunSetUpWizard>
-    <ErrorHelpMenu></ErrorHelpMenu>
-    <CheckUpdatesHelpMenu></CheckUpdatesHelpMenu>
-    <ShortCutKeysHelpMenu></ShortCutKeysHelpMenu>
+    <RunSetUpWizard>Works</RunSetUpWizard>
+    <ErrorHelpMenu>Works</ErrorHelpMenu>
+    <CheckUpdatesHelpMenu>Works</CheckUpdatesHelpMenu>
+    <ShortCutKeysHelpMenu>Works</ShortCutKeysHelpMenu>
   </HelpMenuTest>
   <MultiLanguageTest>
-    <DescriptionChoice></DescriptionChoice>
-    <LongfieldEditor></LongfieldEditor>
-    <ControlledVocabularies1></ControlledVocabularies1>
-    <ControlledVocabularies2></ControlledVocabularies2>
-    <ControlledVocabularies3></ControlledVocabularies3>
-    <ControlledVocabularies4></ControlledVocabularies4>
-    <ClosedVocabularies></ClosedVocabularies>
-    <ControlledVocabulariesLongFE></ControlledVocabulariesLongFE>
-    <CMDIMPILanguagesDescription1></CMDIMPILanguagesDescription1>
-    <CMDIMPILanguagesDescription2></CMDIMPILanguagesDescription2>
+    <DescriptionChoice>Works</DescriptionChoice>
+    <LongfieldEditor>Works</LongfieldEditor>
+    <ControlledVocabularies1>Works</ControlledVocabularies1>
+    <ControlledVocabularies2>Works</ControlledVocabularies2>
+    <ControlledVocabularies3>Works</ControlledVocabularies3>
+    <ControlledVocabularies4>Works</ControlledVocabularies4>
+    <ClosedVocabularies>Works</ClosedVocabularies>
+    <ControlledVocabulariesLongFE>Works</ControlledVocabulariesLongFE>
   </MultiLanguageTest>
   <AddResourcesTest>
-    <AddWorkingDirectories></AddWorkingDirectories>
-    <AddResources></AddResources>
-    <AddResources2></AddResources2>
-    <AddNotArchivableFile></AddNotArchivableFile>
-    <AddResourceLocation></AddResourceLocation>
+    <AddWorkingDirectories>Works</AddWorkingDirectories>
+    <AddResources>Works</AddResources>
+    <AddResources2>Works</AddResources2>
+    <AddNotArchivableFile>Works</AddNotArchivableFile>
+    <AddResourceLocation>Works</AddResourceLocation>
   </AddResourcesTest>
   <TypeCheckerTest>
     <TypecheckerConfiguration1></TypecheckerConfiguration1>
@@ -190,7 +188,7 @@
     <TypecheckerConfiguration8></TypecheckerConfiguration8>
   </TypeCheckerTest>
   <HandleNodesTests>
-    <DeleteNodeKey></DeleteNodeKey>
-    <DeleteNodeMenu></DeleteNodeMenu>
+    <DeleteNodeKey>Works</DeleteNodeKey>
+    <DeleteNodeMenu>Works</DeleteNodeMenu>
   </HandleNodesTests>
 </ArbilBugCheck>
