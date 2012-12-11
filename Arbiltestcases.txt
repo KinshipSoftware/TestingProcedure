@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil_clarin.xml on 2012-12-06 (16:10).
+# test cases exported from test plan file arbil_clarin.xml on 2012-12-11 (17:07).
 
 CMDIWizardTest
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -41,7 +41,6 @@ GetMetadataTest
   CMDIChangesTableOrdering "Select a number of nodes, by right clicking on them select View selected, subsequently order by of one the columns (e.g. Name, Description etc), change the values in one of the fields from that column (choose a different letter) and save. After having re-opened the table, the values of that column have been re-ordered"
   CMDIChangesMetadataStr "Import twice the same profile (i.g. ComicBook) . Select one of its components, right click it and select Copy. Open the other instance of the same profile, right click it and select Paste. The element has been copied to that instance."
   CMDIChangesTableandPreviewArea "Add text to a value in the table area. The change should be reflected in the preview area and vice versa."
-  CMDIChangesTableandPreviewArea1 "Add text to a value in the table area. The change should be reflected in the preview area and vice versa."
   CMDIMultipleValuesAdd "Add multiple values for Location.Region and all the Description fields. Additional fields are being added where it is possible to enter multiple values and saved them"
   ImportExistinBrnchSavN "In the Remote Corpus Tree right-click on the branch you want; choose 'Import to Local Corpus' and then click 'Start'. Before the import starts, you get a message whether you want to save the changes you have made. Click on Cancel. nothing has changed and the unsaved names in the local corpus tree structure are still in blue."
   ImportExistinBrnchSve "In the Remote Corpus Tree right-click on the branch you want; choose 'Import to Local Corpus' and then click 'Start'. Before the import starts, you get a message whether you want to save the changes you have made. Click on OK. The unsaved names in the local corpus tree structure are now black."
