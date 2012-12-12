@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ELANBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/ELAN_base1_04-24-12.xml">
+  <DateTime>2012-12-10</DateTime>
+  <ELANVersion>4.5.0</ELANVersion>
+  <OSVersion>win7 x64</OSVersion>
+  <Tester>jergee</Tester>
+  <TestPlanRevision>34761</TestPlanRevision>
+  <Installation>
+    <DownloadFile error="svn version">Empty</DownloadFile>
+    <RunInstallation error="">Empty</RunInstallation>
+    <UserInterfaceLanguage>Works</UserInterfaceLanguage>
+    <SearchableHelp error="doesnt start due to svn execution ">Fails</SearchableHelp>
+    <CheckUpdates error="doesnt run due to svn execution ">Fails</CheckUpdates>
+    <VisitWebsite>Works</VisitWebsite>
+    <AboutELAN>Works</AboutELAN>
+  </Installation>
+  <ManagingDocuments>
+    <CreatingNewDoc>Works</CreatingNewDoc>
+    <LocateMedia>Works</LocateMedia>
+    <UseTemplate>Works</UseTemplate>
+    <UseStreaming error="">Empty</UseStreaming>
+    <SetAuthor>Works</SetAuthor>
+    <SyncVideoFiles1>Works</SyncVideoFiles1>
+    <SyncVideoFiles2>Works</SyncVideoFiles2>
+    <SaveDocument>Works</SaveDocument>
+    <OpenExisting>Works</OpenExisting>
+    <SwitchingFiles>Works</SwitchingFiles>
+    <SaveSelection>Works</SaveSelection>
+    <OpenRecent>Works</OpenRecent>
+    <MergeTranscriptions1>Works</MergeTranscriptions1>
+    <MergeTranscriptions2>Works</MergeTranscriptions2>
+    <MergeTranscriptions3>Works</MergeTranscriptions3>
+    <SaveTemplate>Works</SaveTemplate>
+    <LinkMedia1>Works</LinkMedia1>
+    <LinkMedia2>Works</LinkMedia2>
+    <LinkMedia3>Works</LinkMedia3>
+    <OpenInPraat>Works</OpenInPraat>
+    <ExportToPraat>Works</ExportToPraat>
+    <AutoBackups>Works</AutoBackups>
+    <PrintingGeneral>Works</PrintingGeneral>
+    <PrintPageSetup>Works</PrintPageSetup>
+    <PrintPreview>Works</PrintPreview>
+    <PrintPreviewFont>Works</PrintPreviewFont>
+    <CloseFile>Works</CloseFile>
+    <ExitELAN>Works</ExitELAN>
+  </ManagingDocuments>
+  <ImportExport>
+    <ImportTranscriber>Works</ImportTranscriber>
+    <ImportChat>Works</ImportChat>
+    <ImportShoebox1>Works</ImportShoebox1>
+    <ImportShoebox2>Works</ImportShoebox2>
+    <ImportToolbox1>Works</ImportToolbox1>
+    <ImportToolbox2 error="unknown error, import failed. The toolbox file or type file might be invalid. ">Fails</ImportToolbox2>
+    <ImportFLEx>Works</ImportFLEx>
+    <ImportCSV1>Works</ImportCSV1>
+    <ImportCSV2>Works</ImportCSV2>
+    <ImportPraat>Works</ImportPraat>
+    <ImportTiers error="no appropriate file to use ">Empty</ImportTiers>
+    <ExportTiers>Works</ExportTiers>
+    <ExportShoebox>Works</ExportShoebox>
+    <ExportToolbox>Works</ExportToolbox>
+    <ExportCSV>Works</ExportCSV>
+    <ExportTigerXml>Works</ExportTigerXml>
+    <ExportCHAT>Works</ExportCHAT>
+    <ExportTraditionalText>Works</ExportTraditionalText>
+    <ExportTextGrid>Works</ExportTextGrid>
+    <ExportAlphabetical>Works</ExportAlphabetical>
+    <ExportMediaClip error="">Empty</ExportMediaClip>
+    <ExportMediaClipScript error="">Empty</ExportMediaClipScript>
+    <ExportSMIL1>Works</ExportSMIL1>
+    <ExportSMIL2>Works</ExportSMIL2>
+    <ExportQuicktimeText>Works</ExportQuicktimeText>
+    <ExportSubtitleText>Works</ExportSubtitleText>
+    <ExportHTML>Works</ExportHTML>
+    <ExportFilmstrip>Works</ExportFilmstrip>
+    <ExportTiersRecognizer>Works</ExportTiersRecognizer>
+  </ImportExport>
+  <ScreenDisplayNavigation>
+    <VideoViewer1>Works</VideoViewer1>
+    <VideoViewer2>Works</VideoViewer2>
+    <VideoViewer3>Works</VideoViewer3>
+    <VideoViewer4>Works</VideoViewer4>
+    <VideoViewer5>Works</VideoViewer5>
+    <VideoViewer6>Works</VideoViewer6>
+    <AnnotationDensity>Works</AnnotationDensity>
+    <WaveformViewer1>Works</WaveformViewer1>
+    <WaveformViewer2>Works</WaveformViewer2>
+    <SubtitleViewer>Works</SubtitleViewer>
+    <GridViewer1>Works</GridViewer1>
+    <GridViewer2>Works</GridViewer2>
+    <GridViewer3>Works</GridViewer3>
+    <ExportGrid>Works</ExportGrid>
+    <TextViewer1>Works</TextViewer1>
+    <TextViewer2>Works</TextViewer2>
+    <LexiconViewer error="">Empty</LexiconViewer>
+    <MetadataViewer>Works</MetadataViewer>
+    <TimelineViewer>Works</TimelineViewer>
+    <TierNamePanel1>Works</TierNamePanel1>
+    <TierNamePanel2>Works</TierNamePanel2>
+    <TimeSeriesViewer error="">Empty</TimeSeriesViewer>
+    <ControlOptions1>Works</ControlOptions1>
+    <ControlOptions2 error="seems to work fine except for some issues with MP4 files. ">Mostly</ControlOptions2>
+    <SectionControls1>Works</SectionControls1>
+    <SectionControls2>Works</SectionControls2>
+    <SectionControls3>Works</SectionControls3>
+    <SelectionControl1>Works</SelectionControl1>
+    <SelectionControl2>Works</SelectionControl2>
+    <AnnotationControls>Works</AnnotationControls>
+    <TimeCodeOption>Works</TimeCodeOption>
+    <ViewersOnOff>Works</ViewersOnOff>
+    <TiersOnOff1>Works</TiersOnOff1>
+    <TiersOnOff2>Works</TiersOnOff2>
+    <TiersArrange>Works</TiersArrange>
+    <TiersByType1>Works</TiersByType1>
+    <TiersByType2>Works</TiersByType2>
+    <TiersSorting>Works</TiersSorting>
+    <TimeZoom1>Works</TimeZoom1>
+    <TimeZoom2>Works</TimeZoom2>
+    <TimeZoom3>Works</TimeZoom3>
+    <VerticalZoom>Works</VerticalZoom>
+    <FontSize>Works</FontSize>
+    <FontBrowser>Works</FontBrowser>
+    <EditPreferences1>Works</EditPreferences1>
+    <EditPreferences2>Works</EditPreferences2>
+    <ExportPreferences>Works</ExportPreferences>
+    <ImportPreferences error="works for fonts, but not for the centering of the video viewer or for disabled viewers.">Mostly</ImportPreferences>
+    <EditShortcuts>Works</EditShortcuts>
+    <CopyCurrentTime>Works</CopyCurrentTime>
+    <CopyCurrentTime2>Works</CopyCurrentTime2>
+  </ScreenDisplayNavigation>
+  <DocumentNavigation>
+    <PointInTime>Works</PointInTime>
+    <SetFrameLength error="">Empty</SetFrameLength>
+    <ViewAnnotations1>Works</ViewAnnotations1>
+    <ViewAnnotations2>Works</ViewAnnotations2>
+    <JumpAnnotations>Works</JumpAnnotations>
+    <PlayAroundSelection>Works</PlayAroundSelection>
+    <PlaySlowmotion1>Works</PlaySlowmotion1>
+    <PlaySlowmotion2>Works</PlaySlowmotion2>
+    <PlaybackKeyboard1>Works</PlaybackKeyboard1>
+    <PlaybackKeyboard2>Works</PlaybackKeyboard2>
+  </DocumentNavigation>
+  <MultipleFileOperations>
+    <SelectMultiple1>Works</SelectMultiple1>
+    <SelectMultiple2>Works</SelectMultiple2>
+    <SelectMultiple3>Works</SelectMultiple3>
+    <SelectMultiple4>Works</SelectMultiple4>
+    <SelectMultiple5>Works</SelectMultiple5>
+    <ExportMultiple1>Works</ExportMultiple1>
+    <ExportMultiple2>Works</ExportMultiple2>
+    <ExportMultiple3>Works</ExportMultiple3>
+    <ExportMultiple4>Works</ExportMultiple4>
+    <ExportMultiple5>Works</ExportMultiple5>
+    <ExportMultiple6>Works</ExportMultiple6>
+    <ExportMultiple7>Works</ExportMultiple7>
+    <EditMultiple1>Works</EditMultiple1>
+    <EditMultiple2>Works</EditMultiple2>
+    <EditMultiple3>Works</EditMultiple3>
+    <EditMultiple4>Works</EditMultiple4>
+    <EditMultiple5>Works</EditMultiple5>
+    <MultipleStatistics>Works</MultipleStatistics>
+  </MultipleFileOperations>
+</ELANBugCheck>
