@@ -1,13 +1,13 @@
-# test cases exported from test plan file imex_2012-02-17.xml on 2012-12-13 (16:38).
+# test cases exported from test plan file imex_2012-02-17.xml on 2012-12-13 (16:52).
 
 NodeSearchTest
   OpenFreeMdSession "Left click on md session which is available to everyone containing jpg files"
   OpenFreeMdSession1 "Select view images; images should appear in a new window as thumbnails"
-  OpenRestrictedMdSession "Left click on md session which has restricted access containing jpg files"
+  OpenRestrictedMdSession "Left click on md session which has restricted access containing jpg files without being logged in "
   OpenRestrictedMdSession1 "Select view images; images should appear blurry in a new window as thumbnails"
 
 OpenThumbnails "opening the thumbnails"
-  OpenThumbnail "left click on the thumbnail to see in full view"
+  OpenThumbnail "Left click on md session which is available to everyone or loggin in to access to md session containg jpg files; left click on the thumbnail to see in full view"
 
 PreviousButton
   PreviousButton "In full view press on \\"previous\\" button to see one image before"
