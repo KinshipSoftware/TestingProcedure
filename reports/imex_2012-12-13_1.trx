@@ -6,24 +6,24 @@
   <Tester>sauciv</Tester>
   <TestPlanRevision>34810</TestPlanRevision>
   <NodeSearchTest>
-    <OpenFreeMdSession></OpenFreeMdSession>
-    <OpenFreeMdSession1></OpenFreeMdSession1>
-    <OpenRestrictedMdSession></OpenRestrictedMdSession>
-    <OpenRestrictedMdSession1></OpenRestrictedMdSession1>
+    <OpenFreeMdSession>Works</OpenFreeMdSession>
+    <OpenFreeMdSession1>Works</OpenFreeMdSession1>
+    <OpenRestrictedMdSession>Works</OpenRestrictedMdSession>
+    <OpenRestrictedMdSession1>Works</OpenRestrictedMdSession1>
   </NodeSearchTest>
   <OpenThumbnails>
-    <OpenThumbnail></OpenThumbnail>
+    <OpenThumbnail>Works</OpenThumbnail>
   </OpenThumbnails>
   <PreviousButton>
-    <PreviousButton></PreviousButton>
+    <PreviousButton>Works</PreviousButton>
   </PreviousButton>
   <NextButton>
-    <NextButton></NextButton>
+    <NextButton>Works</NextButton>
   </NextButton>
   <LoggedOutTest>
-    <DragAndDrop1></DragAndDrop1>
-    <DragAndDrop2></DragAndDrop2>
-    <FullView></FullView>
-    <ViewThumbnails></ViewThumbnails>
+    <DragAndDrop1>Works</DragAndDrop1>
+    <DragAndDrop2>Works</DragAndDrop2>
+    <FullView>Works</FullView>
+    <ViewThumbnails>Works</ViewThumbnails>
   </LoggedOutTest>
 </ImexBugCheck>
