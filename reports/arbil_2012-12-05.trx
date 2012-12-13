@@ -4,7 +4,7 @@
   <ArbilVersion>2.4</ArbilVersion>
   <OSVersion>Windows 7, Firefox 12.0</OSVersion>
   <Tester>clazab</Tester>
-  <TestPlanRevision>34673</TestPlanRevision>
+  <TestPlanRevision>34742</TestPlanRevision>
   <CMDIWizardTest>
     <SA1>Works</SA1>
     <SA1A>Works</SA1A>
@@ -30,8 +30,8 @@
     <CMDIExportImportLocalSchema2>Works</CMDIExportImportLocalSchema2>
     <CMDIExportImportLocalSchema3>Works</CMDIExportImportLocalSchema3>
     <CMDIExportImportLocalSchema4>Works</CMDIExportImportLocalSchema4>
-    <CMDIProfilesRefreshBotton></CMDIProfilesRefreshBotton>
-    <CMDIExportImportLocalSchema5></CMDIExportImportLocalSchema5>
+    <CMDIProfilesRefreshBotton>Works</CMDIProfilesRefreshBotton>
+    <CMDIExportImportLocalSchema5>Works</CMDIExportImportLocalSchema5>
     <CMDIErroneousResourceTypeValue>Works</CMDIErroneousResourceTypeValue>
     <CMDIEditAttributes>Works</CMDIEditAttributes>
   </CMDI_Profiles>
@@ -46,7 +46,6 @@
     <CMDIChangesTableOrdering>Works</CMDIChangesTableOrdering>
     <CMDIChangesMetadataStr>Works</CMDIChangesMetadataStr>
     <CMDIChangesTableandPreviewArea>Works</CMDIChangesTableandPreviewArea>
-    <CMDIChangesTableandPreviewArea1>Works</CMDIChangesTableandPreviewArea1>
     <CMDIMultipleValuesAdd>Works</CMDIMultipleValuesAdd>
     <ImportExistinBrnchSavN>Works</ImportExistinBrnchSavN>
     <ImportExistinBrnchSve>Works</ImportExistinBrnchSve>
@@ -99,8 +98,8 @@
     <ShowOnlyCurrent>Works</ShowOnlyCurrent>
     <ColumnViewForThis>Works</ColumnViewForThis>
     <CopyTableWeb>Works</CopyTableWeb>
-    <Embed></Embed>
-    <FindAndReplace></FindAndReplace>
+    <Embed>Works</Embed>
+    <FindAndReplace>Works</FindAndReplace>
   </ColumnsTests>
   <FilesTest>
     <AddWorkingDirectory>Works</AddWorkingDirectory>
@@ -139,8 +138,8 @@
     <SaveWindowsOnExit>Works</SaveWindowsOnExit>
     <SaveWindowsOnExit1>Works</SaveWindowsOnExit1>
     <ShowSelectionPreview>Works</ShowSelectionPreview>
-    <CopyNewResourcesIntoCache error="">Fails</CopyNewResourcesIntoCache>
-    <CopyNewResourcesIntoCacheN></CopyNewResourcesIntoCacheN>
+    <CopyNewResourcesIntoCache>Works</CopyNewResourcesIntoCache>
+    <CopyNewResourcesIntoCacheN>Works</CopyNewResourcesIntoCacheN>
     <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
     <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
     <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
@@ -152,7 +151,7 @@
     <HelpMenu>Works</HelpMenu>
     <HelpMenuF1>Works</HelpMenuF1>
     <ArbilForumHelpMenu>Works</ArbilForumHelpMenu>
-    <HelpMenuInSyncManual></HelpMenuInSyncManual>
+    <HelpMenuInSyncManual>Works</HelpMenuInSyncManual>
     <RunSetUpWizard>Works</RunSetUpWizard>
     <ErrorHelpMenu>Works</ErrorHelpMenu>
     <CheckUpdatesHelpMenu>Works</CheckUpdatesHelpMenu>
@@ -176,16 +175,16 @@
     <AddResourceLocation>Works</AddResourceLocation>
   </AddResourcesTest>
   <TypeCheckerTest>
-    <TypecheckerConfiguration1></TypecheckerConfiguration1>
-    <TypecheckerConfiguration2></TypecheckerConfiguration2>
-    <TypecheckerConfiguration3></TypecheckerConfiguration3>
-    <TypecheckerConfiguration4></TypecheckerConfiguration4>
-    <TypecheckerConfiguration5></TypecheckerConfiguration5>
-    <TypecheckerConfiguration6></TypecheckerConfiguration6>
-    <TypecheckerConfiguration6a></TypecheckerConfiguration6a>
-    <TypecheckerConfiguration6b></TypecheckerConfiguration6b>
-    <TypecheckerConfiguration7></TypecheckerConfiguration7>
-    <TypecheckerConfiguration8></TypecheckerConfiguration8>
+    <TypecheckerConfiguration1>Works</TypecheckerConfiguration1>
+    <TypecheckerConfiguration2>Works</TypecheckerConfiguration2>
+    <TypecheckerConfiguration3>Works</TypecheckerConfiguration3>
+    <TypecheckerConfiguration4>Works</TypecheckerConfiguration4>
+    <TypecheckerConfiguration5>Works</TypecheckerConfiguration5>
+    <TypecheckerConfiguration6>Works</TypecheckerConfiguration6>
+    <TypecheckerConfiguration6a>Works</TypecheckerConfiguration6a>
+    <TypecheckerConfiguration6b>Works</TypecheckerConfiguration6b>
+    <TypecheckerConfiguration7>Works</TypecheckerConfiguration7>
+    <TypecheckerConfiguration8>Works</TypecheckerConfiguration8>
   </TypeCheckerTest>
   <HandleNodesTests>
     <DeleteNodeKey>Works</DeleteNodeKey>
