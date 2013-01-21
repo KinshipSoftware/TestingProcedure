@@ -32,8 +32,8 @@
     <CMDIExportImportLocalSchema4>Works</CMDIExportImportLocalSchema4>
     <CMDIProfilesRefreshBotton>Works</CMDIProfilesRefreshBotton>
     <CMDIExportImportLocalSchema5 error="It works, namely the node has been re-imported in the local corpus and in the right hierarchy, but I got the same message in the window (see item 13)">Strange</CMDIExportImportLocalSchema5>
-    <CMDIErroneousResourceTypeValue></CMDIErroneousResourceTypeValue>
-    <CMDIEditAttributes></CMDIEditAttributes>
+    <CMDIErroneousResourceTypeValue error="When adding the work directory in which I want to selcet a text file, it does not work or to better say it only shows 'loading node' with no results. ">Strange</CMDIErroneousResourceTypeValue>
+    <CMDIEditAttributes>Works</CMDIEditAttributes>
   </CMDI_Profiles>
   <GetMetadataTest>
     <CMDIAddProfile></CMDIAddProfile>
