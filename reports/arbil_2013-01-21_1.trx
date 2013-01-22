@@ -69,25 +69,25 @@
     <CMDIAdditionSearchAS2>Works</CMDIAdditionSearchAS2>
     <CMDIAdditionSearchAS3 error="Results found: 0.">Strange</CMDIAdditionSearchAS3>
     <IMDIAdditionSearchAS5 error="The are actually 8 options because also the previous 'Code' has been added.">Mostly</IMDIAdditionSearchAS5>
-    <DroppingInTheSearchField></DroppingInTheSearchField>
+    <DroppingInTheSearchField>Works</DroppingInTheSearchField>
   </NodeSearchTest>
   <NodeRightMouseMenu>
-    <OpenInExternalApp></OpenInExternalApp>
-    <CMDIOpenInEnternalAppSession></CMDIOpenInEnternalAppSession>
-    <CMDIOpenInEnternalAppMedia></CMDIOpenInEnternalAppMedia>
-    <CMDIReImportBranch1></CMDIReImportBranch1>
-    <CMDIReImportBranch2></CMDIReImportBranch2>
-    <IMDIReImportBranch3></IMDIReImportBranch3>
-    <ReImportMultipleNodes></ReImportMultipleNodes>
-    <ViewXML></ViewXML>
-    <ExportMetadata1></ExportMetadata1>
-    <ExportMetadata2></ExportMetadata2>
-    <ExportMetadata3></ExportMetadata3>
-    <ExportMetadataWithResources></ExportMetadataWithResources>
-    <ExportMetadataHierarchy></ExportMetadataHierarchy>
-    <CheckXmlConformance></CheckXmlConformance>
-    <CMDICheckXmlConformance1></CMDICheckXmlConformance1>
-    <CMDICheckXmlConformance2></CMDICheckXmlConformance2>
+    <OpenInExternalApp error="A window pops up showing the follow message: 'Failed to open the file. Please check that it is accessible and has an application associated with it. Do you want to open the parent directory?'.  ">Fails</OpenInExternalApp>
+    <CMDIOpenInEnternalAppSession error="Same as the previous">Fails</CMDIOpenInEnternalAppSession>
+    <CMDIOpenInEnternalAppMedia error="Same as the previous">Fails</CMDIOpenInEnternalAppMedia>
+    <CMDIReImportBranch1>Works</CMDIReImportBranch1>
+    <CMDIReImportBranch2>Works</CMDIReImportBranch2>
+    <IMDIReImportBranch3>Works</IMDIReImportBranch3>
+    <ReImportMultipleNodes>Works</ReImportMultipleNodes>
+    <ViewXML>Works</ViewXML>
+    <ExportMetadata1 error="Once again the ComicBook has been exported in the new folder successfully but a window showing this message: 'Processed 1 metadata files. There were 1 files that failed to validate and have xml error'.">Mostly</ExportMetadata1>
+    <ExportMetadata2 error="Same as the previous ">Mostly</ExportMetadata2>
+    <ExportMetadata3 error="Same as the previous">Mostly</ExportMetadata3>
+    <ExportMetadataWithResources error="">Empty</ExportMetadataWithResources>
+    <ExportMetadataHierarchy>Works</ExportMetadataHierarchy>
+    <CheckXmlConformance>Works</CheckXmlConformance>
+    <CMDICheckXmlConformance1 error="">Empty</CMDICheckXmlConformance1>
+    <CMDICheckXmlConformance2 error="">Empty</CMDICheckXmlConformance2>
   </NodeRightMouseMenu>
   <ColumnsTests>
     <ArrangeColumns></ArrangeColumns>
@@ -102,7 +102,7 @@
     <FindAndReplace></FindAndReplace>
   </ColumnsTests>
   <FilesTest>
-    <AddWorkingDirectory></AddWorkingDirectory>
+    <AddWorkingDirectory>Works</AddWorkingDirectory>
     <AddJpegImage></AddJpegImage>
     <AddWAV></AddWAV>
     <FilesShowHidden></FilesShowHidden>
