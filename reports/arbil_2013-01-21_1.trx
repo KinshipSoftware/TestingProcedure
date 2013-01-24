@@ -141,21 +141,21 @@
     <CopyNewResourcesIntoCache>Works</CopyNewResourcesIntoCache>
     <CopyNewResourcesIntoCacheN>Works</CopyNewResourcesIntoCacheN>
     <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
-    <AlwaysCheckLocalMetdatFilesForXMLConformance></AlwaysCheckLocalMetdatFilesForXMLConformance>
-    <ShowLanguageInColumnName></ShowLanguageInColumnName>
-    <ColumnViewForNewTables></ColumnViewForNewTables>
-    <CloseAllWindows></CloseAllWindows>
+    <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
+    <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
+    <ColumnViewForNewTables>Works</ColumnViewForNewTables>
+    <CloseAllWindows>Works</CloseAllWindows>
   </OptionsMenuTest>
   <HelpMenuTest>
-    <AboutHelpMenu></AboutHelpMenu>
-    <HelpMenu></HelpMenu>
-    <HelpMenuF1></HelpMenuF1>
-    <ArbilForumHelpMenu></ArbilForumHelpMenu>
-    <HelpMenuInSyncManual></HelpMenuInSyncManual>
-    <RunSetUpWizard></RunSetUpWizard>
-    <ErrorHelpMenu></ErrorHelpMenu>
-    <CheckUpdatesHelpMenu></CheckUpdatesHelpMenu>
-    <ShortCutKeysHelpMenu></ShortCutKeysHelpMenu>
+    <AboutHelpMenu>Works</AboutHelpMenu>
+    <HelpMenu>Works</HelpMenu>
+    <HelpMenuF1>Works</HelpMenuF1>
+    <ArbilForumHelpMenu>Works</ArbilForumHelpMenu>
+    <HelpMenuInSyncManual>Works</HelpMenuInSyncManual>
+    <RunSetUpWizard>Works</RunSetUpWizard>
+    <ErrorHelpMenu>Works</ErrorHelpMenu>
+    <CheckUpdatesHelpMenu>Works</CheckUpdatesHelpMenu>
+    <ShortCutKeysHelpMenu>Works</ShortCutKeysHelpMenu>
   </HelpMenuTest>
   <MultiLanguageTest>
     <DescriptionChoice></DescriptionChoice>
@@ -168,11 +168,11 @@
     <ControlledVocabulariesLongFE></ControlledVocabulariesLongFE>
   </MultiLanguageTest>
   <AddResourcesTest>
-    <AddWorkingDirectories></AddWorkingDirectories>
-    <AddResources></AddResources>
-    <AddResources2></AddResources2>
-    <AddNotArchivableFile></AddNotArchivableFile>
-    <AddResourceLocation></AddResourceLocation>
+    <AddWorkingDirectories>Works</AddWorkingDirectories>
+    <AddResources>Works</AddResources>
+    <AddResources2>Works</AddResources2>
+    <AddNotArchivableFile>Works</AddNotArchivableFile>
+    <AddResourceLocation>Works</AddResourceLocation>
   </AddResourcesTest>
   <TypeCheckerTest>
     <TypecheckerConfiguration1></TypecheckerConfiguration1>
@@ -187,7 +187,7 @@
     <TypecheckerConfiguration8></TypecheckerConfiguration8>
   </TypeCheckerTest>
   <HandleNodesTests>
-    <DeleteNodeKey></DeleteNodeKey>
-    <DeleteNodeMenu></DeleteNodeMenu>
+    <DeleteNodeKey>Works</DeleteNodeKey>
+    <DeleteNodeMenu>Works</DeleteNodeMenu>
   </HandleNodesTests>
 </ArbilBugCheck>
