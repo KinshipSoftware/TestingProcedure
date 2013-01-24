@@ -113,34 +113,34 @@
     <CMDIAddtoFavourites>Works</CMDIAddtoFavourites>
     <CMDIaddfromFavourites>Works</CMDIaddfromFavourites>
     <Remove>Works</Remove>
-    <CMDIAddRechangeFav></CMDIAddRechangeFav>
-    <CMDIAddIntoDiffSubnodeFav></CMDIAddIntoDiffSubnodeFav>
-    <EditMetaData></EditMetaData>
-    <EditMetaData1></EditMetaData1>
-    <EditMeteData1></EditMeteData1>
-    <AddToElemInFav></AddToElemInFav>
-    <AddToElemInFav2></AddToElemInFav2>
-    <LongFieldEd></LongFieldEd>
-    <LongFieldEd1></LongFieldEd1>
+    <CMDIAddRechangeFav>Works</CMDIAddRechangeFav>
+    <CMDIAddIntoDiffSubnodeFav>Works</CMDIAddIntoDiffSubnodeFav>
+    <EditMetaData>Works</EditMetaData>
+    <EditMetaData1>Works</EditMetaData1>
+    <EditMeteData1>Works</EditMeteData1>
+    <AddToElemInFav>Works</AddToElemInFav>
+    <AddToElemInFav2>Works</AddToElemInFav2>
+    <LongFieldEd>Works</LongFieldEd>
+    <LongFieldEd1>Works</LongFieldEd1>
   </FavouritesTest>
   <FileMenuTest>
-    <FileMenuSaveChanges></FileMenuSaveChanges>
-    <FileMenuSaveChanges1></FileMenuSaveChanges1>
-    <FileMenuShowModifiedNodes></FileMenuShowModifiedNodes>
-    <FileMenuImport></FileMenuImport>
-    <FileMenuExit></FileMenuExit>
-    <ExitMacOS1></ExitMacOS1>
-    <ExitMacOS2></ExitMacOS2>
+    <FileMenuSaveChanges>Works</FileMenuSaveChanges>
+    <FileMenuSaveChanges1>Works</FileMenuSaveChanges1>
+    <FileMenuShowModifiedNodes>Works</FileMenuShowModifiedNodes>
+    <FileMenuImport>Works</FileMenuImport>
+    <FileMenuExit>Works</FileMenuExit>
+    <ExitMacOS1 error="">Empty</ExitMacOS1>
+    <ExitMacOS2 error="">Empty</ExitMacOS2>
   </FileMenuTest>
   <OptionsMenuTest>
-    <TemplatesAndProfiles></TemplatesAndProfiles>
-    <LocalCorpusStorageDirectory></LocalCorpusStorageDirectory>
-    <SaveWindowsOnExit></SaveWindowsOnExit>
-    <SaveWindowsOnExit1></SaveWindowsOnExit1>
-    <ShowSelectionPreview></ShowSelectionPreview>
-    <CopyNewResourcesIntoCache></CopyNewResourcesIntoCache>
-    <CopyNewResourcesIntoCacheN></CopyNewResourcesIntoCacheN>
-    <CheckPermisForRemoteResources></CheckPermisForRemoteResources>
+    <TemplatesAndProfiles>Works</TemplatesAndProfiles>
+    <LocalCorpusStorageDirectory>Works</LocalCorpusStorageDirectory>
+    <SaveWindowsOnExit>Works</SaveWindowsOnExit>
+    <SaveWindowsOnExit1>Works</SaveWindowsOnExit1>
+    <ShowSelectionPreview>Works</ShowSelectionPreview>
+    <CopyNewResourcesIntoCache>Works</CopyNewResourcesIntoCache>
+    <CopyNewResourcesIntoCacheN>Works</CopyNewResourcesIntoCacheN>
+    <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
     <AlwaysCheckLocalMetdatFilesForXMLConformance></AlwaysCheckLocalMetdatFilesForXMLConformance>
     <ShowLanguageInColumnName></ShowLanguageInColumnName>
     <ColumnViewForNewTables></ColumnViewForNewTables>
