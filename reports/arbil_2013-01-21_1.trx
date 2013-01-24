@@ -23,7 +23,7 @@
     <ProfileFiltering2>Works</ProfileFiltering2>
     <ProfileFiltering3>Works</ProfileFiltering3>
     <ProfileFiltering4>Works</ProfileFiltering4>
-    <ProfileFiltering5 error="It does not matter whether &quot;Only load profiles selected for manual editing&quot; is Checked or unchecked. I got the same list in either ways. ">Strange</ProfileFiltering5>
+    <ProfileFiltering5>Works</ProfileFiltering5>
     <ProfileFiltering6>Works</ProfileFiltering6>
     <ArbitraryResourceProxyReferences>Works</ArbitraryResourceProxyReferences>
     <CMDIExportImportLocalSchema1>Works</CMDIExportImportLocalSchema1>
@@ -38,7 +38,7 @@
   <GetMetadataTest>
     <CMDIAddProfile error="Although the profile which I created is in the list Templates and Profiles, when I add the profile, a different one is added in the local corpus. At the same time a window pops up with the actual profile!">Strange</CMDIAddProfile>
     <CMDAddProfileConName>Works</CMDAddProfileConName>
-    <CMDIAddProfileNode error="The component is added in the window which shows the characteristics of the profile but not in the local corpus.">Strange</CMDIAddProfileNode>
+    <CMDIAddProfileNode>Works</CMDIAddProfileNode>
     <CMDIMaximumNumberNodesReached>Works</CMDIMaximumNumberNodesReached>
     <CMDIAddComponentConName1>Works</CMDIAddComponentConName1>
     <SaveMenuChanges>Works</SaveMenuChanges>
@@ -63,16 +63,16 @@
     <CheckSearchWindow>Works</CheckSearchWindow>
     <CMDILocalSearch>Works</CMDILocalSearch>
     <CMDILocalSearch2>Works</CMDILocalSearch2>
-    <CMDILocalSearch3 error="Results found: 6083.">Strange</CMDILocalSearch3>
+    <CMDILocalSearch3>Works</CMDILocalSearch3>
     <CMDIAdditionSearchAS>Works</CMDIAdditionSearchAS>
     <CMDIAdditionSearchAS1>Works</CMDIAdditionSearchAS1>
     <CMDIAdditionSearchAS2>Works</CMDIAdditionSearchAS2>
     <CMDIAdditionSearchAS3 error="Results found: 0.">Strange</CMDIAdditionSearchAS3>
-    <IMDIAdditionSearchAS5 error="The are actually 8 options because also the previous 'Code' has been added.">Mostly</IMDIAdditionSearchAS5>
+    <IMDIAdditionSearchAS5>Works</IMDIAdditionSearchAS5>
     <DroppingInTheSearchField>Works</DroppingInTheSearchField>
   </NodeSearchTest>
   <NodeRightMouseMenu>
-    <OpenInExternalApp error="A window pops up showing the follow message: 'Failed to open the file. Please check that it is accessible and has an application associated with it. Do you want to open the parent directory?'.  ">Fails</OpenInExternalApp>
+    <OpenInExternalApp error=": A window pops up showing the follow message: 'Failed to open the file. Please check that it is accessible and has an application associated with it. Do you want to open the parent directory?'.  ">Fails</OpenInExternalApp>
     <CMDIOpenInEnternalAppSession error="Same as the previous">Fails</CMDIOpenInEnternalAppSession>
     <CMDIOpenInEnternalAppMedia error="Same as the previous">Fails</CMDIOpenInEnternalAppMedia>
     <CMDIReImportBranch1>Works</CMDIReImportBranch1>
@@ -83,11 +83,11 @@
     <ExportMetadata1 error="Once again the ComicBook has been exported in the new folder successfully but a window showing this message: 'Processed 1 metadata files. There were 1 files that failed to validate and have xml error'.">Mostly</ExportMetadata1>
     <ExportMetadata2 error="Same as the previous ">Mostly</ExportMetadata2>
     <ExportMetadata3 error="Same as the previous">Mostly</ExportMetadata3>
-    <ExportMetadataWithResources error="">Empty</ExportMetadataWithResources>
+    <ExportMetadataWithResources>Works</ExportMetadataWithResources>
     <ExportMetadataHierarchy>Works</ExportMetadataHierarchy>
     <CheckXmlConformance>Works</CheckXmlConformance>
-    <CMDICheckXmlConformance1 error="">Empty</CMDICheckXmlConformance1>
-    <CMDICheckXmlConformance2 error="">Empty</CMDICheckXmlConformance2>
+    <CMDICheckXmlConformance1 error="Although I did change the date field to XYZ, it did not show up in red and I could not find the error in chack xml conform">Fails</CMDICheckXmlConformance1>
+    <CMDICheckXmlConformance2 error="Same as the previous ">Fails</CMDICheckXmlConformance2>
   </NodeRightMouseMenu>
   <ColumnsTests>
     <ArrangeColumns></ArrangeColumns>
