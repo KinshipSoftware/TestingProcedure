@@ -158,14 +158,14 @@
     <ShortCutKeysHelpMenu>Works</ShortCutKeysHelpMenu>
   </HelpMenuTest>
   <MultiLanguageTest>
-    <DescriptionChoice></DescriptionChoice>
-    <LongfieldEditor></LongfieldEditor>
-    <ControlledVocabularies1></ControlledVocabularies1>
-    <ControlledVocabularies2></ControlledVocabularies2>
-    <ControlledVocabularies3></ControlledVocabularies3>
-    <ControlledVocabularies4></ControlledVocabularies4>
-    <ClosedVocabularies></ClosedVocabularies>
-    <ControlledVocabulariesLongFE></ControlledVocabulariesLongFE>
+    <DescriptionChoice>Works</DescriptionChoice>
+    <LongfieldEditor>Works</LongfieldEditor>
+    <ControlledVocabularies1>Works</ControlledVocabularies1>
+    <ControlledVocabularies2>Works</ControlledVocabularies2>
+    <ControlledVocabularies3>Works</ControlledVocabularies3>
+    <ControlledVocabularies4>Works</ControlledVocabularies4>
+    <ClosedVocabularies>Works</ClosedVocabularies>
+    <ControlledVocabulariesLongFE>Works</ControlledVocabulariesLongFE>
   </MultiLanguageTest>
   <AddResourcesTest>
     <AddWorkingDirectories>Works</AddWorkingDirectories>
@@ -175,16 +175,16 @@
     <AddResourceLocation>Works</AddResourceLocation>
   </AddResourcesTest>
   <TypeCheckerTest>
-    <TypecheckerConfiguration1></TypecheckerConfiguration1>
-    <TypecheckerConfiguration2></TypecheckerConfiguration2>
-    <TypecheckerConfiguration3></TypecheckerConfiguration3>
-    <TypecheckerConfiguration4></TypecheckerConfiguration4>
-    <TypecheckerConfiguration5></TypecheckerConfiguration5>
-    <TypecheckerConfiguration6></TypecheckerConfiguration6>
-    <TypecheckerConfiguration6a></TypecheckerConfiguration6a>
-    <TypecheckerConfiguration6b></TypecheckerConfiguration6b>
-    <TypecheckerConfiguration7></TypecheckerConfiguration7>
-    <TypecheckerConfiguration8></TypecheckerConfiguration8>
+    <TypecheckerConfiguration1>Works</TypecheckerConfiguration1>
+    <TypecheckerConfiguration2>Works</TypecheckerConfiguration2>
+    <TypecheckerConfiguration3>Works</TypecheckerConfiguration3>
+    <TypecheckerConfiguration4>Works</TypecheckerConfiguration4>
+    <TypecheckerConfiguration5>Works</TypecheckerConfiguration5>
+    <TypecheckerConfiguration6>Works</TypecheckerConfiguration6>
+    <TypecheckerConfiguration6a>Works</TypecheckerConfiguration6a>
+    <TypecheckerConfiguration6b>Works</TypecheckerConfiguration6b>
+    <TypecheckerConfiguration7>Works</TypecheckerConfiguration7>
+    <TypecheckerConfiguration8>Works</TypecheckerConfiguration8>
   </TypeCheckerTest>
   <HandleNodesTests>
     <DeleteNodeKey>Works</DeleteNodeKey>
