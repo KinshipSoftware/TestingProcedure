@@ -69,15 +69,15 @@
     <IMDIReImportBranch1>Works</IMDIReImportBranch1>
     <IMDIReImportBranch2>Works</IMDIReImportBranch2>
     <IMDIReImportBranch3 error="">Empty</IMDIReImportBranch3>
-    <ReImportMultipleNodes></ReImportMultipleNodes>
-    <ViewXML></ViewXML>
-    <ViewImdiFormatted></ViewImdiFormatted>
-    <OpenImdiFormatted></OpenImdiFormatted>
-    <IMDIExportImdiToHtml></IMDIExportImdiToHtml>
-    <IMDIExportImdiToHtml2></IMDIExportImdiToHtml2>
-    <ExportMetadata1></ExportMetadata1>
-    <ExportMetadata2></ExportMetadata2>
-    <ExportMetadata3></ExportMetadata3>
+    <ReImportMultipleNodes error="">Empty</ReImportMultipleNodes>
+    <ViewXML>Works</ViewXML>
+    <ViewImdiFormatted>Works</ViewImdiFormatted>
+    <OpenImdiFormatted error="">Empty</OpenImdiFormatted>
+    <IMDIExportImdiToHtml>Works</IMDIExportImdiToHtml>
+    <IMDIExportImdiToHtml2>Works</IMDIExportImdiToHtml2>
+    <ExportMetadata1>Works</ExportMetadata1>
+    <ExportMetadata2>Works</ExportMetadata2>
+    <ExportMetadata3>Works</ExportMetadata3>
     <ExportMetadataWithResources></ExportMetadataWithResources>
     <ExportMetadataHierarchy></ExportMetadataHierarchy>
     <CheckXmlConformance></CheckXmlConformance>
