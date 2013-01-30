@@ -78,81 +78,81 @@
     <ExportMetadata1>Works</ExportMetadata1>
     <ExportMetadata2>Works</ExportMetadata2>
     <ExportMetadata3>Works</ExportMetadata3>
-    <ExportMetadataWithResources></ExportMetadataWithResources>
-    <ExportMetadataHierarchy></ExportMetadataHierarchy>
-    <CheckXmlConformance></CheckXmlConformance>
-    <IMDICheckXmlConformance2></IMDICheckXmlConformance2>
+    <ExportMetadataWithResources>Works</ExportMetadataWithResources>
+    <ExportMetadataHierarchy>Works</ExportMetadataHierarchy>
+    <CheckXmlConformance>Works</CheckXmlConformance>
+    <IMDICheckXmlConformance2 error="">Empty</IMDICheckXmlConformance2>
   </NodeRightMouseMenu>
   <ColumnsTests>
-    <ArrangeColumns></ArrangeColumns>
-    <ArrangementColumns1></ArrangementColumns1>
-    <ArrangementMultipleColumns></ArrangementMultipleColumns>
-    <SaveColumnView></SaveColumnView>
-    <EditColumnView></EditColumnView>
-    <ShowOnlyCurrent></ShowOnlyCurrent>
-    <ColumnViewForThis></ColumnViewForThis>
-    <CopyTableWeb></CopyTableWeb>
-    <Embed></Embed>
-    <FindAndReplace></FindAndReplace>
+    <ArrangeColumns>Works</ArrangeColumns>
+    <ArrangementColumns1>Works</ArrangementColumns1>
+    <ArrangementMultipleColumns error="">Empty</ArrangementMultipleColumns>
+    <SaveColumnView>Works</SaveColumnView>
+    <EditColumnView>Works</EditColumnView>
+    <ShowOnlyCurrent error="">Empty</ShowOnlyCurrent>
+    <ColumnViewForThis error="">Empty</ColumnViewForThis>
+    <CopyTableWeb>Works</CopyTableWeb>
+    <Embed>Works</Embed>
+    <FindAndReplace>Works</FindAndReplace>
   </ColumnsTests>
   <FilesTest>
-    <AddWorkingDirectory></AddWorkingDirectory>
+    <AddWorkingDirectory error="">Empty</AddWorkingDirectory>
     <AddJpegImage></AddJpegImage>
     <AddWAV></AddWAV>
     <FilesShowHidden></FilesShowHidden>
   </FilesTest>
   <FavouritesTest>
-    <AddToFavourites></AddToFavourites>
-    <AddFromFavourites></AddFromFavourites>
-    <Remove></Remove>
-    <IMDIAddRechangeFav></IMDIAddRechangeFav>
-    <IMDIAddIntoDiffSubnodeFav></IMDIAddIntoDiffSubnodeFav>
-    <EditMetaData></EditMetaData>
-    <EditMetaData1></EditMetaData1>
-    <EditMeteData1></EditMeteData1>
-    <AddToElemInFav></AddToElemInFav>
-    <AddToElemInFav2></AddToElemInFav2>
-    <LongFieldEd></LongFieldEd>
-    <LongFieldEd1></LongFieldEd1>
-    <AddNewSessions></AddNewSessions>
+    <AddToFavourites>Works</AddToFavourites>
+    <AddFromFavourites>Works</AddFromFavourites>
+    <Remove>Works</Remove>
+    <IMDIAddRechangeFav>Works</IMDIAddRechangeFav>
+    <IMDIAddIntoDiffSubnodeFav>Works</IMDIAddIntoDiffSubnodeFav>
+    <EditMetaData>Works</EditMetaData>
+    <EditMetaData1>Works</EditMetaData1>
+    <EditMeteData1>Works</EditMeteData1>
+    <AddToElemInFav>Works</AddToElemInFav>
+    <AddToElemInFav2>Works</AddToElemInFav2>
+    <LongFieldEd>Works</LongFieldEd>
+    <LongFieldEd1>Works</LongFieldEd1>
+    <AddNewSessions>Works</AddNewSessions>
   </FavouritesTest>
   <FileMenuTest>
-    <FileMenuSaveChanges></FileMenuSaveChanges>
-    <FileMenuSaveChanges1></FileMenuSaveChanges1>
-    <FileMenuShowModifiedNodes></FileMenuShowModifiedNodes>
-    <FileMenuImport></FileMenuImport>
-    <FileMenuExit></FileMenuExit>
-    <ExitMacOS1></ExitMacOS1>
-    <ExitMacOS2></ExitMacOS2>
+    <FileMenuSaveChanges>Works</FileMenuSaveChanges>
+    <FileMenuSaveChanges1>Works</FileMenuSaveChanges1>
+    <FileMenuShowModifiedNodes>Works</FileMenuShowModifiedNodes>
+    <FileMenuImport>Works</FileMenuImport>
+    <FileMenuExit>Works</FileMenuExit>
+    <ExitMacOS1 error="">Empty</ExitMacOS1>
+    <ExitMacOS2 error="">Empty</ExitMacOS2>
   </FileMenuTest>
   <OptionsMenuTest>
-    <TemplatesAndProfiles></TemplatesAndProfiles>
-    <EditLanguageList></EditLanguageList>
-    <IMDIRe-downloadCurrentVocabulary></IMDIRe-downloadCurrentVocabulary>
-    <Re-downloadCurrentVocabulary1></Re-downloadCurrentVocabulary1>
-    <Re-downloadCurrentVocabulary2></Re-downloadCurrentVocabulary2>
-    <SaveWindowsOnExit></SaveWindowsOnExit>
-    <SaveWindowsOnExit1></SaveWindowsOnExit1>
-    <ShowSelectionPreview></ShowSelectionPreview>
-    <CopyNewResourcesIntoCache></CopyNewResourcesIntoCache>
-    <CopyNewResourcesIntoCacheN></CopyNewResourcesIntoCacheN>
-    <CheckPermisForRemoteResources></CheckPermisForRemoteResources>
-    <AlwaysCheckLocalMetdatFilesForXMLConformance></AlwaysCheckLocalMetdatFilesForXMLConformance>
-    <ShowLanguageInColumnName></ShowLanguageInColumnName>
-    <ColumnViewForNewTables></ColumnViewForNewTables>
-    <CloseAllWindows></CloseAllWindows>
-    <LocalCorpusStorageDirect_></LocalCorpusStorageDirect_>
+    <TemplatesAndProfiles>Works</TemplatesAndProfiles>
+    <EditLanguageList>Works</EditLanguageList>
+    <IMDIRe-downloadCurrentVocabulary>Works</IMDIRe-downloadCurrentVocabulary>
+    <Re-downloadCurrentVocabulary1>Works</Re-downloadCurrentVocabulary1>
+    <Re-downloadCurrentVocabulary2>Works</Re-downloadCurrentVocabulary2>
+    <SaveWindowsOnExit>Works</SaveWindowsOnExit>
+    <SaveWindowsOnExit1>Works</SaveWindowsOnExit1>
+    <ShowSelectionPreview>Works</ShowSelectionPreview>
+    <CopyNewResourcesIntoCache>Works</CopyNewResourcesIntoCache>
+    <CopyNewResourcesIntoCacheN error="">Empty</CopyNewResourcesIntoCacheN>
+    <CheckPermisForRemoteResources error="">Empty</CheckPermisForRemoteResources>
+    <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
+    <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
+    <ColumnViewForNewTables>Works</ColumnViewForNewTables>
+    <CloseAllWindows>Works</CloseAllWindows>
+    <LocalCorpusStorageDirect_>Works</LocalCorpusStorageDirect_>
   </OptionsMenuTest>
   <HelpMenuTest>
-    <AboutHelpMenu></AboutHelpMenu>
-    <HelpMenu></HelpMenu>
-    <HelpMenuF1></HelpMenuF1>
-    <ArbilForumHelpMenu></ArbilForumHelpMenu>
-    <HelpMenuInSyncManual></HelpMenuInSyncManual>
-    <RunSetUpWizard></RunSetUpWizard>
-    <ErrorHelpMenu></ErrorHelpMenu>
-    <CheckUpdatesHelpMenu></CheckUpdatesHelpMenu>
-    <ShortCutKeysHelpMenu></ShortCutKeysHelpMenu>
+    <AboutHelpMenu>Works</AboutHelpMenu>
+    <HelpMenu>Works</HelpMenu>
+    <HelpMenuF1>Works</HelpMenuF1>
+    <ArbilForumHelpMenu>Works</ArbilForumHelpMenu>
+    <HelpMenuInSyncManual>Works</HelpMenuInSyncManual>
+    <RunSetUpWizard>Works</RunSetUpWizard>
+    <ErrorHelpMenu>Works</ErrorHelpMenu>
+    <CheckUpdatesHelpMenu>Works</CheckUpdatesHelpMenu>
+    <ShortCutKeysHelpMenu>Works</ShortCutKeysHelpMenu>
   </HelpMenuTest>
   <MultiLanguageTest>
     <DescriptionChoice></DescriptionChoice>
@@ -167,11 +167,11 @@
     <IMDIMPILanguagesDescription2></IMDIMPILanguagesDescription2>
   </MultiLanguageTest>
   <AddResourcesTest>
-    <AddWorkingDirectories></AddWorkingDirectories>
-    <AddResources></AddResources>
-    <AddResources2></AddResources2>
-    <AddNotArchivableFile></AddNotArchivableFile>
-    <AddResourceLocation></AddResourceLocation>
+    <AddWorkingDirectories>Works</AddWorkingDirectories>
+    <AddResources>Works</AddResources>
+    <AddResources2>Works</AddResources2>
+    <AddNotArchivableFile>Works</AddNotArchivableFile>
+    <AddResourceLocation error="">Empty</AddResourceLocation>
   </AddResourcesTest>
   <TypeCheckerTest>
     <TypecheckerConfiguration1></TypecheckerConfiguration1>
