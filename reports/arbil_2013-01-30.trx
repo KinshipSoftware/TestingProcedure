@@ -42,33 +42,33 @@
     <MovingMultipleSessions>Works</MovingMultipleSessions>
     <ProfileFilteringMD1>Works</ProfileFilteringMD1>
     <ProfileFilteringMD2>Works</ProfileFilteringMD2>
-    <ProfileFilteringMD3></ProfileFilteringMD3>
+    <ProfileFilteringMD3 error="">Empty</ProfileFilteringMD3>
   </GetMetadataTest>
   <NodeSearchTest>
     <IMDIStartSearch>Works</IMDIStartSearch>
     <DropNode>Works</DropNode>
     <OpenSearchWindow>Works</OpenSearchWindow>
-    <CheckSearchWindow></CheckSearchWindow>
-    <IMDILocalSearch></IMDILocalSearch>
-    <IMDILocalSearch2></IMDILocalSearch2>
-    <IMDILocalSearch3></IMDILocalSearch3>
-    <IMDIAdditionSearchAS></IMDIAdditionSearchAS>
-    <IMDIAdditionSearchAS1></IMDIAdditionSearchAS1>
-    <IMDIAdditionSearchAS2></IMDIAdditionSearchAS2>
-    <IMDIAdditionSearchAS3></IMDIAdditionSearchAS3>
-    <IMDIAdditionSearchAS4></IMDIAdditionSearchAS4>
-    <IMDIAdditionSearchAS5></IMDIAdditionSearchAS5>
-    <DroppingInTheSearchField></DroppingInTheSearchField>
-    <RemoteSearch></RemoteSearch>
-    <RemoteSearchFiltered></RemoteSearchFiltered>
+    <CheckSearchWindow>Works</CheckSearchWindow>
+    <IMDILocalSearch>Works</IMDILocalSearch>
+    <IMDILocalSearch2>Works</IMDILocalSearch2>
+    <IMDILocalSearch3>Works</IMDILocalSearch3>
+    <IMDIAdditionSearchAS>Works</IMDIAdditionSearchAS>
+    <IMDIAdditionSearchAS1>Works</IMDIAdditionSearchAS1>
+    <IMDIAdditionSearchAS2>Works</IMDIAdditionSearchAS2>
+    <IMDIAdditionSearchAS3>Works</IMDIAdditionSearchAS3>
+    <IMDIAdditionSearchAS4>Works</IMDIAdditionSearchAS4>
+    <IMDIAdditionSearchAS5>Works</IMDIAdditionSearchAS5>
+    <DroppingInTheSearchField>Works</DroppingInTheSearchField>
+    <RemoteSearch>Works</RemoteSearch>
+    <RemoteSearchFiltered>Works</RemoteSearchFiltered>
   </NodeSearchTest>
   <NodeRightMouseMenu>
-    <OpenInExternalApp></OpenInExternalApp>
-    <IMDIOpenInEnternalAppSession></IMDIOpenInEnternalAppSession>
-    <IMDIOpenInEnternalAppMedia></IMDIOpenInEnternalAppMedia>
-    <IMDIReImportBranch1></IMDIReImportBranch1>
-    <IMDIReImportBranch2></IMDIReImportBranch2>
-    <IMDIReImportBranch3></IMDIReImportBranch3>
+    <OpenInExternalApp>Works</OpenInExternalApp>
+    <IMDIOpenInEnternalAppSession>Works</IMDIOpenInEnternalAppSession>
+    <IMDIOpenInEnternalAppMedia>Works</IMDIOpenInEnternalAppMedia>
+    <IMDIReImportBranch1>Works</IMDIReImportBranch1>
+    <IMDIReImportBranch2>Works</IMDIReImportBranch2>
+    <IMDIReImportBranch3 error="">Empty</IMDIReImportBranch3>
     <ReImportMultipleNodes></ReImportMultipleNodes>
     <ViewXML></ViewXML>
     <ViewImdiFormatted></ViewImdiFormatted>
