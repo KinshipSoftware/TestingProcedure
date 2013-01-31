@@ -4,7 +4,7 @@
   <LexusVersion>3.0.1</LexusVersion>
   <OSVersion>Windows 7, Firefox 12.0</OSVersion>
   <Tester>clazab</Tester>
-  <TestPlanRevision>34380</TestPlanRevision>
+  <TestPlanRevision>35515</TestPlanRevision>
   <LoginTest>
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
@@ -178,7 +178,7 @@
     <SVEFormattingViewClass3>Works</SVEFormattingViewClass3>
     <SVEFormattingViewClass4>Works</SVEFormattingViewClass4>
     <SVEFormattingViewClass5>Works</SVEFormattingViewClass5>
-    <SVEFormattingCopy></SVEFormattingCopy>
+    <SVEFormattingCopy>Works</SVEFormattingCopy>
     <SVEFormattingViewTable1>Works</SVEFormattingViewTable1>
     <SVEFormattingViewTable2>Works</SVEFormattingViewTable2>
     <SVEFormattingViewTable3>Works</SVEFormattingViewTable3>
@@ -212,21 +212,21 @@
     <LEImportField>Works</LEImportField>
     <LEWordListSorting1>Works</LEWordListSorting1>
     <LEWordListSorting2 error="Ticket #2191">Mostly</LEWordListSorting2>
-    <LEChangePositioninSortOrder error="">Mostly</LEChangePositioninSortOrder>
+    <LEChangePositioninSortOrder error="Ticket #2191">Mostly</LEChangePositioninSortOrder>
     <LETreeView>Works</LETreeView>
     <LEPropertiesTab1>Works</LEPropertiesTab1>
     <LENotesTab3>Works</LENotesTab3>
-    <LENotesTab4 error="">Mostly</LENotesTab4>
+    <LENotesTab4 error="I moved away directly by logging out, the message appeared and I saved, but when I logged in again the notes weren't there. However, if I moved away by clikking on somthing else and then logging out and in again, they are saved.">Mostly</LENotesTab4>
     <LENotesTab5>Works</LENotesTab5>
     <LENotesTab6>Works</LENotesTab6>
     <LEAddFeatureSense>Works</LEAddFeatureSense>
     <LEAddGloss>Works</LEAddGloss>
     <LEAddValueGloss>Works</LEAddValueGloss>
-    <LECopyMoveStructureView error="">Strange</LECopyMoveStructureView>
+    <LECopyMoveStructureView>Works</LECopyMoveStructureView>
     <LEModifyNonLatin>Works</LEModifyNonLatin>
-    <LEChangeSortOrderCyrillic></LEChangeSortOrderCyrillic>
-    <LECheckSortOrderAdjusted></LECheckSortOrderAdjusted>
-    <LEChangingCyrillicLetterPosition></LEChangingCyrillicLetterPosition>
+    <LEChangeSortOrderCyrillic>Works</LEChangeSortOrderCyrillic>
+    <LECheckSortOrderAdjusted>Works</LECheckSortOrderAdjusted>
+    <LEChangingCyrillicLetterPosition>Works</LEChangingCyrillicLetterPosition>
     <LESelectingGrapheme>Works</LESelectingGrapheme>
     <LEVideoImage>Works</LEVideoImage>
     <LEVideoSound>Works</LEVideoSound>
@@ -234,62 +234,63 @@
     <LEOpenLinkToArchive>Works</LEOpenLinkToArchive>
     <LELexiconWordCheck1 error="No, the last entry is a-">Strange</LELexiconWordCheck1>
     <LEFilterCheck>Works</LEFilterCheck>
-    <LEdDeleteEntry></LEdDeleteEntry>
-    <LEdDeleteAllEntries></LEdDeleteAllEntries>
-    <LEdDeleteLexicon></LEdDeleteLexicon>
+    <LEdDeleteEntry>Works</LEdDeleteEntry>
+    <LEdDeleteAllEntries>Works</LEdDeleteAllEntries>
+    <LEdDeleteLexicon>Works</LEdDeleteLexicon>
   </LexiconEditorTest>
   <FilterTest>
-    <FTOpen></FTOpen>
-    <FTCreate></FTCreate>
-    <FTCreate1></FTCreate1>
-    <FTCreateAndRun></FTCreateAndRun>
-    <FTCreateFilter1></FTCreateFilter1>
-    <FTCreateFilter1A></FTCreateFilter1A>
-    <FTCreateFilter2></FTCreateFilter2>
-    <FTCreateFilter2A></FTCreateFilter2A>
-    <FTLRunTheFilter></FTLRunTheFilter>
-    <FTLRunTheFilter1></FTLRunTheFilter1>
-    <FTLexicon></FTLexicon>
-    <FTL4></FTL4>
-    <FTLRunTheFilter4></FTLRunTheFilter4>
-    <FTReRunTheFiltersForYeli></FTReRunTheFiltersForYeli>
-    <FTDelete></FTDelete>
+    <FTOpen>Works</FTOpen>
+    <FTCreate>Works</FTCreate>
+    <FTCreate1>Works</FTCreate1>
+    <FTCreateAndRun>Works</FTCreateAndRun>
+    <FTCreateFilter1>Works</FTCreateFilter1>
+    <FTCreateFilter1A>Works</FTCreateFilter1A>
+    <FTCreateFilter2>Works</FTCreateFilter2>
+    <FTCreateFilter2A>Works</FTCreateFilter2A>
+    <FTLRunTheFilter>Works</FTLRunTheFilter>
+    <FTLRunTheFilter1>Works</FTLRunTheFilter1>
+    <FTLexicon>Works</FTLexicon>
+    <FTL4>Works</FTL4>
+    <FTLRunTheFilter4>Works</FTLRunTheFilter4>
+    <FTReRunTheFiltersForYeli>Works</FTReRunTheFiltersForYeli>
+    <FTDelete>Works</FTDelete>
   </FilterTest>
   <ImportXMLLexusTest>
-    <IExistingLexica></IExistingLexica>
-    <IEXThePopUP></IEXThePopUP>
-    <IExistingLexicaBrowseXML1></IExistingLexicaBrowseXML1>
-    <IExistingLexicaBrowseXML2></IExistingLexicaBrowseXML2>
-    <IExistingLexicaBrowseXML3></IExistingLexicaBrowseXML3>
-    <IExistingLexicaLexiconInTheList></IExistingLexicaLexiconInTheList>
-    <ExistingLexicaLexiconContentCheck></ExistingLexicaLexiconContentCheck>
-    <IExistingLexicaDelete></IExistingLexicaDelete>
+    <_IExistingLexica1>Works</_IExistingLexica1>
+    <IExistingLexica>Works</IExistingLexica>
+    <IEXThePopUP>Works</IEXThePopUP>
+    <IExistingLexicaBrowseXML1 error="There is only the possibility to look for toolbox files, so it is impossible to upload the previously unzipped xml files.">Fails</IExistingLexicaBrowseXML1>
+    <IExistingLexicaBrowseXML2 error="">Empty</IExistingLexicaBrowseXML2>
+    <IExistingLexicaBrowseXML3 error="">Empty</IExistingLexicaBrowseXML3>
+    <IExistingLexicaLexiconInTheList error="">Empty</IExistingLexicaLexiconInTheList>
+    <ExistingLexicaLexiconContentCheck error="">Empty</ExistingLexicaLexiconContentCheck>
+    <IExistingLexicaDelete error="">Empty</IExistingLexicaDelete>
   </ImportXMLLexusTest>
   <ToolboxConvertTest>
-    <TCSelectingFiles></TCSelectingFiles>
-    <TCXPopUp></TCXPopUp>
-    <TCUploading></TCUploading>
-    <TCUploading1></TCUploading1>
-    <TCUploading2></TCUploading2>
-    <TCUploading3></TCUploading3>
-    <TCUploading4></TCUploading4>
-    <TCUploading5></TCUploading5>
-    <TCUploading6></TCUploading6>
-    <TCUUploading7></TCUUploading7>
-    <TCUploadingCheck></TCUploadingCheck>
-    <TCUploadingCheck2></TCUploadingCheck2>
-    <TCFileErrorTest></TCFileErrorTest>
+    <TCSelectingFiles>Works</TCSelectingFiles>
+    <TCXPopUp>Works</TCXPopUp>
+    <TCUploading>Works</TCUploading>
+    <TCUploading1>Works</TCUploading1>
+    <TCUploading2>Works</TCUploading2>
+    <TCUploading3>Works</TCUploading3>
+    <TCUploading4>Works</TCUploading4>
+    <TCUploading5>Works</TCUploading5>
+    <TCUploading6>Works</TCUploading6>
+    <TCUUploading7>Works</TCUUploading7>
+    <TCUploadingCheck>Works</TCUploadingCheck>
+    <TCUploadingCheck2 error="Ticket #2735">Mostly</TCUploadingCheck2>
+    <TCFileErrorTest>Works</TCFileErrorTest>
   </ToolboxConvertTest>
   <ExportTabTest>
-    <ExpToPDF1></ExpToPDF1>
-    <ExpToPDF2></ExpToPDF2>
-    <ExpToPDF3></ExpToPDF3>
-    <ExpToXML1></ExpToXML1>
-    <ExpToXML2></ExpToXML2>
-    <ExpToXML3></ExpToXML3>
-    <ExpToXMLVerify></ExpToXMLVerify>
+    <ExpToPDF1>Works</ExpToPDF1>
+    <ExpToPDF2 error="Ticket #2565">Fails</ExpToPDF2>
+    <ExpToPDF3 error="">Empty</ExpToPDF3>
+    <ExpToXML1>Works</ExpToXML1>
+    <ExpToXML2>Works</ExpToXML2>
+    <ExpToXML3>Works</ExpToXML3>
+    <ExpToXMLVerify>Works</ExpToXMLVerify>
   </ExportTabTest>
   <HelpTabTest>
-    <HTLexusWebsite></HTLexusWebsite>
+    <HTLexusWebsite>Works</HTLexusWebsite>
   </HelpTabTest>
 </LexusBugCheck>
