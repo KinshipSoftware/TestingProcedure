@@ -4,7 +4,7 @@
   <ArbilVersion>2.4</ArbilVersion>
   <OSVersion>windows 7, firefox</OSVersion>
   <Tester>twagoo</Tester>
-  <TestPlanRevision>35539</TestPlanRevision>
+  <TestPlanRevision>35543</TestPlanRevision>
   <CMDIWizardTest>
     <SA1>Works</SA1>
     <SA1A>Works</SA1A>
@@ -31,8 +31,6 @@
     <CMDIExportImportLocalSchema3 error="'Boedelbank' and 'TextCorpusProfile' are actually exported in a directory of my system. However, a window pops up showing the follow message: 'Processed 2 Metadatafiles. There were 2 files that validate and have xml errors.' ">Strange</CMDIExportImportLocalSchema3>
     <CMDIExportImportLocalSchema4>Works</CMDIExportImportLocalSchema4>
     <CMDIProfilesRefreshBotton>Works</CMDIProfilesRefreshBotton>
-    <CMDIExportImportLocalSchema5 error="It works, namely the node has been re-imported in the local corpus and in the right hierarchy, but I got the same message in the window (see item 13)">Strange</CMDIExportImportLocalSchema5>
-    <CMDIErroneousResourceTypeValue error="When adding the work directory in which I want to selcet a text file, it does not work or to better say it only shows 'loading node' with no results. ">Strange</CMDIErroneousResourceTypeValue>
     <CMDIEditAttributes>Works</CMDIEditAttributes>
   </CMDI_Profiles>
   <GetMetadataTest>
@@ -88,7 +86,6 @@
     <ReimportMetadataHierarchy></ReimportMetadataHierarchy>
     <CheckXmlConformance>Works</CheckXmlConformance>
     <CMDICheckXmlConformance1 error="Although I did change the date field to XYZ, it did not show up in red and I could not find the error in chack xml conform">Fails</CMDICheckXmlConformance1>
-    <CMDICheckXmlConformance2 error="Same as the previous ">Fails</CMDICheckXmlConformance2>
   </NodeRightMouseMenu>
   <ColumnsTests>
     <ArrangeColumns>Works</ArrangeColumns>
