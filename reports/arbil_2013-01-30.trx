@@ -81,7 +81,7 @@
     <ExportMetadataWithResources>Works</ExportMetadataWithResources>
     <ExportMetadataHierarchy>Works</ExportMetadataHierarchy>
     <CheckXmlConformance>Works</CheckXmlConformance>
-    <IMDICheckXmlConformance2 error="">Empty</IMDICheckXmlConformance2>
+    <IMDICheckXmlConformance2>Works</IMDICheckXmlConformance2>
   </NodeRightMouseMenu>
   <ColumnsTests>
     <ArrangeColumns>Works</ArrangeColumns>
@@ -135,8 +135,8 @@
     <SaveWindowsOnExit1>Works</SaveWindowsOnExit1>
     <ShowSelectionPreview>Works</ShowSelectionPreview>
     <CopyNewResourcesIntoCache>Works</CopyNewResourcesIntoCache>
-    <CopyNewResourcesIntoCacheN error="">Empty</CopyNewResourcesIntoCacheN>
-    <CheckPermisForRemoteResources error="">Empty</CheckPermisForRemoteResources>
+    <CopyNewResourcesIntoCacheN>Works</CopyNewResourcesIntoCacheN>
+    <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
     <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
     <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
     <ColumnViewForNewTables>Works</ColumnViewForNewTables>
