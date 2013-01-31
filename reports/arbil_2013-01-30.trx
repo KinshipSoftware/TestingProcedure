@@ -86,7 +86,7 @@
   <ColumnsTests>
     <ArrangeColumns>Works</ArrangeColumns>
     <ArrangementColumns1>Works</ArrangementColumns1>
-    <ArrangementMultipleColumns error="">Empty</ArrangementMultipleColumns>
+    <ArrangementMultipleColumns>Works</ArrangementMultipleColumns>
     <SaveColumnView>Works</SaveColumnView>
     <EditColumnView>Works</EditColumnView>
     <ShowOnlyCurrent error="">Empty</ShowOnlyCurrent>
@@ -96,10 +96,10 @@
     <FindAndReplace>Works</FindAndReplace>
   </ColumnsTests>
   <FilesTest>
-    <AddWorkingDirectory error="">Empty</AddWorkingDirectory>
-    <AddJpegImage></AddJpegImage>
-    <AddWAV></AddWAV>
-    <FilesShowHidden></FilesShowHidden>
+    <AddWorkingDirectory>Works</AddWorkingDirectory>
+    <AddJpegImage>Works</AddJpegImage>
+    <AddWAV>Works</AddWAV>
+    <FilesShowHidden>Works</FilesShowHidden>
   </FilesTest>
   <FavouritesTest>
     <AddToFavourites>Works</AddToFavourites>
@@ -187,7 +187,7 @@
     <Resource_TypeNotInferredFromMimetype></Resource_TypeNotInferredFromMimetype>
   </TypeCheckerTest>
   <HandleNodesTests>
-    <DeleteNodeKey></DeleteNodeKey>
-    <DeleteNodeMenu></DeleteNodeMenu>
+    <DeleteNodeKey>Works</DeleteNodeKey>
+    <DeleteNodeMenu>Works</DeleteNodeMenu>
   </HandleNodesTests>
 </ArbilBugCheck>
