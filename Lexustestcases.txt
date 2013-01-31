@@ -1,4 +1,4 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2012-11-20 (14:13).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2013-01-31 (14:34).
 
 LoginTest
   LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens"
@@ -251,6 +251,7 @@ FilterTest
   FTDelete "Delete all the filters you have created. The list of available filters is empty"
 
 ImportXMLLexusTest
+  _IExistingLexica1 "Go to https://trac.mpi.nl/wiki/LATSoftwareTesting, downloand the file Yeli_Dnye_Lexicon.zip, unzip it. it contains two xml files to use for the test."
   IExistingLexica "In the Workspace mode in 'File' menu select 'Import Lexus XML'. A pop-up window appears where you can choose files you want to upload"
   IEXThePopUP "Close the pop up window by pressing the X button. The window is closed. Reselect 'Import Lexus XML' to open the import pop up again"
   IExistingLexicaBrowseXML1 "Select .xml files (that you have previously unziped) containing the structure and data of the lexicon. The files appear in the Import XML Files window"
