@@ -32,8 +32,8 @@
     <IMDIChangesTableandPreviewArea>Works</IMDIChangesTableandPreviewArea>
     <FollowUpVoc>Works</FollowUpVoc>
     <IMDIMultipleValuesAdd>Works</IMDIMultipleValuesAdd>
-    <ImportExistinBrnchSavN error="I did not get any message about saving the changes. The import has been made.">Mostly</ImportExistinBrnchSavN>
-    <ImportExistinBrnchSve error="Same as before.">Mostly</ImportExistinBrnchSve>
+    <ImportExistinBrnchSavN>Works</ImportExistinBrnchSavN>
+    <ImportExistinBrnchSve>Works</ImportExistinBrnchSve>
     <ImprtExistinBrnch>Works</ImprtExistinBrnch>
     <ImprtExistinBrnch1>Works</ImprtExistinBrnch1>
     <ImprtExistinBrnch2>Works</ImprtExistinBrnch2>
@@ -42,7 +42,7 @@
     <MovingMultipleSessions>Works</MovingMultipleSessions>
     <ProfileFilteringMD1>Works</ProfileFilteringMD1>
     <ProfileFilteringMD2>Works</ProfileFilteringMD2>
-    <ProfileFilteringMD3 error="">Empty</ProfileFilteringMD3>
+    <ProfileFilteringMD3>Works</ProfileFilteringMD3>
   </GetMetadataTest>
   <NodeSearchTest>
     <IMDIStartSearch>Works</IMDIStartSearch>
@@ -68,11 +68,11 @@
     <IMDIOpenInEnternalAppMedia>Works</IMDIOpenInEnternalAppMedia>
     <IMDIReImportBranch1>Works</IMDIReImportBranch1>
     <IMDIReImportBranch2>Works</IMDIReImportBranch2>
-    <IMDIReImportBranch3 error="">Empty</IMDIReImportBranch3>
-    <ReImportMultipleNodes error="">Empty</ReImportMultipleNodes>
+    <IMDIReImportBranch3>Works</IMDIReImportBranch3>
+    <ReImportMultipleNodes>Works</ReImportMultipleNodes>
     <ViewXML>Works</ViewXML>
     <ViewImdiFormatted>Works</ViewImdiFormatted>
-    <OpenImdiFormatted error="">Empty</OpenImdiFormatted>
+    <OpenImdiFormatted error="I can see the details of the node but in the working area of Arbil. I was not redirected to IMDI Browser.">Strange</OpenImdiFormatted>
     <IMDIExportImdiToHtml>Works</IMDIExportImdiToHtml>
     <IMDIExportImdiToHtml2>Works</IMDIExportImdiToHtml2>
     <ExportMetadata1>Works</ExportMetadata1>
@@ -89,8 +89,8 @@
     <ArrangementMultipleColumns>Works</ArrangementMultipleColumns>
     <SaveColumnView>Works</SaveColumnView>
     <EditColumnView>Works</EditColumnView>
-    <ShowOnlyCurrent error="">Empty</ShowOnlyCurrent>
-    <ColumnViewForThis error="">Empty</ColumnViewForThis>
+    <ShowOnlyCurrent>Works</ShowOnlyCurrent>
+    <ColumnViewForThis>Works</ColumnViewForThis>
     <CopyTableWeb>Works</CopyTableWeb>
     <Embed>Works</Embed>
     <FindAndReplace>Works</FindAndReplace>
@@ -155,36 +155,36 @@
     <ShortCutKeysHelpMenu>Works</ShortCutKeysHelpMenu>
   </HelpMenuTest>
   <MultiLanguageTest>
-    <DescriptionChoice></DescriptionChoice>
-    <LongfieldEditor></LongfieldEditor>
-    <ControlledVocabularies1></ControlledVocabularies1>
-    <ControlledVocabularies2></ControlledVocabularies2>
-    <ControlledVocabularies3></ControlledVocabularies3>
-    <ControlledVocabularies4></ControlledVocabularies4>
-    <ClosedVocabularies></ClosedVocabularies>
-    <ControlledVocabulariesLongFE></ControlledVocabulariesLongFE>
-    <IMDIMPILanguagesDescription1></IMDIMPILanguagesDescription1>
-    <IMDIMPILanguagesDescription2></IMDIMPILanguagesDescription2>
+    <DescriptionChoice>Works</DescriptionChoice>
+    <LongfieldEditor>Works</LongfieldEditor>
+    <ControlledVocabularies1>Works</ControlledVocabularies1>
+    <ControlledVocabularies2>Works</ControlledVocabularies2>
+    <ControlledVocabularies3>Works</ControlledVocabularies3>
+    <ControlledVocabularies4>Works</ControlledVocabularies4>
+    <ClosedVocabularies>Works</ClosedVocabularies>
+    <ControlledVocabulariesLongFE>Works</ControlledVocabulariesLongFE>
+    <IMDIMPILanguagesDescription1>Works</IMDIMPILanguagesDescription1>
+    <IMDIMPILanguagesDescription2>Works</IMDIMPILanguagesDescription2>
   </MultiLanguageTest>
   <AddResourcesTest>
     <AddWorkingDirectories>Works</AddWorkingDirectories>
     <AddResources>Works</AddResources>
     <AddResources2>Works</AddResources2>
     <AddNotArchivableFile>Works</AddNotArchivableFile>
-    <AddResourceLocation error="">Empty</AddResourceLocation>
+    <AddResourceLocation>Works</AddResourceLocation>
   </AddResourcesTest>
   <TypeCheckerTest>
-    <TypecheckerConfiguration1></TypecheckerConfiguration1>
-    <TypecheckerConfiguration2></TypecheckerConfiguration2>
-    <TypecheckerConfiguration3></TypecheckerConfiguration3>
-    <TypecheckerConfiguration4></TypecheckerConfiguration4>
-    <TypecheckerConfiguration5></TypecheckerConfiguration5>
-    <TypecheckerConfiguration6></TypecheckerConfiguration6>
-    <TypecheckerConfiguration6a></TypecheckerConfiguration6a>
-    <TypecheckerConfiguration6b></TypecheckerConfiguration6b>
-    <TypecheckerConfiguration7></TypecheckerConfiguration7>
-    <TypecheckerConfiguration8></TypecheckerConfiguration8>
-    <Resource_TypeNotInferredFromMimetype></Resource_TypeNotInferredFromMimetype>
+    <TypecheckerConfiguration1>Works</TypecheckerConfiguration1>
+    <TypecheckerConfiguration2>Works</TypecheckerConfiguration2>
+    <TypecheckerConfiguration3>Works</TypecheckerConfiguration3>
+    <TypecheckerConfiguration4>Works</TypecheckerConfiguration4>
+    <TypecheckerConfiguration5>Works</TypecheckerConfiguration5>
+    <TypecheckerConfiguration6>Works</TypecheckerConfiguration6>
+    <TypecheckerConfiguration6a>Works</TypecheckerConfiguration6a>
+    <TypecheckerConfiguration6b>Works</TypecheckerConfiguration6b>
+    <TypecheckerConfiguration7>Works</TypecheckerConfiguration7>
+    <TypecheckerConfiguration8>Works</TypecheckerConfiguration8>
+    <Resource_TypeNotInferredFromMimetype>Works</Resource_TypeNotInferredFromMimetype>
   </TypeCheckerTest>
   <HandleNodesTests>
     <DeleteNodeKey>Works</DeleteNodeKey>
