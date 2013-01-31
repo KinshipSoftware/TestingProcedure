@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil_clarin.xml on 2013-01-31 (16:33).
+# test cases exported from test plan file arbil_clarin.xml on 2013-01-31 (17:18).
 
 CMDIWizardTest
   SA1 "Go to http://www.lat-mpi.eu/tools/arbil/arbilversions/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running."
@@ -26,8 +26,6 @@ CMDI_Profiles
   CMDIExportImportLocalSchema3 "Then in the local corpus tree create a new instance of this profile (e.g. 'Add' -> 'Boedelbank'). Wait for the new instance to appear. The instance should have all required subnodes and fields."
   CMDIExportImportLocalSchema4 "Then check the export directory. There should an .xsd file beside the exported .cmdi in addition to the file for the TextCorpusNode. "
   CMDIProfilesRefreshBotton "Go back to the Component Registry and create a new profile. Load it in Arbil. Make some changes to it in the component registry (e.g. adding a field). Go back to arbil and refresh the profiles list. Check if the changes are there for new metadat instances."
-  CMDIExportImportLocalSchema5 "Go back to Arbil and delete the Boedelbank node from the local corpus. Now click on file > import and re-import the boedelbank profile. You should be able to re-import the cmdi in Arbil and it should not give any errors when opening. In addition, the hierarchy of the node once reimported should bein tact."
-  CMDIErroneousResourceTypeValue "Link a text file from the Working Directories to one of your CMDI files by dragging and dropping it. Right click on the Clarin file and selct View XML from the Context menu. It should look as described in https://trac.mpi.nl/ticket/116#comment:1"
   CMDIEditAttributes "Go to the 'Root of the CMDI example collection' node in the remote corpus (if it is not there, run the setup wizard and make sure CMDI is selected). Expand it to 'OLAC sample set' and choose one of its child nodes, and import it. Every field of this profile has attributes. It is possible to edit attributes in a CMDI instance (by pressing Enter and subsequently Next)."
 
 GetMetadataTest
@@ -67,7 +65,7 @@ NodeSearchTest
   DroppingInTheSearchField "Select a number of nodes and click on Search. Select one of the nodes in the local corpus and try to drag/drop it into the search results. It is not possible to do so."
 
 NodeRightMouseMenu
-  OpenInExternalApp "Right click on the LTR inventory sample set node and select 'Open in Exteral Application'. The option launches the resource file in an external application"
+  OpenInExternalApp "Right click on the LTR inventory sample set node and select 'Open in Exteral Application'. The option launches the resource file in an external application. If it fails, open the parent directory, double click the .cmdi file you find there and choose an application to open with, making sure it gets remembered as the default associated application. Then try again opening it in external application from Arbil again."
   CMDIOpenInEnternalAppSession "Right click on the component ISO639 in the node LTR inventory sample set and select 'Open in Exteral Application'. The option launches the resource file in an external application"
   CMDIOpenInEnternalAppMedia "Right click on http://www.iula.upf.edu/rec/corpus92/ in the node Corpus PAAU 92 and select 'Open in Exteral Application'. The option launches the resource file in an external application"
   CMDIReImportBranch1 "In the LTR inventory sample set change the names or a number of fields and save it."
@@ -75,15 +73,14 @@ NodeRightMouseMenu
   IMDIReImportBranch3 "In the Import Branch window select to overwrite local changes and click on Import. The branch has been reimported and all the previously made changes that you have made are now gone."
   ReImportMultipleNodes "Select a node from the local corpus (ie. PeWi Corpus), and edit its name to 'AB'. Highlight and right click > re-import branch. Make sure changes are overwritten. Nodes should be reimported."
   ViewXML "Right click on a node and select 'View XML'. The option opens a window with the XML source code."
-  ExportMetadata1 "Right click ComicBook instance that has NO RESOURCES linked and press export. Use the file dialog to create a new empty folder on your desktop folder, go back to the desktop folder if needed and choose the new folder."
-  ExportMetadata2 "Select \"Export Resource Files (if available)\" and press Start. When the process is completed the export folder should be shown. Make sure it contains a copy of the exported metadata file."
-  ExportMetadata3 "Use File->Import to select the metadata file on disk that resulted from the export. Select the 'Overwrite local changes' option and press Start. After the import, identify the new copy and verify that it is structurally identical to the original file. (If you're not sure, which is which, you can find out which one is the copy by selecting the node in the local corpus, then press Copy, paste the URL into an editor or other temporary location and see if it reflects the export location; if so, this the imported version)."
+  ExportMetadata1 "Right click ComicBook instance that has NO RESOURCES linked and press export. Use the file dialog to create a new empty folder on your desktop folder, go back to the desktop folder if needed and choose the new folder. Validation/XML errors can be ignored."
+  ExportMetadata2 "Select \"Export Resource Files (if available)\" and press Start. When the process is completed the export folder should be shown. Make sure it contains a copy of the exported metadata file. Validation/XML errors can be ignored."
+  ExportMetadata3 "Use File->Import to select the metadata file on disk that resulted from the export. Select the 'Overwrite local changes' option and press Start. After the import, identify the new copy and verify that it is structurally identical to the original file. (If you're not sure, which is which, you can find out which one is the copy by selecting the node in the local corpus, then press Copy, paste the URL into an editor or other temporary location and see if it reflects the export location; if so, this the imported version). Validation/XML errors can be ignored."
   ExportMetadataWithResources "Add a number of resources from the working directory to the same session in the local corpus and repeat the export procedure as described in the above steps. Use a new folder and make sure to check the 'export resource files' options. Verify that the export folder contains copies of both the metadata files and the linked resources."
   ExportMetadataHierarchy "Create a metadata hierarchy (Collection with ComicBook children) and repeat export procedure on the collection node. Verify that the export folder contains copies of all metadata files, both the collection(s) and children."
   ReimportMetadataHierarchy "Go back to Arbil and delete the Collection node with the ComicBook child from the local corpus. Now click on file > import and re-import the collection instance you have just exported. You should be able to re-import the cmdi in Arbil and it should not give any errors when opening. In addition, the hierarchy of the node once reimported should be in tact."
   CheckXmlConformance "Right click on a node and select \"Check XML Conformance\". This should open a window with the results"
-  CMDICheckXmlConformance1 "A newly created Session should not report any errors in the results window (only a green line saying 'Done'.) Change the value in the 'Date' field to 'XYZ' and check XML conformance again. Now there should be an error."
-  CMDICheckXmlConformance2 "A newly created Collection instance should report errors (blue lines) in the result window. Enter values for all of its fields, make sure none of the values show up red in the editor, and check again. No errors should be reported (only a green line saying 'Done'.)"
+  CMDICheckXmlConformance1 "A newly created ComicBook will report a number of errors in the results window. There should be a large amount of blue text in the validation output. Fill in values for Title, PublicationYear, NumberOfPages, NumberOfChapters, Language code, Format.ColorPrinting (fill in 'true'), and all fields of the first and only Actor. Validate again. The output should not show blue text but only a single green line saying 'Done' after the introduction in black text. If there is still blue text, look up the corresponding field(s), fix the values and validate again until there are no more errors."
 
 ColumnsTests
   ArrangeColumns "Drag and drop columns. Is it possible to change a column's positions this way"
@@ -99,7 +96,7 @@ ColumnsTests
 
 FilesTest
   AddWorkingDirectory "Go to the Files area. Several directories can be added and removed from 'Files'"
-  AddJpegImage "In a session add an JPG image from your Working Directories. The image is added, a preview displayed (when View Selected is selected) and the file size is correct"
+  AddJpegImage "In a session add an JPG image from your Working Directories. The image is added, the file size is correct and a preview is displayed (when View Selected is selected and the application was installed, i.e. not running as webstart)"
   AddWAV "Download the WAV audio file (http://corpus1.mpi.nl/qfs1/media-archive/demo/pewi/Media/elan-example1.wav) onto the same directory used for the previous JPG file. Right click on the Folder and select reload. The wav file should then be uploaded to the working directory. The file is added and it is possible to be played when opened with external application. windows 7 it offers to show the directory"
   FilesShowHidden "Right click on Files and check the \\\"Show Hidden Files\\\". Previously hidden files are shown now."
 
