@@ -3,8 +3,8 @@
   <DateTime>2013-01-21</DateTime>
   <ArbilVersion>2.4</ArbilVersion>
   <OSVersion>windows 7, firefox</OSVersion>
-  <Tester>sauciv</Tester>
-  <TestPlanRevision>34742</TestPlanRevision>
+  <Tester>twagoo</Tester>
+  <TestPlanRevision>35539</TestPlanRevision>
   <CMDIWizardTest>
     <SA1>Works</SA1>
     <SA1A>Works</SA1A>
@@ -85,6 +85,7 @@
     <ExportMetadata3 error="Same as the previous">Mostly</ExportMetadata3>
     <ExportMetadataWithResources>Works</ExportMetadataWithResources>
     <ExportMetadataHierarchy>Works</ExportMetadataHierarchy>
+    <ReimportMetadataHierarchy></ReimportMetadataHierarchy>
     <CheckXmlConformance>Works</CheckXmlConformance>
     <CMDICheckXmlConformance1 error="Although I did change the date field to XYZ, it did not show up in red and I could not find the error in chack xml conform">Fails</CMDICheckXmlConformance1>
     <CMDICheckXmlConformance2 error="Same as the previous ">Fails</CMDICheckXmlConformance2>
