@@ -3,7 +3,7 @@
   <DateTime>2013-01-21</DateTime>
   <ArbilVersion>2.4</ArbilVersion>
   <OSVersion>windows 7, firefox</OSVersion>
-  <Tester>twagoo</Tester>
+  <Tester>sauciv</Tester>
   <TestPlanRevision>35543</TestPlanRevision>
   <CMDIWizardTest>
     <SA1>Works</SA1>
@@ -28,13 +28,13 @@
     <ArbitraryResourceProxyReferences>Works</ArbitraryResourceProxyReferences>
     <CMDIExportImportLocalSchema1>Works</CMDIExportImportLocalSchema1>
     <CMDIExportImportLocalSchema2>Works</CMDIExportImportLocalSchema2>
-    <CMDIExportImportLocalSchema3 error="'Boedelbank' and 'TextCorpusProfile' are actually exported in a directory of my system. However, a window pops up showing the follow message: 'Processed 2 Metadatafiles. There were 2 files that validate and have xml errors.' ">Strange</CMDIExportImportLocalSchema3>
+    <CMDIExportImportLocalSchema3>Works</CMDIExportImportLocalSchema3>
     <CMDIExportImportLocalSchema4>Works</CMDIExportImportLocalSchema4>
     <CMDIProfilesRefreshBotton>Works</CMDIProfilesRefreshBotton>
     <CMDIEditAttributes>Works</CMDIEditAttributes>
   </CMDI_Profiles>
   <GetMetadataTest>
-    <CMDIAddProfile error="Although the profile which I created is in the list Templates and Profiles, when I add the profile, a different one is added in the local corpus. At the same time a window pops up with the actual profile!">Strange</CMDIAddProfile>
+    <CMDIAddProfile>Works</CMDIAddProfile>
     <CMDAddProfileConName>Works</CMDAddProfileConName>
     <CMDIAddProfileNode>Works</CMDIAddProfileNode>
     <CMDIMaximumNumberNodesReached>Works</CMDIMaximumNumberNodesReached>
@@ -70,20 +70,20 @@
     <DroppingInTheSearchField>Works</DroppingInTheSearchField>
   </NodeSearchTest>
   <NodeRightMouseMenu>
-    <OpenInExternalApp error=": A window pops up showing the follow message: 'Failed to open the file. Please check that it is accessible and has an application associated with it. Do you want to open the parent directory?'.  ">Fails</OpenInExternalApp>
-    <CMDIOpenInEnternalAppSession error="Same as the previous">Fails</CMDIOpenInEnternalAppSession>
-    <CMDIOpenInEnternalAppMedia error="Same as the previous">Fails</CMDIOpenInEnternalAppMedia>
+    <OpenInExternalApp>Works</OpenInExternalApp>
+    <CMDIOpenInEnternalAppSession>Works</CMDIOpenInEnternalAppSession>
+    <CMDIOpenInEnternalAppMedia>Works</CMDIOpenInEnternalAppMedia>
     <CMDIReImportBranch1>Works</CMDIReImportBranch1>
     <CMDIReImportBranch2>Works</CMDIReImportBranch2>
     <IMDIReImportBranch3>Works</IMDIReImportBranch3>
     <ReImportMultipleNodes>Works</ReImportMultipleNodes>
     <ViewXML>Works</ViewXML>
-    <ExportMetadata1 error="Once again the ComicBook has been exported in the new folder successfully but a window showing this message: 'Processed 1 metadata files. There were 1 files that failed to validate and have xml error'.">Mostly</ExportMetadata1>
-    <ExportMetadata2 error="Same as the previous ">Mostly</ExportMetadata2>
-    <ExportMetadata3 error="Same as the previous">Mostly</ExportMetadata3>
+    <ExportMetadata1>Works</ExportMetadata1>
+    <ExportMetadata2>Works</ExportMetadata2>
+    <ExportMetadata3>Works</ExportMetadata3>
     <ExportMetadataWithResources>Works</ExportMetadataWithResources>
     <ExportMetadataHierarchy>Works</ExportMetadataHierarchy>
-    <ReimportMetadataHierarchy></ReimportMetadataHierarchy>
+    <ReimportMetadataHierarchy>Works</ReimportMetadataHierarchy>
     <CheckXmlConformance>Works</CheckXmlConformance>
     <CMDICheckXmlConformance1 error="Although I did change the date field to XYZ, it did not show up in red and I could not find the error in chack xml conform">Fails</CMDICheckXmlConformance1>
   </NodeRightMouseMenu>
@@ -101,8 +101,8 @@
   </ColumnsTests>
   <FilesTest>
     <AddWorkingDirectory>Works</AddWorkingDirectory>
-    <AddJpegImage error="The characteristics of the file are correctly dyplayed but I cannot get a preview of the picture in the sense that it is not possible to see the picture">Mostly</AddJpegImage>
-    <AddWAV error="Same as before">Mostly</AddWAV>
+    <AddJpegImage>Works</AddJpegImage>
+    <AddWAV>Works</AddWAV>
     <FilesShowHidden>Works</FilesShowHidden>
   </FilesTest>
   <FavouritesTest>
