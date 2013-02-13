@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2012-12-21 (15:28).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-02-13 (15:07).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -184,5 +184,3 @@ LAMUSFunctionButtonsTest
   SAL1 "Click 'Return to main page'. You should be redirected to the main LAMUS page"
   SAL2 "Do SAL1, click 'Select existing workspace', select a previously saved workspace, click 'choose': you should be able to work on it again"
   About "Click 'About'. A new page shows information about Lamus Version Info, My Lamus Info and Personal Preferences"
-  A2 "Change Icon set from 'Florian' to 'IMDI' and click 'apply'. Did the icon set change in the tree structure into the IMDI style?"
-  A1 "Click 'back': you should be redirected to the previous interaction window"
