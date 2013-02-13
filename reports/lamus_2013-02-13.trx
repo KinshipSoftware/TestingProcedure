@@ -35,34 +35,34 @@
     <AL17LT1>Works</AL17LT1>
   </LamusMainPageTest>
   <WorkspaceManagmentTest>
-    <StartWorkingWithYourWorkspace></StartWorkingWithYourWorkspace>
-    <TopNodeMenu1></TopNodeMenu1>
-    <TopNodeMenu2></TopNodeMenu2>
-    <AddCorpusNodeTest></AddCorpusNodeTest>
-    <CancelAddNode></CancelAddNode>
-    <ResetAddNode></ResetAddNode>
-    <SubmitNewCorpusNode></SubmitNewCorpusNode>
-    <TMT2></TMT2>
-    <ModifyNodeTest></ModifyNodeTest>
-    <ResetChangeNode></ResetChangeNode>
-    <CancelChangeNode></CancelChangeNode>
-    <SubmitModifiedNode></SubmitModifiedNode>
-    <ViewNodeTest></ViewNodeTest>
-    <AddChildNode></AddChildNode>
-    <DeleteNodeTest></DeleteNodeTest>
-    <CancelDeleteNode></CancelDeleteNode>
-    <DeleteDeleteNode></DeleteDeleteNode>
-    <CreateCorpusStructure></CreateCorpusStructure>
-    <UploadFiles></UploadFiles>
-    <UploadingSessionNodesTest1></UploadingSessionNodesTest1>
-    <UF2></UF2>
-    <UF3></UF3>
-    <UF5></UF5>
-    <UploadingSessionNodesTest2></UploadingSessionNodesTest2>
-    <FileBrowsersTest1></FileBrowsersTest1>
-    <FileBrowsersTest2></FileBrowsersTest2>
-    <FileBrowsersTest3></FileBrowsersTest3>
-    <FileBrowsersTest4></FileBrowsersTest4>
+    <StartWorkingWithYourWorkspace>Works</StartWorkingWithYourWorkspace>
+    <TopNodeMenu1>Works</TopNodeMenu1>
+    <TopNodeMenu2>Works</TopNodeMenu2>
+    <AddCorpusNodeTest>Works</AddCorpusNodeTest>
+    <CancelAddNode>Works</CancelAddNode>
+    <ResetAddNode>Works</ResetAddNode>
+    <SubmitNewCorpusNode>Works</SubmitNewCorpusNode>
+    <TMT2>Works</TMT2>
+    <ModifyNodeTest>Works</ModifyNodeTest>
+    <ResetChangeNode>Works</ResetChangeNode>
+    <CancelChangeNode>Works</CancelChangeNode>
+    <SubmitModifiedNode>Works</SubmitModifiedNode>
+    <ViewNodeTest>Works</ViewNodeTest>
+    <AddChildNode>Works</AddChildNode>
+    <DeleteNodeTest>Works</DeleteNodeTest>
+    <CancelDeleteNode>Works</CancelDeleteNode>
+    <DeleteDeleteNode>Works</DeleteDeleteNode>
+    <CreateCorpusStructure>Works</CreateCorpusStructure>
+    <UploadFiles>Works</UploadFiles>
+    <UploadingSessionNodesTest1>Works</UploadingSessionNodesTest1>
+    <UF2>Works</UF2>
+    <UF3>Works</UF3>
+    <UF5>Works</UF5>
+    <UploadingSessionNodesTest2>Works</UploadingSessionNodesTest2>
+    <FileBrowsersTest1>Works</FileBrowsersTest1>
+    <FileBrowsersTest2>Works</FileBrowsersTest2>
+    <FileBrowsersTest3>Works</FileBrowsersTest3>
+    <FileBrowsersTest4>Works</FileBrowsersTest4>
   </WorkspaceManagmentTest>
   <Link_UnlinkInfoFileTest>
     <LinkCorpusNodeTest></LinkCorpusNodeTest>
