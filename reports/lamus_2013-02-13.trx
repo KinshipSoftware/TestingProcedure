@@ -65,37 +65,37 @@
     <FileBrowsersTest4>Works</FileBrowsersTest4>
   </WorkspaceManagmentTest>
   <Link_UnlinkInfoFileTest>
-    <LinkCorpusNodeTest></LinkCorpusNodeTest>
-    <TMT5></TMT5>
-    <LinkInfoFile></LinkInfoFile>
-    <LIF1></LIF1>
-    <LIF2></LIF2>
-    <LIF3></LIF3>
-    <LIF4></LIF4>
-    <LIF5></LIF5>
-    <LIF6></LIF6>
-    <LIF7></LIF7>
-    <InfoFile></InfoFile>
-    <ViewInfoFile></ViewInfoFile>
-    <ChangeDescription></ChangeDescription>
-    <CD1></CD1>
-    <CD2></CD2>
-    <CD3></CD3>
+    <LinkCorpusNodeTest>Works</LinkCorpusNodeTest>
+    <TMT5>Works</TMT5>
+    <LinkInfoFile>Works</LinkInfoFile>
+    <LIF1>Works</LIF1>
+    <LIF2>Works</LIF2>
+    <LIF3>Works</LIF3>
+    <LIF4>Works</LIF4>
+    <LIF5>Works</LIF5>
+    <LIF6>Works</LIF6>
+    <LIF7>Works</LIF7>
+    <InfoFile>Works</InfoFile>
+    <ViewInfoFile>Works</ViewInfoFile>
+    <ChangeDescription>Works</ChangeDescription>
+    <CD1>Works</CD1>
+    <CD2>Works</CD2>
+    <CD3>Works</CD3>
   </Link_UnlinkInfoFileTest>
   <RenameInfoFileTest>
-    <RenameInfoFile></RenameInfoFile>
-    <RRT1></RRT1>
-    <RRT2></RRT2>
-    <RRT3></RRT3>
-    <RRT4></RRT4>
-    <RRT5></RRT5>
-    <RRT52></RRT52>
-    <RRT6></RRT6>
-    <RRT7></RRT7>
-    <RRT8></RRT8>
-    <RRT9></RRT9>
-    <RRT10></RRT10>
-    <RRT11></RRT11>
+    <RenameInfoFile>Works</RenameInfoFile>
+    <RRT1>Works</RRT1>
+    <RRT2>Works</RRT2>
+    <RRT3>Works</RRT3>
+    <RRT4>Works</RRT4>
+    <RRT5>Works</RRT5>
+    <RRT52>Works</RRT52>
+    <RRT6>Works</RRT6>
+    <RRT7>Works</RRT7>
+    <RRT8>Works</RRT8>
+    <RRT9>Works</RRT9>
+    <RRT10>Works</RRT10>
+    <RRT11>Works</RRT11>
   </RenameInfoFileTest>
   <UnlinkInfo_WrittenResourcesTest>
     <UnlinkNodeTest></UnlinkNodeTest>
