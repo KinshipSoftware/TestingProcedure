@@ -98,34 +98,34 @@
     <RRT11>Works</RRT11>
   </RenameInfoFileTest>
   <UnlinkInfo_WrittenResourcesTest>
-    <UnlinkNodeTest></UnlinkNodeTest>
-    <CancelUnlinkNode></CancelUnlinkNode>
-    <UN1></UN1>
-    <UN1a></UN1a>
-    <MultipleUnlinkTest></MultipleUnlinkTest>
-    <MUL1></MUL1>
-    <MUL2></MUL2>
-    <MUL3></MUL3>
-    <MUL4></MUL4>
+    <UnlinkNodeTest>Works</UnlinkNodeTest>
+    <CancelUnlinkNode>Works</CancelUnlinkNode>
+    <UN1>Works</UN1>
+    <UN1a>Works</UN1a>
+    <MultipleUnlinkTest>Works</MultipleUnlinkTest>
+    <MUL1>Works</MUL1>
+    <MUL2>Works</MUL2>
+    <MUL3>Works</MUL3>
+    <MUL4>Works</MUL4>
   </UnlinkInfo_WrittenResourcesTest>
   <SessionNodeTest>
-    <LinkSessionNode></LinkSessionNode>
-    <LSN1></LSN1>
-    <LinkMediaFile></LinkMediaFile>
-    <LIM1></LIM1>
-    <LIM2></LIM2>
-    <LIM3></LIM3>
-    <LIM4></LIM4>
-    <LIM5></LIM5>
-    <LIM6></LIM6>
-    <LIM7></LIM7>
-    <LIM8></LIM8>
-    <LinkInfoFileForSessionNodes></LinkInfoFileForSessionNodes>
-    <LIFFSN1></LIFFSN1>
-    <LIFFSN2></LIFFSN2>
-    <LIFFSN3></LIFFSN3>
-    <LIFFSN4></LIFFSN4>
-    <LIFFSN5></LIFFSN5>
+    <LinkSessionNode>Works</LinkSessionNode>
+    <LSN1>Works</LSN1>
+    <LinkMediaFile>Works</LinkMediaFile>
+    <LIM1>Works</LIM1>
+    <LIM2>Works</LIM2>
+    <LIM3>Works</LIM3>
+    <LIM4>Works</LIM4>
+    <LIM5>Works</LIM5>
+    <LIM6>Works</LIM6>
+    <LIM7>Works</LIM7>
+    <LIM8>Works</LIM8>
+    <LinkInfoFileForSessionNodes>Works</LinkInfoFileForSessionNodes>
+    <LIFFSN1>Works</LIFFSN1>
+    <LIFFSN2>Works</LIFFSN2>
+    <LIFFSN3>Works</LIFFSN3>
+    <LIFFSN4>Works</LIFFSN4>
+    <LIFFSN5>Works</LIFFSN5>
   </SessionNodeTest>
   <Unlink_LinkCorpusNode>
     <UnlinkCorpusNode></UnlinkCorpusNode>
