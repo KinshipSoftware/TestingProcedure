@@ -160,34 +160,34 @@
     <UNMP10>Works</UNMP10>
   </UnlinkNodeWithMultipleParentsTest>
   <DeleteNodeTest>
-    <DNT1></DNT1>
-    <DNT2></DNT2>
-    <DNT3></DNT3>
+    <DNT1>Works</DNT1>
+    <DNT2>Works</DNT2>
+    <DNT3>Works</DNT3>
   </DeleteNodeTest>
   <MoreOnSessionNodeTest>
-    <MOSNT1></MOSNT1>
+    <MOSNT1>Works</MOSNT1>
   </MoreOnSessionNodeTest>
   <DuplicateNodeTest>
-    <DuplicateNode></DuplicateNode>
-    <DSNT1></DSNT1>
-    <DSNT2></DSNT2>
-    <DSNT3></DSNT3>
+    <DuplicateNode>Works</DuplicateNode>
+    <DSNT1>Works</DSNT1>
+    <DSNT2>Works</DSNT2>
+    <DSNT3>Works</DSNT3>
   </DuplicateNodeTest>
   <ReplaceTreeTest>
-    <RTTforSessionNode></RTTforSessionNode>
-    <RTT2></RTT2>
-    <RRT3></RRT3>
-    <RRT4></RRT4>
+    <RTTforSessionNode>Works</RTTforSessionNode>
+    <RTT2 error="actually canoe building was replaced with Ramarro2marrone.">Fails</RTT2>
+    <RRT3>Works</RRT3>
+    <RRT4>Works</RRT4>
   </ReplaceTreeTest>
   <LAMUSFunctionButtonsTest>
-    <RequestStorage></RequestStorage>
-    <RS1></RS1>
-    <RS3></RS3>
-    <Help></Help>
-    <ReportABug></ReportABug>
-    <SaveAndLogout></SaveAndLogout>
-    <SAL1></SAL1>
-    <SAL2></SAL2>
-    <About></About>
+    <RequestStorage>Works</RequestStorage>
+    <RS1>Works</RS1>
+    <RS3>Works</RS3>
+    <Help error="Nothing happens">Fails</Help>
+    <ReportABug error="">Empty</ReportABug>
+    <SaveAndLogout>Works</SaveAndLogout>
+    <SAL1>Works</SAL1>
+    <SAL2>Works</SAL2>
+    <About>Works</About>
   </LAMUSFunctionButtonsTest>
 </LamusBugCheck>
