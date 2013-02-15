@@ -83,34 +83,34 @@
     <DeleteUser>Works</DeleteUser>
   </DeleteUserTest>
   <OverViewTest>
-    <OverviewClick></OverviewClick>
+    <OverviewClick>Works</OverviewClick>
   </OverViewTest>
   <EffectiveUserPrivilegesTest>
-    <DoesntWork></DoesntWork>
+    <DoesntWork error="">Empty</DoesntWork>
   </EffectiveUserPrivilegesTest>
   <LicensesRequiredTest>
-    <SelectLicensesRequired></SelectLicensesRequired>
-    <AddLicenses></AddLicenses>
+    <SelectLicensesRequired>Works</SelectLicensesRequired>
+    <AddLicenses>Works</AddLicenses>
   </LicensesRequiredTest>
   <AddEditLicenseTest>
-    <AddEditLicenses></AddEditLicenses>
-    <ViewLicenses></ViewLicenses>
-    <AddLicense></AddLicense>
-    <EditLicense></EditLicense>
+    <AddEditLicenses>Works</AddEditLicenses>
+    <ViewLicenses error="It is not possible to view license">Fails</ViewLicenses>
+    <AddLicense error="">Empty</AddLicense>
+    <EditLicense>Works</EditLicense>
   </AddEditLicenseTest>
   <MyUserAccountTest>
-    <SelectUserAccount></SelectUserAccount>
-    <UserCheck></UserCheck>
-    <ChangeFields></ChangeFields>
-    <RevertChanges></RevertChanges>
+    <SelectUserAccount>Works</SelectUserAccount>
+    <UserCheck>Works</UserCheck>
+    <ChangeFields>Works</ChangeFields>
+    <RevertChanges>Works</RevertChanges>
   </MyUserAccountTest>
   <MyAcceptedLicensesTest>
-    <SelectLicensesInfo></SelectLicensesInfo>
-    <LicensesCheck></LicensesCheck>
-    <ViewLicenses></ViewLicenses>
+    <SelectLicensesInfo error="Same as before: the licenses are not shown">Fails</SelectLicensesInfo>
+    <LicensesCheck error="">Empty</LicensesCheck>
+    <ViewLicenses error="">Empty</ViewLicenses>
   </MyAcceptedLicensesTest>
   <HelpMenu>
-    <MenuOpen></MenuOpen>
-    <ManualOpen></ManualOpen>
+    <MenuOpen>Works</MenuOpen>
+    <ManualOpen>Works</ManualOpen>
   </HelpMenu>
 </tlaBugCheck>
