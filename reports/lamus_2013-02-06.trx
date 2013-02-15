@@ -65,99 +65,99 @@
     <FileBrowsersTest4>Works</FileBrowsersTest4>
   </WorkspaceManagmentTest>
   <Link_UnlinkInfoFileTest>
-    <LinkCorpusNodeTest></LinkCorpusNodeTest>
-    <TMT5></TMT5>
-    <LinkInfoFile></LinkInfoFile>
-    <LIF1></LIF1>
-    <LIF2></LIF2>
-    <LIF3></LIF3>
-    <LIF4></LIF4>
-    <LIF5></LIF5>
-    <LIF6></LIF6>
-    <LIF7></LIF7>
-    <InfoFile></InfoFile>
-    <ViewInfoFile></ViewInfoFile>
-    <ChangeDescription></ChangeDescription>
-    <CD1></CD1>
-    <CD2></CD2>
-    <CD3></CD3>
+    <LinkCorpusNodeTest>Works</LinkCorpusNodeTest>
+    <TMT5>Works</TMT5>
+    <LinkInfoFile>Works</LinkInfoFile>
+    <LIF1>Works</LIF1>
+    <LIF2>Works</LIF2>
+    <LIF3>Works</LIF3>
+    <LIF4>Works</LIF4>
+    <LIF5>Works</LIF5>
+    <LIF6>Works</LIF6>
+    <LIF7>Works</LIF7>
+    <InfoFile>Works</InfoFile>
+    <ViewInfoFile>Works</ViewInfoFile>
+    <ChangeDescription>Works</ChangeDescription>
+    <CD1>Works</CD1>
+    <CD2>Works</CD2>
+    <CD3>Works</CD3>
   </Link_UnlinkInfoFileTest>
   <RenameInfoFileTest>
-    <RenameInfoFile></RenameInfoFile>
-    <RRT1></RRT1>
-    <RRT2></RRT2>
-    <RRT3></RRT3>
-    <RRT4></RRT4>
-    <RRT5></RRT5>
-    <RRT52></RRT52>
-    <RRT6></RRT6>
-    <RRT7></RRT7>
-    <RRT8></RRT8>
-    <RRT9></RRT9>
-    <RRT10></RRT10>
-    <RRT11></RRT11>
+    <RenameInfoFile>Works</RenameInfoFile>
+    <RRT1>Works</RRT1>
+    <RRT2>Works</RRT2>
+    <RRT3>Works</RRT3>
+    <RRT4>Works</RRT4>
+    <RRT5>Works</RRT5>
+    <RRT52>Works</RRT52>
+    <RRT6>Works</RRT6>
+    <RRT7>Works</RRT7>
+    <RRT8>Works</RRT8>
+    <RRT9>Works</RRT9>
+    <RRT10>Works</RRT10>
+    <RRT11>Works</RRT11>
   </RenameInfoFileTest>
   <UnlinkInfo_WrittenResourcesTest>
-    <UnlinkNodeTest></UnlinkNodeTest>
-    <CancelUnlinkNode></CancelUnlinkNode>
-    <UN1></UN1>
-    <UN1a></UN1a>
-    <MultipleUnlinkTest></MultipleUnlinkTest>
-    <MUL1></MUL1>
-    <MUL2></MUL2>
-    <MUL3></MUL3>
-    <MUL4></MUL4>
+    <UnlinkNodeTest>Works</UnlinkNodeTest>
+    <CancelUnlinkNode>Works</CancelUnlinkNode>
+    <UN1>Works</UN1>
+    <UN1a>Works</UN1a>
+    <MultipleUnlinkTest>Works</MultipleUnlinkTest>
+    <MUL1>Works</MUL1>
+    <MUL2>Works</MUL2>
+    <MUL3>Works</MUL3>
+    <MUL4>Works</MUL4>
   </UnlinkInfo_WrittenResourcesTest>
   <SessionNodeTest>
-    <LinkSessionNode></LinkSessionNode>
-    <LSN1></LSN1>
-    <LinkMediaFile></LinkMediaFile>
-    <LIM1></LIM1>
-    <LIM2></LIM2>
-    <LIM3></LIM3>
-    <LIM4></LIM4>
-    <LIM5></LIM5>
-    <LIM6></LIM6>
-    <LIM7></LIM7>
-    <LIM8></LIM8>
-    <LinkInfoFileForSessionNodes></LinkInfoFileForSessionNodes>
-    <LIFFSN1></LIFFSN1>
-    <LIFFSN2></LIFFSN2>
-    <LIFFSN3></LIFFSN3>
-    <LIFFSN4></LIFFSN4>
-    <LIFFSN5></LIFFSN5>
+    <LinkSessionNode>Works</LinkSessionNode>
+    <LSN1>Works</LSN1>
+    <LinkMediaFile>Works</LinkMediaFile>
+    <LIM1>Works</LIM1>
+    <LIM2>Works</LIM2>
+    <LIM3>Works</LIM3>
+    <LIM4>Works</LIM4>
+    <LIM5>Works</LIM5>
+    <LIM6>Works</LIM6>
+    <LIM7>Works</LIM7>
+    <LIM8>Works</LIM8>
+    <LinkInfoFileForSessionNodes>Works</LinkInfoFileForSessionNodes>
+    <LIFFSN1>Works</LIFFSN1>
+    <LIFFSN2>Works</LIFFSN2>
+    <LIFFSN3>Works</LIFFSN3>
+    <LIFFSN4>Works</LIFFSN4>
+    <LIFFSN5>Works</LIFFSN5>
   </SessionNodeTest>
   <Unlink_LinkCorpusNode>
-    <UnlinkCorpusNode></UnlinkCorpusNode>
-    <UCN1></UCN1>
-    <UCN2></UCN2>
-    <LinkCorpusNode></LinkCorpusNode>
-    <LCN1></LCN1>
-    <LinkCatalogueNode></LinkCatalogueNode>
-    <LCN1></LCN1>
-    <LinkExternalNode></LinkExternalNode>
-    <LEN1></LEN1>
-    <LEN2></LEN2>
-    <LEN3></LEN3>
-    <LinkArchiveNode></LinkArchiveNode>
-    <LAN1></LAN1>
-    <LAN2></LAN2>
-    <LAN3></LAN3>
-    <LAN4></LAN4>
-    <LAN5></LAN5>
-    <LAN6></LAN6>
+    <UnlinkCorpusNode>Works</UnlinkCorpusNode>
+    <UCN1>Works</UCN1>
+    <UCN2>Works</UCN2>
+    <LinkCorpusNode>Works</LinkCorpusNode>
+    <LCN1>Works</LCN1>
+    <LinkCatalogueNode>Works</LinkCatalogueNode>
+    <LCN1>Works</LCN1>
+    <LinkExternalNode>Works</LinkExternalNode>
+    <LEN1>Works</LEN1>
+    <LEN2>Works</LEN2>
+    <LEN3>Works</LEN3>
+    <LinkArchiveNode>Works</LinkArchiveNode>
+    <LAN1 error="It is not posssible to test this item in Demoserver ">Empty</LAN1>
+    <LAN2 error="">Empty</LAN2>
+    <LAN3 error="">Empty</LAN3>
+    <LAN4 error="">Empty</LAN4>
+    <LAN5 error="">Empty</LAN5>
+    <LAN6 error="">Empty</LAN6>
   </Unlink_LinkCorpusNode>
   <UnlinkNodeWithMultipleParentsTest>
-    <UNMP1></UNMP1>
-    <UNMP2></UNMP2>
-    <UNMP3></UNMP3>
-    <UNMP4></UNMP4>
-    <UNMP5></UNMP5>
-    <UNMP6></UNMP6>
-    <UNMP7></UNMP7>
-    <UNMP8></UNMP8>
-    <UNMP9></UNMP9>
-    <UNMP10></UNMP10>
+    <UNMP1>Works</UNMP1>
+    <UNMP2>Works</UNMP2>
+    <UNMP3>Works</UNMP3>
+    <UNMP4 error="A1 is successfull linked to B but the two A1 nodes are not in bold italic">Mostly</UNMP4>
+    <UNMP5>Works</UNMP5>
+    <UNMP6>Works</UNMP6>
+    <UNMP7>Works</UNMP7>
+    <UNMP8>Works</UNMP8>
+    <UNMP9>Works</UNMP9>
+    <UNMP10>Works</UNMP10>
   </UnlinkNodeWithMultipleParentsTest>
   <DeleteNodeTest>
     <DNT1></DNT1>
