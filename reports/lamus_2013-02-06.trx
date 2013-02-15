@@ -183,8 +183,8 @@
     <RequestStorage>Works</RequestStorage>
     <RS1>Works</RS1>
     <RS3>Works</RS3>
-    <Help error="Nothing happens">Fails</Help>
-    <ReportABug error="">Empty</ReportABug>
+    <Help>Works</Help>
+    <ReportABug>Works</ReportABug>
     <SaveAndLogout>Works</SaveAndLogout>
     <SAL1>Works</SAL1>
     <SAL2>Works</SAL2>
