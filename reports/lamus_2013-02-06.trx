@@ -6,7 +6,7 @@
   <Tester>sauciv</Tester>
   <TestPlanRevision>35776</TestPlanRevision>
   <LamusMainPageTest>
-    <RegisterAsANewUsersTest>Works</RegisterAsANewUsersTest>
+    <RegisterAsANewUsersTest error="In account log info, the first lne is slightly different from the normal page. Here you can see: 'If you have already an user account at the Dobes CAICYT'">Mostly</RegisterAsANewUsersTest>
     <NUT2>Works</NUT2>
     <NUT1>Works</NUT1>
     <NUT3>Works</NUT3>
