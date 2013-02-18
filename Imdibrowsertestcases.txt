@@ -1,4 +1,4 @@
-# test cases exported from test plan file imdibrowser_1.xml on 2012-12-18 (13:02).
+# test cases exported from test plan file imdibrowser_1.xml on 2013-02-18 (12:16).
 
 StartingIMDI_Browser
   Starting "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
@@ -14,7 +14,7 @@ AccessLevelTest
   AccessTest "Look for a resource with a green button and see whether you can access it without being logged in."
 
 SettingsTest
-  ShowAccessibleResourcesTest "Check the box 'show accessible resources' and click apply. Now browse the tree and see that you get the no of resources open to you in brackets."
+  ShowAccessibleResourcesTest "Click on 'show accessibility of resources' in the upper bar right part of the screen. Now browse the tree and see that you get the no of resources open to you in brackets."
   BracketsAccessibleNodes "Click on an accessible node (green). The number of available sub nodes should be indicated in Brackets"
 
 ContextMenuTest
