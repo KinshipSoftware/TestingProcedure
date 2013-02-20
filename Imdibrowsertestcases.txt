@@ -1,4 +1,4 @@
-# test cases exported from test plan file imdibrowser_1.xml on 2013-02-18 (12:16).
+# test cases exported from test plan file imdibrowser_1.xml on 2013-02-20 (10:06).
 
 StartingIMDI_Browser
   Starting "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
@@ -60,7 +60,8 @@ LogInTest
 AccessLevelTest2
   AccessLevelTest2a "Remain logged in. Look for a resource with a yellow button. You should be able to access this resource."
   AccessLevelTest2b "Look for a resource with an orange button. Attempting to view this resource should bring you to a shibboleth or annex page advising access failure."
-  AccessLevelTest2c "Look for a resource with a red button, when you try to view it you will be informed that access is prohibited."
+  AccessLevelTest2c "Look for a resource (node) with a green button which contains a session with red button (MPI corpora -> Lamus test -> check one of the files). Click on view node; you should be able to access this resource. "
+  AccessLevelTest2d "Look for a resource with a red button, when you try to view it you will be informed that access is prohibited."
 
 LogOutTest
   LogOutTest1 "Click on 'log out' and then close your browser. You should then be logged out."
