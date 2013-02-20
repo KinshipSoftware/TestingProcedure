@@ -4,7 +4,7 @@
   <ImdibrowserVersion>1.3.6</ImdibrowserVersion>
   <OSVersion>windows 7, firefox</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>35834</TestPlanRevision>
+  <TestPlanRevision>35893</TestPlanRevision>
   <StartingIMDI_Browser>
     <Starting>Works</Starting>
   </StartingIMDI_Browser>
@@ -49,7 +49,7 @@
     <RequestResourceAccess>Works</RequestResourceAccess>
     <SessNodeVersionInfo>Works</SessNodeVersionInfo>
     <InfoFileVersionInfo>Works</InfoFileVersionInfo>
-    <View_Images error="Doing this action Imdi browser crashed!">Fails</View_Images>
+    <View_Images>Works</View_Images>
   </ContextMenuTest>
   <ManualTest>
     <ManualTest1>Works</ManualTest1>
@@ -65,7 +65,8 @@
   <AccessLevelTest2>
     <AccessLevelTest2a>Works</AccessLevelTest2a>
     <AccessLevelTest2b>Works</AccessLevelTest2b>
-    <AccessLevelTest2c error="Although the source has restrict access, I can see its content.">Fails</AccessLevelTest2c>
+    <AccessLevelTest2c>Works</AccessLevelTest2c>
+    <AccessLevelTest2d error="">Empty</AccessLevelTest2d>
   </AccessLevelTest2>
   <LogOutTest>
     <LogOutTest1>Works</LogOutTest1>
