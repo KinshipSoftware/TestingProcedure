@@ -4,7 +4,7 @@
   <LamusVersion>1.1.7.7</LamusVersion>
   <OSVersion>windows 7, firefox</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>35776</TestPlanRevision>
+  <TestPlanRevision>35982</TestPlanRevision>
   <LamusMainPageTest>
     <RegisterAsANewUsersTest error="">Empty</RegisterAsANewUsersTest>
     <NUT2 error="">Empty</NUT2>
