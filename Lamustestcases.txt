@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-02-27 (17:28).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-03-01 (09:20).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -207,3 +207,26 @@ NeurobiologyOfLanguageTest
   UploadFilesTextNBLtestNode4 "Upload the file with the following extension: .pcl .sce. Check whether the file is the section 'Unlinked files'."
   UploadFilesTextNBLtestNode5 "Upload the file with the following extension: .praat. Check whether the file is the section 'Unlinked files'."
   UploadFilesTextNBLtestNode6 "Upload the file with the following extension: .hfinf. Check whether the file is the section 'Unlinked files'."
+
+LanguageAndGeneticTest
+  ViewLanguageAndGeneticTestNode1 "Click twice on MPI corpora. Extend the node Demo. You should see an empty node called LaG_test."
+  ViewLanguageAndGeneticTestNode2 "Right click on it, you should see three options: select this node as top node for a new workspace, create a new tope corpus node below this node and refresh DB."
+  ViewLanguageAndGeneticTestNode3 "Try out all three options to check whether all functions correspond to the actual indication. Afterwards, rIght click on it and select this node as tope node for a new workspace."
+  UploadFilesLanguageAndGeneticTestNode1 "Upload the file with the following extension: .hdr. Check if the file is in the section 'Unlinked Files'."
+  UploadFilesLanguageAndGeneticTestNode2 "Upload the file with the following extension: .img. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode3 "Upload the file with the following extension: .eeg. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode4 "Upload the file with the following extension: .wksp. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode5 "Upload the file with the following extension: .seg. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode6 "Upload the file with the following extension: .sav. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode7 "Upload the file with the following extension: .spv. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode8 "Upload the file with the following extension: .ehst. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode9 "Upload the file with the following extension: .ehtp. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode10 "Upload the file with the following extension: .mat .fig. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode11 "Upload the file with the following extension: .IMA. Check whether the file is the section 'Unlinked files'."
+  UploadFilesLanguageAndGeneticTestNode12 "Upload the file with the following extension: .zip. Check whether the file is the section 'Unlinked files'."
+  UploadFilesTextLanguageAndGeneticTestNode1 "Upload the file with the following extension: .vhdr. Check whether the file is the section 'Unlinked files'."
+  UploadFilesTextLanguageAndGeneticTestNode2 "Upload the file with the following extension: .vmkr. Check whether the file is the section 'Unlinked files'."
+  UploadFilesTextLanguageAndGeneticTestNode3 "Upload the file with the following extension: .mat. Check whether the file is the section 'Unlinked files'."
+  UploadFilesTextLanguageAndGeneticTestNode4 "Upload the file with the following extension: .pcl .sce. Check whether the file is the section 'Unlinked files'."
+  UploadFilesTextLanguageAndGeneticTestNode5 "Upload the file with the following extension: .praat. Check whether the file is the section 'Unlinked files'."
+  UploadFilesTextLanguageAndGeneticTestNode6 "Upload the file with the following extension: .hfinf. Check whether the file is the section 'Unlinked files'."
