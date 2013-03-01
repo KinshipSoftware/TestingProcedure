@@ -1,11 +1,14 @@
+# test cases exported from test plan file trova_2012-03-05.xml on 2013-03-01 (14:47).
 
 StartingTrova "To do the testing, from the IMDI browser tree choose 'DoBeS archive' > 'Awetí' > 'From Language and Culture' > 'Linguistic Data' > 'Monological' > 'Biographies', and then pick up the written resources under the different session nodes belonging to the same corpus node."
   StartingIMDI_Browser "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
   StartingTrova "Right click on a written resource under a session node of the IMDI tree; select 'annotation content search': Trova interface should open."
   AddMoreNodes "Holding down the CTRL key on the keyboard select more than one written resource in the IMDI tree; right click; 'annotation content search'; Trova interface should open"
-LogInTest ""
+
+LogInTest
   LogIn "Click on 'log in' (top right of the page); select 'federation' and 'insitution' followed by 'username' and 'password'"
   LogInVerification "After loggin in, your username should appear on the top right of the page"
+
 SimpleSearch "To do the testing, follow the same path as the one indicated in the 'Starting Trova' test. Hint: open the files selected for the search with 'View node' and keep them open so that you can look up possible search strings in there."
   Find "Enter a search string and click on 'Find' (or press 'Enter'); the results will be shown in the bottom half of the page"
   AnnotationTypes "If there is more than one type of annotations, try to uncheck one of them and click again on 'Find': you should get fewer results"
@@ -21,6 +24,7 @@ SimpleSearch "To do the testing, follow the same path as the one indicated in th
   Page "Clicking on the right and left arrows you can look at all the results"
   Font "Try to change the type of character and the size of the results shown to check if it works"
   ContextSize "Choose a number from 0 to 8 according to how many contexts you want to be shown; try it more than once with different numbers to see if it works"
+
 SingleLayerSearch "To do the testing, follow the path indicated at the beginning of the test plan and the hint given for the simple search."
   Find "Enter a search string (leave all the constraints aside for the moment) and click on 'Find' (or press 'Enter') ; the results will be shown in the bottom half of the page"
   AnnotationTypes "If there is more than one type of annotations, try to uncheck one of them: you should get fewer results "
@@ -51,6 +55,7 @@ SingleLayerSearch "To do the testing, follow the path indicated at the beginning
   Font "Try to change the type of character and the size of the results shown to check if it works"
   ContextSize "Choose a number from 0 to 8 according to how many contexts you want to be shown; try it more than once with different numbers to see if it works"
   History "If you click on the 'History' drop down menu you can see the previous queries you made "
+
 MultipleLayerSearch "To do the testing, follow the path indicated at the beginning of the test plan. Hint: open the files selected for the search with 'View node' and keep them open so that you can always refer back to them when trying the constraints (especially the 'Time' constraints and the regular expressions). "
   SearchString1 "In any of the white strings enter one single word (leave the various constraints aside for the moment); click on 'Find'; the results will be shown as in the 'Simple Search' mode (the 'Action' drop down menu will also display ALL the options seen for the Simple and the Single Layer Searches)"
   AnnotationTypes "If there is more than one type of annotations, try to uncheck one of them and click again on 'Find': you should get fewer results"
@@ -90,5 +95,6 @@ MultipleLayerSearch "To do the testing, follow the path indicated at the beginni
   Page "Clicking on the right and left arrows you can look at all the results"
   Font "Try to change the type of character and the size of the results shown to check if it works"
   History "If you click on the 'History' drop down menu you can see the previous queries you made "
-LogOutTest ""
+
+LogOutTest
   LogOut "On the top right of the page click on 'log out'. Where before there was your username, now there should be written 'anonymous'"
