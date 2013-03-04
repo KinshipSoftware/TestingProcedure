@@ -2,7 +2,7 @@
 <TrovaBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/trova_2012-03-05.xml">
   <DateTime>2013-03-01</DateTime>
   <TrovaVersion>1.4.35</TrovaVersion>
-  <OSVersion>windows 7, firefox</OSVersion>
+  <OSVersion>Lux17, windows 7, firefox</OSVersion>
   <Tester>sauciv</Tester>
   <TestPlanRevision>36017</TestPlanRevision>
   <StartingTrova>
@@ -44,7 +44,7 @@
     <ModeAnnotationExtraTier3>Works</ModeAnnotationExtraTier3>
     <TierChoiceSort>Works</TierChoiceSort>
     <ModeCaseInsensitive>Works</ModeCaseInsensitive>
-    <ModeCaseSensitive error="I don't see any difference. ">Mostly</ModeCaseSensitive>
+    <ModeCaseSensitive>Works</ModeCaseSensitive>
     <ModeSubstringMatch>Works</ModeSubstringMatch>
     <ModeExactMatch>Works</ModeExactMatch>
     <ModeRegularExpression>Works</ModeRegularExpression>
@@ -62,46 +62,46 @@
     <History>Works</History>
   </SingleLayerSearch>
   <MultipleLayerSearch>
-    <SearchString1></SearchString1>
-    <AnnotationTypes></AnnotationTypes>
-    <Domain></Domain>
-    <SearchString2></SearchString2>
-    <SearchString3></SearchString3>
-    <SearchString4></SearchString4>
-    <SearchString5></SearchString5>
-    <SearchString6></SearchString6>
-    <SameParent></SameParent>
-    <ParentChild></ParentChild>
-    <SameFile></SameFile>
-    <Wildcard></Wildcard>
-    <Negation></Negation>
-    <ActionShowHits></ActionShowHits>
-    <ShowInfoBalloons></ShowInfoBalloons>
-    <ActionHitTranscritpion></ActionHitTranscritpion>
-    <ActionHitCorpusTree></ActionHitCorpusTree>
-    <ActionSaveUTF-8></ActionSaveUTF-8>
-    <ActionSaveUTF-16></ActionSaveUTF-16>
-    <TierChoiceSort></TierChoiceSort>
-    <ModeCaseInsensitive></ModeCaseInsensitive>
-    <ModeCaseSensitive></ModeCaseSensitive>
-    <ModeSubstringMatch></ModeSubstringMatch>
-    <ModeExactMatch></ModeExactMatch>
-    <ModeRegularExpression></ModeRegularExpression>
-    <ModeRegularExpression2></ModeRegularExpression2>
-    <ModeResetForm></ModeResetForm>
-    <ModeUnicodeInput1></ModeUnicodeInput1>
-    <ModeUnicodeInput2></ModeUnicodeInput2>
-    <TimeMinimalDuration></TimeMinimalDuration>
-    <TimeMaximalDuration></TimeMaximalDuration>
-    <TimeBeginAfter></TimeBeginAfter>
-    <TimeEndBefore></TimeEndBefore>
-    <ImpossibleQuery></ImpossibleQuery>
-    <TimeVerification></TimeVerification>
-    <Page></Page>
-    <Font></Font>
-    <History></History>
+    <SearchString1>Works</SearchString1>
+    <AnnotationTypes>Works</AnnotationTypes>
+    <Domain>Works</Domain>
+    <SearchString2>Works</SearchString2>
+    <SearchString3>Works</SearchString3>
+    <SearchString4>Works</SearchString4>
+    <SearchString5>Works</SearchString5>
+    <SearchString6>Works</SearchString6>
+    <SameParent>Works</SameParent>
+    <ParentChild>Works</ParentChild>
+    <SameFile>Works</SameFile>
+    <Wildcard error="No results found.">Fails</Wildcard>
+    <Negation error="Again no results found. When I don't add &quot;NOT&quot; or &quot;+&quot; works normally. ">Fails</Negation>
+    <ActionShowHits>Works</ActionShowHits>
+    <ShowInfoBalloons>Works</ShowInfoBalloons>
+    <ActionHitTranscritpion>Works</ActionHitTranscritpion>
+    <ActionHitCorpusTree>Works</ActionHitCorpusTree>
+    <ActionSaveUTF-8>Works</ActionSaveUTF-8>
+    <ActionSaveUTF-16>Works</ActionSaveUTF-16>
+    <TierChoiceSort error="Couldn't find it">Empty</TierChoiceSort>
+    <ModeCaseInsensitive>Works</ModeCaseInsensitive>
+    <ModeCaseSensitive>Works</ModeCaseSensitive>
+    <ModeSubstringMatch>Works</ModeSubstringMatch>
+    <ModeExactMatch>Works</ModeExactMatch>
+    <ModeRegularExpression error="No results found.">Fails</ModeRegularExpression>
+    <ModeRegularExpression2 error="Same as the previous.">Fails</ModeRegularExpression2>
+    <ModeResetForm>Works</ModeResetForm>
+    <ModeUnicodeInput1>Works</ModeUnicodeInput1>
+    <ModeUnicodeInput2 error="I cannot find the mode 'Unicode Input'.">Empty</ModeUnicodeInput2>
+    <TimeMinimalDuration>Works</TimeMinimalDuration>
+    <TimeMaximalDuration>Works</TimeMaximalDuration>
+    <TimeBeginAfter>Works</TimeBeginAfter>
+    <TimeEndBefore>Works</TimeEndBefore>
+    <ImpossibleQuery>Works</ImpossibleQuery>
+    <TimeVerification>Works</TimeVerification>
+    <Page>Works</Page>
+    <Font>Works</Font>
+    <History>Works</History>
   </MultipleLayerSearch>
   <LogOutTest>
-    <LogOut></LogOut>
+    <LogOut error="It does not work. I still logged with my username">Fails</LogOut>
   </LogOutTest>
 </TrovaBugCheck>
