@@ -4,7 +4,7 @@
   <TrovaVersion>1.4.35</TrovaVersion>
   <OSVersion>Lux17, windows 7, firefox</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>36017</TestPlanRevision>
+  <TestPlanRevision>36044</TestPlanRevision>
   <StartingTrova>
     <StartingIMDI_Browser>Works</StartingIMDI_Browser>
     <StartingTrova>Works</StartingTrova>
@@ -73,24 +73,24 @@
     <SameParent>Works</SameParent>
     <ParentChild>Works</ParentChild>
     <SameFile>Works</SameFile>
-    <Wildcard error="No results found.">Fails</Wildcard>
-    <Negation error="Again no results found. When I don't add &quot;NOT&quot; or &quot;+&quot; works normally. ">Fails</Negation>
+    <Wildcard>Works</Wildcard>
+    <Negation>Works</Negation>
     <ActionShowHits>Works</ActionShowHits>
     <ShowInfoBalloons>Works</ShowInfoBalloons>
     <ActionHitTranscritpion>Works</ActionHitTranscritpion>
     <ActionHitCorpusTree>Works</ActionHitCorpusTree>
     <ActionSaveUTF-8>Works</ActionSaveUTF-8>
     <ActionSaveUTF-16>Works</ActionSaveUTF-16>
-    <TierChoiceSort error="Couldn't find it">Empty</TierChoiceSort>
+    <SortTierChoice>Works</SortTierChoice>
     <ModeCaseInsensitive>Works</ModeCaseInsensitive>
     <ModeCaseSensitive>Works</ModeCaseSensitive>
     <ModeSubstringMatch>Works</ModeSubstringMatch>
     <ModeExactMatch>Works</ModeExactMatch>
-    <ModeRegularExpression error="No results found.">Fails</ModeRegularExpression>
-    <ModeRegularExpression2 error="Same as the previous.">Fails</ModeRegularExpression2>
+    <ModeRegularExpression>Works</ModeRegularExpression>
+    <ModeRegularExpression2>Works</ModeRegularExpression2>
     <ModeResetForm>Works</ModeResetForm>
     <ModeUnicodeInput1>Works</ModeUnicodeInput1>
-    <ModeUnicodeInput2 error="I cannot find the mode 'Unicode Input'.">Empty</ModeUnicodeInput2>
+    <ModeUnicodeInput2>Works</ModeUnicodeInput2>
     <TimeMinimalDuration>Works</TimeMinimalDuration>
     <TimeMaximalDuration>Works</TimeMaximalDuration>
     <TimeBeginAfter>Works</TimeBeginAfter>
