@@ -1,4 +1,4 @@
-# test cases exported from test plan file trova_2012-03-05.xml on 2013-03-01 (14:47).
+# test cases exported from test plan file trova_2012-03-05.xml on 2013-03-05 (11:58).
 
 StartingTrova "To do the testing, from the IMDI browser tree choose 'DoBeS archive' > 'Awetí' > 'From Language and Culture' > 'Linguistic Data' > 'Monological' > 'Biographies', and then pick up the written resources under the different session nodes belonging to the same corpus node."
   StartingIMDI_Browser "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
@@ -76,7 +76,7 @@ MultipleLayerSearch "To do the testing, follow the path indicated at the beginni
   ActionHitCorpusTree "Select one of the results and then 'Show Selected Hit in Corpus Tree': it will open the node with the corresponding resource in the IMDI browser tree"
   ActionSaveUTF-8 "Select one of the results and 'Save Hits as UTF-8'; a window will open asking you if you want to save the file; click on 'save'; after the file has been downloaded you should be able to open it (the default mode here is Excel)"
   ActionSaveUTF-16 "Follow the same steps as in the 'ActionSaveUTF-8' test"
-  TierChoiceSort "Check the option 'tier choice sort'; in the white drop down lists on the right of the white search  strings the tiers of the corpus should be ordered from the most to the least used, beginning with the type, then name, participants (and annotators)"
+  SortTierChoice "Check the option 'Sort tier choice'; in the white drop down lists on the right of the white search  strings the tiers of the corpus should be ordered from the most to the least used, beginning with the type, then name, participants (and annotators)"
   ModeCaseInsensitive "Enter a proper name with a small letter: the search engine will show you the results all the same"
   ModeCaseSensitive "Enter a proper name with a small letter: Trova won't find any results, or however fewer than with the previous constraint"
   ModeSubstringMatch "Enter a string and select 'substring match': the string will be only a part of the annotation found"
