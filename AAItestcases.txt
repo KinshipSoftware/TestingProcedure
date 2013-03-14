@@ -1,4 +1,4 @@
-# test cases exported from test plan file AAI.xml on 2013-02-25 (16:24).
+# test cases exported from test plan file AAI.xml on 2013-03-14 (15:34).
 
 IDPTest1
   SelectIDP "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on a node and select \"manage access rights\". This will open a window requesting the selection of an identity provider."
@@ -27,9 +27,14 @@ RulesForExternalUsers
   TestSurfRules "Select the Dobes Training > Group 1 and try to view one of the session nodes. You will be prompted to log in. Do so via Radbopud University. Once logged in check your access status to those files you allowed and denied previously. The Radboud University identity should be restricted in its access to those file types that were denied, but not to those that were allowed. Log out fully."
 
 ResourceRequestSystem
-  ResourceRequestSystem1 "Select a node which you have rights for and click request resource access. if you are not logged in you will be redirected to a pege in which it is asked you to log in or to register for a new account."
-  ResourceRequestSystem2 "Log in with your MPI account. Choose the MPI Archive Default Identity Provider (i.e. MPI Nijmegen button) which will bring up the Shibboleth Login page. Onve you are logged in, you will be redirected to a page in which you are asked to fill in the aim of the usage of the resource."
+  ResourceRequestSystem1 "Select a node which you have rights for and click request resource access. If you are not logged in you will be redirected to a page where you are asked to log in or to register for a new account."
+  ResourceRequestSystem2 "Log in with your MPI account. Choose the MPI Archive Default Identity Provider (i.e. MPI Nijmegen button) which will bring up the Shibboleth Login page. Once you are logged in, you will be redirected to a page in which you are asked to fill in the aim of the usage of the resource."
   ResourceRequestSystem3 "Log out, select the same node and click again on request resource access. This time log in with your clarin account."
   ResourceRequestSystem4 "Log out, select the same node and click again on request resource access. Log in with your RU account."
 
 LANA
+  LogIn "Log in trough the virtual machine into the Imdi Browser. Username: demoserver Password: demoserver"
+  CreateNewAccount "Right click on a node you have access to, select \"set access rights\". Then, under User Management, select Create New User. Fill in the form with the data of a new random user. Use your e mail address, because you need to be able to check whether you received an e mail that the account has been created."
+  LogInII "Log in with the newly created account. You should be able to have access to the resources."
+  AccessRights "Log in again with demoserver and set some rights for the user"
+  AccessRightII "Log in with the new user and check whether you can actually access the resource you just set the rights for."
