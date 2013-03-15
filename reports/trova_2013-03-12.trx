@@ -34,16 +34,16 @@
     <Find>Works</Find>
     <AnnotationTypes>Works</AnnotationTypes>
     <Domain>Works</Domain>
-    <ModeAnnotation></ModeAnnotation>
-    <ModeN-GramOverAnnotations></ModeN-GramOverAnnotations>
-    <ModeN-GramWithinAnnotation></ModeN-GramWithinAnnotation>
-    <Wildcard></Wildcard>
-    <Negation></Negation>
-    <ModeAnnotationExtraTier1></ModeAnnotationExtraTier1>
-    <ModeAnnotationExtraTier2></ModeAnnotationExtraTier2>
-    <ModeAnnotationExtraTier3></ModeAnnotationExtraTier3>
-    <TierChoiceSort></TierChoiceSort>
-    <ModeCaseInsensitive></ModeCaseInsensitive>
+    <ModeAnnotation>Works</ModeAnnotation>
+    <ModeN-GramOverAnnotations>Works</ModeN-GramOverAnnotations>
+    <ModeN-GramWithinAnnotation>Works</ModeN-GramWithinAnnotation>
+    <Wildcard error="0 results found when I add # sign for separating two words">Fails</Wildcard>
+    <Negation>Works</Negation>
+    <ModeAnnotationExtraTier1 error="Skipped due to  available node in Demoserver ">Empty</ModeAnnotationExtraTier1>
+    <ModeAnnotationExtraTier2>Works</ModeAnnotationExtraTier2>
+    <ModeAnnotationExtraTier3>Works</ModeAnnotationExtraTier3>
+    <TierChoiceSort>Works</TierChoiceSort>
+    <ModeCaseInsensitive>Works</ModeCaseInsensitive>
     <ModeCaseSensitive></ModeCaseSensitive>
     <ModeSubstringMatch></ModeSubstringMatch>
     <ModeExactMatch></ModeExactMatch>
