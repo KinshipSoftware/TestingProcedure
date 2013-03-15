@@ -44,64 +44,64 @@
     <ModeAnnotationExtraTier3>Works</ModeAnnotationExtraTier3>
     <TierChoiceSort>Works</TierChoiceSort>
     <ModeCaseInsensitive>Works</ModeCaseInsensitive>
-    <ModeCaseSensitive></ModeCaseSensitive>
-    <ModeSubstringMatch></ModeSubstringMatch>
-    <ModeExactMatch></ModeExactMatch>
-    <ModeRegularExpression></ModeRegularExpression>
-    <ActionConcordanceView></ActionConcordanceView>
-    <ShowInfoBalloons></ShowInfoBalloons>
-    <ActionFrequencyViewAnnotation></ActionFrequencyViewAnnotation>
-    <ActionFrequencyViewFrequency></ActionFrequencyViewFrequency>
-    <ActionHitTranscription></ActionHitTranscription>
-    <ActionHitCorpusTree></ActionHitCorpusTree>
-    <ActionSaveUTF-8></ActionSaveUTF-8>
-    <ActionSaveUTF-16></ActionSaveUTF-16>
-    <Page></Page>
-    <Font></Font>
-    <ContextSize></ContextSize>
-    <History></History>
+    <ModeCaseSensitive>Works</ModeCaseSensitive>
+    <ModeSubstringMatch>Works</ModeSubstringMatch>
+    <ModeExactMatch error="0 results found.">Fails</ModeExactMatch>
+    <ModeRegularExpression>Works</ModeRegularExpression>
+    <ActionConcordanceView>Works</ActionConcordanceView>
+    <ShowInfoBalloons>Works</ShowInfoBalloons>
+    <ActionFrequencyViewAnnotation>Works</ActionFrequencyViewAnnotation>
+    <ActionFrequencyViewFrequency>Works</ActionFrequencyViewFrequency>
+    <ActionHitTranscription>Works</ActionHitTranscription>
+    <ActionHitCorpusTree error="It does not work saying that 'page not found error'.">Fails</ActionHitCorpusTree>
+    <ActionSaveUTF-8>Works</ActionSaveUTF-8>
+    <ActionSaveUTF-16 error=" A file excel is created but it is actually empty.">Fails</ActionSaveUTF-16>
+    <Page>Works</Page>
+    <Font>Works</Font>
+    <ContextSize>Works</ContextSize>
+    <History>Works</History>
   </SingleLayerSearch>
   <MultipleLayerSearch>
-    <SearchString1></SearchString1>
-    <AnnotationTypes></AnnotationTypes>
-    <Domain></Domain>
-    <SearchString2></SearchString2>
-    <SearchString3></SearchString3>
-    <SearchString4></SearchString4>
-    <SearchString5></SearchString5>
-    <SearchString6></SearchString6>
-    <SameParent></SameParent>
-    <ParentChild></ParentChild>
-    <SameFile></SameFile>
-    <Wildcard></Wildcard>
-    <Negation></Negation>
-    <ActionShowHits></ActionShowHits>
-    <ShowInfoBalloons></ShowInfoBalloons>
-    <ActionHitTranscritpion></ActionHitTranscritpion>
-    <ActionHitCorpusTree></ActionHitCorpusTree>
-    <ActionSaveUTF-8></ActionSaveUTF-8>
-    <ActionSaveUTF-16></ActionSaveUTF-16>
-    <SortTierChoice></SortTierChoice>
-    <ModeCaseInsensitive></ModeCaseInsensitive>
-    <ModeCaseSensitive></ModeCaseSensitive>
-    <ModeSubstringMatch></ModeSubstringMatch>
-    <ModeExactMatch></ModeExactMatch>
-    <ModeRegularExpression></ModeRegularExpression>
-    <ModeRegularExpression2></ModeRegularExpression2>
-    <ModeResetForm></ModeResetForm>
-    <ModeUnicodeInput1></ModeUnicodeInput1>
-    <ModeUnicodeInput2></ModeUnicodeInput2>
-    <TimeMinimalDuration></TimeMinimalDuration>
-    <TimeMaximalDuration></TimeMaximalDuration>
-    <TimeBeginAfter></TimeBeginAfter>
-    <TimeEndBefore></TimeEndBefore>
-    <ImpossibleQuery></ImpossibleQuery>
-    <TimeVerification></TimeVerification>
-    <Page></Page>
-    <Font></Font>
-    <History></History>
+    <SearchString1>Works</SearchString1>
+    <AnnotationTypes>Works</AnnotationTypes>
+    <Domain>Works</Domain>
+    <SearchString2>Works</SearchString2>
+    <SearchString3>Works</SearchString3>
+    <SearchString4>Works</SearchString4>
+    <SearchString5 error="Does not apply to this test">Empty</SearchString5>
+    <SearchString6 error="">Empty</SearchString6>
+    <SameParent error="">Empty</SameParent>
+    <ParentChild>Works</ParentChild>
+    <SameFile>Works</SameFile>
+    <Wildcard>Works</Wildcard>
+    <Negation>Works</Negation>
+    <ActionShowHits>Works</ActionShowHits>
+    <ShowInfoBalloons>Works</ShowInfoBalloons>
+    <ActionHitTranscritpion>Works</ActionHitTranscritpion>
+    <ActionHitCorpusTree error="It does not work saying that 'page not found error">Fails</ActionHitCorpusTree>
+    <ActionSaveUTF-8>Works</ActionSaveUTF-8>
+    <ActionSaveUTF-16 error=" A file excel is created but it is actually empty.">Fails</ActionSaveUTF-16>
+    <SortTierChoice>Works</SortTierChoice>
+    <ModeCaseInsensitive>Works</ModeCaseInsensitive>
+    <ModeCaseSensitive>Works</ModeCaseSensitive>
+    <ModeSubstringMatch>Works</ModeSubstringMatch>
+    <ModeExactMatch>Works</ModeExactMatch>
+    <ModeRegularExpression error="">Empty</ModeRegularExpression>
+    <ModeRegularExpression2 error="">Empty</ModeRegularExpression2>
+    <ModeResetForm>Works</ModeResetForm>
+    <ModeUnicodeInput1 error="">Empty</ModeUnicodeInput1>
+    <ModeUnicodeInput2>Works</ModeUnicodeInput2>
+    <TimeMinimalDuration>Works</TimeMinimalDuration>
+    <TimeMaximalDuration>Works</TimeMaximalDuration>
+    <TimeBeginAfter>Works</TimeBeginAfter>
+    <TimeEndBefore>Works</TimeEndBefore>
+    <ImpossibleQuery>Works</ImpossibleQuery>
+    <TimeVerification>Works</TimeVerification>
+    <Page>Works</Page>
+    <Font>Works</Font>
+    <History>Works</History>
   </MultipleLayerSearch>
   <LogOutTest>
-    <LogOut></LogOut>
+    <LogOut>Works</LogOut>
   </LogOutTest>
 </TrovaBugCheck>
