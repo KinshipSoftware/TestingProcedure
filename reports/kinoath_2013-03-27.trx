@@ -115,17 +115,17 @@
     <EntityUpload error="">Empty</EntityUpload>
     <SaveFile>Works</SaveFile>
     <OpenDiagram>Works</OpenDiagram>
-    <ExportPDF></ExportPDF>
-    <ExportJPEG></ExportJPEG>
-    <ExportPNG></ExportPNG>
-    <ExportTIFF></ExportTIFF>
-    <ExportR_SPSS></ExportR_SPSS>
-    <Close></Close>
-    <SetDefaultDiagram></SetDefaultDiagram>
-    <NewDefaultDiagram></NewDefaultDiagram>
-    <Edit></Edit>
-    <DiagramOptions></DiagramOptions>
-    <KinTerms></KinTerms>
+    <ExportPDF>Works</ExportPDF>
+    <ExportJPEG>Works</ExportJPEG>
+    <ExportPNG>Works</ExportPNG>
+    <ExportTIFF>Works</ExportTIFF>
+    <ExportR_SPSS>Works</ExportR_SPSS>
+    <Close>Works</Close>
+    <SetDefaultDiagram>Works</SetDefaultDiagram>
+    <NewDefaultDiagram>Works</NewDefaultDiagram>
+    <Edit>Works</Edit>
+    <DiagramOptions>Works</DiagramOptions>
+    <KinTerms>Works</KinTerms>
     <KinTerms2></KinTerms2>
     <Export></Export>
     <Import></Import>
