@@ -108,13 +108,13 @@
   </NewDiagramsTest>
   <Menus>
     <RecentDiagram>Works</RecentDiagram>
-    <RecentDiagram2></RecentDiagram2>
-    <Gedcom_CSV></Gedcom_CSV>
-    <GedcomResources></GedcomResources>
-    <GedcomResources2></GedcomResources2>
-    <EntityUpload></EntityUpload>
-    <SaveFile></SaveFile>
-    <OpenDiagram></OpenDiagram>
+    <RecentDiagram2>Works</RecentDiagram2>
+    <Gedcom_CSV>Works</Gedcom_CSV>
+    <GedcomResources>Works</GedcomResources>
+    <GedcomResources2>Works</GedcomResources2>
+    <EntityUpload error="">Empty</EntityUpload>
+    <SaveFile>Works</SaveFile>
+    <OpenDiagram>Works</OpenDiagram>
     <ExportPDF></ExportPDF>
     <ExportJPEG></ExportJPEG>
     <ExportPNG></ExportPNG>
@@ -139,7 +139,7 @@
     <DiagramSettings5></DiagramSettings5>
     <DiagramSettings6></DiagramSettings6>
     <CustomName></CustomName>
-    <DataCategory></DataCategory>
+    <DataCategory error="">Empty</DataCategory>
     <RelationType></RelationType>
     <LineColour></LineColour>
     <LineWidth></LineWidth>
