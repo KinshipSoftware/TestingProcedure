@@ -4,7 +4,7 @@
   <LamusVersion>1.1.7.7</LamusVersion>
   <OSVersion>windows 7, firefox</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>35982</TestPlanRevision>
+  <TestPlanRevision>36101</TestPlanRevision>
   <LamusMainPageTest>
     <RegisterAsANewUsersTest error="">Empty</RegisterAsANewUsersTest>
     <NUT2 error="">Empty</NUT2>
@@ -190,4 +190,50 @@
     <SAL2>Works</SAL2>
     <About>Works</About>
   </LAMUSFunctionButtonsTest>
+  <NeurobiologyOfLanguageTest>
+    <ViewNBLtestNode1>Works</ViewNBLtestNode1>
+    <ViewNBLtestNode2>Works</ViewNBLtestNode2>
+    <ViewNBLtestNode3>Works</ViewNBLtestNode3>
+    <UploadFilesNBLtestNode1 error="">Empty</UploadFilesNBLtestNode1>
+    <UploadFilesNBLtestNode2 error="">Empty</UploadFilesNBLtestNode2>
+    <UploadFilesNBLtestNode3 error="">Empty</UploadFilesNBLtestNode3>
+    <UploadFilesNBLtestNode4>Works</UploadFilesNBLtestNode4>
+    <UploadFilesNBLtestNode5>Works</UploadFilesNBLtestNode5>
+    <UploadFilesNBLtestNode6>Works</UploadFilesNBLtestNode6>
+    <UploadFilesNBLtestNode7 error="">Empty</UploadFilesNBLtestNode7>
+    <UploadFilesNBLtestNode8 error="">Empty</UploadFilesNBLtestNode8>
+    <UploadFilesNBLtestNode9>Works</UploadFilesNBLtestNode9>
+    <UploadFilesNBLtestNode10 error="">Empty</UploadFilesNBLtestNode10>
+    <UploadFilesNBLtestNode11 error="">Empty</UploadFilesNBLtestNode11>
+    <UploadFilesNBLtestNode12>Works</UploadFilesNBLtestNode12>
+    <UploadFilesTextNBLtestNode1>Works</UploadFilesTextNBLtestNode1>
+    <UploadFilesTextNBLtestNode2>Works</UploadFilesTextNBLtestNode2>
+    <UploadFilesTextNBLtestNode3>Works</UploadFilesTextNBLtestNode3>
+    <UploadFilesTextNBLtestNode4 error="">Empty</UploadFilesTextNBLtestNode4>
+    <UploadFilesTextNBLtestNode5 error="">Empty</UploadFilesTextNBLtestNode5>
+    <UploadFilesTextNBLtestNode6 error="">Empty</UploadFilesTextNBLtestNode6>
+  </NeurobiologyOfLanguageTest>
+  <LanguageAndGeneticTest>
+    <ViewLanguageAndGeneticTestNode1>Works</ViewLanguageAndGeneticTestNode1>
+    <ViewLanguageAndGeneticTestNode2>Works</ViewLanguageAndGeneticTestNode2>
+    <ViewLanguageAndGeneticTestNode3>Works</ViewLanguageAndGeneticTestNode3>
+    <UploadFilesLanguageAndGeneticTestNode1 error="">Empty</UploadFilesLanguageAndGeneticTestNode1>
+    <UploadFilesLanguageAndGeneticTestNode2 error="">Empty</UploadFilesLanguageAndGeneticTestNode2>
+    <UploadFilesLanguageAndGeneticTestNode3 error="">Empty</UploadFilesLanguageAndGeneticTestNode3>
+    <UploadFilesLanguageAndGeneticTestNode4 error="">Empty</UploadFilesLanguageAndGeneticTestNode4>
+    <UploadFilesLanguageAndGeneticTestNode5 error="">Empty</UploadFilesLanguageAndGeneticTestNode5>
+    <UploadFilesLanguageAndGeneticTestNode6 error="">Fails</UploadFilesLanguageAndGeneticTestNode6>
+    <UploadFilesLanguageAndGeneticTestNode7 error="">Empty</UploadFilesLanguageAndGeneticTestNode7>
+    <UploadFilesLanguageAndGeneticTestNode8 error="">Empty</UploadFilesLanguageAndGeneticTestNode8>
+    <UploadFilesLanguageAndGeneticTestNode9 error="">Empty</UploadFilesLanguageAndGeneticTestNode9>
+    <UploadFilesLanguageAndGeneticTestNode10 error="">Empty</UploadFilesLanguageAndGeneticTestNode10>
+    <UploadFilesLanguageAndGeneticTestNode11 error="">Empty</UploadFilesLanguageAndGeneticTestNode11>
+    <UploadFilesLanguageAndGeneticTestNode12 error="">Fails</UploadFilesLanguageAndGeneticTestNode12>
+    <UploadFilesTextLanguageAndGeneticTestNode1 error="">Fails</UploadFilesTextLanguageAndGeneticTestNode1>
+    <UploadFilesTextLanguageAndGeneticTestNode2 error="">Fails</UploadFilesTextLanguageAndGeneticTestNode2>
+    <UploadFilesTextLanguageAndGeneticTestNode3 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode3>
+    <UploadFilesTextLanguageAndGeneticTestNode4 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode4>
+    <UploadFilesTextLanguageAndGeneticTestNode5 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode5>
+    <UploadFilesTextLanguageAndGeneticTestNode6 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode6>
+  </LanguageAndGeneticTest>
 </LamusBugCheck>
