@@ -41,15 +41,15 @@
     <AccessCorpusFile>Works</AccessCorpusFile>
     <DownloadSessionFile>Works</DownloadSessionFile>
     <AccessSessionFile>Works</AccessSessionFile>
-    <DownloadAllResources></DownloadAllResources>
-    <AccessZippedResources></AccessZippedResources>
-    <DownloadAllResources2></DownloadAllResources2>
-    <DownloadResourceFile></DownloadResourceFile>
-    <AccessResourceFile></AccessResourceFile>
-    <RequestResourceAccess></RequestResourceAccess>
-    <SessNodeVersionInfo></SessNodeVersionInfo>
-    <InfoFileVersionInfo></InfoFileVersionInfo>
-    <View_Images></View_Images>
+    <DownloadAllResources>Works</DownloadAllResources>
+    <AccessZippedResources>Works</AccessZippedResources>
+    <DownloadAllResources2>Works</DownloadAllResources2>
+    <DownloadResourceFile>Works</DownloadResourceFile>
+    <AccessResourceFile>Works</AccessResourceFile>
+    <RequestResourceAccess>Works</RequestResourceAccess>
+    <SessNodeVersionInfo>Works</SessNodeVersionInfo>
+    <InfoFileVersionInfo>Works</InfoFileVersionInfo>
+    <View_Images>Works</View_Images>
   </ContextMenuTest>
   <ManualTest>
     <ManualTest1>Works</ManualTest1>
@@ -63,12 +63,12 @@
     <LogInTest1>Works</LogInTest1>
   </LogInTest>
   <AccessLevelTest2>
-    <AccessLevelTest2a></AccessLevelTest2a>
-    <AccessLevelTest2b></AccessLevelTest2b>
-    <AccessLevelTest2c></AccessLevelTest2c>
-    <AccessLevelTest2d></AccessLevelTest2d>
+    <AccessLevelTest2a>Works</AccessLevelTest2a>
+    <AccessLevelTest2b>Works</AccessLevelTest2b>
+    <AccessLevelTest2c>Works</AccessLevelTest2c>
+    <AccessLevelTest2d>Works</AccessLevelTest2d>
   </AccessLevelTest2>
   <LogOutTest>
-    <LogOutTest1></LogOutTest1>
+    <LogOutTest1>Works</LogOutTest1>
   </LogOutTest>
 </ImdibrowserBugCheck>
