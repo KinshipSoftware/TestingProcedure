@@ -18,11 +18,11 @@
     <FreeformDiagramSyntax3>Works</FreeformDiagramSyntax3>
     <FreeformDiagramSyntax4>Works</FreeformDiagramSyntax4>
     <QueryDiagramSyntax1>Works</QueryDiagramSyntax1>
-    <QueryDiagramSyntax2 error="Several errors were found but the import was completed.">Fails</QueryDiagramSyntax2>
-    <QueryDiagramSyntax3 error="">Empty</QueryDiagramSyntax3>
-    <QueryDiagramSyntax4 error="">Empty</QueryDiagramSyntax4>
-    <QueryDiagramSyntax5 error="">Empty</QueryDiagramSyntax5>
-    <QueryDiagramSyntax6 error="">Empty</QueryDiagramSyntax6>
+    <QueryDiagramSyntax2>Works</QueryDiagramSyntax2>
+    <QueryDiagramSyntax3>Works</QueryDiagramSyntax3>
+    <QueryDiagramSyntax4>Works</QueryDiagramSyntax4>
+    <QueryDiagramSyntax5>Works</QueryDiagramSyntax5>
+    <QueryDiagramSyntax6>Works</QueryDiagramSyntax6>
     <HawaiianKinTerms1>Works</HawaiianKinTerms1>
     <HawaiianKinTerms2>Works</HawaiianKinTerms2>
     <HawaiianKinTerms3>Works</HawaiianKinTerms3>
@@ -30,7 +30,7 @@
     <HawaiianKinTerms4>Works</HawaiianKinTerms4>
     <HawaiianKinTerms5>Works</HawaiianKinTerms5>
     <HawaiianKinTerms6>Works</HawaiianKinTerms6>
-    <HawaiianKinTerms7 error="The diagram disappear but when I check back Generate example entities the diagram appear with a strange layout (not the same as was before)">Mostly</HawaiianKinTerms7>
+    <HawaiianKinTerms7>Works</HawaiianKinTerms7>
     <JapaneseKinTerms1>Works</JapaneseKinTerms1>
     <JapaneseKinTerms2>Works</JapaneseKinTerms2>
     <JapaneseKinTerms3>Works</JapaneseKinTerms3>
@@ -38,7 +38,7 @@
     <JapaneseKinTerms5>Works</JapaneseKinTerms5>
     <JapaneseKinTerms5b>Works</JapaneseKinTerms5b>
     <JapaneseKinTerms6>Works</JapaneseKinTerms6>
-    <JapaneseKinTerms7 error="It doesn't go away at all.">Fails</JapaneseKinTerms7>
+    <JapaneseKinTerms7>Works</JapaneseKinTerms7>
     <SwedishKinTerms1>Works</SwedishKinTerms1>
     <SwedishKinTerms2>Works</SwedishKinTerms2>
     <SwedishKinTerms3>Works</SwedishKinTerms3>
@@ -46,7 +46,7 @@
     <SwedishKinTerms5>Works</SwedishKinTerms5>
     <SwedishKinTerms5b>Works</SwedishKinTerms5b>
     <SwedishKinTerms6>Works</SwedishKinTerms6>
-    <SwedishKinTerms7 error="It goes away but it is replaced by the New kin term group.">Fails</SwedishKinTerms7>
+    <SwedishKinTerms7>Works</SwedishKinTerms7>
     <NamedTransientEntities1>Works</NamedTransientEntities1>
     <NamedTransientEntities2>Works</NamedTransientEntities2>
     <NamedTransientEntities3>Works</NamedTransientEntities3>
@@ -59,10 +59,10 @@
     <CharlesIIOfSpain4>Works</CharlesIIOfSpain4>
     <HaemophiliaEu1>Works</HaemophiliaEu1>
     <HaemophiliaEu2>Works</HaemophiliaEu2>
-    <HaemophiliaEu3 error="The import didn't work. All the windows were closed.">Fails</HaemophiliaEu3>
-    <HaemophiliaEu4 error="For the moment I don't repeat the same procedure because I'm afraid that it collapses again">Empty</HaemophiliaEu4>
-    <HaemophiliaEu5 error="">Empty</HaemophiliaEu5>
-    <HaemophiliaEu6 error="">Empty</HaemophiliaEu6>
+    <HaemophiliaEu3>Works</HaemophiliaEu3>
+    <HaemophiliaEu4>Works</HaemophiliaEu4>
+    <HaemophiliaEu5>Works</HaemophiliaEu5>
+    <HaemophiliaEu6>Works</HaemophiliaEu6>
   </SampleDiagramsTest>
   <NewDiagramsTest>
     <StandardDiagram1>Works</StandardDiagram1>
@@ -126,29 +126,29 @@
     <Edit>Works</Edit>
     <DiagramOptions>Works</DiagramOptions>
     <KinTerms>Works</KinTerms>
-    <KinTerms2></KinTerms2>
-    <Export></Export>
-    <Import></Import>
-    <ArchiveLinker></ArchiveLinker>
-    <Panels></Panels>
-    <DiagramSettings1></DiagramSettings1>
-    <DiagramSettings2></DiagramSettings2>
-    <DiagramSettings3></DiagramSettings3>
-    <DiagramSettings3b></DiagramSettings3b>
-    <DiagramSettings4></DiagramSettings4>
-    <DiagramSettings5></DiagramSettings5>
-    <DiagramSettings6></DiagramSettings6>
-    <CustomName></CustomName>
+    <KinTerms2>Works</KinTerms2>
+    <Export>Works</Export>
+    <Import>Works</Import>
+    <ArchiveLinker error="">Empty</ArchiveLinker>
+    <Panels>Works</Panels>
+    <DiagramSettings1>Works</DiagramSettings1>
+    <DiagramSettings2>Works</DiagramSettings2>
+    <DiagramSettings3>Works</DiagramSettings3>
+    <DiagramSettings3b>Works</DiagramSettings3b>
+    <DiagramSettings4>Works</DiagramSettings4>
+    <DiagramSettings5>Works</DiagramSettings5>
+    <DiagramSettings6>Works</DiagramSettings6>
+    <CustomName>Works</CustomName>
     <DataCategory error="">Empty</DataCategory>
-    <RelationType></RelationType>
-    <LineColour></LineColour>
-    <LineWidth></LineWidth>
-    <LineDash></LineDash>
-    <LineOrientation></LineOrientation>
-    <DeleteSelected></DeleteSelected>
-    <Window></Window>
-    <Help></Help>
-    <Exit></Exit>
+    <RelationType>Works</RelationType>
+    <LineColour>Works</LineColour>
+    <LineWidth>Works</LineWidth>
+    <LineDash>Works</LineDash>
+    <LineOrientation>Works</LineOrientation>
+    <DeleteSelected>Works</DeleteSelected>
+    <Window>Works</Window>
+    <Help>Works</Help>
+    <Exit>Works</Exit>
   </Menus>
   <Other_Platforms>
     <Different_OS_Install error="">Empty</Different_OS_Install>
