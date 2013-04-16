@@ -18,7 +18,7 @@
     <FreeformDiagramSyntax3>Works</FreeformDiagramSyntax3>
     <FreeformDiagramSyntax4>Works</FreeformDiagramSyntax4>
     <QueryDiagramSyntax1>Works</QueryDiagramSyntax1>
-    <QueryDiagramSyntax2 error="The import works but it was extremely slow and several errors were found.">Fails</QueryDiagramSyntax2>
+    <QueryDiagramSyntax2>Works</QueryDiagramSyntax2>
     <QueryDiagramSyntax3>Works</QueryDiagramSyntax3>
     <QueryDiagramSyntax4>Works</QueryDiagramSyntax4>
     <QueryDiagramSyntax5>Works</QueryDiagramSyntax5>
@@ -30,7 +30,7 @@
     <HawaiianKinTerms4>Works</HawaiianKinTerms4>
     <HawaiianKinTerms5>Works</HawaiianKinTerms5>
     <HawaiianKinTerms6>Works</HawaiianKinTerms6>
-    <HawaiianKinTerms7 error="The same issue as in the virtual machine. Once the diagram appears again, it looks wired and not as the original one">Strange</HawaiianKinTerms7>
+    <HawaiianKinTerms7>Works</HawaiianKinTerms7>
     <JapaneseKinTerms1>Works</JapaneseKinTerms1>
     <JapaneseKinTerms2>Works</JapaneseKinTerms2>
     <JapaneseKinTerms3>Works</JapaneseKinTerms3>
@@ -38,7 +38,7 @@
     <JapaneseKinTerms5>Works</JapaneseKinTerms5>
     <JapaneseKinTerms5b>Works</JapaneseKinTerms5b>
     <JapaneseKinTerms6>Works</JapaneseKinTerms6>
-    <JapaneseKinTerms7 error="The diagram does not disappear but it is just displayed in a different way.">Fails</JapaneseKinTerms7>
+    <JapaneseKinTerms7>Works</JapaneseKinTerms7>
     <SwedishKinTerms1>Works</SwedishKinTerms1>
     <SwedishKinTerms2>Works</SwedishKinTerms2>
     <SwedishKinTerms3>Works</SwedishKinTerms3>
@@ -46,7 +46,7 @@
     <SwedishKinTerms5>Works</SwedishKinTerms5>
     <SwedishKinTerms5b>Works</SwedishKinTerms5b>
     <SwedishKinTerms6>Works</SwedishKinTerms6>
-    <SwedishKinTerms7 error="Same error as the Hawaiian diagram.">Fails</SwedishKinTerms7>
+    <SwedishKinTerms7>Works</SwedishKinTerms7>
     <NamedTransientEntities1>Works</NamedTransientEntities1>
     <NamedTransientEntities2>Works</NamedTransientEntities2>
     <NamedTransientEntities3>Works</NamedTransientEntities3>
@@ -59,7 +59,7 @@
     <CharlesIIOfSpain4>Works</CharlesIIOfSpain4>
     <HaemophiliaEu1>Works</HaemophiliaEu1>
     <HaemophiliaEu2>Works</HaemophiliaEu2>
-    <HaemophiliaEu3 error="">Fails</HaemophiliaEu3>
+    <HaemophiliaEu3>Works</HaemophiliaEu3>
     <HaemophiliaEu4>Works</HaemophiliaEu4>
     <HaemophiliaEu5>Works</HaemophiliaEu5>
     <HaemophiliaEu6>Works</HaemophiliaEu6>
@@ -75,87 +75,87 @@
     <Geometry1>Works</Geometry1>
     <Geometry2>Works</Geometry2>
     <Delete>Works</Delete>
-    <Merge></Merge>
-    <Duplicate></Duplicate>
-    <SetEgo></SetEgo>
-    <AddEgoList></AddEgoList>
-    <RemoveEgoList></RemoveEgoList>
-    <Keep></Keep>
-    <Release></Release>
-    <ResetZoom></ResetZoom>
-    <ResetLayout></ResetLayout>
-    <SaveChanges></SaveChanges>
-    <StandardDiagram6></StandardDiagram6>
-    <StandardDiagram6b></StandardDiagram6b>
-    <FreeformDiagram1></FreeformDiagram1>
-    <FreeformDiagram2></FreeformDiagram2>
-    <FreeformDiagram3></FreeformDiagram3>
-    <KinTerms1></KinTerms1>
-    <KinTerms2></KinTerms2>
-    <KinTerms2b></KinTerms2b>
-    <KinTerms3></KinTerms3>
-    <KinTerms4></KinTerms4>
-    <KinTerms4b></KinTerms4b>
-    <KinTerms5></KinTerms5>
-    <KinTerms6></KinTerms6>
-    <QueryDiagram1></QueryDiagram1>
-    <QueryDiagram2></QueryDiagram2>
-    <QueryDiagram3></QueryDiagram3>
-    <ArchiveLinker1></ArchiveLinker1>
-    <ArchiveLinker2></ArchiveLinker2>
-    <ArchiveLinker3></ArchiveLinker3>
-    <ArchiveLinker4></ArchiveLinker4>
+    <Merge>Works</Merge>
+    <Duplicate>Works</Duplicate>
+    <SetEgo>Works</SetEgo>
+    <AddEgoList>Works</AddEgoList>
+    <RemoveEgoList>Works</RemoveEgoList>
+    <Keep>Works</Keep>
+    <Release>Works</Release>
+    <ResetZoom>Works</ResetZoom>
+    <ResetLayout>Works</ResetLayout>
+    <SaveChanges>Works</SaveChanges>
+    <StandardDiagram6>Works</StandardDiagram6>
+    <StandardDiagram6b>Works</StandardDiagram6b>
+    <FreeformDiagram1>Works</FreeformDiagram1>
+    <FreeformDiagram2>Works</FreeformDiagram2>
+    <FreeformDiagram3>Works</FreeformDiagram3>
+    <KinTerms1>Works</KinTerms1>
+    <KinTerms2>Works</KinTerms2>
+    <KinTerms2b>Works</KinTerms2b>
+    <KinTerms3>Works</KinTerms3>
+    <KinTerms4>Works</KinTerms4>
+    <KinTerms4b>Works</KinTerms4b>
+    <KinTerms5>Works</KinTerms5>
+    <KinTerms6>Works</KinTerms6>
+    <QueryDiagram1>Works</QueryDiagram1>
+    <QueryDiagram2>Works</QueryDiagram2>
+    <QueryDiagram3>Works</QueryDiagram3>
+    <ArchiveLinker1>Works</ArchiveLinker1>
+    <ArchiveLinker2>Works</ArchiveLinker2>
+    <ArchiveLinker3>Works</ArchiveLinker3>
+    <ArchiveLinker4>Works</ArchiveLinker4>
   </NewDiagramsTest>
   <Menus>
-    <RecentDiagram></RecentDiagram>
-    <RecentDiagram2></RecentDiagram2>
-    <Gedcom_CSV></Gedcom_CSV>
-    <GedcomResources></GedcomResources>
-    <GedcomResources2></GedcomResources2>
-    <EntityUpload></EntityUpload>
-    <SaveFile></SaveFile>
-    <OpenDiagram></OpenDiagram>
-    <ExportPDF></ExportPDF>
-    <ExportJPEG></ExportJPEG>
-    <ExportPNG></ExportPNG>
-    <ExportTIFF></ExportTIFF>
-    <ExportR_SPSS></ExportR_SPSS>
-    <Close></Close>
-    <SetDefaultDiagram></SetDefaultDiagram>
-    <NewDefaultDiagram></NewDefaultDiagram>
-    <Edit></Edit>
-    <DiagramOptions></DiagramOptions>
-    <KinTerms></KinTerms>
-    <KinTerms2></KinTerms2>
-    <Export></Export>
-    <Import></Import>
-    <ArchiveLinker></ArchiveLinker>
-    <Panels></Panels>
-    <DiagramSettings1></DiagramSettings1>
-    <DiagramSettings2></DiagramSettings2>
-    <DiagramSettings3></DiagramSettings3>
-    <DiagramSettings3b></DiagramSettings3b>
-    <DiagramSettings4></DiagramSettings4>
-    <DiagramSettings5></DiagramSettings5>
-    <DiagramSettings6></DiagramSettings6>
-    <CustomName></CustomName>
-    <DataCategory></DataCategory>
-    <RelationType></RelationType>
-    <LineColour></LineColour>
-    <LineWidth></LineWidth>
-    <LineDash></LineDash>
-    <LineOrientation></LineOrientation>
-    <DeleteSelected></DeleteSelected>
-    <Window></Window>
-    <Help></Help>
-    <Exit></Exit>
+    <RecentDiagram>Works</RecentDiagram>
+    <RecentDiagram2>Works</RecentDiagram2>
+    <Gedcom_CSV>Works</Gedcom_CSV>
+    <GedcomResources>Works</GedcomResources>
+    <GedcomResources2>Works</GedcomResources2>
+    <EntityUpload error="">Empty</EntityUpload>
+    <SaveFile>Works</SaveFile>
+    <OpenDiagram>Works</OpenDiagram>
+    <ExportPDF>Works</ExportPDF>
+    <ExportJPEG>Works</ExportJPEG>
+    <ExportPNG>Works</ExportPNG>
+    <ExportTIFF>Works</ExportTIFF>
+    <ExportR_SPSS>Works</ExportR_SPSS>
+    <Close>Works</Close>
+    <SetDefaultDiagram>Works</SetDefaultDiagram>
+    <NewDefaultDiagram>Works</NewDefaultDiagram>
+    <Edit>Works</Edit>
+    <DiagramOptions>Works</DiagramOptions>
+    <KinTerms>Works</KinTerms>
+    <KinTerms2>Works</KinTerms2>
+    <Export>Works</Export>
+    <Import>Works</Import>
+    <ArchiveLinker error="">Empty</ArchiveLinker>
+    <Panels>Works</Panels>
+    <DiagramSettings1>Works</DiagramSettings1>
+    <DiagramSettings2>Works</DiagramSettings2>
+    <DiagramSettings3>Works</DiagramSettings3>
+    <DiagramSettings3b>Works</DiagramSettings3b>
+    <DiagramSettings4>Works</DiagramSettings4>
+    <DiagramSettings5>Works</DiagramSettings5>
+    <DiagramSettings6>Works</DiagramSettings6>
+    <CustomName>Works</CustomName>
+    <DataCategory error="">Empty</DataCategory>
+    <RelationType>Works</RelationType>
+    <LineColour>Works</LineColour>
+    <LineWidth>Works</LineWidth>
+    <LineDash>Works</LineDash>
+    <LineOrientation>Works</LineOrientation>
+    <DeleteSelected>Works</DeleteSelected>
+    <Window>Works</Window>
+    <Help>Works</Help>
+    <Exit>Works</Exit>
   </Menus>
   <Other_Platforms>
-    <Different_OS_Install></Different_OS_Install>
-    <Opening_Diagram></Opening_Diagram>
-    <Import_Data></Import_Data>
-    <Query></Query>
-    <Select_and_Expand></Select_and_Expand>
-    <Modify_Diagram></Modify_Diagram>
+    <Different_OS_Install error="">Empty</Different_OS_Install>
+    <Opening_Diagram error="">Empty</Opening_Diagram>
+    <Import_Data error="">Empty</Import_Data>
+    <Query error="">Empty</Query>
+    <Select_and_Expand error="">Empty</Select_and_Expand>
+    <Modify_Diagram error="">Empty</Modify_Diagram>
   </Other_Platforms>
 </KinoathBugCheck>
