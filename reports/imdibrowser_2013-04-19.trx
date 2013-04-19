@@ -34,41 +34,41 @@
     <CreateBookmark>Works</CreateBookmark>
     <Links>Works</Links>
     <MetadataSearch1>Works</MetadataSearch1>
-    <MetadataSearch2></MetadataSearch2>
-    <AnnotationContentSearch1></AnnotationContentSearch1>
-    <SetAccessRights></SetAccessRights>
-    <DownloadCorpusFile></DownloadCorpusFile>
-    <AccessCorpusFile></AccessCorpusFile>
-    <DownloadSessionFile></DownloadSessionFile>
-    <AccessSessionFile></AccessSessionFile>
-    <DownloadAllResources></DownloadAllResources>
-    <AccessZippedResources></AccessZippedResources>
-    <DownloadAllResources2></DownloadAllResources2>
-    <DownloadResourceFile></DownloadResourceFile>
-    <AccessResourceFile></AccessResourceFile>
-    <RequestResourceAccess></RequestResourceAccess>
-    <SessNodeVersionInfo></SessNodeVersionInfo>
-    <InfoFileVersionInfo></InfoFileVersionInfo>
-    <View_Images></View_Images>
+    <MetadataSearch2>Works</MetadataSearch2>
+    <AnnotationContentSearch1>Works</AnnotationContentSearch1>
+    <SetAccessRights>Works</SetAccessRights>
+    <DownloadCorpusFile>Works</DownloadCorpusFile>
+    <AccessCorpusFile>Works</AccessCorpusFile>
+    <DownloadSessionFile>Works</DownloadSessionFile>
+    <AccessSessionFile>Works</AccessSessionFile>
+    <DownloadAllResources>Works</DownloadAllResources>
+    <AccessZippedResources>Works</AccessZippedResources>
+    <DownloadAllResources2>Works</DownloadAllResources2>
+    <DownloadResourceFile>Works</DownloadResourceFile>
+    <AccessResourceFile>Works</AccessResourceFile>
+    <RequestResourceAccess error="I was redirected to a link showing an error message: 'The requested resource is not available'.">Fails</RequestResourceAccess>
+    <SessNodeVersionInfo>Works</SessNodeVersionInfo>
+    <InfoFileVersionInfo>Works</InfoFileVersionInfo>
+    <View_Images>Works</View_Images>
   </ContextMenuTest>
   <ManualTest>
-    <ManualTest1></ManualTest1>
+    <ManualTest1 error="">Fails</ManualTest1>
   </ManualTest>
   <RegisterTest>
-    <RegisterTest1></RegisterTest1>
-    <ExistingUserCheck></ExistingUserCheck>
-    <ExistingUserRegistration></ExistingUserRegistration>
+    <RegisterTest1 error="">Fails</RegisterTest1>
+    <ExistingUserCheck error="">Empty</ExistingUserCheck>
+    <ExistingUserRegistration error="">Empty</ExistingUserRegistration>
   </RegisterTest>
   <LogInTest>
-    <LogInTest1></LogInTest1>
+    <LogInTest1>Works</LogInTest1>
   </LogInTest>
   <AccessLevelTest2>
-    <AccessLevelTest2a></AccessLevelTest2a>
-    <AccessLevelTest2b></AccessLevelTest2b>
-    <AccessLevelTest2c></AccessLevelTest2c>
-    <AccessLevelTest2d></AccessLevelTest2d>
+    <AccessLevelTest2a>Works</AccessLevelTest2a>
+    <AccessLevelTest2b>Works</AccessLevelTest2b>
+    <AccessLevelTest2c>Works</AccessLevelTest2c>
+    <AccessLevelTest2d error="">Empty</AccessLevelTest2d>
   </AccessLevelTest2>
   <LogOutTest>
-    <LogOutTest1></LogOutTest1>
+    <LogOutTest1>Works</LogOutTest1>
   </LogOutTest>
 </ImdibrowserBugCheck>
