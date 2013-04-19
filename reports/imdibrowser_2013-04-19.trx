@@ -52,10 +52,10 @@
     <View_Images>Works</View_Images>
   </ContextMenuTest>
   <ManualTest>
-    <ManualTest1 error="">Fails</ManualTest1>
+    <ManualTest1 error="The same as in the 'Request Resource Access'. I get an error message: The requested resource is not available.">Fails</ManualTest1>
   </ManualTest>
   <RegisterTest>
-    <RegisterTest1 error="">Fails</RegisterTest1>
+    <RegisterTest1 error="The same error occurs also here.">Fails</RegisterTest1>
     <ExistingUserCheck error="">Empty</ExistingUserCheck>
     <ExistingUserRegistration error="">Empty</ExistingUserRegistration>
   </RegisterTest>
