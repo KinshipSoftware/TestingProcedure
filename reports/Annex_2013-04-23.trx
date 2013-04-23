@@ -10,7 +10,7 @@
     <LogIn>Works</LogIn>
     <LogIn2>Works</LogIn2>
     <LogIn3>Works</LogIn3>
-    <LogIn3b></LogIn3b>
+    <LogIn3b>Works</LogIn3b>
   </StartingAnnex>
   <MenuBar>
     <Manual error="I have been redirected to the page 'http://tla.mpi.nl/tools/tla-tools/annex/', instead of manual page.">Mostly</Manual>
@@ -54,14 +54,14 @@
   </Information>
   <Mini_Data_Frame>
     <MinMax>Works</MinMax>
-    <TierList></TierList>
-    <YellowInfoBox></YellowInfoBox>
-    <HighlightText></HighlightText>
-    <FontSize></FontSize>
+    <TierList>Works</TierList>
+    <YellowInfoBox>Works</YellowInfoBox>
+    <HighlightText>Works</HighlightText>
+    <FontSize>Works</FontSize>
   </Mini_Data_Frame>
   <Control_Panel>
-    <TextGeneral></TextGeneral>
-    <TextTierScroll></TextTierScroll>
+    <TextGeneral>Works</TextGeneral>
+    <TextTierScroll>Works</TextTierScroll>
     <Text_Tier></Text_Tier>
     <TierFontSize></TierFontSize>
     <TierTextFont></TierTextFont>
