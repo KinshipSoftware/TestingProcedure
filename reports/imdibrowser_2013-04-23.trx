@@ -63,12 +63,12 @@
     <LogInTest1>Works</LogInTest1>
   </LogInTest>
   <AccessLevelTest2>
-    <AccessLevelTest2a></AccessLevelTest2a>
-    <AccessLevelTest2b></AccessLevelTest2b>
-    <AccessLevelTest2c></AccessLevelTest2c>
-    <AccessLevelTest2d></AccessLevelTest2d>
+    <AccessLevelTest2a>Works</AccessLevelTest2a>
+    <AccessLevelTest2b>Works</AccessLevelTest2b>
+    <AccessLevelTest2c>Works</AccessLevelTest2c>
+    <AccessLevelTest2d>Works</AccessLevelTest2d>
   </AccessLevelTest2>
   <LogOutTest>
-    <LogOutTest1></LogOutTest1>
+    <LogOutTest1>Works</LogOutTest1>
   </LogOutTest>
 </ImdibrowserBugCheck>
