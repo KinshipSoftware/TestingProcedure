@@ -1,12 +1,13 @@
+# test cases exported from test plan file Annex.xml on 2013-04-23 (17:45).
 
-StartingAnnex ""
-  OpeningAnnexForPublic "From the lat-mpi website click on start demonstration. You should be directed to the main page."
+StartingAnnex
   OpenAnnexIMDIbrowser "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view node'. You should be directed to the ANNEX interface."
   LogIn "Select 'log in' from the top right menu. Enter your details. Your username should then appear beside the 'log in' function."
   LogIn2 "Close both pages, Annex and IMDI browser. Then reopen the IMDI browser page and try to log in from there. Then open the .eaf file again. The Annex interface should open showing already your username. "
   LogIn3 "Close again both pages, Annex and IMDI browser. Reopen the IMDI browser and then the .eaf file in Annex."
   LogIn3b "Select a chunk and create a bookmark with it (see below 4. Control_Panel > TimelineCreateBookmark). Close Annex and the IMDI browser. Paste the bookmark in a new web page and press 'Enter'. Annex interface should  open and you should be able to log in from there. "
-MenuBar ""
+
+MenuBar
   Manual "In the context menu in the top left corner, click on 'manual'. You should be directed towards the manual page."
   HelpQuestionMark "Drag the question mark on an item, for eg. the play button. A small help window should open with explanations and tips for shortcuts, for eg."
   SelectingStripforEmbedding "Select a strip from the annotation. Drag the red line to the desired position. This should be possible, regardless of how many units are available."
@@ -23,7 +24,8 @@ MenuBar ""
   EmbedSuccess "Check to see whether all the functions have successfully been embedded. The border settings, tiers, fonts, and view should correspond accordingly"
   Embed6 "Go to the embed menu again. Click on 'Done'. Then open it again. The previous changes should be reset."
   CompactMode "Uncheck 'compact mode'. The space between tiers in the timeline should enlarge. Then check 'compact mode' again. The tiers should be compressed."
-Video_Display ""
+
+Video_Display
   VideoDisplayMin "Click on min. The box should get minimized, with only the audio available through the regular features (play, fast forward, etc..)"
   Max "Click on Max, the window should then become rearranged to its original position. "
   Play "Click on play. The audio should now be played."
@@ -38,18 +40,21 @@ Video_Display ""
   Buffer "Click on Buffer. A small window should appear with an explanation on pseudostreaming. "
   Buffer2 "Adjust the buffer time to 80 and click on submit buffer time. The video should then buffer accordingly."
   Buffer3 "Type in 300 in the buffer time and press enter. The time should revert to the maximum of 100."
-Information ""
+
+Information
   MinMax "Click on min. The box should get minimized. Then click on max. The box should get maximised."
   GeneralTab "In the timeline box, click on second 33. In 'Elapsed time' in the general tab the time should match accordingly. "
   GeneralTab1 "Now drag the red line from timeline to the 34th second. Under 'selected chunk' in the General tab, the begin time and end time should match accordingly."
   SessionTab "The session tab should display the language, the project, the genre, and the subgenre."
-Mini_Data_Frame ""
+
+Mini_Data_Frame
   MinMax "Click on min. The box should get minimized. Then click on max.The box should get maximised."
   TierList "Select W-words from the tier list. The entire text box should be filled with the text from the W-Words tier. "
   YellowInfoBox "place the mouse cursor on a given word in the MDF, for example 'town'. The begin and end time should be displayed"
   HighlightText "Click on a word in the Mini Data Frame, for example 'town'. The video should move accordingly as should the timeline, which also highlights the given time frame."
   FontSize "Click on font size, and select size 24. The size should adjust accordingly."
-Control_Panel ""
+
+Control_Panel
   TextGeneral "In the control panel on the left hand side, click on text. 3 boxes with 3 tiers should appear. All 3 should be minisisable/maximisable and expandable/shrinkable."
   TextTierScroll "Click on tier 1, and use the mouse to scroll down."
   Text_Tier "For tier1, select W-spch, for tier2. select W-POS, for tier 3, select W-RGph. The tiers should then contain the respective text."
@@ -84,7 +89,8 @@ Control_Panel ""
   NavigationButtonsPlusMinus "Click on '+'. THe timeline should be zoomed in. Click on '-'. The timeline should be zoomed out."
   PlayByScreen "The timeline should shift screens as it plays"
   PlayContinually "The timeline should move gradually."
-AudioTest ""
+
+AudioTest
   OpenIMDIBroswerAudio "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file ( Endangered Languages > DoBeS Archive > Aweti > From Language and Culture > Linguistic Data > Monological > Narratives - 083 > awakap-0.eaf ) and select 'view node'. You should be directed to the ANNEX interface."
   Play "In the video display, press play, listen to the entire clip. It should be in sync with the timeline."
   Rewind "In the video display, press rewind one second. Both the audio file and the timeline should rewind one second and remain in sync."
@@ -92,5 +98,6 @@ AudioTest ""
   ToBegNStop_ToEndNStop "In the video display, click first on To end and stop. You should be taken tot he end of the clip and timeline. Now click on to beginning and stop. The timeline and clip should then go back to the beginning."
   Mute "Click on mute. The sound should be muted."
   Link2selectionAudio "Now select a fragment from the 26th second to the 31st and click on 'Create bookmark'. Check both 'Selected region' and 'Selected tiers', and click on 'Copy to clipboard'. Then open a new webpage and paste the link created. Press Enter. Annex interface should open with the bookmarked chunk highlighted in blue. When played, the clip should be in sync with the timeline."
-LogOut ""
+
+LogOut
   LogOut "On the top right corner of the page click on 'log out'. A dialog window should open asking you if you really want to log out. "
