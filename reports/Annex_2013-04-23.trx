@@ -4,7 +4,7 @@
   <AnnexVersion>1.2.35</AnnexVersion>
   <OSVersion>demoserver (vm SUSE 11 autoLAT 0.66 stripped), Firefox</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>36666</TestPlanRevision>
+  <TestPlanRevision>36672</TestPlanRevision>
   <StartingAnnex>
     <OpenAnnexIMDIbrowser>Works</OpenAnnexIMDIbrowser>
     <LogIn>Works</LogIn>
@@ -19,16 +19,16 @@
     <Embed>Works</Embed>
     <Embed2>Works</Embed2>
     <EmbedSize>Works</EmbedSize>
-    <EmbedDV error="">Empty</EmbedDV>
+    <EmbedDV>Works</EmbedDV>
     <EmbedF>Works</EmbedF>
     <EmbedTiers>Works</EmbedTiers>
     <EmbedStartingPoint>Works</EmbedStartingPoint>
-    <CopyToClipboard1></CopyToClipboard1>
-    <OpeningWebPage></OpeningWebPage>
-    <EmbedCheck></EmbedCheck>
-    <EmbedSuccess></EmbedSuccess>
-    <Embed6></Embed6>
-    <CompactMode></CompactMode>
+    <CopyToClipboard1>Works</CopyToClipboard1>
+    <OpeningWebPage>Works</OpeningWebPage>
+    <EmbedCheck>Works</EmbedCheck>
+    <EmbedSuccess>Works</EmbedSuccess>
+    <Embed6>Works</Embed6>
+    <CompactMode>Works</CompactMode>
   </MenuBar>
   <Video_Display>
     <VideoDisplayMin>Works</VideoDisplayMin>
@@ -82,29 +82,30 @@
     <WaveformFrequency>Works</WaveformFrequency>
     <TimelineSwtichTiers>Works</TimelineSwtichTiers>
     <TimelineSwtichTiersCompact>Works</TimelineSwtichTiersCompact>
-    <TimelineSwitchFont></TimelineSwitchFont>
-    <TimelineProgressBar></TimelineProgressBar>
-    <TimelineCreateSelection></TimelineCreateSelection>
-    <TimelinePlaySelection></TimelinePlaySelection>
-    <TimelineClearSelection></TimelineClearSelection>
-    <TimelineCreateBookmark></TimelineCreateBookmark>
-    <NavigationButtonsMvBeginningEnd></NavigationButtonsMvBeginningEnd>
-    <NavigationButtonsRwdFfwdFAST></NavigationButtonsRwdFfwdFAST>
-    <NavigationButtonsRwdFfwdSLOW></NavigationButtonsRwdFfwdSLOW>
-    <NavigationButtonsPlusMinus></NavigationButtonsPlusMinus>
-    <PlayByScreen></PlayByScreen>
-    <PlayContinually></PlayContinually>
+    <TimelineSwitchFont>Works</TimelineSwitchFont>
+    <TimelineProgressBar>Works</TimelineProgressBar>
+    <TimelineCreateSelection>Works</TimelineCreateSelection>
+    <TimelinePlaySelection>Works</TimelinePlaySelection>
+    <TimelineClearSelection>Works</TimelineClearSelection>
+    <TimelineCreateBookmark error="see ticket#2896">Mostly</TimelineCreateBookmark>
+    <NavigationButtonsMvBeginningEnd>Works</NavigationButtonsMvBeginningEnd>
+    <NavigationButtonsRwdFfwdFAST>Works</NavigationButtonsRwdFfwdFAST>
+    <NavigationButtonsRwdFfwdSLOW>Works</NavigationButtonsRwdFfwdSLOW>
+    <NavigationButtonsPlusMinus>Works</NavigationButtonsPlusMinus>
+    <PlayByScreen>Works</PlayByScreen>
+    <PlayContinually>Works</PlayContinually>
   </Control_Panel>
   <AudioTest>
-    <OpenIMDIBroswerAudio></OpenIMDIBroswerAudio>
-    <Play></Play>
-    <Rewind></Rewind>
-    <Fast_forward></Fast_forward>
-    <ToBegNStop_ToEndNStop></ToBegNStop_ToEndNStop>
-    <Mute></Mute>
-    <Link2selectionAudio></Link2selectionAudio>
+    <OpenIMDIBroswerAudio>Works</OpenIMDIBroswerAudio>
+    <Play>Works</Play>
+    <Rewind>Works</Rewind>
+    <Fast_forward>Works</Fast_forward>
+    <ToBegNStop_ToEndNStop>Works</ToBegNStop_ToEndNStop>
+    <Mute>Works</Mute>
+    <Link2selectionAudio>Works</Link2selectionAudio>
   </AudioTest>
   <LogOut>
-    <LogOut></LogOut>
+    <LogOut>Works</LogOut>
+    <LogOut2>Works</LogOut2>
   </LogOut>
 </AnnexBugCheck>
