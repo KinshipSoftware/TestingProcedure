@@ -1,4 +1,4 @@
-# test cases exported from test plan file Annex.xml on 2013-04-24 (14:30).
+# test cases exported from test plan file Annex.xml on 2013-04-24 (15:31).
 
 StartingAnnex
   OpenAnnexIMDIbrowser "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view node'. You should be directed to the ANNEX interface."
@@ -100,4 +100,5 @@ AudioTest
   Link2selectionAudio "Now select a fragment from the 26th second to the 31st and click on 'Create bookmark'. Check both 'Selected region' and 'Selected tiers', and click on 'Copy to clipboard'. Then open a new webpage and paste the link created. Press Enter. Annex interface should open with the bookmarked chunk highlighted in blue. When played, the clip should be in sync with the timeline."
 
 LogOut
-  LogOut "On the top right corner of the page click on 'log out'. A dialog window should open asking you if you really want to log out. "
+  LogOut "On the top right corner of the page click on 'log out'. A dialog window should open asking you if you really want to log out. Click on 'Cancel', the window would be closed."
+  LogOut2 "When the dialog window opens asking you if you really want to log out, clock on Ok. You should successfully logged out."
