@@ -1,4 +1,4 @@
-# test cases exported from test plan file Annex.xml on 2013-04-23 (17:45).
+# test cases exported from test plan file Annex.xml on 2013-04-24 (14:30).
 
 StartingAnnex
   OpenAnnexIMDIbrowser "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view node'. You should be directed to the ANNEX interface."
@@ -75,8 +75,8 @@ Control_Panel
   Waveform "Click on Waveform. You should then see a left and a right channel. with the waves being presented."
   Waveform1 "Click on different parts of the wave. The progress bar under the video display should move accordingly. [if you do this when the video is playing, the latter will stop everytime.]"
   WaveformFrequency "It should be possible to adjust the scale for the frequency by clicking on the '+' and '-' signs."
-  TimelineSwtichTiers "Click on 'timeline' in the control panel. Uncheck 'compact mode' from the menu bar. . Now drag W-Words to W-IPA. It should slot in in-between."
-  TimelineSwtichTiersCompact "Now, check 'compact mode' and move around a few tiers."
+  TimelineSwtichTiers "Click on 'timeline' in the control panel. In the menu bar, move the arrow to 'compact'. Now drag W-Words to W-IPA. It should slot in in-between."
+  TimelineSwtichTiersCompact "Now that the arrow is on 'compact', try to move around a few tiers."
   TimelineSwitchFont "Press play. Change the font to 'calibri' during playback, the font should change while the red line remains in sync."
   TimelineProgressBar "During play back, move the progress bar under the video display to a previous instance. The video display should follow."
   TimelineCreateSelection "Select a fragment by dragging the red line along the desired strip. It should now be shaded in blue."
