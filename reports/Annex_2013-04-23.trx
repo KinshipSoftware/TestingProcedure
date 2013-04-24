@@ -4,7 +4,7 @@
   <AnnexVersion>1.2.35</AnnexVersion>
   <OSVersion>demoserver (vm SUSE 11 autoLAT 0.66 stripped), Firefox</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>36652</TestPlanRevision>
+  <TestPlanRevision>36666</TestPlanRevision>
   <StartingAnnex>
     <OpenAnnexIMDIbrowser>Works</OpenAnnexIMDIbrowser>
     <LogIn>Works</LogIn>
@@ -17,7 +17,7 @@
     <HelpQuestionMark>Works</HelpQuestionMark>
     <SelectingStripforEmbedding>Works</SelectingStripforEmbedding>
     <Embed>Works</Embed>
-    <Embed2 error="">Empty</Embed2>
+    <Embed2>Works</Embed2>
     <EmbedSize>Works</EmbedSize>
     <EmbedDV error="">Empty</EmbedDV>
     <EmbedF>Works</EmbedF>
@@ -62,26 +62,26 @@
   <Control_Panel>
     <TextGeneral>Works</TextGeneral>
     <TextTierScroll>Works</TextTierScroll>
-    <Text_Tier></Text_Tier>
-    <TierFontSize></TierFontSize>
-    <TierTextFont></TierTextFont>
-    <Tier1HighlightText></Tier1HighlightText>
-    <GridChangeTiers></GridChangeTiers>
-    <GridScroll></GridScroll>
-    <GridHighlight></GridHighlight>
-    <GridHighlight2></GridHighlight2>
-    <GridEndTime></GridEndTime>
-    <GridBeginTime></GridBeginTime>
-    <GridTier3></GridTier3>
-    <GridTier2></GridTier2>
-    <GridTier1></GridTier1>
-    <GridColumnWidth></GridColumnWidth>
-    <Subtitle></Subtitle>
-    <Waveform></Waveform>
-    <Waveform1></Waveform1>
-    <WaveformFrequency></WaveformFrequency>
-    <TimelineSwtichTiers></TimelineSwtichTiers>
-    <TimelineSwtichTiersCompact></TimelineSwtichTiersCompact>
+    <Text_Tier>Works</Text_Tier>
+    <TierFontSize>Works</TierFontSize>
+    <TierTextFont>Works</TierTextFont>
+    <Tier1HighlightText>Works</Tier1HighlightText>
+    <GridChangeTiers>Works</GridChangeTiers>
+    <GridScroll>Works</GridScroll>
+    <GridHighlight>Works</GridHighlight>
+    <GridHighlight2>Works</GridHighlight2>
+    <GridEndTime>Works</GridEndTime>
+    <GridBeginTime>Works</GridBeginTime>
+    <GridTier3>Works</GridTier3>
+    <GridTier2>Works</GridTier2>
+    <GridTier1>Works</GridTier1>
+    <GridColumnWidth>Works</GridColumnWidth>
+    <Subtitle>Works</Subtitle>
+    <Waveform>Works</Waveform>
+    <Waveform1>Works</Waveform1>
+    <WaveformFrequency>Works</WaveformFrequency>
+    <TimelineSwtichTiers>Works</TimelineSwtichTiers>
+    <TimelineSwtichTiersCompact>Works</TimelineSwtichTiersCompact>
     <TimelineSwitchFont></TimelineSwitchFont>
     <TimelineProgressBar></TimelineProgressBar>
     <TimelineCreateSelection></TimelineCreateSelection>
