@@ -87,7 +87,7 @@
     <TimelineCreateSelection>Works</TimelineCreateSelection>
     <TimelinePlaySelection>Works</TimelinePlaySelection>
     <TimelineClearSelection>Works</TimelineClearSelection>
-    <TimelineCreateBookmark error="see ticket#2896">Mostly</TimelineCreateBookmark>
+    <TimelineCreateBookmark>Works</TimelineCreateBookmark>
     <NavigationButtonsMvBeginningEnd>Works</NavigationButtonsMvBeginningEnd>
     <NavigationButtonsRwdFfwdFAST>Works</NavigationButtonsRwdFfwdFAST>
     <NavigationButtonsRwdFfwdSLOW>Works</NavigationButtonsRwdFfwdSLOW>
