@@ -198,9 +198,9 @@
     <UploadFilesNBLtestNode2 error="">Empty</UploadFilesNBLtestNode2>
     <UploadFilesNBLtestNode3 error="">Empty</UploadFilesNBLtestNode3>
     <UploadFilesNBLtestNode4>Works</UploadFilesNBLtestNode4>
-    <UploadFilesNBLtestNode5>Works</UploadFilesNBLtestNode5>
+    <UploadFilesNBLtestNode5 error="">Empty</UploadFilesNBLtestNode5>
     <UploadFilesNBLtestNode6>Works</UploadFilesNBLtestNode6>
-    <UploadFilesNBLtestNode7 error="">Empty</UploadFilesNBLtestNode7>
+    <UploadFilesNBLtestNode7>Works</UploadFilesNBLtestNode7>
     <UploadFilesNBLtestNode8 error="">Empty</UploadFilesNBLtestNode8>
     <UploadFilesNBLtestNode9>Works</UploadFilesNBLtestNode9>
     <UploadFilesNBLtestNode10 error="">Empty</UploadFilesNBLtestNode10>
@@ -220,18 +220,18 @@
     <UploadFilesLanguageAndGeneticTestNode1 error="">Empty</UploadFilesLanguageAndGeneticTestNode1>
     <UploadFilesLanguageAndGeneticTestNode2 error="">Empty</UploadFilesLanguageAndGeneticTestNode2>
     <UploadFilesLanguageAndGeneticTestNode3 error="">Empty</UploadFilesLanguageAndGeneticTestNode3>
-    <UploadFilesLanguageAndGeneticTestNode4 error="">Empty</UploadFilesLanguageAndGeneticTestNode4>
+    <UploadFilesLanguageAndGeneticTestNode4>Works</UploadFilesLanguageAndGeneticTestNode4>
     <UploadFilesLanguageAndGeneticTestNode5 error="">Empty</UploadFilesLanguageAndGeneticTestNode5>
-    <UploadFilesLanguageAndGeneticTestNode6 error="">Fails</UploadFilesLanguageAndGeneticTestNode6>
-    <UploadFilesLanguageAndGeneticTestNode7 error="">Empty</UploadFilesLanguageAndGeneticTestNode7>
+    <UploadFilesLanguageAndGeneticTestNode6>Works</UploadFilesLanguageAndGeneticTestNode6>
+    <UploadFilesLanguageAndGeneticTestNode7>Works</UploadFilesLanguageAndGeneticTestNode7>
     <UploadFilesLanguageAndGeneticTestNode8 error="">Empty</UploadFilesLanguageAndGeneticTestNode8>
     <UploadFilesLanguageAndGeneticTestNode9 error="">Empty</UploadFilesLanguageAndGeneticTestNode9>
-    <UploadFilesLanguageAndGeneticTestNode10 error="">Empty</UploadFilesLanguageAndGeneticTestNode10>
+    <UploadFilesLanguageAndGeneticTestNode10>Works</UploadFilesLanguageAndGeneticTestNode10>
     <UploadFilesLanguageAndGeneticTestNode11 error="">Empty</UploadFilesLanguageAndGeneticTestNode11>
-    <UploadFilesLanguageAndGeneticTestNode12 error="">Fails</UploadFilesLanguageAndGeneticTestNode12>
-    <UploadFilesTextLanguageAndGeneticTestNode1 error="">Fails</UploadFilesTextLanguageAndGeneticTestNode1>
-    <UploadFilesTextLanguageAndGeneticTestNode2 error="">Fails</UploadFilesTextLanguageAndGeneticTestNode2>
-    <UploadFilesTextLanguageAndGeneticTestNode3 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode3>
+    <UploadFilesLanguageAndGeneticTestNode12>Works</UploadFilesLanguageAndGeneticTestNode12>
+    <UploadFilesTextLanguageAndGeneticTestNode1>Works</UploadFilesTextLanguageAndGeneticTestNode1>
+    <UploadFilesTextLanguageAndGeneticTestNode2>Works</UploadFilesTextLanguageAndGeneticTestNode2>
+    <UploadFilesTextLanguageAndGeneticTestNode3>Works</UploadFilesTextLanguageAndGeneticTestNode3>
     <UploadFilesTextLanguageAndGeneticTestNode4 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode4>
     <UploadFilesTextLanguageAndGeneticTestNode5 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode5>
     <UploadFilesTextLanguageAndGeneticTestNode6 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode6>
