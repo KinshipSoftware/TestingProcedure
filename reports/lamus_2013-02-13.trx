@@ -2,9 +2,9 @@
 <LamusBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/lamus_2011-11-17.xml">
   <DateTime>2013-02-13</DateTime>
   <LamusVersion>1.1.7.7</LamusVersion>
-  <OSVersion>windows 7, firefox</OSVersion>
+  <OSVersion>Lux17, windows 7, firefox</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>36784</TestPlanRevision>
+  <TestPlanRevision>37006</TestPlanRevision>
   <LamusMainPageTest>
     <RegisterAsANewUsersTest error="">Empty</RegisterAsANewUsersTest>
     <NUT2 error="">Empty</NUT2>
@@ -236,4 +236,25 @@
     <UploadFilesTextLanguageAndGeneticTestNode5 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode5>
     <UploadFilesTextLanguageAndGeneticTestNode6 error="">Empty</UploadFilesTextLanguageAndGeneticTestNode6>
   </LanguageAndGeneticTest>
+  <ManagementInterface>
+    <AccessManagementConsole>Works</AccessManagementConsole>
+    <ManagementConsoleMainDisplay>Works</ManagementConsoleMainDisplay>
+    <ManagementConsoleMainDisplay2>Works</ManagementConsoleMainDisplay2>
+    <RequestHistoryList>Works</RequestHistoryList>
+    <ActiveRequestsList>Works</ActiveRequestsList>
+    <EditIngestRequest>Works</EditIngestRequest>
+    <DeleteWorkspace>Works</DeleteWorkspace>
+    <UserIdFilter error="I typed the username but no results were matched that user. I typed then the email and it worked.">Fails</UserIdFilter>
+    <MailAllTest>Works</MailAllTest>
+    <EditIngestRequest2>Works</EditIngestRequest2>
+    <DeleteIngestRequest>Works</DeleteIngestRequest>
+    <SendEmailWithLux17>Works</SendEmailWithLux17>
+    <BarOptions>Works</BarOptions>
+    <BarOptions2>Works</BarOptions2>
+    <BarOptions3>Works</BarOptions3>
+    <SystemLog>Works</SystemLog>
+    <SystemState>Works</SystemState>
+    <LockedNodes>Works</LockedNodes>
+    <Lux17LamusMain>Works</Lux17LamusMain>
+  </ManagementInterface>
 </LamusBugCheck>
