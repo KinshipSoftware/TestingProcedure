@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-05-21 (15:04).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-05-21 (16:24).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -32,7 +32,7 @@ LamusMainPageTest
 WorkspaceManagmentTest
   StartWorkingWithYourWorkspace "Go to the Lamus main page and select 'Select existing workspace'. Select the workspace created before from the list and click 'choose' to be redirected to the selected workspace"
   TopNodeMenu1 "Right click on the top node. The various management functions should be shown in a pop-up menu"
-  TopNodeMenu2 "The pop-up menu for the top node should have the following functions: link, view, add corpus, and modify node"
+  TopNodeMenu2 "The pop-up menu for the top node should have the following functions: link, view, add corpus, modify node and replace tree."
   AddCorpusNodeTest "Right click on the top node and select 'add corpus node'; an 'Add Node' window should be displayed in the main interaction window"
   CancelAddNode "Click 'Cancel', the 'Add Node' window should be closed"
   ResetAddNode "Repeat 'AddCorpusNodeTest'. Enter 'Berlusconi' as name and 'Tiranno' as title in the appropriate fields of the 'Add Node' window and click 'Reset': the 'Add Node' window should be reset"
