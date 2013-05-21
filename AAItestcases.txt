@@ -1,4 +1,4 @@
-# test cases exported from test plan file AAI.xml on 2013-03-14 (15:34).
+# test cases exported from test plan file AAI.xml on 2013-05-21 (13:17).
 
 IDPTest1
   SelectIDP "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on a node and select \"manage access rights\". This will open a window requesting the selection of an identity provider."
@@ -7,7 +7,7 @@ IDPTest1
 
 ExternalIDPTest
   SelectExtIDP "Having ensured complete logout, return to the imdi browser, right click on a node and select manage access rights as before. Instead of MPI, choose the link for external identity providers, which reads: \"Click here to show more identity providers\""
-  ClarinLogin "From the list of external IDPs, select Clarin and enter the appropriate email address and password. (Note: testers who don't yet have a Clarin account can get one here: http://www.clarin.eu/user/register)"
+  ClarinLogin "From the list of external IDPs, select Clarin and enter the appropriate email address and password. (Note: testers who don't yet have a Clarin account can get one here: http://user.clarin.eu/user/register)"
   AMS "Logging in via Clarin will lead you to the welcome to AMS page. An error message will appear (\"Cannot get value for expression\") if you have not already registered your Clarin account with AMS. Before doing anything else, take note of the user name visible at the top right of screen (i.e. This.Part@mpi.nl).  "
   CreateInAMS "To get rid of the error message you will need to logout fully and log back in with MPI id (see §1, 1-3 above) in order to create an account inside AMS. Once logged in, select the \"User Management\" option followed by \"Create New User\" from the drop down menu that appears. This will allow you to create a new account, make sure that the user name (UID) corresponds with the user name generated when logged into the Clarin account. This is necessary for AMS to connect this new account with the Clarin login. Press save (bottom of page). "
   AMS2 "Once the AMS account has been created, log out of lux17 and close browser (or clear cache). Return to lux17 and log in again via Clarin, this time no error should appear."
