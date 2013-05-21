@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AAIBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/AAI.xml">
+  <DateTime>2013-05-21</DateTime>
+  <AAIVersion></AAIVersion>
+  <OSVersion>Lux17, windows 7, firefox</OSVersion>
+  <Tester>sauciv</Tester>
+  <TestPlanRevision>36993</TestPlanRevision>
+  <IDPTest1>
+    <SelectIDP>Works</SelectIDP>
+    <ArchiveLogin>Works</ArchiveLogin>
+    <LoginShibboleth>Works</LoginShibboleth>
+  </IDPTest1>
+  <ExternalIDPTest>
+    <SelectExtIDP>Works</SelectExtIDP>
+    <ClarinLogin>Works</ClarinLogin>
+    <AMS></AMS>
+    <CreateInAMS></CreateInAMS>
+    <AMS2></AMS2>
+  </ExternalIDPTest>
+  <ExternalIDPTest2>
+    <SelectExtIDP2></SelectExtIDP2>
+    <SurfLogin></SurfLogin>
+    <AMS></AMS>
+    <CreateInAMS></CreateInAMS>
+    <AMS2></AMS2>
+  </ExternalIDPTest2>
+  <RulesForExternalUsers>
+    <AMSLogIn></AMSLogIn>
+    <CreateRule></CreateRule>
+    <CreateRule2></CreateRule2>
+    <TestClarinRules></TestClarinRules>
+    <TestSurfRules></TestSurfRules>
+  </RulesForExternalUsers>
+  <ResourceRequestSystem>
+    <ResourceRequestSystem1></ResourceRequestSystem1>
+    <ResourceRequestSystem2></ResourceRequestSystem2>
+    <ResourceRequestSystem3></ResourceRequestSystem3>
+    <ResourceRequestSystem4></ResourceRequestSystem4>
+  </ResourceRequestSystem>
+  <LANA>
+    <LogIn></LogIn>
+    <CreateNewAccount></CreateNewAccount>
+    <LogInII></LogInII>
+    <AccessRights></AccessRights>
+    <AccessRightII></AccessRightII>
+  </LANA>
+</AAIBugCheck>
