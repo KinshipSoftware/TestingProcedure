@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-05-03 (09:48).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-05-21 (15:04).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -230,3 +230,24 @@ LanguageAndGeneticTest
   UploadFilesTextLanguageAndGeneticTestNode4 "Upload the file with the following extension: .pcl .sce. Check whether the file is the section 'Unlinked files'. Right click on 'LaG corpus node' , > link node > link info file."
   UploadFilesTextLanguageAndGeneticTestNode5 "Upload the file with the following extension: .praat. Check whether the file is the section 'Unlinked files'. Right click on 'LaG corpus node' , > link node > link info file."
   UploadFilesTextLanguageAndGeneticTestNode6 "Upload the file with the following extension: .hfinf. Check whether the file is the section 'Unlinked files'. Right click on 'LaG corpus node' , > link node > link info file."
+
+ManagementInterface
+  AccessManagementConsole "Go to the Lamus Main Page. Under Lux17 Lamus administrations, click on Management Console. Log in with the following details: 'testers' as username and password 'testers'. You should successfully logged in. "
+  ManagementConsoleMainDisplay "A main panel with Ingest requests and Active requests should be displayed. Specifically, you should see a list with all requests for all users. "
+  ManagementConsoleMainDisplay2 "In the main panel you should see the following bottoms and a filter at the top of the page: 'Requests History', 'Active requests', 'User ID' and 'Mail all'. At the bottom of the page you should see the following bottoms: 'Requests', 'System Log', 'System state', 'Locked node' and 'Lux17 Lamus Main'.  "
+  RequestHistoryList "Click on 'Request History'. The list of all workspaces created in Lamus should be displayed. You can browse the pages by click on the arrows.  "
+  ActiveRequestsList "Click on 'Actual Request'. The list of actual workspaces should be displayed. "
+  EditIngestRequest "Click on 'Edit' in correspondence of a workspace (better to use one just created for testing). A window showing Edit ingest request should be displayed.  The following informations should be displayed: 'User', 'Request ID', 'Storage space', 'Status' and 'Message'. "
+  DeleteWorkspace "Click on 'Delete' next to the workspace. A window showing a message to confirm should be displayed. Click on 'Delete'.  Check if the workspace is deleted."
+  UserIdFilter "In user ID type a username of a user which owns a workspace. A list with all the workspaces that user should be displayed. If that user doesn't own any Lamus workspace, a window showing the message 'No requests match your query'. "
+  MailAllTest "Click on 'Mail all'. A new window showing the possibility to send an email to all the owners' workspaces should be displayed. Write \"this is only a test' in the content part. Don't send the email but click on 'Request at the left bottom of the page. You should be redirected to the Management console main display."
+  EditIngestRequest2 "Try to edit the status of the workspace (e.g. from sleeping to submitted). Click on 'Submit'. Check it out whether this edit has been changed. Repeat the task but this time click on 'Cancel'. You should be redirected to the previous page. Repeat the task and click on 'Reset'. The edits should be cancelled. "
+  DeleteIngestRequest "Click on 'Delete' in a correspondence of the workspace. A window showing Delete ingest request should be displayed. The following informations should be displayed: 'User' and 'Request ID'. Click on 'Cancel'. You should be redirected to the main panel. Click on 'Delete'. The workspace should be deleted.   "
+  SendEmailWithLux17 "Click on 'Mail' in correspondence of the workspace. A window showing the possibility to send an email should be displayed. Try to send an email to the user. Check whether it is has been sent out."
+  BarOptions "On the options bar at the top of the page you should see the following details about the workspace: 'Request', 'Start date', 'End date', 'User', 'Workspace', 'Top node', 'Active top node', 'Session', 'Start date', 'End date', 'Space used', 'Space max', 'Status', and 'Message'. Click on each of them, every time the list of workspace should be ordered accordingly (e.g. 'Start data' the list should be ordered form the newest to the oldest).   "
+  BarOptions2 "Check in the options 'User', 'Status' and 'Message', whether with the scroll down menu you can filter the workspaces' list."
+  BarOptions3 "Check in all the other options whether it is possible to find a certain workspace by typing text or numbers (e.g. 'Start date', type the year or the complete date in which a certain workspace has been created. The matched workspace should be found)."
+  SystemLog "Click on 'System Log' at the bottom of the page. A window showing the system log with regard to different workspaces should be displayed. Click on 'Requests' to go back to the main management console."
+  SystemState "Click on 'System state' at the bottom of the page. A window showing the following options: 'The system allows new request: Disable' should be displayed. Don't test those bottoms.  "
+  LockedNodes "Click on 'Locked Nodes' at the bottom of the page. A window showing a list of workspace to unlock should be displayed. In the list you should see also the details of the workspace."
+  Lux17LamusMain "Click on 'Lux 17 Lamus Main'. You should be redirected to Lamus main page."
