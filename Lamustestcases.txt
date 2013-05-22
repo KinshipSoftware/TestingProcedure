@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-05-21 (16:24).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-05-22 (14:52).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -171,7 +171,7 @@ DuplicateNodeTest
 ReplaceTreeTest
   RTTforSessionNode "Right click on 'Canoe building' session node and select 'replace tree'. A 'Free Session Nodes' window should be in the main interaction window"
   RTT2 "Select 'Ramarro2Marrone' from the list. Click 'Replace'. You should get an error message with the following text 'Exception occurred (null)'"
-  RRT3 "Right click on 'Canoe building' session node and select 'replace tree'. Select 'River legend' from the list and click on 'Replace. The 'Replace Node confirmation' window should display the following message 'At least a branch of the old tree will be removed (not versioned). If this is not intended, it's possible that the changes were made in an older version of the tree. Press 'Continue' to proceed and 'Cancel' to go back"
+  RRT3 "Right click on 'Canoe building' session node and select 'replace tree'. Select 'River legend' from the list and click on 'Replace. The 'Replace Node confirmation' window should display the following message 'All the nodes in the selected tree will be removed to give place to the new ones (not versioned). If this is not intended, it's possible that the changes were made in an older version of the tree. Press 'Continue' to proceed and 'Cancel' to go back.'"
   RRT4 "Press 'Continue'. The 'Response to Change Request' window should show the following message 'Replacing the selected node was successful'. Is 'Canoe building' replaced by 'River legend'?"
 
 LAMUSFunctionButtonsTest
