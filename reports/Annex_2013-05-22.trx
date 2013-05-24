@@ -70,42 +70,42 @@
     <GridScroll>Works</GridScroll>
     <GridHighlight>Works</GridHighlight>
     <GridHighlight2>Works</GridHighlight2>
-    <GridEndTime></GridEndTime>
-    <GridBeginTime></GridBeginTime>
-    <GridTier3></GridTier3>
-    <GridTier2></GridTier2>
-    <GridTier1></GridTier1>
-    <GridColumnWidth></GridColumnWidth>
-    <Subtitle></Subtitle>
-    <Waveform></Waveform>
-    <Waveform1></Waveform1>
-    <WaveformFrequency></WaveformFrequency>
-    <TimelineSwtichTiers></TimelineSwtichTiers>
-    <TimelineSwtichTiersCompact></TimelineSwtichTiersCompact>
-    <TimelineSwitchFont></TimelineSwitchFont>
-    <TimelineProgressBar></TimelineProgressBar>
-    <TimelineCreateSelection></TimelineCreateSelection>
-    <TimelinePlaySelection></TimelinePlaySelection>
-    <TimelineClearSelection></TimelineClearSelection>
-    <TimelineCreateBookmark></TimelineCreateBookmark>
-    <NavigationButtonsMvBeginningEnd></NavigationButtonsMvBeginningEnd>
-    <NavigationButtonsRwdFfwdFAST></NavigationButtonsRwdFfwdFAST>
-    <NavigationButtonsRwdFfwdSLOW></NavigationButtonsRwdFfwdSLOW>
-    <NavigationButtonsPlusMinus></NavigationButtonsPlusMinus>
-    <PlayByScreen></PlayByScreen>
-    <PlayContinually></PlayContinually>
+    <GridEndTime>Works</GridEndTime>
+    <GridBeginTime>Works</GridBeginTime>
+    <GridTier3>Works</GridTier3>
+    <GridTier2>Works</GridTier2>
+    <GridTier1>Works</GridTier1>
+    <GridColumnWidth>Works</GridColumnWidth>
+    <Subtitle>Works</Subtitle>
+    <Waveform>Works</Waveform>
+    <Waveform1>Works</Waveform1>
+    <WaveformFrequency>Works</WaveformFrequency>
+    <TimelineSwtichTiers>Works</TimelineSwtichTiers>
+    <TimelineSwtichTiersCompact>Works</TimelineSwtichTiersCompact>
+    <TimelineSwitchFont>Works</TimelineSwitchFont>
+    <TimelineProgressBar>Works</TimelineProgressBar>
+    <TimelineCreateSelection>Works</TimelineCreateSelection>
+    <TimelinePlaySelection>Works</TimelinePlaySelection>
+    <TimelineClearSelection>Works</TimelineClearSelection>
+    <TimelineCreateBookmark>Works</TimelineCreateBookmark>
+    <NavigationButtonsMvBeginningEnd>Works</NavigationButtonsMvBeginningEnd>
+    <NavigationButtonsRwdFfwdFAST>Works</NavigationButtonsRwdFfwdFAST>
+    <NavigationButtonsRwdFfwdSLOW>Works</NavigationButtonsRwdFfwdSLOW>
+    <NavigationButtonsPlusMinus>Works</NavigationButtonsPlusMinus>
+    <PlayByScreen>Works</PlayByScreen>
+    <PlayContinually>Works</PlayContinually>
   </Control_Panel>
   <AudioTest>
-    <OpenIMDIBroswerAudio></OpenIMDIBroswerAudio>
-    <Play></Play>
-    <Rewind></Rewind>
-    <Fast_forward></Fast_forward>
-    <ToBegNStop_ToEndNStop></ToBegNStop_ToEndNStop>
-    <Mute></Mute>
-    <Link2selectionAudio></Link2selectionAudio>
+    <OpenIMDIBroswerAudio>Works</OpenIMDIBroswerAudio>
+    <Play error="">Empty</Play>
+    <Rewind error="">Empty</Rewind>
+    <Fast_forward error="">Empty</Fast_forward>
+    <ToBegNStop_ToEndNStop error="">Empty</ToBegNStop_ToEndNStop>
+    <Mute error="">Empty</Mute>
+    <Link2selectionAudio error="">Empty</Link2selectionAudio>
   </AudioTest>
   <LogOut>
-    <LogOut></LogOut>
-    <LogOut2></LogOut2>
+    <LogOut>Works</LogOut>
+    <LogOut2>Works</LogOut2>
   </LogOut>
 </AnnexBugCheck>
