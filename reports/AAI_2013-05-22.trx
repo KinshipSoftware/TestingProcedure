@@ -23,7 +23,7 @@
     <SurfLogin>Works</SurfLogin>
     <AMS>Works</AMS>
     <CreateInAMS>Works</CreateInAMS>
-    <AMS2 error="I still get the erroor message.">Fails</AMS2>
+    <AMS2 error="I still get the error message: 'Cannot get value for expression' at the welcome to AMS page.">Fails</AMS2>
   </ExternalIDPTest2>
   <RulesForExternalUsers>
     <AMSLogIn>Works</AMSLogIn>
