@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AMSBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/AMS_2012_04_11.xml">
+  <DateTime>2013-06-05</DateTime>
+  <AMSVersion>1.4.9.2</AMSVersion>
+  <OSVersion>Lux17, Safari, Mac.</OSVersion>
+  <Tester>sauciv</Tester>
+  <TestPlanRevision>37217</TestPlanRevision>
+  <StartingAMSTest>
+    <OpenLamus>Works</OpenLamus>
+    <LoginFederation>Works</LoginFederation>
+    <LoginShibboleth>Works</LoginShibboleth>
+  </StartingAMSTest>
+  <CheckLicensesTest>
+    <LicensesCheck>Works</LicensesCheck>
+    <LicensesCheck2>Works</LicensesCheck2>
+    <ViewLicenses>Works</ViewLicenses>
+    <CancelManage>Works</CancelManage>
+  </CheckLicensesTest>
+  <AddingLicensesTest>
+    <ChangeLicenses>Works</ChangeLicenses>
+    <CheckLicenses>Works</CheckLicenses>
+    <SelectNodeLicenseAssignment>Works</SelectNodeLicenseAssignment>
+    <RemoveLicenses error="">Empty</RemoveLicenses>
+    <CheckRemovalLicenses error="">Empty</CheckRemovalLicenses>
+    <ChangeLicensesBack error="">Empty</ChangeLicensesBack>
+    <CheckInitialLicenses error="">Empty</CheckInitialLicenses>
+  </AddingLicensesTest>
+  <AddRulesTest>
+    <AddRule>Works</AddRule>
+    <AddRegUserRule>Works</AddRegUserRule>
+    <CheckRule>Works</CheckRule>
+    <SelectEditNode>Works</SelectEditNode>
+    <RemoveRule>Works</RemoveRule>
+    <CheckRemove>Works</CheckRemove>
+    <ForbiddenAccess1 error="I cannot get a fully overview of the existing rules. A message showing that I have no access to the node appeared. ">Fails</ForbiddenAccess1>
+    <ForbiddenAccess2 error="">Empty</ForbiddenAccess2>
+    <ForbiddenAccess3 error="">Empty</ForbiddenAccess3>
+    <ForbiddenAccess4 error="">Empty</ForbiddenAccess4>
+  </AddRulesTest>
+  <AddNewGroupTest>
+    <NewGroup>Works</NewGroup>
+    <AddGroup>Works</AddGroup>
+  </AddNewGroupTest>
+  <EditGroupTest>
+    <SelectGroup>Works</SelectGroup>
+    <EditGroup error="It works. However, if I checked after I just created a group or added a member I got an error message. But if I close the browser and then I log in again it works. ">Mostly</EditGroup>
+    <ChangeGroupData error="The same as before.">Mostly</ChangeGroupData>
+    <ReverseChanges>Works</ReverseChanges>
+  </EditGroupTest>
+  <AddNewUserTest>
+    <NewUser>Works</NewUser>
+    <FillIn>Works</FillIn>
+    <Logout>Works</Logout>
+    <CheckRules>Works</CheckRules>
+    <AddGroup>Works</AddGroup>
+    <NewDomainEditor></NewDomainEditor>
+    <NewDomainManager></NewDomainManager>
+  </AddNewUserTest>
+  <DomainEditorTest>
+    <DomainEditorRights></DomainEditorRights>
+    <CheckInLamus></CheckInLamus>
+    <CreateWorkspace></CreateWorkspace>
+    <DeleteWorkspace></DeleteWorkspace>
+  </DomainEditorTest>
+  <DomainManagerTest>
+    <DomainManagerRights></DomainManagerRights>
+    <Logout></Logout>
+    <LoginDomainManager></LoginDomainManager>
+    <CreateUser></CreateUser>
+    <FillIn></FillIn>
+    <AddRules></AddRules>
+    <Logout></Logout>
+    <CheckRules></CheckRules>
+    <EditUser></EditUser>
+    <PickUser></PickUser>
+    <DeleteUser></DeleteUser>
+  </DomainManagerTest>
+  <EditUserTest>
+    <SelectEditUser></SelectEditUser>
+    <PickUser></PickUser>
+    <ChangeFields></ChangeFields>
+    <RevertChanges></RevertChanges>
+  </EditUserTest>
+  <DeleteUserTest>
+    <SelectEditUser>Works</SelectEditUser>
+    <PickUser>Works</PickUser>
+    <DeleteUser>Works</DeleteUser>
+  </DeleteUserTest>
+  <OverViewTest>
+    <OverviewClick error="I don't get any overview.">Fails</OverviewClick>
+  </OverViewTest>
+  <EffectiveUserPrivilegesTest>
+    <DoesntWork>Works</DoesntWork>
+  </EffectiveUserPrivilegesTest>
+  <LicensesRequiredTest>
+    <SelectLicensesRequired></SelectLicensesRequired>
+    <AddLicenses></AddLicenses>
+  </LicensesRequiredTest>
+  <AddEditLicenseTest>
+    <AddEditLicenses></AddEditLicenses>
+    <ViewLicenses></ViewLicenses>
+    <AddLicense></AddLicense>
+    <EditLicense></EditLicense>
+  </AddEditLicenseTest>
+  <MyUserAccountTest>
+    <SelectUserAccount></SelectUserAccount>
+    <UserCheck></UserCheck>
+    <ChangeFields></ChangeFields>
+    <RevertChanges></RevertChanges>
+  </MyUserAccountTest>
+  <MyAcceptedLicensesTest>
+    <SelectLicensesInfo></SelectLicensesInfo>
+    <LicensesCheck></LicensesCheck>
+    <ViewLicenses>Works</ViewLicenses>
+  </MyAcceptedLicensesTest>
+  <HelpMenu>
+    <MenuOpen>Works</MenuOpen>
+    <ManualOpen>Works</ManualOpen>
+  </HelpMenu>
+</AMSBugCheck>
