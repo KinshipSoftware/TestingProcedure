@@ -1,4 +1,4 @@
-# test cases exported from test plan file imdibrowser_1.xml on 2013-02-20 (10:06).
+# test cases exported from test plan file imdibrowser_1.xml on 2013-06-20 (11:56).
 
 StartingIMDI_Browser
   Starting "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
@@ -14,34 +14,34 @@ AccessLevelTest
   AccessTest "Look for a resource with a green button and see whether you can access it without being logged in."
 
 SettingsTest
-  ShowAccessibleResourcesTest "Click on 'show accessibility of resources' in the upper bar right part of the screen. Now browse the tree and see that you get the no of resources open to you in brackets."
-  BracketsAccessibleNodes "Click on an accessible node (green). The number of available sub nodes should be indicated in Brackets"
+  ShowAccessibleResourcesTest "Click on 'show accessibility of resources' in the upper bar right part of the screen. Now browse the tree and check whether you get the number of resources open to you in brackets."
+  BracketsAccessibleNodes "Click on an accessible node (green). The number of available sub nodes should be indicated in brackets"
 
 ContextMenuTest
   ViewCorpusNode "Right click on a Corpus node and select 'view node'. A new window should open which inlcudes the corpus name and title in addition to the description."
   ViewSessionNode "Right click on a Session Node and select 'view node'. A new window should open which includes a list of information such as location, project, content, etc.."
   ViewSessionNode2 "Click on the nodes (location, project, etc). The node should display information"
-  ViewWrttnResourceFile "Right click on an accessible (i.e. w/ green indicator) Written Resource File and select 'view node'. A new window should open, taking you to the ANNEX Interface."
-  ViewImageResourceFile "Right click on an accessible (i.e. w/ green indicator) Image Resource File and select 'view node'.The picture should then appear."
-  ViewVideoResourceFile "Right click on an accessible (i.e. w/ green indicator) Video Resource File and select 'view node'.The video should then appear."
-  ViewAudioResourceFile "Right click on an accessible (i.e. w/ green indicator) Audio Resource File and select 'view node. The audio file should then become available."
+  ViewWrttnResourceFile "Right click on an accessible (i.e. w/ green indicator) Written Resource File and select 'view node'. A new window should open, taking you to the ANNEX Interface. Example of written resource file: MPI corpora > Demo > PeWi corpus > kleve-route > ela-example1.eaf"
+  ViewImageResourceFile "Right click on an accessible (i.e. w/ green indicator) Image Resource File and select 'view node'.The picture should then appear. Example of image resource file: MPI corpora > Demo > PeWi corpus > kleve-route > route_to_kleve.png"
+  ViewVideoResourceFile "Right click on an accessible (i.e. w/ green indicator) Video Resource File and select 'view node'.The video should then appear. Example of video resource file: MPI corpora > Demo > PeWi corpus > kleve-route > elan-example1.mp4"
+  ViewAudioResourceFile "Right click on an accessible (i.e. w/ green indicator) Audio Resource File and select 'view node'. The audio file should then become available. Example of audio resouce file: MPI corpora > Demo > PeWi corpus > kleve-route > elan-example.wav. NOTE: this file extension do not work on Firefox. Try another browser. "
   ViewInformationFile "Right click on an Information File and select 'view node'. You should then be directed to the page belonging to the file."
-  CreateBookmark "Select 'create bookmark', you should be taken to a page that provides links which can then be bookmarked"
+  CreateBookmark "Right click a node and select 'Create bookmark' (which can also be selected from the the main panel), you should be taken to a page that provides links which can then be bookmarked"
   Links "At least one of the links should open and can then be bookmarked"
-  MetadataSearch1 "Right-click and select 'metadata search'. You should be directed towards a search box."
-  MetadataSearch2 "Fill in a designated search item. After a few seconds, you should be redirected towards the result (provided the item is located within the selected node)"
-  AnnotationContentSearch1 "Select 'Annotation Content Search'. You should be directed towards a TROVA search application, which should then allow you to search for a particular word"
-  SetAccessRights "Select 'Manage Access Rights'. The first time you do this, you should be asked to select your institution. After successfully logging in, you should be redirected to the AMS interface."
+  MetadataSearch1 "Right-click a session node and select 'metadata search'. You should be directed towards a search box."
+  MetadataSearch2 "Fill in a designated search item. After a few seconds, you should see the list of nodes containing your search string (provided the item is located within the selected node)"
+  AnnotationContentSearch1 "Right click a session node and select 'Annotation Content Search'. You should be directed towards a TROVA search application, which should then allow you to search for a particular word"
+  SetAccessRights "Right click a node and select 'Manage Access Rights'. The first time you do this, you should be asked to select your institution. After successfully logging in, you should be redirected to the AMS interface."
   DownloadCorpusFile "After right clicking on a Corpus node, Select 'Download'. You should then be able to save the imdi file at a desired location."
   AccessCorpusFile "Go to the directory where your imdi file is saved. Edit it with notepad."
   DownloadSessionFile "After right clicking on a Session node, Select 'Download'. You should then be able to save the file at a desired location"
   AccessSessionFile "Go to the directory where your imdi file is saved. Edit it with notepad."
   DownloadAllResources "Right click on an accessible Session Node, select \"Download All Resources\", you should then be able to save a zip file at a desired location."
   AccessZippedResources "Open zipped file and check that those resources that were available under the session node have been successfully downloaded."
-  DownloadAllResources2 "Log out and close window (or clear cache). Right click a session node with restricted access and try to select \"download all resources\". An error message should appear telling you access is not authorized."
+  DownloadAllResources2 "Log out and close window (or clear cache). Right click a session node with restricted access and try to select \"download all resources\". You should be able to do the download. Then check the directory: you should see an empty .zip file, and if you try to open it, an error message should come out: 'Can not open file...'"
   DownloadResourceFile "After right clicking on a Resource File, Select 'Download'. You should then be able to save the file at a desired location"
-  AccessResourceFile "Open your Resource file with ELAN/other media programmes, or edit it with Notepad or Word"
-  RequestResourceAccess "Select 'Request Resource Access'. You should be redirected to the Resource Request system."
+  AccessResourceFile "Open your Resource file with ELAN/other media programmes, or edit it with Notepad or Word (in other words with the programme most suitable to the file format)"
+  RequestResourceAccess "Right click a node and select 'Request Resource Access'. You should be redirected to the Resource Request system."
   SessNodeVersionInfo "Right click on a Session Node and select 'version info'. You should be directed to its link."
   InfoFileVersionInfo "Right click on an Information file and select 'version info'. You should be directed to its link."
   View_Images "Right click on Session Node and select 'View Images'. If a picture is attached, it should be displayed."
@@ -58,9 +58,9 @@ LogInTest
   LogInTest1 "Try to log in with your MPI user name. Your name should then be shown on top."
 
 AccessLevelTest2
-  AccessLevelTest2a "Remain logged in. Look for a resource with a yellow button. You should be able to access this resource."
+  AccessLevelTest2a "Remain logged in. Look for a resource with a yellow button. You should be able to access this resource. Example: MPI corpora > Demo > DOBES training > group01 > songs > kleve-route > check one of the files"
   AccessLevelTest2b "Look for a resource with an orange button. Attempting to view this resource should bring you to a shibboleth or annex page advising access failure."
-  AccessLevelTest2c "Look for a resource (node) with a green button which contains a session with red button (MPI corpora -> Lamus test -> check one of the files). Click on view node; you should be able to access this resource. "
+  AccessLevelTest2c "Look for a resource (node) with a green button which contains a session with red button (MPI corpora > Demo > lamus_test > check one of the files). Click on 'view node'; you should be able to access this resource. "
   AccessLevelTest2d "Look for a resource with a red button, when you try to view it you will be informed that access is prohibited."
 
 LogOutTest
