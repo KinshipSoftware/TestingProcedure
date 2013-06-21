@@ -4,7 +4,7 @@
   <AMSVersion>1.4.9.2</AMSVersion>
   <OSVersion>Lux17, Safari, Mac.</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>37217</TestPlanRevision>
+  <TestPlanRevision>37348</TestPlanRevision>
   <StartingAMSTest>
     <OpenLamus>Works</OpenLamus>
     <LoginFederation>Works</LoginFederation>
@@ -20,10 +20,10 @@
     <ChangeLicenses>Works</ChangeLicenses>
     <CheckLicenses>Works</CheckLicenses>
     <SelectNodeLicenseAssignment>Works</SelectNodeLicenseAssignment>
-    <RemoveLicenses error="">Empty</RemoveLicenses>
-    <CheckRemovalLicenses error="">Empty</CheckRemovalLicenses>
-    <ChangeLicensesBack error="">Empty</ChangeLicensesBack>
-    <CheckInitialLicenses error="">Empty</CheckInitialLicenses>
+    <RemoveLicenses>Works</RemoveLicenses>
+    <CheckRemovalLicenses>Works</CheckRemovalLicenses>
+    <ChangeLicensesBack>Works</ChangeLicensesBack>
+    <CheckInitialLicenses>Works</CheckInitialLicenses>
   </AddingLicensesTest>
   <AddRulesTest>
     <AddRule>Works</AddRule>
@@ -32,10 +32,10 @@
     <SelectEditNode>Works</SelectEditNode>
     <RemoveRule>Works</RemoveRule>
     <CheckRemove>Works</CheckRemove>
-    <ForbiddenAccess1 error="I cannot get a fully overview of the existing rules. A message showing that I have no access to the node appeared. ">Fails</ForbiddenAccess1>
-    <ForbiddenAccess2 error="">Empty</ForbiddenAccess2>
-    <ForbiddenAccess3 error="">Empty</ForbiddenAccess3>
-    <ForbiddenAccess4 error="">Empty</ForbiddenAccess4>
+    <ForbiddenAccess1>Works</ForbiddenAccess1>
+    <ForbiddenAccess2>Works</ForbiddenAccess2>
+    <ForbiddenAccess3>Works</ForbiddenAccess3>
+    <ForbiddenAccess4>Works</ForbiddenAccess4>
   </AddRulesTest>
   <AddNewGroupTest>
     <NewGroup>Works</NewGroup>
@@ -43,8 +43,8 @@
   </AddNewGroupTest>
   <EditGroupTest>
     <SelectGroup>Works</SelectGroup>
-    <EditGroup error="It works. However, if I checked after I just created a group or added a member I got an error message. But if I close the browser and then I log in again it works. ">Mostly</EditGroup>
-    <ChangeGroupData error="The same as before.">Mostly</ChangeGroupData>
+    <EditGroup>Works</EditGroup>
+    <ChangeGroupData>Works</ChangeGroupData>
     <ReverseChanges>Works</ReverseChanges>
   </EditGroupTest>
   <AddNewUserTest>
@@ -53,33 +53,34 @@
     <Logout>Works</Logout>
     <CheckRules>Works</CheckRules>
     <AddGroup>Works</AddGroup>
-    <NewDomainEditor></NewDomainEditor>
-    <NewDomainManager></NewDomainManager>
+    <NewDomainEditorIntro>Works</NewDomainEditorIntro>
+    <NewDomainEditor>Works</NewDomainEditor>
+    <NewDomainManager>Works</NewDomainManager>
   </AddNewUserTest>
   <DomainEditorTest>
-    <DomainEditorRights></DomainEditorRights>
-    <CheckInLamus></CheckInLamus>
-    <CreateWorkspace></CreateWorkspace>
-    <DeleteWorkspace></DeleteWorkspace>
+    <DomainEditorRights>Works</DomainEditorRights>
+    <CheckInLamus>Works</CheckInLamus>
+    <CreateWorkspace>Works</CreateWorkspace>
+    <DeleteWorkspace>Works</DeleteWorkspace>
   </DomainEditorTest>
   <DomainManagerTest>
-    <DomainManagerRights></DomainManagerRights>
-    <Logout></Logout>
-    <LoginDomainManager></LoginDomainManager>
-    <CreateUser></CreateUser>
-    <FillIn></FillIn>
-    <AddRules></AddRules>
-    <Logout></Logout>
-    <CheckRules></CheckRules>
-    <EditUser></EditUser>
-    <PickUser></PickUser>
-    <DeleteUser></DeleteUser>
+    <DomainManagerRights>Works</DomainManagerRights>
+    <Logout>Works</Logout>
+    <LoginDomainManager>Works</LoginDomainManager>
+    <CreateUser>Works</CreateUser>
+    <FillIn>Works</FillIn>
+    <AddRules>Works</AddRules>
+    <Logout>Works</Logout>
+    <CheckRules>Works</CheckRules>
+    <EditUser>Works</EditUser>
+    <PickUser>Works</PickUser>
+    <DeleteUser>Works</DeleteUser>
   </DomainManagerTest>
   <EditUserTest>
-    <SelectEditUser></SelectEditUser>
-    <PickUser></PickUser>
-    <ChangeFields></ChangeFields>
-    <RevertChanges></RevertChanges>
+    <SelectEditUser>Works</SelectEditUser>
+    <PickUser>Works</PickUser>
+    <ChangeFields>Works</ChangeFields>
+    <RevertChanges>Works</RevertChanges>
   </EditUserTest>
   <DeleteUserTest>
     <SelectEditUser>Works</SelectEditUser>
@@ -87,30 +88,30 @@
     <DeleteUser>Works</DeleteUser>
   </DeleteUserTest>
   <OverViewTest>
-    <OverviewClick error="I don't get any overview.">Fails</OverviewClick>
+    <OverviewClick>Works</OverviewClick>
   </OverViewTest>
   <EffectiveUserPrivilegesTest>
     <DoesntWork>Works</DoesntWork>
   </EffectiveUserPrivilegesTest>
   <LicensesRequiredTest>
-    <SelectLicensesRequired></SelectLicensesRequired>
-    <AddLicenses></AddLicenses>
+    <SelectLicensesRequired>Works</SelectLicensesRequired>
+    <AddLicenses>Works</AddLicenses>
   </LicensesRequiredTest>
   <AddEditLicenseTest>
-    <AddEditLicenses></AddEditLicenses>
-    <ViewLicenses></ViewLicenses>
-    <AddLicense></AddLicense>
-    <EditLicense></EditLicense>
+    <AddEditLicenses>Works</AddEditLicenses>
+    <ViewLicenses>Works</ViewLicenses>
+    <AddLicense error="">Empty</AddLicense>
+    <EditLicense error="">Empty</EditLicense>
   </AddEditLicenseTest>
   <MyUserAccountTest>
-    <SelectUserAccount></SelectUserAccount>
-    <UserCheck></UserCheck>
-    <ChangeFields></ChangeFields>
-    <RevertChanges></RevertChanges>
+    <SelectUserAccount>Works</SelectUserAccount>
+    <UserCheck>Works</UserCheck>
+    <ChangeFields>Works</ChangeFields>
+    <RevertChanges>Works</RevertChanges>
   </MyUserAccountTest>
   <MyAcceptedLicensesTest>
-    <SelectLicensesInfo></SelectLicensesInfo>
-    <LicensesCheck></LicensesCheck>
+    <SelectLicensesInfo>Works</SelectLicensesInfo>
+    <LicensesCheck>Works</LicensesCheck>
     <ViewLicenses>Works</ViewLicenses>
   </MyAcceptedLicensesTest>
   <HelpMenu>
