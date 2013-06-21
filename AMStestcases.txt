@@ -1,4 +1,4 @@
-# test cases exported from test plan file AMS_2012_04_11.xml on 2013-06-11 (15:45).
+# test cases exported from test plan file AMS_2012_04_11.xml on 2013-06-21 (15:54).
 
 StartingAMSTest
   OpenLamus "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node (I use http://lux17.mpi.nl/ds/imdi_browser/?openpath=MPI1650240%23) you want to edit and select manage access rights. The 'Select an identity provider'-window should now be visible. "
@@ -39,7 +39,7 @@ AddNewGroupTest
 EditGroupTest
   SelectGroup "Under 'User Management' select 'Edit Group', LAT User and Groups should be visible."
   EditGroup "Find the group (search for it) that you just created and click on its name. The groups information should be visible."
-  ChangeGroupData "Change the Name, ID and possible the Hosting Institution. Subsequently add yourself to the group. Click on Save. Group 'GROUPNAME' has been saved should appear in green."
+  ChangeGroupData "Change the Name of the group. Subsequently add yourself to the group. Click on Save. Group 'GROUPNAME' has been saved should appear in green."
   ReverseChanges "Go to Edit Group again, find the same group and revert the changes you've just made. The same message should be shown."
 
 AddNewUserTest
@@ -48,6 +48,7 @@ AddNewUserTest
   Logout "Click on logout, in the topright corner and restart your browser"
   CheckRules "Login (in the IMDI browser) as the user you've given access to pictures and check if you can access them."
   AddGroup "Login as yourself in AMS again. Go to Edit User and find the user you've just created. Fill in the passwords and add the user to your previously created test group. Click on Save again, the message in green will appear again."
+  NewDomainEditorIntro "Click on 'Add new rules'. Scroll down, you can see domain editor and domain manager under assign roles."
   NewDomainEditor "Fill in all the necessary fields again but this time you will make an account for a domain editor, so change the name accordingly. Click on Save. The green message should appear again."
   NewDomainManager "Fill in all the necessary fields again but this time you will make an account for a domain manager, so change the name accordingly. Click on Save. The green message should appear again."
 
