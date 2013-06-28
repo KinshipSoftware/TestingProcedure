@@ -1,11 +1,10 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-05-22 (14:52).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-06-28 (15:06).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
-  NUT2 "Enter only the name information and click 'Submit'. In the submit result field you should get the following message: The registration information is not complete Please correct it and submit again. Email should not be empty User ID should not be empty Password should not be empty"
-  NUT1 "Enter the information and click 'Submit'. An email should be sent to the corpus administration at the MPI"
-  NUT3 "Click on 'Main Page'. You should be redirected to LAMUS main page"
-  CreateNewWorkSpaceTest1 "Select 'Create new workspace'. You will be asked to select an identity provider. Choose Damlr Federation and MPI Nijmegen."
+  NUT2 "Enter only the name information and click 'Register'. In the submit result field you should get the following message: The registration information is not complete Please correct it and submit again. Email should not be empty User ID should not be empty Password should not be empty"
+  NUT1 "Enter the information and click 'Register'. An email should be sent to the corpus administration at the MPI"
+  CreateNewWorkSpaceTest1 "Close the window of registration page. From the main page select 'Create new workspace'. You will be asked to select an identity provider. Choose Damlr Federation and MPI Nijmegen."
   CNWS1 "Enter your user ID and password. You should be redirected the main page of Lamus."
   CNWS2 "Go back to Lamus main page and select 'Create new workspace'. You should be redirected to the IMDI browser webpage"
   SelectTopNode1 "Right click on a node you are not allowed to change and select this node as top node for a new workspace"
@@ -60,7 +59,7 @@ WorkspaceManagmentTest
   FileBrowsersTest4 "Click 'Upload' to start the transfer: Is an 'Upload Result' window displayed in the main interaction window? Are the uploaded files in the unlinked files container of the workspace?"
 
 Link_UnlinkInfoFileTest
-  LinkCorpusNodeTest "Right click on 'North' corpus node and select 'Link Node'; The various Link Node management functions should be shown in a pop-up menu: link info file, link corpus node, link session node, link catalogue node, link external node, link archive node (outside worksapace!)"
+  LinkCorpusNodeTest "Right click on your main node and create a subnode, called 'North'. Right click on 'North' corpus node and select 'Link Node'; The various Link Node management functions should be shown in a pop-up menu: link info file, link corpus node, link session node, link catalogue node, link external node, link archive node (outside worksapace!)"
   TMT5 "the pop-up menu for an info file should have the following functions: view info file, change description, replace, rename, delete, and unlink info file"
   LinkInfoFile "Select 'link info file'. A 'Free Info File Nodes' window should be displayed in the main interaction window. Clear the auto-completed filters to show all nodes (filter symbol with a red cross). A 'Free info File Nodes' window should be displayed in the main interaction window with the media and written files you have previously uploaded"
   LIF1 "Select all the files one by one by ticking the boxes. Is it possible to select the files?"
