@@ -1,0 +1,49 @@
+# test cases exported from test plan file Annis.xml on 2013-07-05 (13:50).
+
+StartingAnnis2
+  LogInAnnis "Go to the following web page: https://lux17.mpi.nl/annis/search/login.html. A window showing Annis log in should pop up. "
+  LogInAnnisCredentials "Insert 'test' as user name, and 'test' as password. Click on Log in. You should be successfully logged in."
+
+ExploringAnnis2Interface
+  Annis2Interface "Annis interface should display on the left a search form window (top-page), and a search and export scroll-down display (bottom-page).   "
+  AnnisHomePage2 "On the top-left part of the screen you should see Annis2 and a tutorial bottoms. On the top-right you should see 'logged in as \"test\"'."
+  AnnisHomePageLogout "Click on 'Annis2' at top-left of the screen. A 'Logout option' and 'About Annis2' should be displayed. Click on Log out, a window asking you to confirm the log out should pop up. Click on 'Ok'. You should successfully being logged out. "
+  AnnisHomePageAbout "Log in again. Click on Annis2 and then on 'About Annis'. A window showing the Annis version and the date of release should pop up. "
+  AnnisHomePageTutorial "Click on 'Tutorial'. A window should pop up with a tutorial in which is possible to jump from a section to another by a scroll-down menu. "
+
+SearchFormAnnotation
+  SearchFormCorpora1 "Check one corpus (e.g., degadn22_Paula) and enter a search string between double quotation marks in the AnnisQL window (e.g.: \"moraal\"). Note that the search is case sensitive, so it will not find cases of capitalized 'Moraal'."
+  SearchFormCorpora2 "Click on the first item which appears under 'Node annotations'. In the window 'Search Form' you should see the AnnisQL and the result of the annotation selected. "
+  SearchFormCorpora3 "Under 'Available annotation' click on 'Name', then in column and uncheck 'Example' and 'Url'. Now it is only possible to see the name of the item. Repeat this step for 'Example' and for 'Url'. "
+  SearchFormCorpora4 "Click on the icon under 'Url'. A window should pop up, giving you the right link to cite that annotation. "
+  SearchFormCorpora5 "Try to expand and reduce the subwindows by clicking on '+' and '-' for 'Node annotations', 'Edge types' and 'Edge annotations'. The windows size should adjust accordingly. "
+
+SearchFormResults
+  ShowResults "To view metadata for a search result or for a corpus, press the \"i\" icon next to it in the result window or in the search form respectively.  A big central window should appear, diplaying the results of the query."
+  MultipleCorporaSelection "Using the checkboxes on the left of each corpus, it is possible to select which corpora should be searched in (hold down 'shift' to select multiple corpora simultaneously)."
+  ShowResults2 "Only the first ten results of the query should be displayed. Obtaining more results for page should be possible by choosing optional search in the left-bottom window. You can browse the other pages by clicking on the blue arrow at the top of the page. "
+  ShowResults3 "Click on the other options for search results ('Token assocaition, 'Show Citation Url', and 'Documentation Path'). You should get the info about the results accordingly.   "
+  ShowResults4 "Click on the 'info' icon next to the one of the results displayed in the big central window. A window should pop up, giving you metadata information. (Note: It may be that window doesn't not show any information because sucb result doesn't have any metadata info)."
+  ShowResults6 "Under the blue bar, click on the icon indicating name of the annotation plus 'grid'.  You should get a table in which the annotation is fragemnted in single chunk and different annotation levels. "
+  ShowResults7 "Under the table you should be able to move from left to right of the annotation by an additional blue bar diplayed under the table."
+  ShowResults8 "Click on 'Select displayed annotation levels'. Uncheck 'Seg_ModS1'. It should then disappear from the table. Do the same for Seg_ModS2'. Only the annotations tokens should be displayed in the table."
+  ShowResults9 "Repeat the search query for the third, fourth and fifth corpora in the left window. Click on 'History' (top-left). A window should pop up with the history of your annotation search. "
+  ShowResults10 "Click on one of the history result. A new window should opo up with the annotation results which match the corpora selected."
+
+QueryBuilderSearchForm
+  QueryBuilderAnnotationSearch "To open the graphical query builder, click on the 'Query Builder': Show >> button on the Search Form (then clicking 'Query Builder': hide << will close the Query Builder)."
+  QueryBuilderAnnotationSearch2 "On the left-hand side of the toolbar at the top of the query builder canvans, you will see the Create Node button. Use this button to define nodes to be searched for (tokens, non-terminal nodes or annotations)."
+  QueryBuilderAnnotationSearch3 "In each node you create you may click on \"Add\" to specify an annotation value. The annotation name can be typed in or selected from a drop down list."
+  QueryBuilderAnnotationSearch4 "Creating nodes and modifying them on the canvas will immediately update the AnnisQL field in the Search Form with your query, though updating the query on the Search Form will not create a new graph in the Query Builder."
+  QueryBuilderAnnotationSearch5 "The \"Op[erator]\" field in the middle allows you to choose between an exact match (the '=' symbol) or wildcard search using Regular Expressions (the '~' symbol). The annotation value is given on the right, and should NOT be surrounded by quotations"
+  QueryBuilderAnnotationSearch6 "It is also possible to specify multiple annotations applying to the same position by clicking on \"Add\" multiple times. Clicking on \"Clear\" will delete the values in the node."
+  QueryBuilderAnnotationSearch7 "To search for word forms, simply leave the field name on the left empty and type directly on the right under \"Value\". A node with no data entered will match any node, that is an underspecified token or non-terminal node or annotation."
+  QueryBuilderAnnotationSearchEdge "Repeat step two of this items test group. Press once again on the 'Create Corpora button'. Now two windows should be displayed. "
+  QueryBuilderAnnotationSearchEdge2 "To specify the relationship between nodes, first click on the \"Edge\" button at the top left of one node, and then click the \"Dock\" button which becomes available on the other nodes."
+
+ExportAnnotation
+  ExportAnnotationWindow "Repeat ShowResults step. Click on 'Export' at the left bottom of the page. By going to the Export tab at the bottom of the search form on the left, you can select one of four exporters: the SimpleTextExporter, the TextExporter, the WekaExporter and the GridExporter."
+  ExportAnnotationSimpleTextPerformer "The The SimpleTextExporter simply gives the text for all tokens in each search result, including context, in a one-row-per-hit format. The tokens covered by the match area are marked with square brackets and the results are numbered."
+  ExportAnnotationTextExporter "Repeat the export procedure but change from 'SimpleTextExporter' to 'TextExporter'. A web page should be opened with the annotations sources. The TextExporter adds all annotations of each token separated by slashes (e.g. dogs/NN/dog for the token dogs annotated with a part-of-speech NN and a lemma dog). Check if it possible to select part of the text and past it in a text file."
+  ExportAnnotationWekaExporter "Repeat the export procedure but change from 'TextExporter' to 'WekaExporter'. A web page should be opened with the annotations sources. The WekaExporter outputs the format used by the WEKA machine learning tool. Check if it possible to select part of the text and past it in a text file."
+  ExportAnnotationGridExporter "Repeat the export procedure but change from 'WekaExporter' to 'GridExporter'. A web page should be opened with the annotations sources. The GridExporter adds all annotations available for the span of retrieved tokens, with each annotation layer in a separate line. Check if it possible to select part of the text and past it in a text file."
