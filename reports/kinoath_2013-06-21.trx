@@ -4,7 +4,7 @@
   <KinoathVersion>1.3</KinoathVersion>
   <OSVersion>Windows 7, Firefox 17.0.5, Java 1.7.0_13</OSVersion>
   <Tester>frabec</Tester>
-  <TestPlanRevision>37506</TestPlanRevision>
+  <TestPlanRevision>37508</TestPlanRevision>
   <StartKinOath>
     <Webstart>Works</Webstart>
     <WindowsInstaller>Works</WindowsInstaller>
