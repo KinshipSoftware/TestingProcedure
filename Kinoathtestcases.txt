@@ -1,4 +1,4 @@
-# test cases exported from test plan file kinoath_2012-04-04.xml on 2013-07-09 (12:35).
+# test cases exported from test plan file kinoath_2012-04-04.xml on 2013-07-09 (13:06).
 
 StartKinOath
   Webstart "To start the program go to http://tla.mpi.nl/tools/tla-tools/kinoath > Show all KinOath verions > select the Testing version, and click on 'Run via webstart'. After some seconds KinOath should open."
@@ -166,7 +166,7 @@ Other_Platforms
 DropboxTest "Before starting this part of the test, make sure Dropbox is installed on your machine."
   NewProject "From File menu choose New Project. Save it into the Dropbox folder."
   Diagram "Create a (standard) diagram, and then set it as Project Default Diagram (from File menu)."
-  DifferentMachine "Go to another computer and open the project you have just created (open it from the Dropbox folder!). Recalculate the diagram. NOTE: if you have set your project as default, when you re-open on the other machine it you will see it in the central panel. If you haven't, you will only see the entities under the Project Tree on the left."
+  DifferentMachine "Go to another computer and open the project you have just created (open it from the Dropbox folder!). An updating message should come out. Recalculate the diagram. NOTE: if you have set your project as default, when you re-open on the other machine it you will see it in the central panel. If you haven't, you will only see the entities under the Project Tree on the left."
   ModifyDiagram "Try to modify the diagram and save the changes. Close the application again."
   Reindexing "Go back to the computer where you initially created the project. Open the project again. A message should appear saying that your project has been modified externally and asking to reindex the files. Do the reindexing."
   Reindexing2 "Modify again the diagram. Save the changes. Go to the other computer and try the reindexing there as well."
