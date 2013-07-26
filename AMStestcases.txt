@@ -1,4 +1,4 @@
-# test cases exported from test plan file AMS_2012_04_11.xml on 2013-06-21 (15:54).
+# test cases exported from test plan file AMS_2012_04_11.xml on 2013-07-26 (17:10).
 
 StartingAMSTest
   OpenLamus "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node (I use http://lux17.mpi.nl/ds/imdi_browser/?openpath=MPI1650240%23) you want to edit and select manage access rights. The 'Select an identity provider'-window should now be visible. "
@@ -12,7 +12,6 @@ CheckLicensesTest
   CancelManage "Click on Cancel. The previous page should show up."
 
 AddingLicensesTest
-  ChangeLicenses "Click on 'Manage Node Licenses', check all the licenses that aren't checked. Deselect all the licenses that were checked. Click Save, a message explaining that it may take up to 2 hours will pop up."
   CheckLicenses "Wait for a bit. Check if the licenses did change in the Imdi Browser and by selecting 'set access rights'."
   SelectNodeLicenseAssignment "Instead of clicking on 'Manage Node Licenses', click under 'Node Authorization' on Node-Licenses Assignment. Node-Licenses Assignment should be shown."
   RemoveLicenses "Back in 'Manage Node Licenses; uncheck all the licenses and click on Save. The 2 hour wait time message appears."
