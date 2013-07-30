@@ -2,9 +2,9 @@
 <AMSBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/AMS_2012_04_11.xml">
   <DateTime>2013-07-26</DateTime>
   <AMSVersion>1.4.9.3</AMSVersion>
-  <OSVersion>Mac OS X, Chrome 26.0.1410.65</OSVersion>
+  <OSVersion>Mac OS X, Chrome 26.0.1410.65, Java(TM) - Version: 13.7.0</OSVersion>
   <Tester>miccza</Tester>
-  <TestPlanRevision>37681</TestPlanRevision>
+  <TestPlanRevision>37687</TestPlanRevision>
   <StartingAMSTest>
     <OpenLamus>Works</OpenLamus>
     <LoginFederation error="chrome bug - the shibboleth login page does not fill in inside the frame">Mostly</LoginFederation>
@@ -94,28 +94,28 @@
     <DoesntWork></DoesntWork>
   </EffectiveUserPrivilegesTest>
   <LicensesRequiredTest>
-    <SelectLicensesRequired></SelectLicensesRequired>
-    <AddLicenses></AddLicenses>
+    <SelectLicensesRequired>Works</SelectLicensesRequired>
+    <AddLicenses>Works</AddLicenses>
   </LicensesRequiredTest>
   <AddEditLicenseTest>
-    <AddEditLicenses></AddEditLicenses>
-    <ViewLicenses></ViewLicenses>
+    <AddEditLicenses>Works</AddEditLicenses>
+    <ViewLicenses>Works</ViewLicenses>
     <AddLicense></AddLicense>
-    <EditLicense></EditLicense>
+    <EditLicense error="no such option as 'edit license'...">Empty</EditLicense>
   </AddEditLicenseTest>
   <MyUserAccountTest>
-    <SelectUserAccount></SelectUserAccount>
-    <UserCheck></UserCheck>
-    <ChangeFields></ChangeFields>
-    <RevertChanges></RevertChanges>
+    <SelectUserAccount>Works</SelectUserAccount>
+    <UserCheck>Works</UserCheck>
+    <ChangeFields>Works</ChangeFields>
+    <RevertChanges>Works</RevertChanges>
   </MyUserAccountTest>
   <MyAcceptedLicensesTest>
-    <SelectLicensesInfo></SelectLicensesInfo>
-    <LicensesCheck></LicensesCheck>
-    <ViewLicenses></ViewLicenses>
+    <SelectLicensesInfo>Works</SelectLicensesInfo>
+    <LicensesCheck>Works</LicensesCheck>
+    <ViewLicenses>Works</ViewLicenses>
   </MyAcceptedLicensesTest>
   <HelpMenu>
-    <MenuOpen></MenuOpen>
-    <ManualOpen></ManualOpen>
+    <MenuOpen>Works</MenuOpen>
+    <ManualOpen>Works</ManualOpen>
   </HelpMenu>
 </AMSBugCheck>
