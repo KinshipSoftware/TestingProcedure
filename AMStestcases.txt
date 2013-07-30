@@ -1,4 +1,4 @@
-# test cases exported from test plan file AMS_2012_04_11.xml on 2013-07-26 (17:10).
+# test cases exported from test plan file AMS_2012_04_11.xml on 2013-07-30 (15:22).
 
 StartingAMSTest
   OpenLamus "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node (I use http://lux17.mpi.nl/ds/imdi_browser/?openpath=MPI1650240%23) you want to edit and select manage access rights. The 'Select an identity provider'-window should now be visible. "
@@ -45,6 +45,7 @@ AddNewUserTest
   NewUser "Under 'User Management' click on 'Create New User', the LAT User window should appear."
   FillIn "Fill in all the necessary (yellow) fields, click on Save. User 'USER' has been saved will appear in green."
   Logout "Click on logout, in the topright corner and restart your browser"
+  WAIT "!!!!!!!!!!!  After creating the new user, you must wait a day in order to be able to log in. !!!!!!!!!"
   CheckRules "Login (in the IMDI browser) as the user you've given access to pictures and check if you can access them."
   AddGroup "Login as yourself in AMS again. Go to Edit User and find the user you've just created. Fill in the passwords and add the user to your previously created test group. Click on Save again, the message in green will appear again."
   NewDomainEditorIntro "Click on 'Add new rules'. Scroll down, you can see domain editor and domain manager under assign roles."
