@@ -1,4 +1,4 @@
-# test cases exported from test plan file AMS_2012_04_11.xml on 2013-07-30 (15:22).
+# test cases exported from test plan file AMS_2012_04_11.xml on 2013-07-30 (16:08).
 
 StartingAMSTest
   OpenLamus "From the imdi browser (http://lux17.mpi.nl/ds/imdi_browser/) right click on the node (I use http://lux17.mpi.nl/ds/imdi_browser/?openpath=MPI1650240%23) you want to edit and select manage access rights. The 'Select an identity provider'-window should now be visible. "
@@ -93,7 +93,7 @@ LicensesRequiredTest
   AddLicenses "If you haven't done so before you can accept licenses from this page, but you CANNOT revert them back. Try adding some (with a test account)."
 
 AddEditLicenseTest
-  AddEditLicenses "Under 'Node Authorization' click on Add/Edit a License. Licenses management page should be shown."
+  AddEditLicenses "Under 'Node Authorization' click on 'Node-License Assignment'. Licenses management page should be shown."
   ViewLicenses "Next to the License names is a View Link. Click on all these links and see if information on the license is being shown."
   AddLicense "Doesn't work at the moment.."
   EditLicense "Click on Edit license next to ams2_test_license, and change the name and pick a html file to replace the license with. Click on Add/Edit a license. The license should be renamed and replaced."
