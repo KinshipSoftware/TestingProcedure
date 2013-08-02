@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-06-28 (15:06).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-08-02 (10:04).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -250,3 +250,13 @@ ManagementInterface
   SystemState "Click on 'System state' at the bottom of the page. A window showing the following options: 'The system allows new request: Disable' should be displayed. Don't test those bottoms.  "
   LockedNodes "Click on 'Locked Nodes' at the bottom of the page. A window showing a list of workspace to unlock should be displayed. In the list you should see also the details of the workspace."
   Lux17LamusMain "Click on 'Lux 17 Lamus Main'. You should be redirected to Lamus main page."
+
+RefreshDBoption
+  RefreshDBoption ""
+  RefreshDBoption ""
+
+CreateNewTopNode
+  OpenTopNodeOption "Log in with the following access credentials for username and password: testers, testers. You should be logged in as testers@mpi.nl. Right click on the corpus node Demo. Select the option 'create a new top corpus node below this node'. A window 'add node' should pop up."
+  TopNodeOptionReset "Insert a name and a title. Click 'reset', the name and title entered should disappear but the window 'add node' should be still opened. "
+  TopNodeOptionCancel "Insert a name and a title. Click 'cancel', the window 'add node' should close."
+  TopNodeOptionSubmit "Right click on the corpus node Demo. Select the option 'create a new top corpus node below this node'. A window 'add node' should pop up. Insert a name ad a title. Click 'submit', a message should pop up confirming that a new top corpus node was successfully created. Finally, check if the top node is created in the tree under the corpus node previously selected (i.e., Demo)."
