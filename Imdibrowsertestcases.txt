@@ -1,4 +1,4 @@
-# test cases exported from test plan file imdibrowser_1.xml on 2013-08-01 (17:56).
+# test cases exported from test plan file imdibrowser_1.xml on 2013-08-19 (10:26).
 
 StartingIMDI_Browser
   Starting "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
@@ -70,7 +70,7 @@ Refresh_DB_option
   ExploreDBoption2 "Select 'Refresh DB' option. A window should appear showing 'node ID', 'url', and other possible refresh filters 'Parse all IMDIs even those which seem unchanged', 'First delete branch' 'log level' with a drop list menu."
   ParseAllIMDIs "Check the option 'Parse all IMDIs even those which seem unchanged', and click Ok. A table should pop up with the details about time, thread, level, category and message.   "
   DeleteBranch "Check 'First delete branch' and click Ok. In the Corpus node that you have selected all the access rights should be deleted. You can verify this by checking if the top node and its subnodes have a red sign indicating restricted access.  "
-  DeleteBranchForceExport "Right clic on the corpus node in which all the access rights have been deleted. Select 'manage access rights'. At the bottom of the page select 'Force Export'. After few minutes all the access rights should be newly available. "
+  DeleteBranchForceExport "Right click on the corpus node in which all the access rights have been deleted. Select 'manage access rights'. At the bottom of the page select 'Force Export'. After few minutes all the access rights should be newly available. "
   LogLevel "The Log level option has four drop list possibilities: Info, warn, error, debug. Try all of them selecting one by one and click ok afterwards. Different results should be displayed.   "
   CancelBottom "Click Cancel in the main window of refresh DB option. A message showing crawler locked by null should be displayed. "
 
