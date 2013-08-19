@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-08-02 (10:04).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-08-19 (10:12).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -173,17 +173,6 @@ ReplaceTreeTest
   RRT3 "Right click on 'Canoe building' session node and select 'replace tree'. Select 'River legend' from the list and click on 'Replace. The 'Replace Node confirmation' window should display the following message 'All the nodes in the selected tree will be removed to give place to the new ones (not versioned). If this is not intended, it's possible that the changes were made in an older version of the tree. Press 'Continue' to proceed and 'Cancel' to go back.'"
   RRT4 "Press 'Continue'. The 'Response to Change Request' window should show the following message 'Replacing the selected node was successful'. Is 'Canoe building' replaced by 'River legend'?"
 
-LAMUSFunctionButtonsTest
-  RequestStorage "Click 'Request Storage'. A 'Request Storage Space' window should be displayed in the main interaction window"
-  RS1 "Enter the desired amount in Megabytes and click 'Submit'. An email notification should be sent to the user after completion"
-  RS3 "Click 'Back' from the 'Request Storage Space' window. You should be redirected to the previous interaction window"
-  Help "Click 'Help'. The main interaction window should show a brief description of the various functions of LAMUS"
-  ReportABug "Click 'Report a Bug'. An already filled bug report form should appear. Delete the test and write 'this is only an test' and click on 'submit'. You should get a message informing you that you email was sent"
-  SaveAndLogout "Click 'Save and Logout'. A short message will show the User name, Used Space, Available Space, Free Nodes, and errors (if any)"
-  SAL1 "Click 'Return to main page'. You should be redirected to the main LAMUS page"
-  SAL2 "Do SAL1, click 'Select existing workspace', select a previously saved workspace, click 'choose': you should be able to work on it again"
-  About "Click 'About'. A new page shows information about Lamus Version Info, My Lamus Info and Personal Preferences"
-
 NeurobiologyOfLanguageTest
   ViewNBLtestNode1 "Click twice on MPI corpora. Extend the node Demo. You should see an empty node called NBL_test."
   ViewNBLtestNode2 "Right click on it, you should see this option: select this node as top node for a new workspace.  "
@@ -252,11 +241,26 @@ ManagementInterface
   Lux17LamusMain "Click on 'Lux 17 Lamus Main'. You should be redirected to Lamus main page."
 
 RefreshDBoption
-  RefreshDBoption ""
-  RefreshDBoption ""
+  RefreshDBoptionStart "Log in with the following access credentials for username and password: testers, testers. You should be logged in as testers@mpi.nl. Right click on the corpus node Demo. Select the option 'Refresh DB option'. A window 'Refresh the Archive's DB using the ArchiveCrawler' should pop up."
+  RefreshDBoptionInfoNode "In the window the following information of the selected corpus node should be readable: node id and url.  "
+  RefreshDBCrawlerOptions "In the main window there should be the following option which is possible to check: 'Parse all IMDIs even those which seem unchanged' and 'First delete branch'. (Test those options ONLY if is strictly required.) "
+  RefreshDBoptionLogLevel "In the log level option there should be four tracks in the scroll down menu: Error, warn, info and debug.  "
+  RefreshDBoptionLogLevel2 "Check if the following tracks (error, warn, info and debug) lead to matched results by clicking Ok (i.e., for 'debug' a table including all the debug info of a certain node should be displayed). "
 
 CreateNewTopNode
   OpenTopNodeOption "Log in with the following access credentials for username and password: testers, testers. You should be logged in as testers@mpi.nl. Right click on the corpus node Demo. Select the option 'create a new top corpus node below this node'. A window 'add node' should pop up."
   TopNodeOptionReset "Insert a name and a title. Click 'reset', the name and title entered should disappear but the window 'add node' should be still opened. "
   TopNodeOptionCancel "Insert a name and a title. Click 'cancel', the window 'add node' should close."
-  TopNodeOptionSubmit "Right click on the corpus node Demo. Select the option 'create a new top corpus node below this node'. A window 'add node' should pop up. Insert a name ad a title. Click 'submit', a message should pop up confirming that a new top corpus node was successfully created. Finally, check if the top node is created in the tree under the corpus node previously selected (i.e., Demo)."
+  TopNodeOptionSubmit "Right click on the corpus node Demo. Select the option 'create a new top corpus node below this node'. A window 'add node' should pop up. Insert a name ad a title. Click 'submit', a message should pop up confirming that a new top corpus node was successfully created. "
+  TopNodeCreated "Finally, check if the top node is created in the tree under the corpus node previously selected (i.e., Demo)."
+
+LAMUSFunctionButtonsTest
+  RequestStorage "Click 'Request Storage'. A 'Request Storage Space' window should be displayed in the main interaction window"
+  RS1 "Enter the desired amount in Megabytes and click 'Submit'. An email notification should be sent to the user after completion."
+  RS2 "Click 'Back' from the 'Request Storage Space' window. You should be redirected to the previous interaction window."
+  Help "Click 'Help'. The main interaction window should show a brief description of the various functions of LAMUS."
+  ReportABug "Click 'Report a Bug'. An already filled bug report form should appear. Delete the test and write 'this is only an test' and click on 'submit'. You should get a message informing you that you email was sent"
+  SaveAndLogout "Click 'Save and Logout'. A short message will show the User name, Used Space, Available Space, Free Nodes, and errors (if any)."
+  SAL1 "Click 'Return to main page'. You should be redirected to the main LAMUS page."
+  SAL2 "Do SAL1, click 'Select existing workspace', select a previously saved workspace, click 'choose': you should be able to work on it again."
+  About "Click 'About'. A new page shows information about Lamus Version Info, My Lamus Info and Personal Preferences."
