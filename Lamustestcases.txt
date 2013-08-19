@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-08-19 (10:12).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2013-08-19 (10:20).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -246,6 +246,7 @@ RefreshDBoption
   RefreshDBCrawlerOptions "In the main window there should be the following option which is possible to check: 'Parse all IMDIs even those which seem unchanged' and 'First delete branch'. (Test those options ONLY if is strictly required.) "
   RefreshDBoptionLogLevel "In the log level option there should be four tracks in the scroll down menu: Error, warn, info and debug.  "
   RefreshDBoptionLogLevel2 "Check if the following tracks (error, warn, info and debug) lead to matched results by clicking Ok (i.e., for 'debug' a table including all the debug info of a certain node should be displayed). "
+  RefreshDBoptionClose "Click on 'Cancel'. The window Refresh db option should close and the following message should appear: 'Crawler locked by null'. Refresh the page, log out and close the browser."
 
 CreateNewTopNode
   OpenTopNodeOption "Log in with the following access credentials for username and password: testers, testers. You should be logged in as testers@mpi.nl. Right click on the corpus node Demo. Select the option 'create a new top corpus node below this node'. A window 'add node' should pop up."
