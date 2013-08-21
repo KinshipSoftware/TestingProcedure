@@ -1,4 +1,4 @@
-# test cases exported from test plan file imdibrowser_1.xml on 2013-08-19 (10:26).
+# test cases exported from test plan file imdibrowser_1.xml on 2013-08-21 (11:13).
 
 StartingIMDI_Browser
   Starting "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
@@ -10,27 +10,27 @@ NavigationTest
   CollapseTest2 "Try to collapse the tree by clicking on the little circle left to a node."
 
 AccessLevelTest
-  VisualConfirmationTest "There should be access indicator in front of all nodes, except for external material (BAS, Coralrom, GTRP, Lablita, Lund) and where there are no resources below a node."
+  VisualConfirmationTest "There should be access indicator next to all nodes, except for external material (BAS, Coralrom, GTRP, Lablita, Lund) and where there are no resources below a node."
   AccessTest "Look for a resource with a green button and see whether you can access it without being logged in."
 
 SettingsTest
-  ShowAccessibleResourcesTest "Click on 'show accessibility of resources' in the upper bar right part of the screen. Now browse the tree and check whether you get the number of resources open to you in brackets."
+  ShowAccessibleResourcesTest "Click on 'show accessibility of resources' (it should be selected by default; if not, click twice on 'hide accessibility of resources') in the upper bar right part of the screen. Now browse the tree and check whether you get the number of resources open to you in brackets."
   BracketsAccessibleNodes "Click on an accessible node (green). The number of available sub nodes should be indicated in brackets"
 
 ContextMenuTest
-  ViewCorpusNode "Right click on a Corpus node and select 'view node'. A new window should open which inlcudes the corpus name and title in addition to the description."
-  ViewSessionNode "Right click on a Session Node and select 'view node'. A new window should open which includes a list of information such as location, project, content, etc.."
+  ViewCorpusNode "Right click on a Corpus node (or simply select it) and choose 'view node'. In the main panel you should see the corpus name and title in addition to the description."
+  ViewSessionNode "Right click on a Session Node (or simply select it) and choose 'view node'. In the main panel you should see a list of information such as location, project, content, etc.."
   ViewSessionNode2 "Click on the nodes (location, project, etc). The node should display information"
-  ViewWrttnResourceFile "Right click on an accessible (i.e. w/ green indicator) Written Resource File and select 'view node'. A new window should open, taking you to the ANNEX Interface. Example of written resource file: MPI corpora > Demo > PeWi corpus > kleve-route > ela-example1.eaf"
-  ViewImageResourceFile "Right click on an accessible (i.e. w/ green indicator) Image Resource File and select 'view node'.The picture should then appear. Example of image resource file: MPI corpora > Demo > PeWi corpus > kleve-route > route_to_kleve.png"
-  ViewVideoResourceFile "Right click on an accessible (i.e. w/ green indicator) Video Resource File and select 'view node'.The video should then appear. Example of video resource file: MPI corpora > Demo > PeWi corpus > kleve-route > elan-example1.mp4"
-  ViewAudioResourceFile "Right click on an accessible (i.e. w/ green indicator) Audio Resource File and select 'view node'. The audio file should then become available. Example of audio resouce file: MPI corpora > Demo > PeWi corpus > kleve-route > elan-example.wav. NOTE: this file extension do not work on Firefox. Try another browser. "
-  ViewInformationFile "Right click on an Information File and select 'view node'. You should then be directed to the page belonging to the file."
-  CreateBookmark "Right click a node and select 'Create bookmark' (which can also be selected from the the main panel), you should be taken to a page that provides links which can then be bookmarked"
+  ViewWrittenResourceFile "Right click on an accessible (i.e. w/ green indicator) Written Resource File and select 'view node'. A new window should open, taking you to the ANNEX Interface. Example of written resource file: MPI corpora > Demo > NewCorpusTest "
+  ViewImageResourceFile "Right click on an accessible (i.e. w/ green indicator) Image Resource File and select 'view node'.The picture should then appear. Example of image resource file: MPI corpora > Demo > NewCorpusTest"
+  ViewVideoResourceFile "Right click on an accessible (i.e. w/ green indicator) Video Resource File and select 'view node'.The video should then appear. Example of video resource file: MPI corpora > Demo > NewCorpusTest"
+  ViewAudioResourceFile "Right click on an accessible (i.e. w/ green indicator) Audio Resource File and select 'view node'. The audio file should then become available. Example of audio resouce file: MPI corpora > Demo > NewCorpusTest. NOTE: this file extension do not work on Firefox. Try another browser. "
+  ViewInformationFile "Click on an Information File. In the main panel you should see the page belonging to the file."
+  CreateBookmark "Right click a node and select 'Create bookmark' (which can also be selected from the the main panel), You should see in the main panel a page that provides links which can then be bookmarked"
   Links "At least one of the links should open and can then be bookmarked"
   MetadataSearch1 "Right-click a session node and select 'metadata search'. You should be directed towards a search box."
   MetadataSearch2 "Fill in a designated search item. After a few seconds, you should see the list of nodes containing your search string (provided the item is located within the selected node)"
-  AnnotationContentSearch1 "Right click a session node and select 'Annotation Content Search'. You should be directed towards a TROVA search application, which should then allow you to search for a particular word"
+  AnnotationContentSearch1 "Right click a session node and select 'Annotation Content Search'. You should be redirected to TROVA, a search application, which should then allow you to search for a particular word"
   SetAccessRights "Right click a node and select 'Manage Access Rights'. The first time you do this, you should be asked to select your institution. After successfully logging in, you should be redirected to the AMS interface."
   DownloadCorpusFile "After right clicking on a Corpus node, Select 'Download'. You should then be able to save the imdi file at a desired location."
   AccessCorpusFile "Go to the directory where your imdi file is saved. Edit it with notepad."
@@ -38,7 +38,7 @@ ContextMenuTest
   AccessSessionFile "Go to the directory where your imdi file is saved. Edit it with notepad."
   DownloadAllResources "Right click on an accessible Session Node, select \"Download All Resources\", you should then be able to save a zip file at a desired location."
   AccessZippedResources "Open zipped file and check that those resources that were available under the session node have been successfully downloaded."
-  DownloadAllResources2 "Log out and close window (or clear cache). Right click a session node with restricted access and try to select \"download all resources\". You should be able to do the download. Then check the directory: you should see an empty .zip file, and if you try to open it, an error message should come out: 'Can not open file...'"
+  DownloadAllResources2 "Log out and close window (or clear cache). Right click a session node with restricted access and try to select \"download all resources\". You should see an error page saying that \"User anonymous has no access to this session's resources...\""
   DownloadResourceFile "After right clicking on a Resource File, Select 'Download'. You should then be able to save the file at a desired location"
   AccessResourceFile "Open your Resource file with ELAN/other media programmes, or edit it with Notepad or Word (in other words with the programme most suitable to the file format)"
   RequestResourceAccess "Right click a node and select 'Request Resource Access'. You should be redirected to the Resource Request system."
@@ -47,19 +47,19 @@ ContextMenuTest
   View_Images "Right click on Session Node and select 'View Images'. If a picture is attached, it should be displayed."
 
 ManualTest
-  ManualTest1 "Click on 'manual' in the top right. You should get to the Language Archiving Technology page with a table of contents list"
+  ManualTest1 "Click on 'manual' in the top right. You should be redirected to the online manual of the application"
 
 RegisterTest
   RegisterTest1 "Click on 'register' in the top right menu. You should get to the registration page."
   ExistingUserCheck "If you are an existing user, click on 'Click here to log in' and select your institution, followed by a username and password"
-  ExistingUserRegistration "You should be brought to a page to register. Do not do so as this is part of an RRS test. Log Out."
+  ExistingUserRegistration "You should get an error page telling you that you are already registered in the database. [From now on it is part of an RRS test. Log Out.]"
 
 LogInTest
   LogInTest1 "Try to log in with your MPI user name. Your name should then be shown on top."
 
 AccessLevelTest2
   AccessLevelTest2a "Remain logged in. Look for a resource with a yellow button. You should be able to access this resource. Example: MPI corpora > Demo > DOBES training > group01 > songs > kleve-route > check one of the files"
-  AccessLevelTest2b "Look for a resource with an orange button. Attempting to view this resource should bring you to a shibboleth or annex page advising access failure."
+  AccessLevelTest2b "Look for a resource with an orange button. Try to open it. Access should be denied. Example: DoBeS archive > Bezen > Primary data > Speech > Texts > Narratives > Historical texts "
   AccessLevelTest2c "Look for a resource (node) with a green button which contains a session with red button (MPI corpora > Demo > lamus_test > check one of the files). Click on 'view node'; you should be able to access this resource. "
   AccessLevelTest2d "Look for a resource with a red button, when you try to view it you will be informed that access is prohibited."
   AccessLevlLogOut "Click on 'log out' and then close your browser. You should then be logged out."
@@ -69,10 +69,10 @@ Refresh_DB_option
   ExploreDBoption "Right click on a Corpus node of the imdi tree (i.e., MPI corpora>Demo). A 'Refresh DB' option should appear at the end of the list."
   ExploreDBoption2 "Select 'Refresh DB' option. A window should appear showing 'node ID', 'url', and other possible refresh filters 'Parse all IMDIs even those which seem unchanged', 'First delete branch' 'log level' with a drop list menu."
   ParseAllIMDIs "Check the option 'Parse all IMDIs even those which seem unchanged', and click Ok. A table should pop up with the details about time, thread, level, category and message.   "
-  DeleteBranch "Check 'First delete branch' and click Ok. In the Corpus node that you have selected all the access rights should be deleted. You can verify this by checking if the top node and its subnodes have a red sign indicating restricted access.  "
+  DeleteBranch "Check 'First delete branch' and click Ok. In the Corpus node that you have selected all the access rights should be deleted. You can verify this by checking if the top node and its subnodes have a red sign indicating restricted access (NOTE: you have to reload the page because it doesn't update automatically)."
   DeleteBranchForceExport "Right click on the corpus node in which all the access rights have been deleted. Select 'manage access rights'. At the bottom of the page select 'Force Export'. After few minutes all the access rights should be newly available. "
   LogLevel "The Log level option has four drop list possibilities: Info, warn, error, debug. Try all of them selecting one by one and click ok afterwards. Different results should be displayed.   "
-  CancelBottom "Click Cancel in the main window of refresh DB option. A message showing crawler locked by null should be displayed. "
+  CancelBottom "Click Cancel in the main window of refresh DB option. A message showing \"crawler locked by null\" should be displayed. "
 
 LogOutTest
   LogOutTest1 "Click on 'log out' and then close your browser. You should then be logged out."
