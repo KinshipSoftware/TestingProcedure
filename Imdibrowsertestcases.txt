@@ -1,4 +1,4 @@
-# test cases exported from test plan file imdibrowser_1.xml on 2013-08-21 (11:13).
+# test cases exported from test plan file imdibrowser_1.xml on 2013-09-10 (10:21).
 
 StartingIMDI_Browser
   Starting "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
@@ -30,7 +30,7 @@ ContextMenuTest
   Links "At least one of the links should open and can then be bookmarked"
   MetadataSearch1 "Right-click a session node and select 'metadata search'. You should be directed towards a search box."
   MetadataSearch2 "Fill in a designated search item. After a few seconds, you should see the list of nodes containing your search string (provided the item is located within the selected node)"
-  AnnotationContentSearch1 "Right click a session node and select 'Annotation Content Search'. You should be redirected to TROVA, a search application, which should then allow you to search for a particular word"
+  AnnotationContentSearch1 "Right click a session node and select 'Annotation Content Search'. You should be redirected to TROVA, a search application, which should then allow you to search for a particular word and/or string of words"
   SetAccessRights "Right click a node and select 'Manage Access Rights'. The first time you do this, you should be asked to select your institution. After successfully logging in, you should be redirected to the AMS interface."
   DownloadCorpusFile "After right clicking on a Corpus node, Select 'Download'. You should then be able to save the imdi file at a desired location."
   AccessCorpusFile "Go to the directory where your imdi file is saved. Edit it with notepad."
