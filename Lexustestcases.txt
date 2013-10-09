@@ -1,10 +1,10 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2013-01-31 (14:34).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2013-10-09 (16:07).
 
 LoginTest
-  LTDemoLogin "Login with username 'demo' (pw: 'omed'). Lexus workspace opens"
-  LTDemoLogout "Log out (File > Log out). The program shows now the initial Lexus page where you can log in again"
-  LTDemoLogoutBack "Go back one page (click the Back button in your browser). LEXUS shows now the initial Lexus page where you can log in again"
-  LTLoginFail "Login with username 'test' (pw: 'omed'). Error message \\"Login unsuccessful, please try again\\" appears. Log in again as the 'demo' user and procede with the testing"
+  LTDemoLogin "Login with username 'test' (pw: 'test'). Lexus workspace opens."
+  LTDemoLogout "Log out (File > Log out). The program shows now the initial Lexus page where you can log in again."
+  LTDemoLogoutBack "Go back one page (click the Back button in your browser). LEXUS shows now the initial Lexus page where you can log in again."
+  LTLoginFail "Login with username 'testers' (pw: 'test'). You should get the following error message \"Login unsuccessful, please try again\". Log in again as the 'testers' user and procede with the testing."
 
 SwitchTabTest
   STTSchemaAndViewEditor "While being in the Workspace editor, in the 'Switch To' tab chose 'Schema and View Editor'. The view changes accordingly"
@@ -67,7 +67,7 @@ SortOrdersTabTest
   SORemoveAllCharacters1 "Hover over on the Trash  button in the right frame. The information appears: \\"Remove all sort rules\\". Click on the button and chose NO. Non of the elements that the sort order consisted of is removed"
   SORemoveAllCharacters2 "Click on the \\"Remove all sort rules\\" button again and chose YES. All the elements that the sort order consisted of are removed and the list is empty"
   SODeteteSortOrder1 "Delete the sort order you have just worked with by clicking the '-' button. Your sort order has been removed from the list of the available sort orders"
-  SOCreateNewSortOrderWithNonLatinCharacters "Create a new sort order and name it 'Cyrillic (кириллица)'by coping pasting it and again by typing (кириллица = rbhkkbwf). A new sort order appears with the given name"
+  SOCreateNewSortOrderWithNonLatinCharacters "Create a new sort order and name it 'Cyrillic (кириллица) 'by coping pasting it and again by typing (кириллица = rbhkkbwf). A new sort order appears with the given name"
   SOCreateInitialCharacters "Remove all latin characters and create initial characters and equal followers: 'А','Б','В','Г','Д','Е' (insert from keyboard, NOT copy paste: 'А','Б','В','Г','Д','Е' = 'F', ',', 'D', 'U', 'L', 'T'). Sort order has the defined set of the non-latin characters"
   SOSaveAdjustedSortOrder "Save. Your changes have been saved"
   SODeteteSortOrder2 "Delete the кириллица sort order. Your sort order has been removed from the list of the available sort orders"
@@ -251,15 +251,22 @@ FilterTest
   FTDelete "Delete all the filters you have created. The list of available filters is empty"
 
 ImportXMLLexusTest
-  _IExistingLexica1 "Go to https://trac.mpi.nl/wiki/LATSoftwareTesting, downloand the file Yeli_Dnye_Lexicon.zip, unzip it. it contains two xml files to use for the test."
-  IExistingLexica "In the Workspace mode in 'File' menu select 'Import Lexus XML'. A pop-up window appears where you can choose files you want to upload"
-  IEXThePopUP "Close the pop up window by pressing the X button. The window is closed. Reselect 'Import Lexus XML' to open the import pop up again"
-  IExistingLexicaBrowseXML1 "Select .xml files (that you have previously unziped) containing the structure and data of the lexicon. The files appear in the Import XML Files window"
+  ExistingLexica "Go to https://trac.mpi.nl/wiki/LATSoftwareTesting, downloand the following files Yeli_Dnye_Lexicon.zip, Iwaidja.zip, and Fulfulde-LEGO-LMF.xml.zip."
+  ExistingLexicaXML "In the Workspace mode, select 'File', Import to Lexus, from drop down menu two options are available: XML and Relish-LL-LFM-to Lexus. Select XML. "
+  IEXThePopUP "Close the pop up window by pressing the X button. The window is closed. Reselect 'Import to Lexus' to open the import pop up again. A window showing import details will pop up."
+  IExistingLexicaBrowseXML1 "Select XML. Select .zip files containing the structure and data of the lexicon. The files appear in the Import .zip Files window."
   IExistingLexicaBrowseXML2 "Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
-  IExistingLexicaBrowseXML3 "Select 'Upload'. Both .xml files are being uploaded; you can see the time line, the message that the import process was successful. Press OK"
-  IExistingLexicaLexiconInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)"
+  IExistingLexicaBrowseXML3 "Select 'Upload'. The .zip file has being uploaded; you can see the time line, the message that the import process was successful. Press OK."
+  IExistingLexicaLexiconWMLInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)"
   ExistingLexicaLexiconContentCheck "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
-  IExistingLexicaDelete "Delete the newly imported lexicon. The lexicon disappears from the list of the available lexica (log in/log out)"
+  IExistingLexicaDelete "Delete the newly imported lexicon. The lexicon disappears from the list of the available lexica (log in/log out)."
+  ExistingLexicaRelish-LL-LFM-toLexus "Click on the Important Formats scroll down menu. Two options are available: Lexus XML and Relish-LL-LFM-to Lexus import format. Choose Relish-LL-LFM-to and click Import. "
+  ExistingLexicaRelish-LL-LFM-toLexus2 "In the Workspace mode, select 'File', Import to Lexus, from drop down menu of the pop up window select XML (Note: For this step you need the one of the files that is matching this format and has been previously uploaded. The file is called Fulfulde-LEGO-LMF.xml.zip)."
+  ExistingLexicaRelish-LL-LFM-toLexus3 "Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
+  ExistingLexicaRelish-LL-LFM-toLexus4 "Select 'Upload'. The .zip file has being uploaded; you can see the time line, the message that the import process was successful. Press OK."
+  ExistingLexicaRelish-LL-LFM-toLexusInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)."
+  ExistingLexicaRelish-LL-LFM-toLexusContentCheck "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
+  ExistingLexicaRelish-LL-LFM-toLexusDelete "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
 
 ToolboxConvertTest
   TCSelectingFiles "In the Workspace select 'Convert Toolbox Files To Lexus'. A pop up window appears where you can browse for both .typ and .lx files"
