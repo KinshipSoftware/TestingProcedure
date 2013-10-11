@@ -1,4 +1,4 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2013-10-09 (16:07).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2013-10-11 (14:04).
 
 LoginTest
   LTDemoLogin "Login with username 'test' (pw: 'test'). Lexus workspace opens."
@@ -252,7 +252,7 @@ FilterTest
 
 ImportXMLLexusTest
   ExistingLexica "Go to https://trac.mpi.nl/wiki/LATSoftwareTesting, downloand the following files Yeli_Dnye_Lexicon.zip, Iwaidja.zip, and Fulfulde-LEGO-LMF.xml.zip."
-  ExistingLexicaXML "In the Workspace mode, select 'File', Import to Lexus, from drop down menu two options are available: XML and Relish-LL-LFM-to Lexus. Select XML. "
+  ExistingLexicaXML "In the Workspace mode, select 'File', Import to Lexus, from drop down menu two options are available: XML and Relish-LL-LFM-to Lexus. Select XML and click Import."
   IEXThePopUP "Close the pop up window by pressing the X button. The window is closed. Reselect 'Import to Lexus' to open the import pop up again. A window showing import details will pop up."
   IExistingLexicaBrowseXML1 "Select XML. Select .zip files containing the structure and data of the lexicon. The files appear in the Import .zip Files window."
   IExistingLexicaBrowseXML2 "Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
@@ -260,7 +260,7 @@ ImportXMLLexusTest
   IExistingLexicaLexiconWMLInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)"
   ExistingLexicaLexiconContentCheck "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
   IExistingLexicaDelete "Delete the newly imported lexicon. The lexicon disappears from the list of the available lexica (log in/log out)."
-  ExistingLexicaRelish-LL-LFM-toLexus "Click on the Important Formats scroll down menu. Two options are available: Lexus XML and Relish-LL-LFM-to Lexus import format. Choose Relish-LL-LFM-to and click Import. "
+  ExistingLexicaRelish-LL-LFM-toLexus "In the Workspace mode, select 'File', Import to Lexus, from drop down menu two options are available: XML and Relish-LL-LFM-to Lexus. Select Relish-LL-LFM-to Lexus and click Import."
   ExistingLexicaRelish-LL-LFM-toLexus2 "In the Workspace mode, select 'File', Import to Lexus, from drop down menu of the pop up window select XML (Note: For this step you need the one of the files that is matching this format and has been previously uploaded. The file is called Fulfulde-LEGO-LMF.xml.zip)."
   ExistingLexicaRelish-LL-LFM-toLexus3 "Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
   ExistingLexicaRelish-LL-LFM-toLexus4 "Select 'Upload'. The .zip file has being uploaded; you can see the time line, the message that the import process was successful. Press OK."
@@ -284,13 +284,24 @@ ToolboxConvertTest
   TCFileErrorTest "Trying to upload a file with a different extention is not possible"
 
 ExportTabTest
-  ExpToPDF1 "In the Lexicon Editor mode, click on 'File' and select 'Export to PDF' (you will have to define a PDF view first in the Schema and View Editor). A pop-up window prompts for choosing a view that you want to use"
+  test1 "In the Workspace mode, choose one of the following lexica: Yeli_Dnye_Lexicon or Iwaidja. Export it by opening it in Lexicon Editor. "
+  test2 "Click on File, and Export to XML. In the drop down menu that you see in the pop up next, there shouldn’t be any other format than Lexus XML format. Proceed with the export."
+  test4 "Specify location and OK. Download starts and you see the download progress on the progress bar."
+  test5 "When the download completes and it is successful, close the pop up window by clicking OK"
+  test3 "The export should result in a zip file, which if unzipped it should consist of two files, one ending with _schema.xml and another ending with _data.xml. Keep this zip file for the next step which you will have to re import it."
+  ExpToPDF1 "Repeat step one. Click on 'File' and select 'Export to PDF' (you will have to define a PDF view first in the Schema and View Editor). A pop-up window prompts for choosing a view that you want to use"
   ExpToPDF2 "Choose a view and click OK. A PDF document opens in a new tab in your browser"
   ExpToPDF3 "Check content of the PDF export. Both the file and the applied view are correct"
-  ExpToXML1 "In the Lexicon editor mode, click on 'File' and select 'Export to XML'. A pop-up window prompts for save location of zip file"
-  ExpToXML2 "Specify location and OK. Download starts and you see the download progress on the progress bar."
   ExpToXML3 "When the download completes and it is successful, close the pop up window by clicking OK"
-  ExpToXMLVerify "Unzip the files and check content of the xml export. The xml format is correct"
+  test7 "In the Workspace mode, choose the following lexica: Fulfulde-LEGO-LMF.xml. Export it by opening it in Lexicon Editor. "
+  test8 "Click on File, and Export to XML. In the drop down menu that you see in the pop up next, there should be two formats: Lexus XML and Relish-LL-LFM-to Lexus. Select the second and proceed with the export."
+  test10 "Specify location and OK. Download starts and you see the download progress on the progress bar."
+  test11 "When the download completes and it is successful, close the pop up window by clicking OK."
+  test12 "The export should result in a zip file, which if unzipped, has a file with the extension lmf in it. "
+  test13 "Export the lexicon Fulfulde-LEGO-LMF again. This time in the drop down menu choose the Lexus XML format and proceed with the export."
+  test14 "Specify location and OK. Download starts and you see the download progress on the progress bar."
+  test15 "When the download completes and it is successful, close the pop up window by clicking OK."
+  test16 "You should still get a zip file, but this time it should consist of two files, one ending with _schema.xml and another ending with _data.xml."
 
 HelpTabTest
   HTLexusWebsite "In the Help menu, click on the link \\"Lexus website\\". The TLA webpage loads and opens in your internet browser"
