@@ -1,4 +1,4 @@
-# test cases exported from test plan file imdibrowser_1.xml on 2013-09-10 (10:21).
+# test cases exported from test plan file imdibrowser_1.xml on 2013-10-21 (16:18).
 
 StartingIMDI_Browser
   Starting "Go to http://lux17.mpi.nl/ds/imdi_browser/ to access the homepage"
@@ -15,7 +15,7 @@ AccessLevelTest
 
 SettingsTest
   ShowAccessibleResourcesTest "Click on 'show accessibility of resources' (it should be selected by default; if not, click twice on 'hide accessibility of resources') in the upper bar right part of the screen. Now browse the tree and check whether you get the number of resources open to you in brackets."
-  BracketsAccessibleNodes "Click on an accessible node (green). The number of available sub nodes should be indicated in brackets"
+  BracketsAccessibleNodes "Click on an accessible node (green). The number of available resources should be indicated in brackets"
 
 ContextMenuTest
   ViewCorpusNode "Right click on a Corpus node (or simply select it) and choose 'view node'. In the main panel you should see the corpus name and title in addition to the description."
@@ -57,12 +57,19 @@ RegisterTest
 LogInTest
   LogInTest1 "Try to log in with your MPI user name. Your name should then be shown on top."
 
-AccessLevelTest2
+AccesLevelTest
   AccessLevelTest2a "Remain logged in. Look for a resource with a yellow button. You should be able to access this resource. Example: MPI corpora > Demo > DOBES training > group01 > songs > kleve-route > check one of the files"
   AccessLevelTest2b "Look for a resource with an orange button. Try to open it. Access should be denied. Example: DoBeS archive > Bezen > Primary data > Speech > Texts > Narratives > Historical texts "
-  AccessLevelTest2c "Look for a resource (node) with a green button which contains a session with red button (MPI corpora > Demo > lamus_test > check one of the files). Click on 'view node'; you should be able to access this resource. "
+  AccessLevelTest2c "Look for a resource (node) with a green button which contains a session with red button (MPI corpora > Demo > lamus_test > check one of the files). Click on 'view node'; you should not be able to access this resource. "
   AccessLevelTest2d "Look for a resource with a red button, when you try to view it you will be informed that access is prohibited."
   AccessLevlLogOut "Click on 'log out' and then close your browser. You should then be logged out."
+
+TestopenpathWithHandle
+  Openpath_handle1 "Select a node by right-clicking and select create bookmark. On the right the create bookmark option should appear. "
+  Openpath_handle2 "In the middle of the window you should find the following instruction: \"To save a reference to the IMDI Browser with the tree opened to this node, bookmark the following link:\". Click the link you find there. Now a bookmark should have been created."
+  Openpath_handle3 "Repeat the same procedure until you get to the window from where you can create the bookmark. Now scroll down and copy the numbers behind the line starting by: \"handle\". "
+  Openpath_handle4 "Paste the copied numbers directly behind the slash behind \"imdi_browser/\" in the address you are using. Then type between the slash and the numbers pasted: \"?openhandle=\" so that the address will look similar to the following example:https://lux17.mpi.nl/ds/imdi_browser/?openhandle=1839/00-0000-0000-0001-2A6F-4 "
+  Openpath_handle5 "Press enter after correctly typing the openhandle address. You should see the same window as after creating the bookmark in step two of this test."
 
 Refresh_DB_option
   LoginTesterAccount "Log in using for user name and password the following access credentials: testers, testers. You should be logged in as testers@mpi.nl. "
