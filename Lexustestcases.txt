@@ -1,4 +1,4 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2013-11-05 (10:45).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2013-11-05 (14:49).
 
 LoginTest
   LTDemoLogin "Login with username 'test' (pw: 'test'). Lexus workspace opens."
@@ -250,22 +250,23 @@ FilterTest
   FTReRunTheFiltersForYeli "Rerun the similarily built filters for the Yeli Dyne lexicon. See the results."
   FTDelete "Delete all the filters you have created. The list of available filters is empty"
 
-ImportXMLLexusTest
-  ExistingLexica "Go to https://trac.mpi.nl/wiki/LATSoftwareTesting, downloand the following files Yeli_Dnye_Lexicon.zip, Iwaidja.zip, and Fulfulde-LEGO-LMF.xml.zip."
-  ExistingLexicaXML "In the Workspace mode, select 'File', Import to Lexus, from drop down menu two options are available: XML and Relish-LL-LFM-to Lexus. Select XML and click Import."
-  IEXThePopUP "Close the pop up window by pressing the X button. The window is closed. Reselect 'Import to Lexus' to open the import pop up again. A window showing import details will pop up."
-  IExistingLexicaBrowseXML1 "Select XML. Select .zip files containing the structure and data of the lexicon. The files appear in the Import .zip Files window."
-  IExistingLexicaBrowseXML2 "Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
-  IExistingLexicaBrowseXML3 "Select 'Upload'. The .zip file has being uploaded; you can see the time line, the message that the import process was successful. Press OK."
+ImportXMLLexusZipTest
+  ExistingLexica "Go to https://trac.mpi.nl/wiki/LATSoftwareTesting, download the file Yeli_Dnye_Lexicon.zip."
+  ExistingLexicaXML "ExistingLexicaIn the Workspace mode in 'File' menu select 'Import to Lexus'. A pop-up window appears where you can choose formats you want to import."
+  SpecifyImportDetails "Click on the Import Formats scroll down menu. Two options are available: Lexus XML and Relish-LL-LFM-to Lexus import format. Choose Lexus XML."
+  EEXThePopUP "EXThePopUPClose the pop up window by pressing the X button. The window is closed. Reselect 'Import to Lexus' and lexus XML from the format to open the import pop up again. A window showing import details will pop up. "
+  IExistingLexicaBrowseXML1 "ExistingLexicaBrowseXML1Select .zip files containing the structure and data of the lexicon you want to import (in this case Yeli_Dnye_Lexicon.zip). The file appears in the Import .zip Files window."
+  IExistingLexicaBrowseXML2 "Select 'Upload'. While the file is being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
+  IExistingLexicaBrowseXML3 "Select 'Upload'. The .zip file has being uploaded; you can see the time line, the message that the import process was successful. Press OK"
   IExistingLexicaLexiconWMLInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)"
   ExistingLexicaLexiconContentCheck "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
   IExistingLexicaDelete "Delete the newly imported lexicon. The lexicon disappears from the list of the available lexica (log in/log out)."
-  ExistingLexicaRelish-LL-LFM-toLexus "In the Workspace mode, select 'File', Import to Lexus, from drop down menu two options are available: XML and Relish-LL-LFM-to Lexus. Select Relish-LL-LFM-to Lexus and click Import."
-  ExistingLexicaRelish-LL-LFM-toLexus2 "In the Workspace mode, select 'File', Import to Lexus, from drop down menu of the pop up window select XML (Note: For this step you need the one of the files that is matching this format and has been previously uploaded. The file is called Fulfulde-LEGO-LMF.xml.zip)."
-  ExistingLexicaRelish-LL-LFM-toLexus3 "Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled"
-  ExistingLexicaRelish-LL-LFM-toLexus4 "Select 'Upload'. The .zip file has being uploaded; you can see the time line, the message that the import process was successful. Press OK."
-  ExistingLexicaRelish-LL-LFM-toLexusInTheList "The lexicon is uploaded. You can see it in the list of the available lexica (log in/log out)."
-  ExistingLexicaRelish-LL-LFM-toLexusContentCheck "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
+  ExistingLexicaRelish-LL-LFM-toLexus "Go to https://trac.mpi.nl/wiki/LATSoftwareTesting, download the file Fulfulde-LEGO-LMF.xml.zip). The file contains one file with extension .lmf"
+  ExistingLexicaRelish-LL-LFM-toLexus2 "In the Workspace mode, select 'File', Import to Lexus, from drop down menu two options are available: XML and Relish-LL-LFM-to Lexus. Select Relish-LL-LFM-to Lexus and click Import."
+  ExistingLexicaRelish-LL-LFM-toLexus3 "ExistingLexicaRelish-LL-LFM-toLexus3Select 'Upload'. While the files are being imported (the progress bar is visible), press the Cancel button. The cancel pop up appears and the import gets cancelled."
+  ExistingLexicaRelish-LL-LFM-toLexus4 "ExistingLexicaRelish-LL-LFM-toLexus4Select 'Upload'. The .zip file has being uploaded; you can see the time line, the message that the import process was successful. Press OK."
+  ExistingLexicaRelish-LL-LFM-toLexusInTheList "ExistingLexicaRelish-LL-LFM-toLexusInTheListThe lexicon is uploaded. You can see it in the list of the available lexica (log in/log out). If it’s name is unknown , change its name to Fulfulde-LEGO-LMF."
+  ExistingLexicaRelish-LL-LFM-toLexusContentCheck "ExistingLexicaRelish-LL-LFM-toLexusContentCheckCheck the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
   ExistingLexicaRelish-LL-LFM-toLexusDelete "Check the content of the lexicon (e.g. try to run queries/filters). Everything has been properly imported into Lexus."
 
 ToolboxConvertTest
