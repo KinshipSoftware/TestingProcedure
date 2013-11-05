@@ -1,4 +1,4 @@
-# test cases exported from test plan file lexus_28_06_2012.xml on 2013-10-30 (15:19).
+# test cases exported from test plan file lexus_28_06_2012.xml on 2013-11-05 (10:45).
 
 LoginTest
   LTDemoLogin "Login with username 'test' (pw: 'test'). Lexus workspace opens."
@@ -389,15 +389,6 @@ Non-restricted_templates
   DeleteContainer5 "Go back to workspace. All the initially associated export formats should still be there in the list."
 
 Cross-Reference
-  ChooseAvailableLexica "Choose Frisian Dictionary in the list of available lexica. Switch to Lexicon Editor mode."
-  ExportToPDF "ExpToPDF1In the Lexicon Editor mode, click on 'File' and select 'Export to PDF' (you will have to define a PDF view first in the Schema and View Editor). A pop-up window prompts for choosing a view that you want to use."
-  ExportToPDF2 "Choose a view and click OK. A PDF document opens in a new tab in your browser."
-  ExportToPDF2 "Check content of the PDF export. Both the file and the applied view are correct."
-  ExportToXML1 "In the Lexicon editor mode, click on 'File' and select 'Export to XML'. A pop-up window prompts for save location of zip file."
-  ExportToXML2 "ExpToXML1In the Lexicon editor mode, click on 'File' and select 'Export to XML'. A pop-up window for choosing Specify export details is displayed. Choose a different format for the template you want to export. Click on Export. A select location window for download the zip file is displayed."
-  ExpToXML3 "Specify location and OK. Download starts and you see the download progress on the progress bar."
-  ExpToXML4 "When the download completes and it is successful, close the pop up window by clicking OK."
-  ExportToXML5 "VerifyUnzip the files and check content of the xml export. The xml format is correct."
   ArchiveFamilies "In Lexicon Editor, click on the first window of the archive families indicating the name of the Lexicon. Edit the field (e.g., ber -> berring)"
   AttachmentFamilies "Click on Attachment at the bottom of the page. Click on Set. A window with three possibilities of set resource (Local resources, Archive, Entry reference) is displayed."
   EntryReferenceTab "Click on Entry Reference tab, the word list of the currently opened lexicon is displayed again. Select the original Entry reference (in this example: ber). On the right side of this wordlist, a tree representing the currently selected entry is displayed."
