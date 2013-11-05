@@ -4,7 +4,7 @@
   <LexusVersion></LexusVersion>
   <OSVersion></OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>38905</TestPlanRevision>
+  <TestPlanRevision>38917</TestPlanRevision>
   <LoginTest>
     <LTDemoLogin></LTDemoLogin>
     <LTDemoLogout></LTDemoLogout>
@@ -255,10 +255,11 @@
     <FTReRunTheFiltersForYeli></FTReRunTheFiltersForYeli>
     <FTDelete></FTDelete>
   </FilterTest>
-  <ImportXMLLexusTest>
+  <ImportXMLLexusZipTest>
     <ExistingLexica></ExistingLexica>
     <ExistingLexicaXML></ExistingLexicaXML>
-    <IEXThePopUP></IEXThePopUP>
+    <SpecifyImportDetails></SpecifyImportDetails>
+    <EEXThePopUP></EEXThePopUP>
     <IExistingLexicaBrowseXML1></IExistingLexicaBrowseXML1>
     <IExistingLexicaBrowseXML2></IExistingLexicaBrowseXML2>
     <IExistingLexicaBrowseXML3></IExistingLexicaBrowseXML3>
@@ -272,7 +273,7 @@
     <ExistingLexicaRelish-LL-LFM-toLexusInTheList></ExistingLexicaRelish-LL-LFM-toLexusInTheList>
     <ExistingLexicaRelish-LL-LFM-toLexusContentCheck></ExistingLexicaRelish-LL-LFM-toLexusContentCheck>
     <ExistingLexicaRelish-LL-LFM-toLexusDelete></ExistingLexicaRelish-LL-LFM-toLexusDelete>
-  </ImportXMLLexusTest>
+  </ImportXMLLexusZipTest>
   <ToolboxConvertTest>
     <TCSelectingFiles></TCSelectingFiles>
     <TCXPopUp></TCXPopUp>
