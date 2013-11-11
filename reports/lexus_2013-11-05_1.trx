@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LexusBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/lexus_28_06_2012.xml">
   <DateTime>2013-11-05</DateTime>
-  <LexusVersion></LexusVersion>
-  <OSVersion></OSVersion>
+  <LexusVersion>3.0.1</LexusVersion>
+  <OSVersion>Lux16, Mac, Firefox. </OSVersion>
   <Tester>sauciv</Tester>
   <TestPlanRevision>39075</TestPlanRevision>
   <LoginTest>
@@ -294,19 +294,19 @@
     <test4>Works</test4>
     <test5>Works</test5>
     <test3>Works</test3>
-    <ExpToPDF1 error="When I define a PDF view in the Schema and View Editor, and I save the tree structure, I got an error message. If I close the error message, then I can export to Pdf properly. ">Mostly</ExpToPDF1>
+    <ExpToPDF1>Works</ExpToPDF1>
     <ExpToPDF2>Works</ExpToPDF2>
     <ExpToPDF3>Works</ExpToPDF3>
     <ExpToXML3>Works</ExpToXML3>
     <test7>Works</test7>
     <test8>Works</test8>
-    <test10 error="The download doesn't start.">Fails</test10>
-    <test11 error="">Empty</test11>
-    <test12 error="">Empty</test12>
-    <test13 error="The download doesn't start.">Fails</test13>
-    <test14 error="">Empty</test14>
-    <test15 error="">Empty</test15>
-    <test16 error="">Empty</test16>
+    <test10>Works</test10>
+    <test11>Works</test11>
+    <test12>Works</test12>
+    <test13>Works</test13>
+    <test14>Works</test14>
+    <test15>Works</test15>
+    <test16>Works</test16>
   </ExportTabTest>
   <Restricted_Templates>
     <UpdateWorkspaceRelishTemplate>Works</UpdateWorkspaceRelishTemplate>
@@ -318,18 +318,18 @@
     <RejectTextRepresentationUpdate>Works</RejectTextRepresentationUpdate>
     <AcceptTextRepresentationUpdate>Works</AcceptTextRepresentationUpdate>
     <UpdateTextRepresentationName error="The pop up window appears. However, It should revert to the old name.">Mostly</UpdateTextRepresentationName>
-    <UpdateLemmaName error="I don't get any warning message. ">Fails</UpdateLemmaName>
-    <SwitchWorskspaceMode error="">Empty</SwitchWorskspaceMode>
+    <UpdateLemmaName>Works</UpdateLemmaName>
+    <SwitchWorskspaceMode>Works</SwitchWorskspaceMode>
     <NoWarningMessage>Works</NoWarningMessage>
     <UpdateWorkspaceRelishTemplate2>Works</UpdateWorkspaceRelishTemplate2>
     <WarningMessageDoubleMessage>Works</WarningMessageDoubleMessage>
     <ContentMesageCheck>Works</ContentMesageCheck>
-    <InfoMessage error="I don">Mostly</InfoMessage>
+    <InfoMessage>Works</InfoMessage>
     <UpdateLemmaName2>Works</UpdateLemmaName2>
     <ChangeTextRepresentation>Works</ChangeTextRepresentation>
     <ChangeTextRepresentationSave>Works</ChangeTextRepresentationSave>
-    <EditDataCategory error="I get a Warning message rather than an Info one.">Mostly</EditDataCategory>
-    <WarningIcon3 error="">Empty</WarningIcon3>
+    <EditDataCategory>Works</EditDataCategory>
+    <WarningIcon3>Works</WarningIcon3>
     <UpdateNameReversed>Works</UpdateNameReversed>
     <WarningMessageDataCategory>Works</WarningMessageDataCategory>
     <FormatThreeExport>Works</FormatThreeExport>
