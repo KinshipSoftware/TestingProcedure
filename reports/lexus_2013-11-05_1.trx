@@ -9,7 +9,7 @@
     <LTDemoLogin>Works</LTDemoLogin>
     <LTDemoLogout>Works</LTDemoLogout>
     <LTDemoLogoutBack>Works</LTDemoLogoutBack>
-    <LTLoginFail>Works</LTLoginFail>
+    <LTLoginFail error=" I don't get the error message &quot;Login unsuccessful, please try again&quot;. ">Mostly</LTLoginFail>
   </LoginTest>
   <SwitchTabTest>
     <STTSchemaAndViewEditor>Works</STTSchemaAndViewEditor>
@@ -261,14 +261,14 @@
     <SpecifyImportDetails>Works</SpecifyImportDetails>
     <EEXThePopUP>Works</EEXThePopUP>
     <IExistingLexicaBrowseXML1>Works</IExistingLexicaBrowseXML1>
-    <IExistingLexicaBrowseXML2 error="The Cancel button is not there. So I couldn't stop the upoloading and cancel the import.">Fails</IExistingLexicaBrowseXML2>
+    <IExistingLexicaBrowseXML2>Works</IExistingLexicaBrowseXML2>
     <IExistingLexicaBrowseXML3>Works</IExistingLexicaBrowseXML3>
     <IExistingLexicaLexiconWMLInTheList>Works</IExistingLexicaLexiconWMLInTheList>
     <ExistingLexicaLexiconContentCheck>Works</ExistingLexicaLexiconContentCheck>
     <IExistingLexicaDelete>Works</IExistingLexicaDelete>
     <ExistingLexicaRelish-LL-LFM-toLexus>Works</ExistingLexicaRelish-LL-LFM-toLexus>
     <ExistingLexicaRelish-LL-LFM-toLexus2>Works</ExistingLexicaRelish-LL-LFM-toLexus2>
-    <ExistingLexicaRelish-LL-LFM-toLexus3 error="The Cancel button is not there. So I couldn't stop the upoloading and cancel the import.">Fails</ExistingLexicaRelish-LL-LFM-toLexus3>
+    <ExistingLexicaRelish-LL-LFM-toLexus3>Works</ExistingLexicaRelish-LL-LFM-toLexus3>
     <ExistingLexicaRelish-LL-LFM-toLexus4>Works</ExistingLexicaRelish-LL-LFM-toLexus4>
     <ExistingLexicaRelish-LL-LFM-toLexusInTheList>Works</ExistingLexicaRelish-LL-LFM-toLexusInTheList>
     <ExistingLexicaRelish-LL-LFM-toLexusContentCheck>Works</ExistingLexicaRelish-LL-LFM-toLexusContentCheck>
