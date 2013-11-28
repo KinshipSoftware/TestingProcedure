@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KinoathBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/kinoath_2012-04-04.xml">
+  <DateTime>2013-11-25</DateTime>
+  <KinoathVersion>1.4.39296</KinoathVersion>
+  <OSVersion>Mac OS X Version 10.6.8; Firefox Version 14.0.1; Java Version 1.6.0_31</OSVersion>
+  <Tester>frabec</Tester>
+  <TestPlanRevision>39352</TestPlanRevision>
+  <StartKinOath>
+    <Webstart>Works</Webstart>
+    <WindowsInstaller>Works</WindowsInstaller>
+    <LinuxInstaller>Works</LinuxInstaller>
+    <MacOSInstaller>Works</MacOSInstaller>
+  </StartKinOath>
+  <SampleDiagramsTest>
+    <FreeformDiagramSyntax1>Works</FreeformDiagramSyntax1>
+    <FreeformDiagramSyntax2>Works</FreeformDiagramSyntax2>
+    <FreeformDiagramSyntax3>Works</FreeformDiagramSyntax3>
+    <FreeformDiagramSyntax4 error="This feature needs to be improved. See ticket #2546">Empty</FreeformDiagramSyntax4>
+    <QueryDiagramSyntax1>Works</QueryDiagramSyntax1>
+    <QueryDiagramSyntax2>Works</QueryDiagramSyntax2>
+    <QueryDiagramSyntax3>Works</QueryDiagramSyntax3>
+    <QueryDiagramSyntax4>Works</QueryDiagramSyntax4>
+    <QueryDiagramSyntax5>Works</QueryDiagramSyntax5>
+    <QueryDiagramSyntax6>Works</QueryDiagramSyntax6>
+    <HawaiianKinTerms1>Works</HawaiianKinTerms1>
+    <HawaiianKinTerms2>Works</HawaiianKinTerms2>
+    <HawaiianKinTerms3>Works</HawaiianKinTerms3>
+    <HawaiianKinTerms3b error="This feature needs to be improved. See ticket #2546">Empty</HawaiianKinTerms3b>
+    <HawaiianKinTerms4>Works</HawaiianKinTerms4>
+    <HawaiianKinTerms5>Works</HawaiianKinTerms5>
+    <HawaiianKinTerms6>Works</HawaiianKinTerms6>
+    <HawaiianKinTerms6b error="this option is disabled in KinOath 1.4">Empty</HawaiianKinTerms6b>
+    <HawaiianKinTerms7>Works</HawaiianKinTerms7>
+    <JapaneseKinTerms1>Works</JapaneseKinTerms1>
+    <JapaneseKinTerms2>Works</JapaneseKinTerms2>
+    <JapaneseKinTerms3 error="This feature needs to be improved. See ticket #2546">Empty</JapaneseKinTerms3>
+    <JapaneseKinTerms4>Works</JapaneseKinTerms4>
+    <JapaneseKinTerms5>Works</JapaneseKinTerms5>
+    <JapaneseKinTerms5b error="This feature needs to be improved. See ticket #2546">Empty</JapaneseKinTerms5b>
+    <JapaneseKinTerms6>Works</JapaneseKinTerms6>
+    <JapaneseKinTerms6b error="this option is disabled in KinOath 1.4">Empty</JapaneseKinTerms6b>
+    <JapaneseKinTerms7>Works</JapaneseKinTerms7>
+    <SwedishKinTerms1>Works</SwedishKinTerms1>
+    <SwedishKinTerms2>Works</SwedishKinTerms2>
+    <SwedishKinTerms3 error="This feature needs to be improved. See ticket #2546">Empty</SwedishKinTerms3>
+    <SwedishKinTerms4>Works</SwedishKinTerms4>
+    <SwedishKinTerms5>Works</SwedishKinTerms5>
+    <SwedishKinTerms5b error="This feature needs to be improved. See ticket #2546">Empty</SwedishKinTerms5b>
+    <SwedishKinTerms6>Works</SwedishKinTerms6>
+    <SwedishKinTerms6b error="this option is disabled in KinOath 1.4">Empty</SwedishKinTerms6b>
+    <SwedishKinTerms7>Works</SwedishKinTerms7>
+    <NamedTransientEntities1>Works</NamedTransientEntities1>
+    <NamedTransientEntities2>Works</NamedTransientEntities2>
+    <NamedTransientEntities3>Works</NamedTransientEntities3>
+    <NamedTransientEntities4 error="This feature needs to be improved. See ticket #2546">Empty</NamedTransientEntities4>
+    <MatrimonialRingsExamples1>Works</MatrimonialRingsExamples1>
+    <MatrimonialRingsExamples2>Works</MatrimonialRingsExamples2>
+    <CharlesIIOfSpain1>Works</CharlesIIOfSpain1>
+    <CharlesIIOfSpain2>Works</CharlesIIOfSpain2>
+    <CharlesIIOfSpain3>Works</CharlesIIOfSpain3>
+    <CharlesIIOfSpain4 error="This feature needs to be improved. See ticket #2546">Empty</CharlesIIOfSpain4>
+    <HaemophiliaEu1>Works</HaemophiliaEu1>
+    <HaemophiliaEu2>Works</HaemophiliaEu2>
+    <HaemophiliaEu3>Works</HaemophiliaEu3>
+    <HaemophiliaEu4>Works</HaemophiliaEu4>
+    <HaemophiliaEu5>Works</HaemophiliaEu5>
+    <HaemophiliaEu6>Works</HaemophiliaEu6>
+  </SampleDiagramsTest>
+  <NewDiagramsTest>
+    <StandardDiagram1>Works</StandardDiagram1>
+    <StandardDiagram2>Works</StandardDiagram2>
+    <StandardDiagram3>Works</StandardDiagram3>
+    <StandardDiagram4>Works</StandardDiagram4>
+    <StandardDiagram4b>Works</StandardDiagram4b>
+    <StandardDiagram5>Works</StandardDiagram5>
+    <ChromosomeType>Works</ChromosomeType>
+    <ClanExample>Works</ClanExample>
+    <KinTerm>Works</KinTerm>
+    <SocialEvent>Works</SocialEvent>
+    <Geometry1>Works</Geometry1>
+    <Geometry2>Works</Geometry2>
+    <Delete>Works</Delete>
+    <Merge>Works</Merge>
+    <Duplicate>Works</Duplicate>
+    <SetEgo>Works</SetEgo>
+    <AddEgoList>Works</AddEgoList>
+    <RemoveEgoList>Works</RemoveEgoList>
+    <AttachToDiagram>Works</AttachToDiagram>
+    <Release>Works</Release>
+    <ResetZoom>Works</ResetZoom>
+    <ResetLayout>Works</ResetLayout>
+    <SaveChanges>Works</SaveChanges>
+    <StandardDiagram6>Works</StandardDiagram6>
+    <StandardDiagram6b>Works</StandardDiagram6b>
+    <FreeformDiagram1>Works</FreeformDiagram1>
+    <FreeformDiagram2>Works</FreeformDiagram2>
+    <FreeformDiagram3 error="This feature needs to be improved. See ticket #2546">Empty</FreeformDiagram3>
+    <KinTerms1>Works</KinTerms1>
+    <KinTerms2>Works</KinTerms2>
+    <KinTerms2b error="This feature needs to be improved. See ticket #2546">Empty</KinTerms2b>
+    <KinTerms3>Works</KinTerms3>
+    <KinTerms4>Works</KinTerms4>
+    <KinTerms4b error="This feature needs to be improved. See ticket #2546">Empty</KinTerms4b>
+    <KinTerms5>Works</KinTerms5>
+    <KinTerms5b error="this option is disabled in KinOath 1.4">Empty</KinTerms5b>
+    <KinTerms6>Works</KinTerms6>
+    <QueryDiagram1>Works</QueryDiagram1>
+    <QueryDiagram2>Works</QueryDiagram2>
+    <QueryDiagram3>Works</QueryDiagram3>
+    <ArchiveLinker1>Works</ArchiveLinker1>
+    <ArchiveLinker2>Works</ArchiveLinker2>
+    <ArchiveLinker3>Works</ArchiveLinker3>
+    <ArchiveLinker4>Works</ArchiveLinker4>
+  </NewDiagramsTest>
+  <Menus>
+    <SaveFile>Works</SaveFile>
+    <OpenDiagram>Works</OpenDiagram>
+    <RecentDiagram>Works</RecentDiagram>
+    <RecentDiagram2>Works</RecentDiagram2>
+    <NewProject>Works</NewProject>
+    <NewProject2>Works</NewProject2>
+    <ProjectDefault>Works</ProjectDefault>
+    <OpenProject>Works</OpenProject>
+    <OpenRecentProject>Works</OpenRecentProject>
+    <ClearList>Works</ClearList>
+    <Gedcom_CSV>Works</Gedcom_CSV>
+    <GedcomResources>Works</GedcomResources>
+    <GedcomResources2>Works</GedcomResources2>
+    <ExportPDF>Works</ExportPDF>
+    <ExportJPEG>Works</ExportJPEG>
+    <ExportPNG>Works</ExportPNG>
+    <ExportTIFF>Works</ExportTIFF>
+    <ExportR_SPSS>Works</ExportR_SPSS>
+    <Close>Works</Close>
+    <GlobalDefaultDiagram>Works</GlobalDefaultDiagram>
+    <NewDefaultDiagram>Works</NewDefaultDiagram>
+    <Edit>Works</Edit>
+    <DiagramOptions>Works</DiagramOptions>
+    <Settings>Works</Settings>
+    <EntityProfiles>Works</EntityProfiles>
+    <KinTypeDefinitions>Works</KinTypeDefinitions>
+    <KinTypeDefinitions2>Works</KinTypeDefinitions2>
+    <LabelFields>Works</LabelFields>
+    <SymbolFields>Works</SymbolFields>
+    <RelationTypeDefinitions>Works</RelationTypeDefinitions>
+    <CustomName>Works</CustomName>
+    <DataCategory>Works</DataCategory>
+    <RelationType>Works</RelationType>
+    <LineColour>Works</LineColour>
+    <LineWidth>Works</LineWidth>
+    <LineDash>Works</LineDash>
+    <LineOrientation>Works</LineOrientation>
+    <DeleteSelected>Works</DeleteSelected>
+    <KinTerms>Works</KinTerms>
+    <KinTerms2 error="This feature needs to be improved. See ticket #2546">Empty</KinTerms2>
+    <Export>Works</Export>
+    <Import>Works</Import>
+    <ArchiveLinker>Works</ArchiveLinker>
+    <ArchiveLinker2>Works</ArchiveLinker2>
+    <ArchiveLinker3>Works</ArchiveLinker3>
+    <Panels>Works</Panels>
+    <Plugins>Works</Plugins>
+    <Window>Works</Window>
+    <Help>Works</Help>
+    <Exit>Works</Exit>
+  </Menus>
+  <Other_Platforms>
+    <Different_OS_Install>Works</Different_OS_Install>
+    <Opening_Diagram>Works</Opening_Diagram>
+    <Recalculate_Diagram>Works</Recalculate_Diagram>
+    <Import_Data>Works</Import_Data>
+    <Query>Works</Query>
+    <Select_and_Expand>Works</Select_and_Expand>
+    <Modify_Kinship_Data>Works</Modify_Kinship_Data>
+  </Other_Platforms>
+  <DropboxTest>
+    <NewProject>Works</NewProject>
+    <Diagram>Works</Diagram>
+    <DifferentMachine>Works</DifferentMachine>
+    <ModifyDiagram>Works</ModifyDiagram>
+    <Reindexing>Works</Reindexing>
+    <Reindexing2>Works</Reindexing2>
+  </DropboxTest>
+</KinoathBugCheck>
