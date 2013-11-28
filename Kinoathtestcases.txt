@@ -1,4 +1,4 @@
-# test cases exported from test plan file kinoath_2012-04-04.xml on 2013-10-15 (09:47).
+# test cases exported from test plan file kinoath_2012-04-04.xml on 2013-11-28 (08:36).
 
 StartKinOath
   Webstart "To start the program go to http://tla.mpi.nl/tools/tla-tools/kinoath > Show all KinOath verions > select the Testing version, and click on 'Run via webstart'. After some seconds KinOath should open."
@@ -74,7 +74,7 @@ NewDiagramsTest "Once you have created new diagrams leave them open so that you 
   SocialEvent "Right click in the main panel, select 'Add' > 'Social_Event'. Select the entity and fill in some of the information in the table at the bottom of the page. Click on the entity to save the information entered. Some of them should now appear next to entity on the diagram."
   Geometry1 "Right click in the main panel, 'Add Geometry' > 'Add Label'. The word 'Label' should appear in the central panel. Click on it. In the window at the bottom of the page write something; then click again on the word 'Label' in the main panel: there should appear what you wrote."
   Geometry2 "Right click in the main panel, 'Add Geometry'. Try to select the various options, circle, square, etc. The forms should appear in the mail panel."
-  Delete "After creating an entity, select it, right click, choose 'Delete'. A dialog window should open warning you that the entity selected will be deleted from the database."
+  Delete "After creating an entity, select it, right click, choose 'Delete selected from project'. A dialog window should open warning you that the entity selected will be deleted from the database."
   Merge "Select two entities that you want to merge into one single individual. Right click, choose 'Merge Selected Entities'. Now you should see only one individual carrying the labels of both merged entities. "
   Duplicate "Select an entity, right click, choose 'Duplicate Selected Entities'. Another entity carrying the same labels should appear.  "
   SetEgo "Select one entity, right click, 'Set as Ego (list will be cleared)'. If you look at the \"diagram tree\" tab on the left of the page the entity selected should appear under the 'Attached' list and go black."
@@ -85,7 +85,7 @@ NewDiagramsTest "Once you have created new diagrams leave them open so that you 
   ResetZoom "With the mouse cursor in the diagram window right click and then choose 'Reset zoom'. The diagram should go back to its default size."
   ResetLayout "With the mouse cursor in the diagram window right click and choose 'Reset layout'. The entities' position should change."
   SaveChanges "Select one entity, in the table at the bottom of the page change some of the information. Click on the diagram, the new information should be saved."
-  StandardDiagram6 "Open the 'Search Entities' tab on the left and enter the name of an individual present in the database; click 'Search'; the list of entities found should appear in the same panel. Click on some of them, they should appear in the diagram. "
+  StandardDiagram6 "Open the 'Search Entities' tab on the left and enter the name of an individual present in the database; click 'Search'; the list of entities found should appear in the same panel. Click on some of them, they should appear in the diagram. NOTE: if you want more than one entity to appear in the main panel you have to drag them. "
   StandardDiagram6b "Try also the options 'Graph selection' [uncheck it: the entity you select from the 'Project Tree' tab needs to be dragged to the main panel] and 'Expand selection by kin type string' [see Query Diagram Syntax above]. "
   FreeformDiagram1 "In the File menu go to 'New Diagram of Type' and select 'Freeform Diagram (transient)'. A new page should open with a central, blank panel, and a 'Kin Type Strings' panel above it. "
   FreeformDiagram2 "Create a diagram by entering kin type strings in the suitable panel. The new individuals should appear in the diagram. "
@@ -101,7 +101,7 @@ NewDiagramsTest "Once you have created new diagrams leave them open so that you 
   KinTerms6 "Try to uncheck the option 'Generate Example Entities' in the panel on the right (it should be checked by default). Do it for both kin terms groups. The diagram should disappear.  NOTE: if you have two kin terms groups, and some of the kin terms overlap, these will not disappear unless you select the option for both groups."
   QueryDiagram1 "In the File menu go to 'New Diagram of Type' and select 'Query Diagram (current project)'. A new page should open with a central, blank panel, a 'Kin Type Strings' panel on the top, and a panel on the left with two tabs: 'Diagram Tree' and 'Project Tree'."
   QueryDiagram2 "Try a query by searching an entity present in the database, like for example f[Antonia]. Both in the central panel and in the diagram tree tab you should see all the entities found named Antonia."
-  QueryDiagram3 "From the diagram tree tab take one of the entities found and drag it next to your first query f[Antonia] to make it more specific. Now in the central panel (and also in the diagram tree panel) you should see  only one entity named Antonia. In the diagram tree panel you should see also the number of entities related to the one searched and the corresponding relation types."
+  QueryDiagram3 "From the diagram tree tab take one of the entities found and drag it next to your first query f[Antonia] to make it more specific. Now in the central panel (and also in the diagram tree panel) you should see  only one entity named Antonia. In the diagram tree panel - by clicking on the little arrow on the left of the entity - you should see also the number of entities related to the one searched and the corresponding relation types."
   ArchiveLinker1 "From File menu go to New Diagram of Type and then Archive Data Linker. A new page should open with a central, blank panel, a panel on the left with two tabs (Project and Diagram Tree), and a panel on the right with a tab called Archive Linker. The latter should display the IMDI tree. (You may see two tabs more, both called Archive Linker, but with different sections of the tree)"
   ArchiveLinker2 "Choose a node where you see actors (e.g. MPI corpora > Demo > DOBES training > PeWi corpus). Drag them to the main panel. They should carry labels like \"archive ref.: 1,2, etc\", and such links should also be visible in a table at the bottom of the page, in the tab \"External Links\""
   ArchiveLinker3 "Try to create some entities and then random relations between the entities."
@@ -141,7 +141,7 @@ Menus
   CustomName "In the first column, \"Custom Name\", enter a possible name for the relation. If you choose 'other' as relation type, by default the custom name should be 'undefined' but try to modify it."
   DataCategory "Enter the following link: http://www.isocat.org/datcat/DC-3688. Then click on it. It should redirect you to the corresponding ISOcat webpage."
   RelationType "Choose the type of relation from the drop down menu, or select (on the right of the page) 'Scan For Types': it should find all the relation types present in the diagram and place them automatically in the column"
-  LineColour "For each relation type choose a different color. The lines in the diagram should become of that color."
+  LineColour "For each relation type choose a different color. Depending on whether you used the \"Scan For Types\" option, either the lines in the diagram get the chosen color automatically, or you will have to use the colored dots."
   LineWidth "Change the width of the lines and check if they effectively get thicker or thinner."
   LineDash "Change the size of the dashes building up the lines."
   LineOrientation "As relation type choose other and then try the two options: horizontal and vertical. The line linking the entities should change position. NOTE: this option is NOT valid for sanguine lines, so create another entity separate from the diagram."
