@@ -1,4 +1,4 @@
-# test cases exported from test plan file imex_2012-02-17.xml on 2012-12-13 (16:52).
+# test cases exported from test plan file imex_2012-02-17.xml on 2013-12-19 (14:10).
 
 NodeSearchTest
   OpenFreeMdSession "Left click on md session which is available to everyone containing jpg files"
@@ -16,7 +16,7 @@ NextButton
   NextButton "In full view press on \\"next\\" button to see the following image"
 
 LoggedOutTest
-  DragAndDrop1 "when loggen in, drag images from the gallery and move them to desktop in order to use as files etc."
+  DragAndDrop1 "when logged in, drag images from the gallery and move them to desktop in order to use them as files etc."
   DragAndDrop2 "not loggen in, drag images from the gallery and move them to desktop, images appear blurry"
   FullView "Images do not open in full view when not logged in"
   ViewThumbnails "thumbnails appear blurry when viewing them without being logged in"
