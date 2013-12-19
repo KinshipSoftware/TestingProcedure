@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImexBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/imex_2012-02-17.xml">
   <DateTime>2013-12-19</DateTime>
-  <ImexVersion>1.1.34548</ImexVersion>
+  <ImexVersion>1.1.39560</ImexVersion>
   <OSVersion>Lux17, Mac, Firefox.</OSVersion>
   <Tester>sauciv</Tester>
   <TestPlanRevision>39653</TestPlanRevision>
