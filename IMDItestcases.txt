@@ -1,4 +1,4 @@
-# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-02-06 (10:01).
+# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-02-06 (16:05).
 
 Starting_Metadata_Browser
   Starting "Go to http://lux17.mpi.nl/ds/metadata_browser/ to access the homepage. "
@@ -6,6 +6,8 @@ Starting_Metadata_Browser
 NavigatonTest
   ExpansionTest "Try to expand the tree by clicking on \"+\" next to the a corpus node."
   CollapseTest "Try to collapse the tree by clicking on \"-\", next to the a corpus node previously exapended."
+  MultipleSelectionTest "Click on the button above the tree (left corner). Select multiple nodes by clicking on different nodes one by one (e.g., Dobes archive, Leiden archives and Donated Corpus). In the main window four options are available: Metadatasearch, Annotation content search, Manage access rights and Resource access."
+  MultipleSelectionTest2 "Click again on the button above the tree (left corner). Deselect nodes by clicking on the same nodes you have previously chosen. In the main window six options are now available: Metadatasearch, Annotation content search, Manage access rights, Resource access, Citation and Download. "
 
 AccessLevelTest
   VisualConfirmationTest "There should be access indicator next to all nodes, except for external material (BAS, Colarom, GTRP, Lablita, Lund) and where there are no resources below a node."
@@ -25,9 +27,6 @@ ContextMenuTest
   ViewVideoResourceFile "Click on an accessible (i.e. w/ green indicator) Video Resource File. The name of the session selected should turn bold. Click 'view node' in the main panel. The video should then appear. Example of video resource file: MPI corpora > Demo > NewCorpusTest"
   ViewAudioResourceFile "Click on an accessible (i.e. w/ green indicator) Audio Resource File. The name of the session selected should turn bold. Click 'view node' in the main panel. The audio file should then become available. Example of audio resouce file: MPI corpora > Demo > NewCorpusTest. NOTE: this file extension do not work on Firefox. Try another browser."
   ViewInfoFile "Click on a file with an info icon next to it. The name of the info session selected should turn bold. In the main panel you should see the page belonging to the file."
-  CreateBookMark "Right click on a node and select 'Bookmark this link'. You should be able to open the page with the related node, by using the link previously bookmarked."
-  CreateBookMark2 "Right click on a node and select 'Save link as'. You should be able to save a file in htlm format, by using the link previously bookmarked. You can also rename the file and choose for a directory where to save it."
-  CreateBookMark3 "Right click on a node and select 'Copy Link Location'. You should be able to open the page of the related node, by using the link previously bookmarked."
   MetadataSearch "Click on a session node. The name of the session selected should turn bold. Click on 'Metadata Search' in the main panel. You should be directed towards a search box."
   MetadataSearch2 "Fill in a designated search item. After a few seconds, you should see the list of nodes containing your search string (provided the item is located within the selected node)."
   AnnotationContentSearch "Click on a session node. The name of the session selected should turn bold. Click on 'Annotation Content Search' in the main panel. You should be redirected to TROVA, a search application, which should then allow you to search for a particular word and/or string of words."
@@ -41,10 +40,13 @@ ContextMenuTest
   DownloadAllResources2 "Log out and close window (or clear cache). Click on a session node with restricted access and try to select \"download all resources\". You should see an error message at the top of the main panel saying that \"User anonymous has no access to any of the nodes. No zip could be created\". "
   DowloadResourceFile "Click on a resource file. The name of the resource selected should turn bold. Click on 'Download' in the main panel. You should then be able to save the file at a desired location."
   AccessResourceFile "Open your resource file with ELAN/other media programmes, or edit it with Notepad or Word (in other words with the programme most suitable to the file format) "
-  RequestAccess "Click on a node. The name of the resource selected should turn bold. Click on 'Request Access (RRS)' in the main panel. You should be redirected to the Resource Request system. "
+  ResourcesAccess "Log out and close your browser. Go back to Imdi browser. Click on a node. The name of the resource selected should turn bold. Click on 'Resources Access (RRS)' in the main panel. You should be redirected to the Resource Request system. "
+  ResourcesAccess2 "At the bottom of the page, you can register if don't have an account by clicking on 'here'. You should get to the registration page."
+  ResourcesAccess3 "In the same page (Resource Request system), click on 'log in'. Once you are logged in you should get the resource request system with the name of the node you selected and the possbility to indicate the date the period that you would like to use the resource.  "
   VersionTest "Click on a session node. The name of the session selected should turn bold. Click on 'Version' in the main panel. You should then be able to see a table showing a node, pid, date and accessibility of the session file."
   VersionTest2 "Click on a resource file. The name of the resource selected should turn bold. Click on 'Version' in the main panel. You should then be able to see a table showing a node, pid, date and accessibility of the resource file."
   CitationTest "Click on a corpus node. The name of the corpus selected should turn bold. In the main page, a window opens showing a cite this resource message. Click on show details. more info are shown about the corpus node selected (internal node id, link, link to the node, etc.)."
+  CitationTest2 "Click on the link that comes with a persistent guarantee. You should be redirected to a new page showing the type, message and description about the node/session/file you ask to cite.  "
 
 ManualAboutTest
   ManualLink "Click on 'Manual' in the top right. You should be redirected to the online manual of the application. "
