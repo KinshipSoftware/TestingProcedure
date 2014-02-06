@@ -1,4 +1,4 @@
-# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-02-06 (16:05).
+# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-02-06 (17:09).
 
 Starting_Metadata_Browser
   Starting "Go to http://lux17.mpi.nl/ds/metadata_browser/ to access the homepage. "
@@ -7,7 +7,11 @@ NavigatonTest
   ExpansionTest "Try to expand the tree by clicking on \"+\" next to the a corpus node."
   CollapseTest "Try to collapse the tree by clicking on \"-\", next to the a corpus node previously exapended."
   MultipleSelectionTest "Click on the button above the tree (left corner). Select multiple nodes by clicking on different nodes one by one (e.g., Dobes archive, Leiden archives and Donated Corpus). In the main window four options are available: Metadatasearch, Annotation content search, Manage access rights and Resource access."
-  MultipleSelectionTest2 "Click again on the button above the tree (left corner). Deselect nodes by clicking on the same nodes you have previously chosen. In the main window six options are now available: Metadatasearch, Annotation content search, Manage access rights, Resource access, Citation and Download. "
+  MultipleSelectionTestOptions "Click again on the button above the tree (left corner). Deselect nodes by clicking on the same nodes you have previously chosen. In the main window six options are now available: Metadatasearch, Annotation content search, Manage access rights, Resource access, Citation and Download. "
+  MultipleSelectionTestMetadata "Click again on the button above the tree (left corner). Select multiple nodes by clicking on different nodes one by one (e.g., Dobes archive, Leiden archives and Donated Corpus). Click on Metadatasearch. You should be redirected to the metadasearch window, showing you that three nodes were selected. Close the window."
+  MultipleSelectionTestAnnotation "Check that three nodes you selected are still highlighted. Click on Annotation content search. You should be redirected to Trova search application for the three nodes you selected. Close the window."
+  MultipleSelectionTestAccessRights "Check that three nodes you selected are still highlighted. Click on Manage access rights. An error message tells you that this action can only be executed on single nodes."
+  MultipleSelectionTestResourceRequest "Check that three nodes you selected are still highlighted. Click on Resource access. You should be redirected to the Resource request system with the node id and node name of the corpus you have selected.  "
 
 AccessLevelTest
   VisualConfirmationTest "There should be access indicator next to all nodes, except for external material (BAS, Colarom, GTRP, Lablita, Lund) and where there are no resources below a node."
