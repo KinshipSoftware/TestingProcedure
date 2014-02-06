@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IMDIBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/IMDI_METADATABROWSER_2.xml">
+  <DateTime>2014-02-06</DateTime>
+  <IMDIVersion>1.0</IMDIVersion>
+  <OSVersion>Lux17, Firefox, Mac.</OSVersion>
+  <Tester>sauciv</Tester>
+  <TestPlanRevision>39858</TestPlanRevision>
+  <Starting_Metadata_Browser>
+    <Starting>Works</Starting>
+  </Starting_Metadata_Browser>
+  <NavigatonTest>
+    <ExpansionTest>Works</ExpansionTest>
+    <CollapseTest>Works</CollapseTest>
+  </NavigatonTest>
+  <AccessLevelTest>
+    <VisualConfirmationTest>Works</VisualConfirmationTest>
+    <AccessTest error="An AMS page opens asking to loggin in. After logged in, I got a message saying that I can't access.">Fails</AccessTest>
+    <AccessLevelTest>Works</AccessLevelTest>
+    <AccessLevelTest2 error="In the main window, a code (probably related to an Ams window) is dysplayed. ">Fails</AccessLevelTest2>
+    <AccessLevelTest3 error="In the main window, a code (probably related to an Ams window) is dysplayed. ">Fails</AccessLevelTest3>
+    <AccessLevelTest4 error="The same error. In the main window, a code (probably related to an Ams window) is dysplayed.">Fails</AccessLevelTest4>
+  </AccessLevelTest>
+  <ContextMenuTest>
+    <ViewCorpusNode>Works</ViewCorpusNode>
+    <ViewCorpusNode2>Works</ViewCorpusNode2>
+    <ViewSessionNode>Works</ViewSessionNode>
+    <ViewSessionNode2>Works</ViewSessionNode2>
+    <ViewWrittenResourceFile error="A window pops up asking if you want to save the file. After clicking on save, a file with .dsm extension is downloaded. ">Fails</ViewWrittenResourceFile>
+    <ViewImageResourceFile error="A window pops up asking if you want to save the file. After clicking on save, a file with .dsm extension is downloaded. ">Fails</ViewImageResourceFile>
+    <ViewVideoResourceFile error="The same window (see step 6) pops up. After clicking on save, a file with .dsm extension is downloaded.">Fails</ViewVideoResourceFile>
+    <ViewAudioResourceFile error="The same window (see step 6 &amp; 7) pops up. After clicking on save, a file with .dsm extension is downloaded.">Fails</ViewAudioResourceFile>
+    <ViewInfoFile error="Selecting a HTML info file renders the HTML source code as plain text.">Fails</ViewInfoFile>
+    <CreateBookMark>Works</CreateBookMark>
+    <CreateBookMark2>Works</CreateBookMark2>
+    <CreateBookMark3>Works</CreateBookMark3>
+    <MetadataSearch>Works</MetadataSearch>
+    <MetadataSearch2>Works</MetadataSearch2>
+    <AnnotationContentSearch>Works</AnnotationContentSearch>
+    <SetAccessRights>Works</SetAccessRights>
+    <DownloadCorpusFile>Works</DownloadCorpusFile>
+    <AccessCorpusFile>Works</AccessCorpusFile>
+    <DownloadSessionFile>Works</DownloadSessionFile>
+    <AccessSessionFile>Works</AccessSessionFile>
+    <DownloadAllResources>Works</DownloadAllResources>
+    <AccessZippedResources>Works</AccessZippedResources>
+    <DownloadAllResources2>Works</DownloadAllResources2>
+    <DowloadResourceFile>Works</DowloadResourceFile>
+    <AccessResourceFile>Works</AccessResourceFile>
+    <RequestAccess>Works</RequestAccess>
+    <VersionTest>Works</VersionTest>
+    <VersionTest2>Works</VersionTest2>
+    <CitationTest>Works</CitationTest>
+  </ContextMenuTest>
+  <ManualAboutTest>
+    <ManualLink>Works</ManualLink>
+    <AboutMetadata>Works</AboutMetadata>
+  </ManualAboutTest>
+  <RegisterTest>
+    <RegisterTest1>Works</RegisterTest1>
+    <ExistingUserCheck>Works</ExistingUserCheck>
+    <ExistingUserRegistration>Works</ExistingUserRegistration>
+  </RegisterTest>
+  <LogInTest>
+    <LogInTest>Works</LogInTest>
+  </LogInTest>
+  <LogOutTest>
+    <LogOutTest>Works</LogOutTest>
+  </LogOutTest>
+</IMDIBugCheck>
