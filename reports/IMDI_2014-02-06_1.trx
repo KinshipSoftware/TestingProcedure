@@ -4,7 +4,7 @@
   <IMDIVersion>1.0</IMDIVersion>
   <OSVersion>Lux17, Firefox, Mac.</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>39869</TestPlanRevision>
+  <TestPlanRevision>39871</TestPlanRevision>
   <Starting_Metadata_Browser>
     <Starting>Works</Starting>
   </Starting_Metadata_Browser>
@@ -12,7 +12,11 @@
     <ExpansionTest>Works</ExpansionTest>
     <CollapseTest>Works</CollapseTest>
     <MultipleSelectionTest>Works</MultipleSelectionTest>
-    <MultipleSelectionTest2>Works</MultipleSelectionTest2>
+    <MultipleSelectionTestOptions>Works</MultipleSelectionTestOptions>
+    <MultipleSelectionTestMetadata>Works</MultipleSelectionTestMetadata>
+    <MultipleSelectionTestAnnotation>Works</MultipleSelectionTestAnnotation>
+    <MultipleSelectionTestAccessRights>Works</MultipleSelectionTestAccessRights>
+    <MultipleSelectionTestResourceRequest>Works</MultipleSelectionTestResourceRequest>
   </NavigatonTest>
   <AccessLevelTest>
     <VisualConfirmationTest>Works</VisualConfirmationTest>
