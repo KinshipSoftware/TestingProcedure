@@ -4,7 +4,7 @@
   <IMDIVersion>1.0</IMDIVersion>
   <OSVersion>Lux17, Firefox, Mac.</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>39871</TestPlanRevision>
+  <TestPlanRevision>39876</TestPlanRevision>
   <Starting_Metadata_Browser>
     <Starting>Works</Starting>
   </Starting_Metadata_Browser>
@@ -22,9 +22,9 @@
     <VisualConfirmationTest>Works</VisualConfirmationTest>
     <AccessTest error="An AMS page opens asking to loggin in. After logged in, I got a message saying that I can't access.">Fails</AccessTest>
     <AccessLevelTest>Works</AccessLevelTest>
-    <AccessLevelTest2 error="In the main window, a code (probably related to an Ams window) is dysplayed. ">Fails</AccessLevelTest2>
-    <AccessLevelTest3 error="In the main window, a code (probably related to an Ams window) is dysplayed. ">Fails</AccessLevelTest3>
-    <AccessLevelTest4 error="The same error. In the main window, a code (probably related to an Ams window) is dysplayed.">Fails</AccessLevelTest4>
+    <AccessLevelTest2 error="In the main window, a code (probably related to an Ams window) is displayed. ">Fails</AccessLevelTest2>
+    <AccessLevelTest3 error="In the main window, a code (probably related to an Ams window) is displayed. ">Fails</AccessLevelTest3>
+    <AccessLevelTest4 error="The same error. In the main window, a code (probably related to an Ams window) is displayed.">Fails</AccessLevelTest4>
   </AccessLevelTest>
   <ContextMenuTest>
     <ViewCorpusNode>Works</ViewCorpusNode>
