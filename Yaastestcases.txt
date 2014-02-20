@@ -1,18 +1,17 @@
-# test cases exported from test plan file yaas.xml on 2014-02-12 (16:32).
+# test cases exported from test plan file yaas.xml on 2014-02-20 (11:57).
 
 Access_YAAS
   StartYaas "Go to the following link: http://lux17.mpi.nl/ds/yaas2/ (or http://lux17.mpi.nl/ds/yaas/). The application should open. "
 
 Database
   ChooseDatabase "From the drop down menu on the left of the page (<please select a database>) you can choose the database you want to search. For this testing select IMDI-2013-11-13. A series of additional options should appear (e.g. the number of available or missing documents, and the search constraints). "
-  DatabaseInformation "At the bottom of the page you should also be able to see the topnode of the database chosen (i.e.  IMDI-corpora[29])."
+  DatabaseInformation "Under the search constraints fields you should also be able to see the topnode of the database chosen (i.e.  IMDI-corpora[29])."
   DatabaseInformation2 "Click on IMDI-corpora[29]. On the right of the node you should see some info about the database (i.e. Name, Description, Title) plus some links. "
   DatabaseInformation3 "Select the link called \"Metadata Link\". A page should open containing the corpus metadata in XML format."
   DatabaseInformation4 "Select the link called \"IMDI Browser Link\". The IMDI Browser initial page should open, with the previously selected database (i.e. IMDI corpora) as top node. "
-  DatabaseInformation5 "Select the link called \"Download Link\". You should see the same page as the one coming out if \"Metadata Link\" is selected."
-  DatabaseInformation6 "Close the table with additional information about the database. Check the little white square on the left of IMDI-corpora[29]. A table should open at the bottom of the page displaying some info about the database (i.e. Name, Description, Title). "
+  DatabaseInformation5 "Close the table with additional information about the database. Check the little white square on the left of IMDI-corpora[29]. A table should open displaying some info about the database (i.e. Name, Description, Title). "
   DatabaseInfoTable "Try to close and re-open the table by clicking on the little triangle on the left of \"Table\"."
-  DatabaseInfoTable2 "Uncheck the little white square on the left of IMDI-corpora[29]. The table at the bottom of the page should go away."
+  DatabaseInfoTable2 "Uncheck the little white square on the left of IMDI-corpora[29]. The table should empty and leave just a small window with \"Table\" written in it. NOTE: this little window can be moved. You just have to select it and drag it were you want."
 
 Corpora
   UnfoldTree "Click on the icon on the left of the database (a small square with a \"+\" sign in it). All the corpora contained in the database should be visible. "
@@ -21,40 +20,45 @@ Corpora
   CorpusInformation "Unfold the corpus tree again. Select one of the corpora. On the right of the node you should see some info about the corpus (i.e. Name, Description, Title) plus some links. "
   CorpusInformation2 "Select the link called \"Metadata Link\". A page should open containing the corpus metadata in XML format."
   CorpusInformation3 "Select the link called \"IMDI Browser Link\". The IMDI Browser initial page should open, with the previously selected corpus highlighted in grey."
-  CorpusInformation4 "Select the link called \"Download Link\". You should see the same page as the one coming out if \"Metadata Link\" is selected."
-  CorpusInformation5 "Close the table with additional information about the corpus. Check the little white square on the left of the corpus chosen. A table should open at the bottom of the page displaying some info about the corpus (i.e. Name, Description, Title). "
+  CorpusInformation4 "Close the table with additional information about the corpus. Check the little white square on the left of the corpus chosen. A table should open displaying some info about the corpus (i.e. Name, Description, Title). "
   CorpusInfoTable "Try to close and re-open the table by clicking on the little triangle on the left of \"Table\"."
-  CorpusInfoTable2 "Check also other corpora. The table at the bottom of the page should include these as well. "
-  CorpusInfoTable3 "Uncheck some of the corpora previously checked. They should disappear from the table at the bottom of the page. "
+  CorpusInfoTable2 "Check also other corpora. The informational table should include these as well. "
+  CorpusInfoTable3 "Uncheck some of the corpora previously checked. They should disappear from the informational table. "
   CorpusSubnodes "Click on the icon you find on the left of the corpora (a small square with a \"+\" sign in it). All the subnodes contained should be visible. Do it for some of the corpora. Then try to close them (small square with a \"-\" sign). "
+  ViewMode "Unfold the IMDI-corpora tree following this path: MPI corpora > Demo > PeWi corpus > kleve-route > MediaFiles. You should see a series of media resources. "
+  ViewMode2 "Select one of them. In the table opening up you should see an option called \"view\". Select it. You should be able to see the content of the resource. "
+  DownloadResource "Select another resource but this time choose the option \"open\" contained in the content table. You should be able to save/download the resource on your computer."
 
 One_Term_Search
   SearchConstraints "On top of the page, under the name of the database chosen to be searched, you should see some fields to be filled in with search constraints."
-  SearchConstraints2 "In the first field (\"All Types\") choose \"Session\"; in the second field (\"All Paths\") choose \"Title\"; in the third field choose \"fuzzy match\"; and in the last field enter the value \"route\". Click on \"Search\". At the bottom of the page you should see the list of results, with the node where your search term has been found (in this case the session node \"kleve-route[6]\"). Both the node and the search term (only if it is an exact match though) should be highlighted in blue."
+  SearchConstraints2 "In the first field (\"All Types\") choose \"Session\"; in the second field (\"All Paths\") choose \"Title\"; in the third field choose \"fuzzy match\"; and in the last field enter the value \"route\". Click on \"Search\". Under the database tree you should see the list of search results where the search term has been found (in this case the session node \"kleve-route[6]\"). All the nodes containing the searched value should be highlighted in light blue."
   SearchResultsTable "Check the session node kleve-route[6] in the search results. A table containing additional info about the node (e.g. Name, Description, Title, Location.Address, etc.) should appear. "
   SearchResultsTable2 "Try to close and re-open the table by clicking on the little triangle on the left of \"Table\"."
   RemoveConstraints "Click on the option \"remove\" on the left of the constraints fields. The constraints should disappear. "
   AddConstraintsBack "Now select \"add search term\". The constraints should appear again, but the ones you entered for the search should be gone. "
-  SearchConstraints3 "Make a new search, but this time, when you choose the constraints, type the first letter of the constraint you want instead of selecting it from the menu. E.g.: in \"All types\" enter a \"c\" > you should get the constraint \"Catalogue\"; in \"All paths\" enter a \"d\" > you should get the constraint \"Description\"; in the third field enter a \"c\" > you should get the constraint \"contains\". "
+  SearchConstraints3 "Make a new search, but this time, when you choose the constraints, type the first letter(s) of the constraint you want instead of selecting it from the menu. E.g.: in \"All types\" enter a \"c\" > you should get the constraint \"Catalogue\"; in \"All paths\" enter \"de\" > you should get the constraint \"Description\"; in the third field enter a \"c\" > you should get the constraint \"contains\". "
   SearchConstraints4 "Now in the fourth field enter the value \"dutch\" and click on \"Search\". After a few seconds you should see the search results under the database top node. "
-  SearchResults "Unfold the search results (icon with \"+\" sign on the left). You should see the nodes where your search value has been found."
+  SearchResults "Unfold the search results (icon with \"+\" sign on the left). You should see the nodes where your search value has been found. If you see some of the nodes highlighted in grey, it means they do not contain the value searched and you have to go further deeper in the tree. "
   SearchResults2 "Try to unfold the tree until you effectively see the term you searched for (in this case \"dutch\"). Once you have found it, check the small square on its left. A table with additional info about it should appear. "
   SearchResultsTable4 "Now try to check also other nodes and/or resources from the search results. They too should appear in the informational table."
   Bookmark "Select the page http link and copy paste it into another webpage. Bookmark it. Try to open it again from the bookmarks and check that it opens correctly."
   FoldTree2 "Fold the tree back to the beginning (icon with \"-\" sign on the left)"
+  CloseResults "You should have two search results windows open (two searches were made, see test 2 and 7). Select the first one (where it says \"Search Results: (Session Title fuzzy match route)\") and close it. The database top node and the second search should not have been affected. "
+  NoResultsFound "Make a third search using the following constraints: Session - Title - equals - Alex. In the search results you should see the message \"No results found\". "
 
-Multiple_Terms_Search "Be sure that the link used to open the application is http://lux17.mpi.nl/ds/yaas2/ before starting with this testing group. "
+Multiple_Terms_Search
   FirstConstraintsRow "In the search fields select respectively: Session - Name - contains. In the last field start typing \"Ess\". The application should give you a list of values for the autocompletion. Choose the first one of the list, i.e. Essegbey97-07_Rose-P_v1-01.  "
   FirstRowSearch "Click on Search. Under the database top node you should see the results (1, in this case)."
   SecondConstraintsRow "Go back to the search constraints fields and select \"add search term\". Another row of constraints should appear. "
   SecondConstraintsRow2 "In the search fields select respectively: Session - Location.Country - equals. In the last field start typing \"G\". The application should give you a list of values for the autocompletion. In this case the only possible choice should be Ghana. Choose it. "
-  ResultsUnion "On the left of \"Search\" you should see a dropdown menu with two options, \"Union\" and \"Intersection\". Choose \"Union\". In the search results you should see all the session nodes containing either the first or the second search value previously entered (i.e. either Essegbey97-07_Rose-P_v1-01 or Ghana)."
-  ResultsIntersection "Now select \"Intersection\" and then again Search. In the search results you should see only those session nodes containing both values (i.e. Essegbey97-07_Rose-P_v1-01 and Ghana). "
+  ResultsUnion "On the left of \"Search\" you should see a dropdown menu with two options, \"Union (match any)\" and \"Intersection (match all)\". Choose \"Union (match any)\". In the search results you should see all the session nodes containing either the first or the second search value previously entered (i.e. either Essegbey97-07_Rose-P_v1-01 or Ghana)."
+  ResultsIntersection "Now select \"Intersection (match all)\" and then again Search. In the search results you should see only those session nodes containing both values (i.e. Essegbey97-07_Rose-P_v1-01 and Ghana). "
   SearchResultsInfo "Try to unfold the search results trees and check whether the values you searched for are effectively present. "
-  SearchResultsInfo2 "Take one of the sessions listed in the search results and select it. A table should with some additional info and some links."
+  SearchResultsInfo2 "Take one of the sessions listed in the search results and select it. A table should appear with some additional info and some links."
   SearchResultsInfo3 "Close the table and check the little square on the left of the session node. Another table should appear, again containing additional info about the node. "
   SearchResultsInfo4 "Check several nodes and/or subnodes/resources. These should appear in the table as well. "
   SearchResultsInfo5 "Uncheck all the nodes previously checked. The table should empty."
+  CloseResults2 "Select one of the three search results windows that should be open. Close it. The other windows and the database top node should not have been affected."
   Bookmark2 "Select the page http link and copy paste it into another webpage. Bookmark it. Try to open it again from the bookmarks and check that it opens correctly."
 
 Database_statistics
