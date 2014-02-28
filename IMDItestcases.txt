@@ -1,4 +1,4 @@
-# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-02-07 (11:14).
+# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-02-28 (09:24).
 
 Starting_Metadata_Browser
   Starting "Go to http://lux17.mpi.nl/ds/metadata_browser/ to access the homepage. "
@@ -6,7 +6,7 @@ Starting_Metadata_Browser
 NavigatonTest
   ExpansionTest "Try to expand the tree by clicking on \"+\" next to the a corpus node."
   CollapseTest "Try to collapse the tree by clicking on \"-\", next to the a corpus node previously exapended."
-  MultipleSelectionTest "Click on the button above the tree (left corner). It should turn blue. Select multiple nodes by clicking on different nodes one by one (e.g., Dobes archive, Leiden archives and Donated Corpus). In the main window four options are available: Metadatasearch, Annotation content search, Manage access rights and Resource access."
+  MultipleSelectionTest "Click on the button above the tree (left corner). It should turn blue. Select multiple nodes by clicking on different nodes one by one (e.g., Dobes archive, Leiden archives and Donated Corpus). You should see the names of the nodes between square brackets. In the main window four options are available: Metadatasearch, Annotation content search, Manage access rights and Resource access."
   MultipleSelectionTestOptions "Click again on the button above the tree (left corner). It should turn white again. Deselect nodes by clicking on the same nodes you have previously chosen. In the main window six options are now available: Metadatasearch, Annotation content search, Manage access rights, Resource access, Citation and Download. "
   MultipleSelectionTestMetadata "Click on the button above the tree (left corner). Select multiple nodes by clicking on different nodes one by one (e.g., Dobes archive, Leiden archives and Donated Corpus). Click on Metadatasearch. You should be redirected to the metadasearch window, showing you that three nodes were selected. Close the window."
   MultipleSelectionTestAnnotation "Check that three nodes you selected are still highlighted. Click on Annotation content search. You should be redirected to Trova search application for the three nodes you selected. Close the window."
@@ -49,7 +49,7 @@ ContextMenuTest
   ResourcesAccess3 "In the same page (Resource Request system), click on 'log in'. Once you are logged in you should get the resource request system with the name of the node you selected and the possbility to indicate the date the period that you would like to use the resource.  "
   VersionTest "Click on a session node. The name of the session selected should turn bold. Click on 'Version' in the main panel. You should then be able to see a table showing a node, pid, date and accessibility of the session file."
   VersionTest2 "Click on a resource file. The name of the resource selected should turn bold. Click on 'Version' in the main panel. You should then be able to see a table showing a node, pid, date and accessibility of the resource file."
-  CitationTest "Click on a corpus node. The name of the corpus selected should turn bold. In the main page, a window opens showing a cite this resource message. Click on show details. more info are shown about the corpus node selected (internal node id, link, link to the node, etc.)."
+  CitationTest "Click on a corpus node. The name of the corpus selected should turn bold. In the main page, a window opens showing a message about resource citation. Click on show details. more info are shown about the corpus node selected (internal node id, link, link to the node, etc.)."
   CitationTest2 "Click on the link that comes with a persistent guarantee. You should be redirected to a new page showing the type, message and description about the node/session/file you ask to cite.  "
 
 ManualAboutTest
@@ -62,7 +62,7 @@ RegisterTest
   ExistingUserRegistration "You should get an error page telling you that you are already registered in the database. [From now on it is part of an RRS test. Log Out.] "
 
 LogInTest
-  LogInTest "Try to log in with your MPI user name. Your name should then be shown on top. "
+  LogInTest "Try to log in with your MPI user name and password. Your MPI email address should then be shown on the right top. "
 
 LogOutTest
-  LogOutTest "Click on 'log out' and then close your browser. You should then be logged out."
+  LogOutTest "Click on 'log out' and then close your browser. Open Metadata browser again. You should then be logged out (user: anonymous)."
