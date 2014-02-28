@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IMDIBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/IMDI_METADATABROWSER_2.xml">
+  <DateTime>2014-02-27</DateTime>
+  <IMDIVersion>1.0</IMDIVersion>
+  <OSVersion>MAC OS X 10.6.8, firefox 14.0.1, lux 17.</OSVersion>
+  <Tester>sauciv</Tester>
+  <TestPlanRevision>40120</TestPlanRevision>
+  <Starting_Metadata_Browser>
+    <Starting>Works</Starting>
+  </Starting_Metadata_Browser>
+  <NavigatonTest>
+    <ExpansionTest>Works</ExpansionTest>
+    <CollapseTest>Works</CollapseTest>
+    <MultipleSelectionTest>Works</MultipleSelectionTest>
+    <MultipleSelectionTestOptions>Works</MultipleSelectionTestOptions>
+    <MultipleSelectionTestMetadata>Works</MultipleSelectionTestMetadata>
+    <MultipleSelectionTestAnnotation>Works</MultipleSelectionTestAnnotation>
+    <MultipleSelectionTestAccessRights>Works</MultipleSelectionTestAccessRights>
+    <MultipleSelectionTestResourceRequest>Works</MultipleSelectionTestResourceRequest>
+  </NavigatonTest>
+  <AccessLevelTest>
+    <VisualConfirmationTest>Works</VisualConfirmationTest>
+    <AccessTest>Works</AccessTest>
+    <AccessLevelTest>Works</AccessLevelTest>
+    <AccessLevelTest2>Works</AccessLevelTest2>
+    <AccessLevelTest3 error="It works fine. However, metadata behaves strangely when I click on any of the resource files of the session 'lamus_test'. For example, when I click on the first file of the list, the third file is actually selected.">Mostly</AccessLevelTest3>
+    <AccessLevelTest4>Works</AccessLevelTest4>
+  </AccessLevelTest>
+  <ContextMenuTest>
+    <ViewCorpusNode>Works</ViewCorpusNode>
+    <ViewCorpusNode2>Works</ViewCorpusNode2>
+    <ViewSessionNode>Works</ViewSessionNode>
+    <ViewSessionNode2>Works</ViewSessionNode2>
+    <ViewWrittenResourceFile error="I can't access to any written accessible resources files with the following extension: eaf. and .cha.">Fails</ViewWrittenResourceFile>
+    <ViewImageResourceFile>Works</ViewImageResourceFile>
+    <ViewVideoResourceFile>Works</ViewVideoResourceFile>
+    <ViewAudioResourceFile>Works</ViewAudioResourceFile>
+    <ViewInfoFile>Works</ViewInfoFile>
+    <MetadataSearch>Works</MetadataSearch>
+    <MetadataSearch2>Works</MetadataSearch2>
+    <AnnotationContentSearch>Works</AnnotationContentSearch>
+    <SetAccessRights>Works</SetAccessRights>
+    <DownloadCorpusFile>Works</DownloadCorpusFile>
+    <AccessCorpusFile>Works</AccessCorpusFile>
+    <DownloadSessionFile>Works</DownloadSessionFile>
+    <AccessSessionFile>Works</AccessSessionFile>
+    <DownloadAllResources>Works</DownloadAllResources>
+    <AccessZippedResources>Works</AccessZippedResources>
+    <DownloadAllResources2>Works</DownloadAllResources2>
+    <DowloadResourceFile>Works</DowloadResourceFile>
+    <AccessResourceFile>Works</AccessResourceFile>
+    <ResourcesAccess>Works</ResourcesAccess>
+    <ResourcesAccess2>Works</ResourcesAccess2>
+    <ResourcesAccess3>Works</ResourcesAccess3>
+    <VersionTest>Works</VersionTest>
+    <VersionTest2>Works</VersionTest2>
+    <CitationTest>Works</CitationTest>
+    <CitationTest2>Works</CitationTest2>
+  </ContextMenuTest>
+  <ManualAboutTest>
+    <ManualLink>Works</ManualLink>
+    <AboutMetadata>Works</AboutMetadata>
+  </ManualAboutTest>
+  <RegisterTest>
+    <RegisterTest1>Works</RegisterTest1>
+    <ExistingUserCheck>Works</ExistingUserCheck>
+    <ExistingUserRegistration>Works</ExistingUserRegistration>
+  </RegisterTest>
+  <LogInTest>
+    <LogInTest>Works</LogInTest>
+  </LogInTest>
+  <LogOutTest>
+    <LogOutTest>Works</LogOutTest>
+  </LogOutTest>
+</IMDIBugCheck>
