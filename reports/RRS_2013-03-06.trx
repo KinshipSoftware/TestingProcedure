@@ -47,8 +47,8 @@
     <Registration4>Works</Registration4>
     <LicenseCheck>Works</LicenseCheck>
     <LicenseCheck2 error="No Dobes Code of Conduct visible. Error message. Details: Error calling action method of component with id amsNavForm:_idJsp0 caused by: Exception while invoking expression #{licsAccptcBB.doLoad} ">Fails</LicenseCheck2>
-    <LogOut_>Works</LogOut_>
-    <IMDI error="I can open the IMDI Browser page and see the tree on the left, but in the main panel on the right I get this error message: I/O Exception: nodeURL=https://lux16.mpi.nl/corpora/Corpusstructure/demo-lux16-real-archive.imdi javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed.">Mostly</IMDI>
+    <LogOut_ error="No logout option available. See ticket #3135.">Fails</LogOut_>
+    <IMDI error="I can open the IMDI Browser page and see the tree on the left, but in the main panel on the right I get this error message: I/O Exception: nodeURL=https://lux16.mpi.nl/corpora/Corpusstructure/demo-lux16-real-archive.imdi javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: timestamp check failed.">Strange</IMDI>
     <IMDINode>Works</IMDINode>
     <Login>Works</Login>
     <LogIn2>Works</LogIn2>
