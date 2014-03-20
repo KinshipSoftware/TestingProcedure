@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil-IMDI.xml on 2014-02-19 (15:55).
+# test cases exported from test plan file arbil-IMDI.xml on 2014-03-20 (11:57).
 
 IMDIWizardTest
   SA1 "Before starting make sure you are using a clean machine (i.e. first time ever downloading). Remove any .arbil directory from your computer.Go to http://tla.mpi.nl/tools/tla-tools/arbil/download/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running. NOTE: if you are testing on Linux use the installer only."
@@ -122,7 +122,7 @@ FavouritesTest
   AddFromFavourites "Righ click a session node in the Local Corpus. Choose one of the elements (e.g. actors) > right click > Add from Favourite List. You should see a list of elements previously exported in the favourites. Select some of them. They should appear in the session. "
   Remove "In the Favorites, right click on a file and select \"Remove from Favourites list\". The file has been removed from the Favourites."
   IMDIAddRechangeFav "Drag and drop an actor element from the tree structure into Favourites. In Favourites change its name, save changes, and add it back to a different session in the local corpus. The newly added actor should now have a different name. "
-  IMDIAddIntoDiffSubnodeFav "Open another session node in the Local Corpus and drag the subnode \"Actor\" from Favourites to it. The subnode cannot be added to the different subnode of the same type. "
+  IMDIAddIntoDiffSubnodeFav "Open another session node in the Local Corpus and drag the subnode \"Actor\" from Favourites to it. Then try to drag and drop it into a node of a different type (e.g. media files): it shouldn't be possible to do so. "
   EditMetaData "In Favourites, right-click on one of the elements and select \"Edit all Metadata\". A metadata window opens that contains tables for the selected node and all of its subnodes in an hierarchical view"
   EditMetaData1 "In the metadata window change some of the metadata. Close the window without saving. Right-click on the same element in the Favourites and select \"Save Changes to the Disk\". The changes have been saved accordingly (the text is not blue anymore"
   AddToElemInFav "Select one of the elements in Favourites (e.g. an actor) and select \"Add > new... (e.g. Actor description). It is possible to add new descriptions to the elements of the Favourites. Save changes."
@@ -157,11 +157,11 @@ OptionsMenuTest
   WindowsPixelSize1 "With the second screen configured to be on the left (moving the mouse left gets to the second screen) and than configured on the right (moving the mouse right gets to the second screen). This left/right variation does not negatively the size in the window position. "
   CopyNewResourcesIntoCache "Click Options > mark Copy New Resources into cache. Now create a new session. Copy a jpg file from the working directory and paste it into this session. Now check the resource link. It should be stored in the ArbilWorkingFiles directory."
   CopyNewResourcesIntoCacheN "Now unmark Copy New Resources into cache and copy another jpg from the WD into the same session. The resource link should suggest that the file remains stored in the working directory."
-  CheckPermisForRemoteResources "Click Options > unmark Check Permissions For Remote Resources. Quit and restart Arbil. In the remote corpus you should see a lock-icon next to the resource files disappear. "
-  CheckPermisForRemoteResources2 "Now mark the option Check Permissions For Remote Resources again. Quit and restart Arbil. The icons should re-appearing. "
+  CheckPermisForRemoteResources "Click Options > unmark Check Permissions For Remote Resources. Quit and restart Arbil. In the remote corpus resources should carry only the icon indicating their type (e.g. image, video...)."
+  CheckPermisForRemoteResources2 "Now mark the option Check Permissions For Remote Resources again. Quit and restart Arbil. Besides the resource-type icon, you should also see a lock-icon, indicating whether you have access to that resource (open lock) or not (closed lock)."
   AlwaysCheckLocalMetdatFilesForXMLConformance "Click Options > mark Always Check Local Metadata Files For XML Conformance. The option highlights invalid XML metadata in red only after you save (pay attention to the tooltip)"
   ShowLanguageInColumnName "Choose a session node and add one or two additional description fields, fill in some values and set a language using the drop down field to the right. Click Options > mark Show Language In Column Name. In the fields 'Description' you should also see the abbreviations of the languages chosen."
-  ColumnViewForNewTables "Click Options > Column view for New Tables > All AND/OR Minimal. Try both of them. If Minimal is selected you should see only three columns (Name, Title, Description). If All is selected you should see a column for each field of the node. "
+  ColumnViewForNewTables "Click Options > Column view for New Tables > All AND/OR Minimal. Try both of them after opening a corpus node. If Minimal is selected you should see only three columns (Name, Title, Description). If All is selected you should see a column for each field of the node. "
   CloseAllWindows "Open a number of tables and go to >Window > Close all windows. Confirm by clicking on OK. All table windows that were previously open, got closed"
   LocalCorpusStorageDirect_ "Click Options > Local Corpus Storage Directory > Move Local Corpus Storage Directory and select a new location for your corpus. Restart Arbil. Now if you go again to Options > Local Corpus Storage Directory you should see the new directory selected (it is greyed out)."
   TrackTableSelectionInTree " Under 'options' check 'track table selection in tree'. Open a table of different instances. click on different fields in the table. The respective instance should be highlighted in the tree. "
@@ -184,7 +184,7 @@ HelpMenuTest
   ErrorHelpMenu "Select Help > View Error Log. The Error Log window should open."
   CheckUpdatesHelpMenu "Select Help > Check for Updates. If no newer version is present, you should get the message: No updates found, current version is ..."
   ShortCutKeysHelpMenu "Select Help > Short Cut Keys. This option should open the appropriate page in the help viewer; try some of the keys to check whether they work correctly. "
-  LogConsoleLevels "Go to the log console (Help menu > Show log console). There should be a clear difference between INFO and FINEST. With FINEST you get everything what the application does, some log messages additionally. With INFO much less. Warning appears only if something went wrong but it is not easy to produce a warning. Keep in minde, that there is no LogConsole in the webstart-version."
+  LogConsoleLevels "Go to the log console (Help menu > Show log console). There should be a clear difference between INFO and FINEST. With FINEST you get everything what the application does, some log messages additionally. With INFO much less. Warning appears only if something went wrong but it is not easy to produce a warning. Keep in mind that there is no LogConsole in the webstart-version."
 
 MultiLanguageTest
   DescriptionChoice "Open a table in which it is possible to select a language. In the pull-down menu contained in the description field select any language. "
@@ -193,7 +193,7 @@ MultiLanguageTest
   ControlledVocabularies2 "Open any node/session and see its table view. You can see an icon indicating the type of vocabulary (open/closed, single value/list) in the field. You can hover over the icon itself to see to which type it corresponds."
   ControlledVocabularies3 "Controlled vocabularies with distinct values and display values (e.g. nl -> Netherlands), are both shown in the drop down in the editor. The Language.ISO639.iso-639-3-code field of the ComicBook instance should display this behaviour. (CMDI only)"
   ControlledVocabularies4 "When searching for a value by typing, the shortest match gets selected first instead of the first. For IMDI: In Location.Continent on a session, open the drop down and type 'A'. It should jump to Asia, which is the shortest match and not e.g. Africa"
-  ClosedVocabularies "Edit/view info of a session and look for cells either with a close vocabulary only. Try to type \"abcdef\". The typed text should remain red because it is not contained in the controlled vocabulary."
+  ClosedVocabularies "Edit/view info of a session and look for cells with a closed vocabulary only. Try to type \"abcdef\". The typed text should remain red because it is not contained in the controlled vocabulary."
   ControlledVocabulariesLongFE "Open any node/session in the Long Field Editor. You can see an icon indicating the type of vocabulary (open/closed, single value/list) in the field, right above the pull-down menu. "
   IMDIMPILanguagesDescription1 "Go to Options > Edit language list. Click on clear selection and check Abaza, Adyghe, and Afrikaans. Then close the available languages window."
   IMDIMPILanguagesDescription2 "Right click on any session node and click on 'view selected'. In the description value click on the list of available language. The list should include only the languages that were previously checked."
