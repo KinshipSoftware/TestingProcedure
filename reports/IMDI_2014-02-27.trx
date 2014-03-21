@@ -23,7 +23,7 @@
     <AccessTest>Works</AccessTest>
     <AccessLevelTest>Works</AccessLevelTest>
     <AccessLevelTest2>Works</AccessLevelTest2>
-    <AccessLevelTest3 error="It works fine. However, metadata behaves strangely when I click on any of the resource files of the session 'lamus_test'. For example, when I click on the first file of the list, the third file is actually selected.">Mostly</AccessLevelTest3>
+    <AccessLevelTest3>Works</AccessLevelTest3>
     <AccessLevelTest4>Works</AccessLevelTest4>
   </AccessLevelTest>
   <ContextMenuTest>
