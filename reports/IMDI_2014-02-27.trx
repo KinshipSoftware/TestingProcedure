@@ -31,7 +31,7 @@
     <ViewCorpusNode2>Works</ViewCorpusNode2>
     <ViewSessionNode>Works</ViewSessionNode>
     <ViewSessionNode2>Works</ViewSessionNode2>
-    <ViewWrittenResourceFile error="I can't access to any written accessible resources files with the following extension: eaf. and .cha.">Fails</ViewWrittenResourceFile>
+    <ViewWrittenResourceFile>Works</ViewWrittenResourceFile>
     <ViewImageResourceFile>Works</ViewImageResourceFile>
     <ViewVideoResourceFile>Works</ViewVideoResourceFile>
     <ViewAudioResourceFile>Works</ViewAudioResourceFile>
