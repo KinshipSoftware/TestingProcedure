@@ -4,7 +4,7 @@
   <IMDIVersion>1.0-Alpha, lux17, 1395759197551.</IMDIVersion>
   <OSVersion>MAC OS X 10.6.8, firefox 14.0.1.</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>40380</TestPlanRevision>
+  <TestPlanRevision>40382</TestPlanRevision>
   <Starting_Metadata_Browser>
     <Starting>Works</Starting>
   </Starting_Metadata_Browser>
@@ -58,6 +58,7 @@
     <CitationTest2>Works</CitationTest2>
   </ContextMenuTest>
   <ManualAboutTest>
+    <HomeDIrectory>Works</HomeDIrectory>
     <ManualLink>Works</ManualLink>
     <AboutMetadata>Works</AboutMetadata>
   </ManualAboutTest>
