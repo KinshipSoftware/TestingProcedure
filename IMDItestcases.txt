@@ -1,4 +1,4 @@
-# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-03-28 (12:16).
+# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-03-28 (13:29).
 
 Starting_Metadata_Browser
   Starting "Go to http://lux17.mpi.nl/ds/metadata_browser/ to access the homepage. "
@@ -7,29 +7,29 @@ NavigatonTest
   ExpansionTest "Try to expand the tree by clicking on \"+\" next to a corpus node."
   CollapseTest "Try to collapse the tree by clicking on \"-\", next to the corpus node previously exapended."
   MultipleSelectionTest "Click on the button above the tree (left corner). It should turn blue. Select multiple nodes by clicking on different nodes one by one (e.g., Dobes archive, Leiden archives and Donated Corpus). You should see the names of the nodes between square brackets. In the main window four options are available: Metadatasearch, Annotation content search, Manage access rights and Resource access."
-  MultipleSelectionTestOptions "Click again on the button above the tree (left corner). It should turn white again. Deselect nodes by clicking on the same nodes you have previously chosen. In the main window six options are now available: Metadatasearch, Annotation content search, Manage access rights, Resource access, Citation and Download. "
+  MultipleSelectionTestOptions "Click again on the button above the tree (left corner). It should turn white again. Deselect nodes by clicking on the same nodes you have previously chosen. In the main window six options are now available: Metadata Search, Content Search, Manage Access, Resource Access, Citation and Download. "
   MultipleSelectionTestMetadata "Click on the button above the tree (left corner). Select multiple nodes by clicking on different nodes one by one (e.g., Dobes archive, Leiden archives and Donated Corpus). Click on Metadatasearch. You should be redirected to the metadasearch window, showing you that three nodes were selected. Close the window."
-  MultipleSelectionTestAnnotation "Check that the nodes you selected are still highlighted. Click on Annotation content search. You should be redirected to Trova search application for the three nodes you selected. Close the window."
-  MultipleSelectionTestAccessRights "Check that the nodes you selected are still highlighted. Click on Manage access rights. An error message tells you that this action can only be executed on single nodes."
+  MultipleSelectionTestAnnotation "Check that the nodes you selected are still highlighted. Click on 'Content Search'. You should be redirected to Trova search application for the three nodes you selected. Close the window."
+  MultipleSelectionTestAccessRights "Check that the nodes you selected are still highlighted. Click on 'Manage Access'. An error message tells you that this action can only be executed on single nodes."
   MultipleSelectionTestResourceRequest "Check that the nodes you selected are still highlighted. Click on Resource access. You should be redirected to the Resource request system with the node id and node name of the corpus you have selected.  "
 
 AccessLevelTest
   VisualConfirmationTest "There should be access indicator next to all nodes, except for external material (BAS, Colarom, GTRP, Lablita, Lund) and where there are no resources below a node."
-  AccessTest "Look for a resource with a green indicator. Click on 'View Node', you should be able to access to it without being logged in."
-  AccessLevelTest "Remain logged out. Look for a resource with a yellow button. Click on 'View Node'. You should be able to access this resource. Example: MPI corpora > Demo > DOBES training > group01 > songs > kleve-route > check one of the files."
+  AccessTest "Look for a resource with a green indicator. Click on 'View', you should be able to access to it without being logged in."
+  AccessLevelTest "Remain logged out. Look for a resource with a yellow button. Click on 'View'. You should be able to access this resource. Example: MPI corpora > Demo > DOBES training > group01 > songs > kleve-route > check one of the files."
   AccessLevelTest2 "Look for a resource with an orange button. Click on 'View Node'. Access should be denied. Example: DoBeS archive > Bezen > Primary data > Speech > Texts > Narratives > Historical texts."
-  AccessLevelTest3 "Look for a resource (node) with a green button which contains a session with red button (MPI corpora > Demo > lamus_test > check one of the files). Click on 'View node', you should not be able to access this resource."
-  AccessLevelTest4 "Look for a resource with a red button (Mpi Corpora/Demo/lamustest or MPi Corpora/Demo/DobesTraining/group1/forbidden node), when you try to click on 'View Node', it you will be informed that access is prohibited."
+  AccessLevelTest3 "Look for a resource (node) with a green button which contains a session with red button (MPI corpora > Demo > lamus_test > check one of the files). Click on 'View', you should not be able to access this resource."
+  AccessLevelTest4 "Look for a resource with a red button (Mpi Corpora/Demo/lamustest or MPi Corpora/Demo/DobesTraining/group1/forbidden node), when you try to click on 'View', it you will be informed that access is prohibited."
 
 ContextMenuTest
   ViewCorpusNode "Click on a corpus node with a green indicator. The name of the corpus selceted should turn bold. In the main panel you should see the corpus name and title in addition to the description. "
   ViewCorpusNode2 "Click on a corpus node with an orange indicator. The name of the corpus selected should turn bold. In the main panel you should see the corpus name and title in addition to the description."
   ViewSessionNode "Click on a session node with a green indicator. The name of the session selceted should turn bold. In the main panel you should see the session name and title in addition to the description. "
   ViewSessionNode2 "Click on a session node with an orange indicator. The name of the session selected should turn bold. In the main panel you should see the session name and title in addition to the description."
-  ViewWrittenResourceFile "Click on an accessible (i.e. w/ green indicator) Written Resource File. The name of the session selected should turn bold. Click 'view node' in the main panel. A new window should open, taking you to the ANNEX Interface. Example of written resource file: MPI corpora > Demo > NewCorpusTest."
-  ViewImageResourceFile "Click on an accessible (i.e. w/ green indicator) Image File. The name of the session selected should turn bold. Click 'view node' in the main panel. The picture then should appear. Example of written resource file: MPI corpora > Demo > NewCorpusTest"
-  ViewVideoResourceFile "Click on an accessible (i.e. w/ green indicator) Video Resource File. The name of the session selected should turn bold. Click 'view node' in the main panel. The video should then appear. Example of video resource file: MPI corpora > Demo > NewCorpusTest"
-  ViewAudioResourceFile "Click on an accessible (i.e. w/ green indicator) Audio Resource File. The name of the session selected should turn bold. Click 'view node' in the main panel. The audio file should then become available. Example of audio resouce file: MPI corpora > Demo > NewCorpusTest. NOTE: this file extension do not work on Firefox. Try another browser."
+  ViewWrittenResourceFile "Click on an accessible (i.e. w/ green indicator) Written Resource File. The name of the session selected should turn bold. Click 'View' in the main panel. A new window should open, taking you to the ANNEX Interface. Example of written resource file: MPI corpora > Demo > NewCorpusTest."
+  ViewImageResourceFile "Click on an accessible (i.e. w/ green indicator) Image File. The name of the session selected should turn bold. Click 'View' in the main panel. The picture then should appear. Example of written resource file: MPI corpora > Demo > NewCorpusTest"
+  ViewVideoResourceFile "Click on an accessible (i.e. w/ green indicator) Video Resource File. The name of the session selected should turn bold. Click 'View' in the main panel. The video should then appear. Example of video resource file: MPI corpora > Demo > NewCorpusTest"
+  ViewAudioResourceFile "Click on an accessible (i.e. w/ green indicator) Audio Resource File. The name of the session selected should turn bold. Click 'View' in the main panel. The audio file should then become available. Example of audio resouce file: MPI corpora > Demo > NewCorpusTest. NOTE: this file extension do not work on Firefox. Try another browser."
   ViewInfoFile "Click on a file with an info icon next to it. The name of the info session selected should turn bold. In the main panel you should see the page belonging to the file."
   MetadataSearch "Click on a session node. The name of the session selected should turn bold. Click on 'Metadata Search' in the main panel. You should be directed towards a search box."
   MetadataSearch2 "Fill in a designated search item. After a few seconds, you should see the list of nodes containing your search string (provided the item is located within the selected node)."
@@ -39,9 +39,9 @@ ContextMenuTest
   AccessCorpusFile "Go to the directory where your imdi file is saved. Edit it with notepad."
   DownloadSessionFile "Click on a session node. The name of the corpus selected should turn bold. Click on 'Download' in the main panel. You should then be able to save the subtree at a desired location "
   AccessSessionFile "Go to the directory where your session file is saved. Open it."
-  DownloadAllResources "Click on a session node. The name of the corpus selected should turn bold. Click on 'Download subtree' in the main panel. You should then be able to save the subtree at a desired location. "
+  DownloadAllResources "Click on a session node. The name of the corpus selected should turn bold. Click on 'Download All' in the main panel. You should then be able to save the subtree at a desired location. "
   AccessZippedResources "Open zipped file and check that those resources that were available under the session node have been successfully downloaded. "
-  DownloadAllResources2 "Log out and close window (or clear cache). Click on a session node with restricted access and try to select \"download all resources\". You should see an error message at the top of the main panel saying that \"User anonymous has no access to any of the nodes. No zip could be created\". "
+  DownloadAllResources2 "Log out and close window (or clear cache). Click on a session node with restricted access and try to select \"Download All\". You should see an error message at the top of the main panel saying that \"User anonymous has no access to any of the nodes. No zip could be created\". "
   DowloadResourceFile "Click on a resource file. The name of the resource selected should turn bold. Click on 'Download' in the main panel. You should then be able to save the file at a desired location."
   AccessResourceFile "Open your resource file with ELAN/other media programmes, or edit it with Notepad or Word (in other words with the programme most suitable to the file format) "
   ResourcesAccess "Log out and close your browser. Go back to Imdi browser. Click on a node. The name of the resource selected should turn bold. Click on 'Resources Access' in the main panel. You should be redirected to the Resource Request system. "
@@ -53,6 +53,7 @@ ContextMenuTest
   CitationTest2 "Click on the link that comes with a persistent guarantee. You should be redirected to a new page showing the type, message and description about the node/session/file you ask to cite.  "
 
 ManualAboutTest
+  HomeDIrectory "Click on the home simbol next to manual. You should be redirected to the home page. "
   ManualLink "Click on 'Manual' in the top right. You should be redirected to the online manual of the application. "
   AboutMetadata "Click on 'About' in the top right. A window should open showing the version, build and date of Metadata Browser."
 
