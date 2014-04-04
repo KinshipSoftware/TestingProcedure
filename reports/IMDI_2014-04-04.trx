@@ -4,7 +4,7 @@
   <IMDIVersion>1.0-RELEASE, lux17, 1396346109331</IMDIVersion>
   <OSVersion>MAC OS X 10.6.8, firefox 14.0.1.</OSVersion>
   <Tester>sauciv</Tester>
-  <TestPlanRevision>40451</TestPlanRevision>
+  <TestPlanRevision>40453</TestPlanRevision>
   <Starting_Metadata_Browser>
     <Starting>Works</Starting>
   </Starting_Metadata_Browser>
@@ -46,16 +46,16 @@
     <AccessSessionFile>Works</AccessSessionFile>
     <DownloadAllResources>Works</DownloadAllResources>
     <AccessZippedResources>Works</AccessZippedResources>
-    <DownloadAllResources2></DownloadAllResources2>
-    <DowloadResourceFile></DowloadResourceFile>
-    <AccessResourceFile></AccessResourceFile>
-    <ResourcesAccess></ResourcesAccess>
-    <ResourcesAccess2></ResourcesAccess2>
-    <ResourcesAccess3></ResourcesAccess3>
-    <VersionTest></VersionTest>
-    <VersionTest2></VersionTest2>
-    <CitationTest></CitationTest>
-    <CitationTest2></CitationTest2>
+    <DownloadAllResources2>Works</DownloadAllResources2>
+    <DowloadResourceFile>Works</DowloadResourceFile>
+    <AccessResourceFile>Works</AccessResourceFile>
+    <ResourcesAccess>Works</ResourcesAccess>
+    <ResourcesAccess2>Works</ResourcesAccess2>
+    <ResourcesAccess3>Works</ResourcesAccess3>
+    <VersionTest>Works</VersionTest>
+    <VersionTest2>Works</VersionTest2>
+    <CitationTest>Works</CitationTest>
+    <CitationTest2>Works</CitationTest2>
   </ContextMenuTest>
   <ManualAboutTest>
     <HomeDIrectory>Works</HomeDIrectory>
