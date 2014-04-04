@@ -1,4 +1,4 @@
-# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-04-04 (11:23).
+# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-04-04 (13:14).
 
 Starting_Metadata_Browser
   Starting "Go to http://lux17.mpi.nl/ds/metadata_browser/ to access the homepage. "
@@ -42,7 +42,7 @@ ContextMenuTest
   DownloadAllResources "Click on a session node. The name of the corpus selected should turn bold. Click on 'Download All' in the main panel. You should then be able to save the subtree at a desired location. "
   AccessZippedResources "Open zipped file and check that those resources that were available under the session node have been successfully downloaded. "
   DownloadAllResources2 "Log out and close window (or clear cache). Click on a session node with restricted access and try to select 'Download All'. You should see an error message at the top of the main panel saying that 'User anonymous has no access to any of the nodes. No zip could be created'. "
-  DowloadResourceFile "Click on a resource file. The name of the resource selected should turn bold. Click on 'Download' in the main panel. You should then be able to save the file at a desired location."
+  DowloadResourceFile "Click on a resource file of which you have rights to access. The name of the resource selected should turn bold. Click on 'Download' in the main panel. You should then be able to save the file at a desired location."
   AccessResourceFile "Open your resource file with ELAN/other media programmes, or edit it with Notepad or Word (in other words with the programme most suitable to the file format) "
   ResourcesAccess "Log out and close your browser. Go back to Imdi browser. Click on a node. The name of the resource selected should turn bold. Click on 'Resources Access' in the main panel. You should be redirected to the Resource Request system. "
   ResourcesAccess2 "At the bottom of the page, you can register if don't have an account by clicking on 'here'. You should get to the registration page."
