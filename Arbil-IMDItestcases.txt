@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil-IMDI.xml on 2014-03-20 (11:57).
+# test cases exported from test plan file arbil-IMDI.xml on 2014-04-10 (13:52).
 
 IMDIWizardTest
   SA1 "Before starting make sure you are using a clean machine (i.e. first time ever downloading). Remove any .arbil directory from your computer.Go to http://tla.mpi.nl/tools/tla-tools/arbil/download/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running. NOTE: if you are testing on Linux use the installer only."
@@ -9,7 +9,7 @@ IMDIWizardTest
   SA1B2 "Arbil Wizard shows that Arbil is ready to be configured according to your preferences. Instead of clicking on Finish, select Previous. It brings you to the previous windown in which you can specify the URL addresses of the remote locations of the corpora."
   SA1B3 "Click on Next and select Finish. If this is the first time you are using Arbil, in the interaction window the Arbil help window appears."
   LanguageSelection2 "Try to change the language by selecting 'Select language' in the Help menu. Once you choose one and click on OK you will see a message telling you to quit and restart Arbil for it to apply the language change."
-  SA2 "Make sure you're using a clean machine (ie first time ever installation). Remove .arbil directory from your computer. From the LAT page download Arbil Testing Version > Download the installer. The file is saved and it runs on your computer. The language selection window and the wizard will open: follow again steps 2 to 7 explained above."
+  SA2 "Make sure you're using a clean machine (ie first time ever installation). Remove .arbil directory from your computer. From the LAT page download Arbil Testing Version > Download the installer. The file is saved and it runs on your computer. The language selection window and the wizard will open."
   SA2A "Select Next and go to the page where it is possible to select a metadata format (IMDI / profiles for CMDI)"
   SA2B "In Abril Wizard check IMDI"
   SA2B1 "By default you will see a number of URL adresses of the remote locations of the corpus. Enter a new location adress and click on Next"
@@ -70,7 +70,7 @@ NodeRightMouseMenu
   ViewSelectedChangeLabelsB "Again select a row in the table. Without pointing the mouse anywhere press F2 (on mac: you can press F2 by pressing the 'fn' key on the right to the letter keyboard and simultaneously the F2 key). Again you can add to the existing information without overwriting/replacing it."
   OpenInExternalApp "Right click on the DoBes Demo node and select 'Open in External Application'. The option should launch the node in an external application; if it doesn't, it means you have to associate an application with the filetype (the application varies according the OS you're testing on)."
   IMDIOpenInEnternalAppSession "Right click on the Mpeg test session in the DoBes Demo node and select 'Open in External Application'. The option should launch the node in an external application; if it doesn't, it means you have to associate an application with the filetype (the application varies according the OS you're testing on)."
-  IMDIOpenInEnternalAppMedia "Right click on guest.jpg (Media Files > the IMEX test session) in the DoBes Demo node and select 'Open in Exteral Application'. The option launches the resource file in an external application"
+  IMDIOpenInEnternalAppMedia "Right click on guest.jpg (Media Files > the IMEX test session) in the DoBes Demo node and select 'Open in External Application'. The option launches the resource file in an external application; if it doesn't, it means you have to associate an application with the filetype (the application varies according the OS you're testing on)."
   IMDIReImportBranch1 "In the PeWi corpus change the names of a number of fields. Do not save."
   IMDIReImportBranch2 "Right click on the PeWi corpus > Re-Import this Branch. The alert window will appear asking whether the changes should be changed. Save. "
   IMDIReImportBranch3 "In the Import Branch window select Start an Yes when it asks you to overwrite the files. The branch should be reimported and all the previously made changes should be gone."
@@ -106,16 +106,16 @@ ColumnsTests
   FindAndReplace "Right click in the table, choose Find and Replace and enter some values. The function works in tables"
   DeleteFields "From the local corpus right click the group of media files of the PeWi corpus node and select View Selected. A table should open in the table area."
   DeleteFields2 "Right click the header of a column of the table (choose 'Description') and select 'Delete fields from all nodes'. Select OK in the message coming out. The field should be deleted."
-  DeleteFields3 "Now right click another field, but in this case choose one that cannot be deleted (it is NOT deletable if you see BOTH white and grey cells in it). Select again \"Delete fields from all nodes'. You should get a message saying that the node cannot be deleted."
+  DeleteFields3 "Now right click another field, but in this case choose one that cannot be deleted (e.g. Format). Select again \"Delete fields from all nodes'. You should get a message saying that the node cannot be deleted."
   DeleteNodes "From the table select an entire row (click on the resource, the first column on the left). Right click > 'Delete Selected Nodes from Parent'. Select OK in the message coming out. The node should be deleted. "
   DeleteField "View a single instance's table. Search for a field for which can be deleted: right click on the fields of the table and check whether there is an option to 'delete 1 field(s)' in the contextmenu. click on it. The field should be deleted form the table/ the instance."
 
 FilesTest
   AddWorkingDirectory "Go to the Files area (bottom half of the page). Several directories can be added and removed from 'Files'. "
-  AddJpegImage "Add a JPG image from your Working Directories to a session in the Local Corpus. The image is added and a window opens where a preview (thumbnail) is displayed and the file size is correct. "
-  AddJpegImage2 "Now try to add a second JPG image from the same Working Directory to the same session in the Local Corpus. Select both and drag them to the main area. A preview should open including both images."
+  AddJpegImage "Add a JPG image from your Working Directories to a session in the Local Corpus. The image is added and a window opens where a preview (thumbnail) is displayed and the file size is correct.  NOTE: if there is imagemagick installed on your machine, images thumbnails should be visible only in jpeg/jpg format and only when dragged under a session (not if they are left in the Files tab)."
+  AddJpegImage2 "Now try to add a second JPG image from the same Working Directory to the same session in the Local Corpus. Select both and drag them to the main area. A preview should open including both images. NOTE: if there is imagemagick installed on your machine, images thumbnails should be visible only in jpeg/jpg format and only when dragged under a session (not if they are left in the Files tab)."
   AddWAV "Download the WAV audio file (http://corpus1.mpi.nl/qfs1/media-archive/demo/pewi/Media/elan-example1.wav) onto the same directory used for the previous JPG file. Right click on the directory and select Reload. The wav file should then be uploaded to the working directory. The file is added and it is possible to be played when opened with an external application. (Windows 7 offers to show the directory, from where it can be opened)."
-  FilesShowHidden "Right click on Working Directories in the Files tab and check the \"Show Hidden Files\". Previously hidden files are shown now."
+  FilesShowHidden "Right click on Working Directories in the Files tab and check the \"Show Hidden Files\". (Possibly existing) Previously hidden files are shown now."
 
 FavouritesTest
   AddToFavourites "Righ click a session node containing, for example, actors (e.g. PeWi Corpus). Select some actors from the list > right click > Add to Favourite List. Now if you select Favourites in the tab below the local corpus you can see the session exported. "
