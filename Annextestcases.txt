@@ -1,16 +1,16 @@
-# test cases exported from test plan file Annex.xml on 2013-04-24 (15:31).
+# test cases exported from test plan file Annex.xml on 2014-04-10 (15:20).
 
 StartingAnnex
   OpenAnnexIMDIbrowser "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view node'. You should be directed to the ANNEX interface."
   LogIn "Select 'log in' from the top right menu. Enter your details. Your username should then appear beside the 'log in' function."
   LogIn2 "Close both pages, Annex and IMDI browser. Then reopen the IMDI browser page and try to log in from there. Then open the .eaf file again. The Annex interface should open showing already your username. "
   LogIn3 "Close again both pages, Annex and IMDI browser. Reopen the IMDI browser and then the .eaf file in Annex."
-  LogIn3b "Select a chunk and create a bookmark with it (see below 4. Control_Panel > TimelineCreateBookmark). Close Annex and the IMDI browser. Paste the bookmark in a new web page and press 'Enter'. Annex interface should  open and you should be able to log in from there. "
+  LogIn3b "Select a chunk and create a bookmark with it (mark a piece from time a to time b in the timeline, click on create bookmark select the two upper checkboxes and select 'copy to clipboard). (see below 4. Control_Panel > TimelineCreateBookmark). Close Annex and the IMDI browser. Paste the bookmark in a new web page and press 'Enter'. Annex interface should  open and you should be able to log in from there. "
 
 MenuBar
   Manual "In the context menu in the top left corner, click on 'manual'. You should be directed towards the manual page."
   HelpQuestionMark "Drag the question mark on an item, for eg. the play button. A small help window should open with explanations and tips for shortcuts, for eg."
-  SelectingStripforEmbedding "Select a strip from the annotation. Drag the red line to the desired position. This should be possible, regardless of how many units are available."
+  SelectingStripforEmbedding "Select a piece of the annotation. Then try to drag the red line to select pieces of the timeline. Both should be possible."
   Embed "Click on 'embed'. A window should open that provides options for embedding annex into other webpages."
   Embed2 "Click on the 'Show border' box and check it. The box on the right should become active. Enlarge the border width to 2, change the border color to green, and the border type to dotted."
   EmbedSize "Change the size to 500 x 600. The change should be denoted in the embed markup."
@@ -18,12 +18,12 @@ MenuBar
   EmbedF "Click on the list for Tier text font. There should be a list of fonts. Now select 'Arial'."
   EmbedTiers "Click on the tier 1 and tier 2 lists. All the available tiers should be in the list. For Tier 1, select K-Spch. For Tier 2. select W-Words"
   EmbedStartingPoint "As starting point select 'Current location'. (There is no actual visible change here. To check this option see test item 'Embed Check' below) "
-  CopyToClipboard1 "Copy to clipboard. Save any webpage (go to the wiki page and take the following file: annex-embed-test.html) to your desktop. Edit with Notepad ++ and paste the embed markup. "
-  OpeningWebPage "Now open the webpage. The clip should appear on the website. "
+  CopyToClipboard1 "Copy to clipboard. Save any webpage which is not annex (e.g. go to the wiki page and take the following file: annex-embed-test.html) to your desktop or downloads. Right click on the saved file and select \"Edit with Notepad ++\". Now paste the embed markup from Annex into the file you are editing in Notepad. Save it. "
+  OpeningWebPage "Now open the webpage (your browser should have an option to \"open file\". The clip should appear on the website with a dotted green frame surrounding it etc. "
   EmbedCheck "Check if the clip has been embedded from the selected location and not from the beginning of the video."
   EmbedSuccess "Check to see whether all the functions have successfully been embedded. The border settings, tiers, fonts, and view should correspond accordingly"
   Embed6 "Go to the embed menu again. Click on 'Done'. Then open it again. The previous changes should be reset."
-  CompactMode "Uncheck 'compact mode'. The space between tiers in the timeline should enlarge. Then check 'compact mode' again. The tiers should be compressed."
+  CompactMode "Move the arrow along the bar at the top of the page between  'compact' and spacious. The space between tiers in the timeline should enlarge the more you move the arrow towards 'spacious'. The space should reduce the further you move the arrow towards 'compact'."
 
 Video_Display
   VideoDisplayMin "Click on min. The box should get minimized, with only the audio available through the regular features (play, fast forward, etc..)"
@@ -65,8 +65,8 @@ Control_Panel
   GridScroll "Use the mouse to scroll up and down"
   GridHighlight "Check 'highlight currently read lines while video plays' and press play. The text being played should now be red. In addition, the text should scroll down automatically."
   GridHighlight2 "Uncheck 'highlight currently read lines while video plays' and press play. The Grid panel should then remain unaffected by the video being played."
-  GridEndTime "Click on 'End time'. The sequence should now be bottom (start) to (finish) top. Click on it again. It should be inverted."
-  GridBeginTime "Click on 'Begin Time'. The sequence should now be bottom (start) to (finish) top. Click on it again. It should be inverted"
+  GridEndTime "Click on 'End time'. The sequence should now be sorted according to the end time. Click on it again. The order shown before should be inverted."
+  GridBeginTime "Click on 'Begin time'. The sequence should now be sorted according to the begin time. Click on it again. The order shown before should be inverted"
   GridTier3 "Click on Tier3. The items in W-RGph should be arranged alphabetically. Since they do not directly correspond to the text of tier 1 and 2, they are shown either on top or in the bottom."
   GridTier2 "Click on tier 2, the IPA symbols should now be arranged alphabetically, preceded by the W-Spch which should be in sync (although not ordered alphabetically as it is following the IPA symbols."
   GridTier1 "Click on tier 1. The sentences should now be aligned alphabetically, with the W-IPA being in sync."
@@ -91,7 +91,7 @@ Control_Panel
   PlayContinually "The timeline should move gradually."
 
 AudioTest
-  OpenIMDIBroswerAudio "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file ( Endangered Languages > DoBeS Archive > Aweti > From Language and Culture > Linguistic Data > Monological > Narratives - 083 > awakap-0.eaf ) and select 'view node'. You should be directed to the ANNEX interface."
+  OpenIMDIBroswerAudio "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file ( MPI Corpora, Demo, PeWiCorpus, Kleveroute, elan_example.eaf) and select 'view node'. You should be directed to the ANNEX interface."
   Play "In the video display, press play, listen to the entire clip. It should be in sync with the timeline."
   Rewind "In the video display, press rewind one second. Both the audio file and the timeline should rewind one second and remain in sync."
   Fast_forward "In the video display, press forward one second. Both the audio file and the timeline should forward one second and remain in sync"
