@@ -1,4 +1,4 @@
-# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-04-04 (13:14).
+# test cases exported from test plan file IMDI_METADATABROWSER_2.xml on 2014-04-22 (16:26).
 
 Starting_Metadata_Browser
   Starting "Go to http://lux17.mpi.nl/ds/metadata_browser/ to access the homepage. "
@@ -12,6 +12,7 @@ NavigatonTest
   MultipleSelectionTestAnnotation "Check that the nodes you selected are still highlighted. Click on 'Content Search'. You should be redirected to Trova search application for the three nodes you selected. Close the window."
   MultipleSelectionTestAccessRights "Check that the nodes you selected are still highlighted. Click on 'Manage Access'. An error message tells you that this action can only be executed on single nodes."
   MultipleSelectionTestResourceRequest "Check that the nodes you selected are still highlighted. Click on Resource access. You should be redirected to the Resource request system with the node id and node name of the corpus you have selected.  "
+  TreeCorrespondentLevel "Open one of the nodes at the very end of the tree. Find any resource in this tree which you are allow to open. Once the resource is shown in the main window, the tree stays does not move. "
 
 AccessLevelTest
   VisualConfirmationTest "There should be access indicator next to all nodes, except for external material (BAS, Colarom, GTRP, Lablita, Lund) and where there are no resources below a node."
@@ -43,7 +44,9 @@ ContextMenuTest
   AccessZippedResources "Open zipped file and check that those resources that were available under the session node have been successfully downloaded. "
   DownloadAllResources2 "Log out and close window (or clear cache). Click on a session node with restricted access and try to select 'Download All'. You should see an error message at the top of the main panel saying that 'User anonymous has no access to any of the nodes. No zip could be created'. "
   DowloadResourceFile "Click on a resource file of which you have rights to access. The name of the resource selected should turn bold. Click on 'Download' in the main panel. You should then be able to save the file at a desired location."
-  AccessResourceFile "Open your resource file with ELAN/other media programmes, or edit it with Notepad or Word (in other words with the programme most suitable to the file format) "
+  AccessResourceFile "Open your resource file with ELAN/other media programmes, or edit it with Notepad or Word (in other words with the programme most suitable to the file format)."
+  DownloadAllResources3 "Click on a session node with restricted access but in which you actually have access and try to select 'Download All'. You should then be able to save the subtree at a desired location. "
+  AccessResourceFile2 "Open your resource file with ELAN/other media programmes, or edit it with Notepad or Word (in other words with the programme most suitable to the file format) "
   ResourcesAccess "Log out and close your browser. Go back to Imdi browser. Click on a node. The name of the resource selected should turn bold. Click on 'Resources Access' in the main panel. You should be redirected to the Resource Request system. "
   ResourcesAccess2 "At the bottom of the page, you can register if don't have an account by clicking on 'here'. You should get to the registration page."
   ResourcesAccess3 "In the same page (Resource Request system), click on 'Loggin'. Once you are logged in you should get the resource request system with the name of the node you selected and the possbility to indicate the date the period that you would like to use the resource.  "
