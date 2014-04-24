@@ -1,4 +1,4 @@
-# test cases exported from test plan file lamus_2011-11-17.xml on 2013-08-19 (10:20).
+# test cases exported from test plan file lamus_2011-11-17.xml on 2014-04-24 (13:54).
 
 LamusMainPageTest
   RegisterAsANewUsersTest "Select 'Register as a new user'. A 'Register New Lux17 LAMUS User' window should be displayed"
@@ -53,10 +53,6 @@ WorkspaceManagmentTest
   UF3 "Is an 'Upload Result' window displayed in the main interaction window?"
   UF5 "Are the uploaded files in the 'Unlinked Files' box?"
   UploadingSessionNodesTest2 "Click the 'Browse' button and select the resources you have downloaded. Click 'Upload' to start the transfer and click the 'Stop' button: is the ongoing transfer cancelled?"
-  FileBrowsersTest1 "In the 'Upload Resources' window check the number of file to upload in the bottom of the page. By default it should be 3"
-  FileBrowsersTest2 "Change the number of files to upload from 3 to 5: is the chosen amount of upload boxes displayed?"
-  FileBrowsersTest3 "Browse 'Canoe building', 'Fish preparation' and 'River Legend' one by one in the 3 upload boxes. Do the files appear in the uploaded boxes?"
-  FileBrowsersTest4 "Click 'Upload' to start the transfer: Is an 'Upload Result' window displayed in the main interaction window? Are the uploaded files in the unlinked files container of the workspace?"
 
 Link_UnlinkInfoFileTest
   LinkCorpusNodeTest "Right click on your main node and create a subnode, called 'North'. Right click on 'North' corpus node and select 'Link Node'; The various Link Node management functions should be shown in a pop-up menu: link info file, link corpus node, link session node, link catalogue node, link external node, link archive node (outside worksapace!)"
@@ -236,7 +232,7 @@ ManagementInterface
   BarOptions2 "Check in the options 'User', 'Status' and 'Message', whether with the scroll down menu you can filter the workspaces' list."
   BarOptions3 "Check in all the other options whether it is possible to find a certain workspace by typing text or numbers (e.g. 'Start date', type the year or the complete date in which a certain workspace has been created. The matched workspace should be found)."
   SystemLog "Click on 'System Log' at the bottom of the page. A window showing the system log with regard to different workspaces should be displayed. Click on 'Requests' to go back to the main management console."
-  SystemState "Click on 'System state' at the bottom of the page. A window showing the following options: 'The system allows new request: Disable' should be displayed. Don't test those bottoms.  "
+  SystemState "Click on 'System state' at the bottom of the page. A window showing the following options: 'The system allows new request: Disable' should be displayed. Don't test those buttons.  "
   LockedNodes "Click on 'Locked Nodes' at the bottom of the page. A window showing a list of workspace to unlock should be displayed. In the list you should see also the details of the workspace."
   Lux17LamusMain "Click on 'Lux 17 Lamus Main'. You should be redirected to Lamus main page."
 
