@@ -4,7 +4,7 @@
   <Arbil-IMDIVersion>2.5.39552</Arbil-IMDIVersion>
   <OSVersion>Mac OS X 10.6.8; Windows 7; Ubuntu 13.10</OSVersion>
   <Tester>frabec</Tester>
-  <TestPlanRevision>40510</TestPlanRevision>
+  <TestPlanRevision>40618</TestPlanRevision>
   <IMDIWizardTest>
     <SA1>Works</SA1>
     <LanguageSelection>Works</LanguageSelection>
@@ -54,21 +54,21 @@
     <DropNode>Works</DropNode>
     <OpenSearchWindow>Works</OpenSearchWindow>
     <CheckSearchWindow>Works</CheckSearchWindow>
-    <IMDILocalSearch error="Mac: see ticket #3784. Windows and Ubuntu: works fine.">Strange</IMDILocalSearch>
-    <IMDILocalSearch2 error="Mac and Ubuntu: see ticket #3784. Windows: works fine.">Strange</IMDILocalSearch2>
+    <IMDILocalSearch>Works</IMDILocalSearch>
+    <IMDILocalSearch2>Works</IMDILocalSearch2>
     <IMDILocalSearch3>Works</IMDILocalSearch3>
     <IMDIAdditionSearchAS>Works</IMDIAdditionSearchAS>
     <IMDIAdditionSearchAS1>Works</IMDIAdditionSearchAS1>
     <IMDIAdditionSearchAS2>Works</IMDIAdditionSearchAS2>
-    <IMDIAdditionSearchAS3 error="Mac: see ticket #3784. Windows and Ubuntu: works fine.">Strange</IMDIAdditionSearchAS3>
-    <IMDIAdditionSearchAS4 error="Mac and Ubuntu: see ticket #3784. Windows: works fine, but the wrong cell is highlighted.">Strange</IMDIAdditionSearchAS4>
+    <IMDIAdditionSearchAS3>Works</IMDIAdditionSearchAS3>
+    <IMDIAdditionSearchAS4>Works</IMDIAdditionSearchAS4>
     <IMDIAdditionSearchAS5>Works</IMDIAdditionSearchAS5>
     <DroppingInTheSearchField>Works</DroppingInTheSearchField>
     <RemoteSearch>Works</RemoteSearch>
     <RemoteSearchFiltered>Works</RemoteSearchFiltered>
-    <DisplayOfSearchResults1 error="Mac and Windows: see ticket #3784. Ubuntu: works fine.">Strange</DisplayOfSearchResults1>
-    <DisplayOfSearchResults2 error="Mac and Windows: see ticket #3784. Ubuntu: works fine.">Strange</DisplayOfSearchResults2>
-    <DisplayOfSearchResults3 error="Mac and Windows: see ticket #3784. Ubuntu: works fine.">Strange</DisplayOfSearchResults3>
+    <DisplayOfSearchResults1>Works</DisplayOfSearchResults1>
+    <DisplayOfSearchResults2>Works</DisplayOfSearchResults2>
+    <DisplayOfSearchResults3>Works</DisplayOfSearchResults3>
   </NodeSearchTest>
   <NodeRightMouseMenu>
     <ViewSelectedChangeLabels>Works</ViewSelectedChangeLabels>
@@ -93,7 +93,7 @@
     <ImportExternally>Works</ImportExternally>
     <ExportMetadataHierarchy>Works</ExportMetadataHierarchy>
     <ExportMetadataHierarchy2>Works</ExportMetadataHierarchy2>
-    <ExportMetadataHierarchy3 error="(Mac/Windows/Ubuntu) It completes the export without letting me choose the effective new location and saving the modified .imdi fle in the same location as before. See ticket #3624.">Fails</ExportMetadataHierarchy3>
+    <ExportMetadataHierarchy3>Works</ExportMetadataHierarchy3>
     <ReimportMetadataHierarchy>Works</ReimportMetadataHierarchy>
     <CheckXmlConformance>Works</CheckXmlConformance>
     <IMDICheckXmlConformance2>Works</IMDICheckXmlConformance2>
@@ -124,7 +124,7 @@
   </FilesTest>
   <FavouritesTest>
     <AddToFavourites>Works</AddToFavourites>
-    <AddFromFavourites error="Mac/Ubuntu: works fine. WINDOWS 7: I cannot move the actor from favorites via right click. A table actually comes out saying &quot;new loading node in...&quot; but it stays like and it does nothing else. I can do it via drag and drop though. See ticket #3587.">Fails</AddFromFavourites>
+    <AddFromFavourites error="WINDOWS 7: I cannot move the actor from favorites via right click. A table actually comes out saying &quot;new loading node in...&quot; but it stays like and it does nothing else. I can do it via drag and drop though. See ticket #3587.">Fails</AddFromFavourites>
     <Remove>Works</Remove>
     <IMDIAddRechangeFav>Works</IMDIAddRechangeFav>
     <IMDIAddIntoDiffSubnodeFav error="(Mac/Windows/Ubuntu) When I try to add the actor to the node I get a + icon and the node reloads as if it were effectively adding the actor (which is not the case in the end though).">Fails</IMDIAddIntoDiffSubnodeFav>
@@ -184,7 +184,7 @@
     <HelpMenu>Works</HelpMenu>
     <HelpMenuF1>Works</HelpMenuF1>
     <ArbilForumHelpMenu>Works</ArbilForumHelpMenu>
-    <HelpMenuInSyncManual error="(See ticket #3631) Actually only the icon of the 'note' is not displayed correctly, but that should be fixed by copying the image in Arbil folder.">Mostly</HelpMenuInSyncManual>
+    <HelpMenuInSyncManual error="Only &quot;note.png&quot; image missing">Mostly</HelpMenuInSyncManual>
     <RunSetUpWizard>Works</RunSetUpWizard>
     <ErrorHelpMenu>Works</ErrorHelpMenu>
     <CheckUpdatesHelpMenu>Works</CheckUpdatesHelpMenu>
