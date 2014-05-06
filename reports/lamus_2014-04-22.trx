@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LamusBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/lamus_2011-11-17.xml">
-  <DateTime>2014-04-22</DateTime>
-  <LamusVersion>1.2 Build:	1397722434387</LamusVersion>
+  <DateTime>2014-05-06</DateTime>
+  <LamusVersion>1.2.1</LamusVersion>
   <OSVersion>MAC OS X 10.6.8, firefox 21, lux 17.</OSVersion>
   <Tester>sauciv</Tester>
   <TestPlanRevision>40622</TestPlanRevision>
@@ -24,7 +24,7 @@
     <CreateNewWorkSpaceTest4>Works</CreateNewWorkSpaceTest4>
     <CreateNewWorkSpaceTest5>Works</CreateNewWorkSpaceTest5>
     <RequestStorageSpaceTest>Works</RequestStorageSpaceTest>
-    <RSST1 error="I get the following error message: Your connection may have timed out.">Fails</RSST1>
+    <RSST1>Works</RSST1>
     <ManagementConsoleTest>Works</ManagementConsoleTest>
     <MCT1>Works</MCT1>
     <MCT2>Works</MCT2>
@@ -40,18 +40,18 @@
     <AddCorpusNodeTest>Works</AddCorpusNodeTest>
     <CancelAddNode>Works</CancelAddNode>
     <ResetAddNode>Works</ResetAddNode>
-    <SubmitNewCorpusNode error="The node is indeed added, but not after click 'Submit'. I need to refresh the page in order to see the tree upoladed.">Mostly</SubmitNewCorpusNode>
+    <SubmitNewCorpusNode>Works</SubmitNewCorpusNode>
     <TMT2>Works</TMT2>
     <ModifyNodeTest>Works</ModifyNodeTest>
     <ResetChangeNode>Works</ResetChangeNode>
     <CancelChangeNode>Works</CancelChangeNode>
-    <SubmitModifiedNode error="The same problem as before. I need to refresh the page to see the changes that I made.">Mostly</SubmitModifiedNode>
+    <SubmitModifiedNode>Works</SubmitModifiedNode>
     <ViewNodeTest>Works</ViewNodeTest>
     <AddChildNode>Works</AddChildNode>
     <DeleteNodeTest>Works</DeleteNodeTest>
     <CancelDeleteNode>Works</CancelDeleteNode>
-    <DeleteDeleteNode error="The same as before.">Mostly</DeleteDeleteNode>
-    <CreateCorpusStructure error="The same problem as before. Each time I upoloaded a new node, I had to refresh the page in order to see the changes in the tree. ">Mostly</CreateCorpusStructure>
+    <DeleteDeleteNode>Works</DeleteDeleteNode>
+    <CreateCorpusStructure>Works</CreateCorpusStructure>
     <UploadFiles>Works</UploadFiles>
     <UploadingSessionNodesTest1>Works</UploadingSessionNodesTest1>
     <UF2>Works</UF2>
@@ -69,7 +69,7 @@
     <LIF4>Works</LIF4>
     <LIF5>Works</LIF5>
     <LIF6>Works</LIF6>
-    <LIF7 error="The same problem as before.">Mostly</LIF7>
+    <LIF7>Works</LIF7>
     <InfoFile>Works</InfoFile>
     <ViewInfoFile>Works</ViewInfoFile>
     <ChangeDescription>Works</ChangeDescription>
@@ -84,24 +84,24 @@
     <RRT3>Works</RRT3>
     <RRT4>Works</RRT4>
     <RRT5>Works</RRT5>
-    <RRT52 error="When I click 'Back' the page goes off line.">Mostly</RRT52>
+    <RRT52>Works</RRT52>
     <RRT6>Works</RRT6>
     <RRT7>Works</RRT7>
     <RRT8>Works</RRT8>
     <RRT9>Works</RRT9>
     <RRT10>Works</RRT10>
-    <RRT11 error="The same problem as before.">Mostly</RRT11>
+    <RRT11>Works</RRT11>
   </RenameInfoFileTest>
   <UnlinkInfo_WrittenResourcesTest>
     <UnlinkNodeTest>Works</UnlinkNodeTest>
     <CancelUnlinkNode>Works</CancelUnlinkNode>
     <UN1>Works</UN1>
-    <UN1a error="The same problem as before.">Mostly</UN1a>
+    <UN1a>Works</UN1a>
     <MultipleUnlinkTest>Works</MultipleUnlinkTest>
     <MUL1>Works</MUL1>
     <MUL2>Works</MUL2>
     <MUL3>Works</MUL3>
-    <MUL4 error="The same problem as before.">Mostly</MUL4>
+    <MUL4>Works</MUL4>
   </UnlinkInfo_WrittenResourcesTest>
   <SessionNodeTest>
     <LinkSessionNode>Works</LinkSessionNode>
@@ -113,13 +113,13 @@
     <LIM4>Works</LIM4>
     <LIM5>Works</LIM5>
     <LIM6>Works</LIM6>
-    <LIM7 error="">Mostly</LIM7>
+    <LIM7>Works</LIM7>
     <LIM8>Works</LIM8>
     <LinkInfoFileForSessionNodes>Works</LinkInfoFileForSessionNodes>
     <LIFFSN1>Works</LIFFSN1>
-    <LIFFSN2 error="">Mostly</LIFFSN2>
+    <LIFFSN2>Works</LIFFSN2>
     <LIFFSN3>Works</LIFFSN3>
-    <LIFFSN4 error="The 'Link node' window did not appear.">Mostly</LIFFSN4>
+    <LIFFSN4>Works</LIFFSN4>
     <LIFFSN5>Works</LIFFSN5>
   </SessionNodeTest>
   <Unlink_LinkCorpusNode>
@@ -170,9 +170,9 @@
   </DuplicateNodeTest>
   <ReplaceTreeTest>
     <RTTforSessionNode>Works</RTTforSessionNode>
-    <RTT2 error="I don't get any error message. The node is indeed replaced by Ramarro2Marrone.">Fails</RTT2>
+    <RTT2 error="I could replace the tree. Once the tree was replaced I cannot open it.  ">Fails</RTT2>
     <RRT3>Works</RRT3>
-    <RRT4>Works</RRT4>
+    <RRT4 error="I could replace the tree successfully, but I cannot open the tree although there are some media and write resources linked to that node.">Strange</RRT4>
   </ReplaceTreeTest>
   <NeurobiologyOfLanguageTest>
     <ViewNBLtestNode1 error="">Empty</ViewNBLtestNode1>
