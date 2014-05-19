@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VirtualBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/Virtual_Language|_Observatory.xml">
+  <DateTime>2014-05-19</DateTime>
+  <VirtualVersion>CLARIN VLO version 3.0-BETA3 </VirtualVersion>
+  <OSVersion>Mac OS X 10.9.2, Safari 7.0.2, Java 1.7</OSVersion>
+  <Tester>frabec</Tester>
+  <TestPlanRevision>40799</TestPlanRevision>
+  <StartingVirtualLanguageObservatoryVLO>
+    <Starting>Works</Starting>
+  </StartingVirtualLanguageObservatoryVLO>
+  <SimpleSearchPage>
+    <FilterByALanguage>Works</FilterByALanguage>
+    <FilterByAResourceType>Works</FilterByAResourceType>
+    <FilterByAGenre>Works</FilterByAGenre>
+    <FilterByANationalProject>Works</FilterByANationalProject>
+    <TextSearch>Works</TextSearch>
+    <SearchForSimilar>Works</SearchForSimilar>
+    <MetadataFields>Works</MetadataFields>
+    <TechnicalDetails>Works</TechnicalDetails>
+  </SimpleSearchPage>
+  <FacetedSearchPage>
+    <BrowseAll>Works</BrowseAll>
+    <FacetValue1>Works</FacetValue1>
+    <FacetValue2>Works</FacetValue2>
+    <FacetValue3>Works</FacetValue3>
+    <FacetValue4>Works</FacetValue4>
+    <FacetValue5>Works</FacetValue5>
+  </FacetedSearchPage>
+  <SearchResults>
+    <SearchMultipleResources>Works</SearchMultipleResources>
+    <SearchMultipleResources2>Works</SearchMultipleResources2>
+    <ResultsPerPage>Works</ResultsPerPage>
+    <TopLinks>Works</TopLinks>
+    <Report>Works</Report>
+    <Help>Works</Help>
+  </SearchResults>
+  <RecordPage>
+    <NextCheck>Works</NextCheck>
+    <Selections>Works</Selections>
+    <PermalinkCheck>Works</PermalinkCheck>
+    <ResourceLinkCheck>Works</ResourceLinkCheck>
+    <FacetedSearch>Works</FacetedSearch>
+    <FacetedSearch2>Works</FacetedSearch2>
+  </RecordPage>
+  <AboutPage>
+    <ApplicationVersionNumber>Works</ApplicationVersionNumber>
+    <LinksCheck>Works</LinksCheck>
+  </AboutPage>
+</VirtualBugCheck>
