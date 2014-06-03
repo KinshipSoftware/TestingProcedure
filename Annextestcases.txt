@@ -1,4 +1,4 @@
-# test cases exported from test plan file Annex.xml on 2014-04-10 (15:20).
+# test cases exported from test plan file Annex.xml on 2014-06-03 (11:40).
 
 StartingAnnex
   OpenAnnexIMDIbrowser "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view node'. You should be directed to the ANNEX interface."
@@ -31,8 +31,8 @@ Video_Display
   Play "Click on play. The audio should now be played."
   ProgressThroughTimeline "While the clip is playing, the red line in the timeline should be consistently moving along the annotations"
   SwitchingThroughTimeline "While the clip is playing, click on an earlier time frame in the progress bar under the video display. The audio should resume from there onwards."
-  Rewind "While the clip is playing, press the 1 second rewind button, the clip should rewind 1 second and continue playing automatically."
-  FastFwd "While the clip is playing, press the 1 second fast forward button, the clip should skip 1 second and continue playing automatically. "
+  Rewind "While the clip is playing, press the 5 second rewind button, the clip should rewind 5 second and continue playing automatically."
+  FastFwd "While the clip is playing, press the 5 second fast forward button, the clip should skip 5 second and continue playing automatically. "
   Volume "Alternate the volume, first lower it then higher it. The differences should be noticeable. Now mute it."
   ToBegnStop "Click on 'to beginning and stop.' You should be taken to the beginning of the timeline"
   ToEndnStop "Click on 'to end and stop', you should be taken to the end of the timeline."
