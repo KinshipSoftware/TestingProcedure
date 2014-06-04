@@ -1,4 +1,4 @@
-# test cases exported from test plan file Annex.xml on 2014-06-03 (11:40).
+# test cases exported from test plan file Annex.xml on 2014-06-04 (09:25).
 
 StartingAnnex
   OpenAnnexIMDIbrowser "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view node'. You should be directed to the ANNEX interface."
@@ -31,8 +31,10 @@ Video_Display
   Play "Click on play. The audio should now be played."
   ProgressThroughTimeline "While the clip is playing, the red line in the timeline should be consistently moving along the annotations"
   SwitchingThroughTimeline "While the clip is playing, click on an earlier time frame in the progress bar under the video display. The audio should resume from there onwards."
-  Rewind "While the clip is playing, press the 5 second rewind button, the clip should rewind 5 second and continue playing automatically."
-  FastFwd "While the clip is playing, press the 5 second fast forward button, the clip should skip 5 second and continue playing automatically. "
+  Rewind "While the clip is playing, press the 5 second rewind button, the clip should rewind 5 seconds and continue playing automatically."
+  FastFwd "While the clip is playing, press the 5 second fast forward button, the clip should skip 5 seconds and continue playing automatically. "
+  RewindPaused "While the clip is paused, press the 1 second rewind button, the clip should rewind 1 second."
+  FastFwdPaused "While the clip is paused, press the 1 second fast forward button, the clip should skip 1 second."
   Volume "Alternate the volume, first lower it then higher it. The differences should be noticeable. Now mute it."
   ToBegnStop "Click on 'to beginning and stop.' You should be taken to the beginning of the timeline"
   ToEndnStop "Click on 'to end and stop', you should be taken to the end of the timeline."
@@ -93,8 +95,8 @@ Control_Panel
 AudioTest
   OpenIMDIBroswerAudio "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file ( MPI Corpora, Demo, PeWiCorpus, Kleveroute, elan_example.eaf) and select 'view node'. You should be directed to the ANNEX interface."
   Play "In the video display, press play, listen to the entire clip. It should be in sync with the timeline."
-  Rewind "In the video display, press rewind one second. Both the audio file and the timeline should rewind one second and remain in sync."
-  Fast_forward "In the video display, press forward one second. Both the audio file and the timeline should forward one second and remain in sync"
+  Rewind "In the video display, press rewind 5 seconds. Both the audio file and the timeline should rewind 5 seconds and remain in sync."
+  Fast_forward "In the video display, press forward 5 seconds. Both the audio file and the timeline should forward 5 seconds and remain in sync"
   ToBegNStop_ToEndNStop "In the video display, click first on To end and stop. You should be taken tot he end of the clip and timeline. Now click on to beginning and stop. The timeline and clip should then go back to the beginning."
   Mute "Click on mute. The sound should be muted."
   Link2selectionAudio "Now select a fragment from the 26th second to the 31st and click on 'Create bookmark'. Check both 'Selected region' and 'Selected tiers', and click on 'Copy to clipboard'. Then open a new webpage and paste the link created. Press Enter. Annex interface should open with the bookmarked chunk highlighted in blue. When played, the clip should be in sync with the timeline."
