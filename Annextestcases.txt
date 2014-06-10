@@ -1,4 +1,4 @@
-# test cases exported from test plan file Annex.xml on 2014-06-04 (09:25).
+# test cases exported from test plan file Annex.xml on 2014-06-10 (12:04).
 
 StartingAnnex
   OpenAnnexIMDIbrowser "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view node'. You should be directed to the ANNEX interface."
@@ -39,6 +39,7 @@ Video_Display
   ToBegnStop "Click on 'to beginning and stop.' You should be taken to the beginning of the timeline"
   ToEndnStop "Click on 'to end and stop', you should be taken to the end of the timeline."
   FullScreen "Click on full screen. The video in original format should appear."
+  FullScreen2 "Click on full screen icon (next to volum icon). The video in full screen should appear.  "
   Buffer "Click on Buffer. A small window should appear with an explanation on pseudostreaming. "
   Buffer2 "Adjust the buffer time to 80 and click on submit buffer time. The video should then buffer accordingly."
   Buffer3 "Type in 300 in the buffer time and press enter. The time should revert to the maximum of 100."
@@ -77,6 +78,8 @@ Control_Panel
   Waveform "Click on Waveform. You should then see a left and a right channel. with the waves being presented."
   Waveform1 "Click on different parts of the wave. The progress bar under the video display should move accordingly. [if you do this when the video is playing, the latter will stop everytime.]"
   WaveformFrequency "It should be possible to adjust the scale for the frequency by clicking on the '+' and '-' signs."
+  CrossAnnotations "Go to one of the following control panel pages: Text, Grid, Waveform, Timeline. Select one annotation while pressing shift.   "
+  CrossAnnotations2 "Switch to other panel pages. The annotation selected should be highlighted in the other panel pages as well. "
   TimelineSwtichTiers "Click on 'timeline' in the control panel. In the menu bar, move the arrow to 'compact'. Now drag W-Words to W-IPA. It should slot in in-between."
   TimelineSwtichTiersCompact "Now that the arrow is on 'compact', try to move around a few tiers."
   TimelineSwitchFont "Press play. Change the font to 'calibri' during playback, the font should change while the red line remains in sync."
