@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil-IMDI.xml on 2014-04-24 (10:18).
+# test cases exported from test plan file arbil-IMDI.xml on 2014-06-13 (09:57).
 
 IMDIWizardTest
   SA1 "Before starting make sure you are using a clean machine (i.e. first time ever downloading). Remove any .arbil directory from your computer.Go to http://tla.mpi.nl/tools/tla-tools/arbil/download/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running. NOTE: if you are testing on Linux use the installer only."
@@ -34,11 +34,11 @@ GetMetadataTest
   FollowUpVoc "Select a Genre (CV) field on Content in any session that you have created. The proper Subgenre categories are shown"
   IMDIMultipleValuesAdd "Add multiple values for Location.Region and all the Description fields (right click on the session > Add > Location.Region / Description). You should see several rows in the table named 'Location.Region' and 'Description'."
   ImportExistinBrnchSavN "In the Remote Corpus Tree right-click on the branch or session you want; choose 'Import to Local Corpus' and then click 'Start'. Before the import starts, you get a message whether you want to save the changes you have made. Click on Cancel. nothing has changed and the unsaved names in the local corpus tree structure are still in blue."
-  ImportExistinBrnchSve "In the Remote Corpus Tree right-click on the branch or session you want; choose 'Import to Local Corpus' and then click 'Start'. Before the import starts, you get a message whether you want to save the changes you have made. Click on OK. The unsaved names in the local corpus tree structure are now black. Select 'Close' in the import window."
+  ImportExistinBrnchSve "In the Remote Corpus Tree right-click on the branch or session you want; choose 'Import to Local Corpus' and then click 'Start'. Before the import starts, you get a message whether you want to save the changes you have made. Click on OK. The unsaved names in the local corpus tree structure are now black. Select 'Cancel' in the import window."
   ImprtExistinBrnch "In the Remote Corpus Tree right-click on the branch or session you want; choose 'Import to Local Corpus'. Click 'Start'. You may get a message asking you whether you want to overwrite already existing files. Choose yes."
   ImprtExistinBrnch1 "When the import process is finished, a message appears confirming that the import of the branch into the local corpus of (#) files has been processed. Click on Details."
   ImprtExistinBrnch2 "Check the Process Details/Validation Errors (if any) / Resource Copy Errors and close the window. "
-  ImprtExistinBrnchDragDrop "Delete the node(s) that you have just imported. You will be asked whether you are sure to delete. Press okayThe node disappears from the tree structure of the local corpus."
+  ImprtExistinBrnchDragDrop "Delete the node(s) that you have just imported. You will be asked whether you are sure to delete. Press Yes. The node disappears from the tree structure of the local corpus."
   ImprtExistinBrnchDragDrop1 "From the remote corpus add the same corpus node to the local corpus by dragging and dropping a node into the local corpus. You should get the import window again (see test no. 16 above)."
   MovingMultipleSessions "Create a subnode \\"corpus A\\" in the Local Corpus. From the remote corpus copy a number of sessions into the \\"Corpus A\\" subnode . Create a new corpus node (\\"Corpus B\\"). Select the multiple sessions from \\"Corpus A\\" and move them to \\" Corpus B\\" . All the sessions have been moved into \\"Corpus B\\"."
   ProfileFilteringMD1 "In the options menu window select Templates and Profile, in the window that then opens click on New Template. Enter a name for your new template. An XML file should open in an XML editor (if not, open it in the available XML editor)."
