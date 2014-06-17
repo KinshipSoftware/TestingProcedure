@@ -2,9 +2,9 @@
 <Arbil-IMDIBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/arbil-IMDI.xml">
   <DateTime>2014-06-12</DateTime>
   <Arbil-IMDIVersion>2.5.1035</Arbil-IMDIVersion>
-  <OSVersion>Mac OS X 10.6.8</OSVersion>
+  <OSVersion>Mac OS X 10.6.8; Windows 7 64 bit</OSVersion>
   <Tester>frabec</Tester>
-  <TestPlanRevision>41083</TestPlanRevision>
+  <TestPlanRevision>41113</TestPlanRevision>
   <IMDIWizardTest>
     <SA1>Works</SA1>
     <LanguageSelection>Works</LanguageSelection>
@@ -21,7 +21,7 @@
     <SA2B2>Works</SA2B2>
   </IMDIWizardTest>
   <Node_loading>
-    <Observe_loading error="The loading of the remote corpus/corpora is EXTREMELY slow!">Mostly</Observe_loading>
+    <Observe_loading error="The loading is so slow that it gets stuck. Ref. ticket #3998. ">Fails</Observe_loading>
     <Observe_loading2>Works</Observe_loading2>
   </Node_loading>
   <GetMetadataTest>
@@ -60,7 +60,7 @@
     <IMDIAdditionSearchAS>Works</IMDIAdditionSearchAS>
     <IMDIAdditionSearchAS1>Works</IMDIAdditionSearchAS1>
     <IMDIAdditionSearchAS2>Works</IMDIAdditionSearchAS2>
-    <IMDIAdditionSearchAS3 error="Se ticket #3989 about cell highlighting and case (in)sensitiveness of the search results (2.6 release).">Mostly</IMDIAdditionSearchAS3>
+    <IMDIAdditionSearchAS3 error="See ticket #3989 about cell highlighting and case (in)sensitiveness of the search results (2.6 release).">Mostly</IMDIAdditionSearchAS3>
     <IMDIAdditionSearchAS4>Works</IMDIAdditionSearchAS4>
     <IMDIAdditionSearchAS5>Works</IMDIAdditionSearchAS5>
     <DroppingInTheSearchField>Works</DroppingInTheSearchField>
@@ -127,7 +127,7 @@
     <AddFromFavourites>Works</AddFromFavourites>
     <Remove>Works</Remove>
     <IMDIAddRechangeFav>Works</IMDIAddRechangeFav>
-    <IMDIAddIntoDiffSubnodeFav error="(Mac/Windows/Ubuntu) When I try to add the actor to the node I get a + icon and the node reloads as if it were effectively adding the actor (which is not the case in the end though).">Fails</IMDIAddIntoDiffSubnodeFav>
+    <IMDIAddIntoDiffSubnodeFav error="(Mac/Windows/Ubuntu) When I try to add the actor to the node I get a + icon and the node reloads as if it were effectively adding the actor (which is not the case in the end though). Ref. ticket #3999 (2.6 release).">Fails</IMDIAddIntoDiffSubnodeFav>
     <EditMetaData>Works</EditMetaData>
     <EditMetaData1>Works</EditMetaData1>
     <AddToElemInFav>Works</AddToElemInFav>
@@ -162,8 +162,8 @@
     <WindowsPixelSize1 error="TO TEST ON WINDOWS">Empty</WindowsPixelSize1>
     <CopyNewResourcesIntoCache error="(Mac/Windows/Ubuntu) The jpg file cannot be pasted into the session. See ticket #3622 (2.6 release). It can be dragged and dropped, though, and the resource link is stored in the ArbilWorkingFiles directory.">Mostly</CopyNewResourcesIntoCache>
     <CopyNewResourcesIntoCacheN error="(Mac/Windows/Ubuntu) The jpg file cannot be pasted into the session. See ticket #3622 (2.6 release). It can be dragged and dropped, though, and the resource link is stored in the working directory.">Mostly</CopyNewResourcesIntoCacheN>
-    <CheckPermisForRemoteResources>Works</CheckPermisForRemoteResources>
-    <CheckPermisForRemoteResources2>Works</CheckPermisForRemoteResources2>
+    <CheckPermisForRemoteResources error="Impossible to check because the loading is so slow that it gets stuck. Ref. ticket #3998. ">Fails</CheckPermisForRemoteResources>
+    <CheckPermisForRemoteResources2 error="Impossible to check because the loading is so slow that it gets stuck. Ref. ticket #3998. ">Fails</CheckPermisForRemoteResources2>
     <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
     <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
     <ColumnViewForNewTables>Works</ColumnViewForNewTables>
