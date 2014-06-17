@@ -1,4 +1,4 @@
-# test cases exported from test plan file arbil-IMDI.xml on 2014-06-13 (09:57).
+# test cases exported from test plan file arbil-IMDI.xml on 2014-06-17 (12:16).
 
 IMDIWizardTest
   SA1 "Before starting make sure you are using a clean machine (i.e. first time ever downloading). Remove any .arbil directory from your computer.Go to http://tla.mpi.nl/tools/tla-tools/arbil/download/ and choose Arbil Testing version > Run via Webstart. Start the file that has been downloaded. The file starts running. NOTE: if you are testing on Linux use the installer only."
@@ -203,7 +203,7 @@ AddResourcesTest
   AddResources "From the list of resources you may have in the working directory just added, select the one you want to add. Try to drag it to a session in the Local Corpus."
   AddResources2 "Holding the Shift botton, you are able to select multiple resources. Drag and drop (or copy/paste) them. They get processed together and appear in a single result table."
   AddNotArchivableFile "Try to add a working directory containing, for example, also .doc or .txt documents. If you open the directory, those files should carry an icon with an 'F', meaning that they are not archivable. "
-  AddResourceLocation "Right click on an archivable resource and select \"Insert Manual Resource Location\". Add the URI in the window that appears (look for the URI in the IMDI corpus; take the URL of one of the resources of the PeWi corpus)). Now the resource should carry: 1) the URI you entered (check metadata table > resource link); 2) an open/closed lock-icon in the local corpus."
+  AddResourceLocation "Right click on an archivable resource and select \"Insert Manual Resource Location\". Add the URI in the window that appears (look for the URI on the Internet. Look for example for a pdf document and take its link). Now the resource should carry: 1) the URI you entered (check metadata table > resource link); 2) an open/closed lock-icon in the local corpus."
 
 ExternalUseTest
   MetadataCopytoExcel "Go to a session node. Open for example the media resources in the table area. Copy the metadata-table (select all the resources in the first column on the left by holding down the SHIFT button). "
