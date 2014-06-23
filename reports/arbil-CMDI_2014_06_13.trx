@@ -2,7 +2,7 @@
 <ArbilBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/arbil-CMDI.xml">
   <DateTime>2014_06_13</DateTime>
   <ArbilVersion>2.5.1035</ArbilVersion>
-  <OSVersion>MAC OS X 10.6.8</OSVersion>
+  <OSVersion>MAC OS X 10.6.8; Windows 7 64bit</OSVersion>
   <Tester>frabec</Tester>
   <TestPlanRevision>41103</TestPlanRevision>
   <CMDIWizardTest>
@@ -41,7 +41,7 @@
     <CMDIProfilesReloadBotton>Works</CMDIProfilesReloadBotton>
     <CMDIProfilesReloadBotton2>Works</CMDIProfilesReloadBotton2>
     <CMDIEditAttributes>Works</CMDIEditAttributes>
-    <CMDIEditAttributes2 error="How are attributes supposed to be shown? If you click on &quot;A&quot; you only get the available languages. Attributes are visible in the long field editor.">Strange</CMDIEditAttributes2>
+    <CMDIEditAttributes2 error="This function doesn't exist at the moment. It needs to be implemented. Ref. ticket #4007 (2.6 release)  + If you click several times on the language balloon the dropdown menu rendering breaks. Ref. ticket #4006 (2.6 release).">Strange</CMDIEditAttributes2>
   </CMDI_Profiles>
   <GetMetadataTest>
     <CMDIAddProfile>Works</CMDIAddProfile>
@@ -165,20 +165,20 @@
     <TemplatesAndProfilesRefreshMacLinux>Works</TemplatesAndProfilesRefreshMacLinux>
     <templatesAndProfilesRefreshWindows>Works</templatesAndProfilesRefreshWindows>
     <TemplatesAndProfilesRefresh2>Works</TemplatesAndProfilesRefresh2>
-    <LocalCorpusStorageDirectory error="No attending that restart is needed (see ticket #3581). Ref. ticket #3580: The nodes do remain in the local corpus, but what is in the Favorites is still moved to the Files tab.">Fails</LocalCorpusStorageDirectory>
+    <LocalCorpusStorageDirectory error="No attending that restart is needed (see ticket #3581). Ref. ticket #3580: The nodes do remain in the local corpus, but what is in the Favorites is still moved to the Files tab. See last comment to ticket 3580.">Fails</LocalCorpusStorageDirectory>
     <SaveWindowsOnExit>Works</SaveWindowsOnExit>
     <SaveWindowsOnExit1>Works</SaveWindowsOnExit1>
     <WindowsPixelSize>Works</WindowsPixelSize>
     <WindowsPixelSize1>Works</WindowsPixelSize1>
     <CopyNewResourcesIntoCache error="Mac/Windows 7/Ubuntu 13.10: It is not stored in ArbilWorkingFiles. See ticket #3590 (2.6 release);Windows 7 and Ubuntu 13.10: error, cannot copy jpg into local corpus.">Fails</CopyNewResourcesIntoCache>
     <CopyNewResourcesIntoCacheN error="Windows 7/Ubuntu 13.10: As consequence of error described above not possible #3622 (2.6 release).">Fails</CopyNewResourcesIntoCacheN>
-    <CheckPermisForRemoteResources error="No icon is shown. See ticket #3667. (TO TRY AGAIN BECAUSE IT WAS IMPOSSIBLE FOR THE SUBNODES TO LOAD)">Fails</CheckPermisForRemoteResources>
+    <CheckPermisForRemoteResources error="No icon is shown. See ticket #3667. Impossible to check because the remote corpus loading is so slow that it gets stuck. Ref. ticket #3998.">Fails</CheckPermisForRemoteResources>
     <AlwaysCheckLocalMetdatFilesForXMLConformance>Works</AlwaysCheckLocalMetdatFilesForXMLConformance>
     <ShowLanguageInColumnName>Works</ShowLanguageInColumnName>
     <ColumnViewForNewTables>Works</ColumnViewForNewTables>
     <CloseAllWindows>Works</CloseAllWindows>
     <TrackTableSelectionInTree>Works</TrackTableSelectionInTree>
-    <ShowVerbatimXMLstructureInTree>Works</ShowVerbatimXMLstructureInTree>
+    <ShowVerbatimXMLstructureInTree error="The application gets stuck when checking the option. Related to ticket #3998.">Fails</ShowVerbatimXMLstructureInTree>
   </OptionsMenuTest>
   <HelpMenuTest>
     <AboutHelpMenu>Works</AboutHelpMenu>
@@ -207,7 +207,7 @@
     <AddResources error="The copy/paste does not work perfectly at the moment, but it's an issue that will be addressed in 2.6">Mostly</AddResources>
     <AddResources2>Works</AddResources2>
     <AddNotArchivableFile>Works</AddNotArchivableFile>
-    <AddResourceLocation error="To be tried again because of error messages coming out. ">Empty</AddResourceLocation>
+    <AddResourceLocation>Works</AddResourceLocation>
   </AddResourcesTest>
   <ExternalUseTest>
     <MetadataCopytoExcel>Works</MetadataCopytoExcel>
