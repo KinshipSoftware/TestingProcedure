@@ -2,7 +2,7 @@
 <Arbil-IMDIBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/arbil-IMDI.xml">
   <DateTime>2014-06-12</DateTime>
   <Arbil-IMDIVersion>2.5.1035</Arbil-IMDIVersion>
-  <OSVersion>Mac OS X 10.6.8; Windows 7 64 bit</OSVersion>
+  <OSVersion>Mac OS X 10.6.8; Windows 7 64 bit; Ubuntu 13.10</OSVersion>
   <Tester>frabec</Tester>
   <TestPlanRevision>41113</TestPlanRevision>
   <IMDIWizardTest>
