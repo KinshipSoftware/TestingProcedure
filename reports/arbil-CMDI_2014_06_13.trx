@@ -2,7 +2,7 @@
 <ArbilBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/arbil-CMDI.xml">
   <DateTime>2014_06_13</DateTime>
   <ArbilVersion>2.5.1035</ArbilVersion>
-  <OSVersion>MAC OS X 10.6.8; Windows 7 64bit</OSVersion>
+  <OSVersion>MAC OS X 10.6.8; Windows 7 64bit; Ubuntu 13.10</OSVersion>
   <Tester>frabec</Tester>
   <TestPlanRevision>41103</TestPlanRevision>
   <CMDIWizardTest>
@@ -19,7 +19,7 @@
     <LanguageSelection2>Works</LanguageSelection2>
   </CMDIWizardTest>
   <Node_loading>
-    <Observe_loading>Works</Observe_loading>
+    <Observe_loading error="The loading is so slow that it gets stuck. Ref. ticket #3998. ">Fails</Observe_loading>
     <Observe_loading2>Works</Observe_loading2>
   </Node_loading>
   <CMDI_Profiles>
