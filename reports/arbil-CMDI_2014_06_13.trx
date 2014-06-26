@@ -185,7 +185,7 @@
     <HelpMenu>Works</HelpMenu>
     <HelpMenuF1>Works</HelpMenuF1>
     <ArbilForumHelpMenu>Works</ArbilForumHelpMenu>
-    <HelpMenuInSyncManual error="only &quot;note.png&quot; image missing. Ref. ticket #3631.">Mostly</HelpMenuInSyncManual>
+    <HelpMenuInSyncManual>Works</HelpMenuInSyncManual>
     <RunSetUpWizard>Works</RunSetUpWizard>
     <ErrorHelpMenu>Works</ErrorHelpMenu>
     <CheckUpdatesHelpMenu>Works</CheckUpdatesHelpMenu>
