@@ -1,11 +1,11 @@
-# test cases exported from test plan file Annex.xml on 2014-06-10 (12:04).
+# test cases exported from test plan file Annex.xml on 2014-07-01 (09:54).
 
 StartingAnnex
-  OpenAnnexIMDIbrowser "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view node'. You should be directed to the ANNEX interface."
+  OpenAnnexIMDIbrowser "Access the Metadata browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view'. You should be directed to the ANNEX interface."
   LogIn "Select 'log in' from the top right menu. Enter your details. Your username should then appear beside the 'log in' function."
-  LogIn2 "Close both pages, Annex and IMDI browser. Then reopen the IMDI browser page and try to log in from there. Then open the .eaf file again. The Annex interface should open showing already your username. "
+  LogIn2 "Close both pages, Annex and the Metadata browser. Then reopen the Metadata browser page and try to log in from there. Then open the .eaf file again. The Annex interface should open showing already your username. "
   LogIn3 "Close again both pages, Annex and IMDI browser. Reopen the IMDI browser and then the .eaf file in Annex."
-  LogIn3b "Select a chunk and create a bookmark with it (mark a piece from time a to time b in the timeline, click on create bookmark select the two upper checkboxes and select 'copy to clipboard). (see below 4. Control_Panel > TimelineCreateBookmark). Close Annex and the IMDI browser. Paste the bookmark in a new web page and press 'Enter'. Annex interface should  open and you should be able to log in from there. "
+  LogIn3b "Select a chunk and create a bookmark with it (mark a piece from time a to time b in the timeline, click on create bookmark select the two upper checkboxes and select 'copy to clipboard). (see below 4. Control_Panel > TimelineCreateBookmark). Close Annex and the Metadata browser. Paste the bookmark in a new web page and press 'Enter'. Annex interface should  open and you should be able to log in from there. "
 
 MenuBar
   Manual "In the context menu in the top left corner, click on 'manual'. You should be directed towards the manual page."
@@ -38,7 +38,7 @@ Video_Display
   Volume "Alternate the volume, first lower it then higher it. The differences should be noticeable. Now mute it."
   ToBegnStop "Click on 'to beginning and stop.' You should be taken to the beginning of the timeline"
   ToEndnStop "Click on 'to end and stop', you should be taken to the end of the timeline."
-  FullScreen "Click on full screen. The video in original format should appear."
+  FullScreen "Click on \"Full\". The video should go back to its original size."
   FullScreen2 "Click on full screen icon (next to volum icon). The video in full screen should appear.  "
   Buffer "Click on Buffer. A small window should appear with an explanation on pseudostreaming. "
   Buffer2 "Adjust the buffer time to 80 and click on submit buffer time. The video should then buffer accordingly."
@@ -96,13 +96,13 @@ Control_Panel
   PlayContinually "The timeline should move gradually."
 
 AudioTest
-  OpenIMDIBroswerAudio "Access the IMDI browser through lux17.mpi.nl, right click on an .eaf file ( MPI Corpora, Demo, PeWiCorpus, Kleveroute, elan_example.eaf) and select 'view node'. You should be directed to the ANNEX interface."
+  OpenIMDIBroswerAudio "Access the Metadata browser through lux17.mpi.nl, right click on an .eaf file ( MPI Corpora, Demo, PeWiCorpus, Kleveroute, elan_example.eaf) and select 'view'. You should be directed to the ANNEX interface."
   Play "In the video display, press play, listen to the entire clip. It should be in sync with the timeline."
   Rewind "In the video display, press rewind 5 seconds. Both the audio file and the timeline should rewind 5 seconds and remain in sync."
   Fast_forward "In the video display, press forward 5 seconds. Both the audio file and the timeline should forward 5 seconds and remain in sync"
   ToBegNStop_ToEndNStop "In the video display, click first on To end and stop. You should be taken tot he end of the clip and timeline. Now click on to beginning and stop. The timeline and clip should then go back to the beginning."
   Mute "Click on mute. The sound should be muted."
-  Link2selectionAudio "Now select a fragment from the 26th second to the 31st and click on 'Create bookmark'. Check both 'Selected region' and 'Selected tiers', and click on 'Copy to clipboard'. Then open a new webpage and paste the link created. Press Enter. Annex interface should open with the bookmarked chunk highlighted in blue. When played, the clip should be in sync with the timeline."
+  Link2selectionAudio "Now select a fragment from the 26th second to the 31st and click on 'Create bookmark'. Check both 'Selected region' and 'Selected tiers', and click on 'Copy to clipboard'. Then open a new webpage and paste the link created. Press Enter. Annex interface should open with the bookmarked chunk highlighted in blue. When played via \"Play selection\", the clip should be in sync with the timeline."
 
 LogOut
   LogOut "On the top right corner of the page click on 'log out'. A dialog window should open asking you if you really want to log out. Click on 'Cancel', the window would be closed."
