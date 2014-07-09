@@ -2,9 +2,9 @@
 <AnnexBugCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://lux15.mpi.nl/testing https://lux15.mpi.nl/testing/xsd_out.php?file=plans/Annex.xml">
   <DateTime>2014-06-27</DateTime>
   <AnnexVersion>1.5.41168</AnnexVersion>
-  <OSVersion>Mac OS X 10.9.2</OSVersion>
+  <OSVersion>Mac OS X 10.9.2/Safari</OSVersion>
   <Tester>frabec</Tester>
-  <TestPlanRevision>41199</TestPlanRevision>
+  <TestPlanRevision>41246</TestPlanRevision>
   <StartingAnnex>
     <OpenAnnexIMDIbrowser>Works</OpenAnnexIMDIbrowser>
     <LogIn>Works</LogIn>
@@ -24,8 +24,8 @@
     <EmbedTiers>Works</EmbedTiers>
     <EmbedStartingPoint>Works</EmbedStartingPoint>
     <CopyToClipboard1>Works</CopyToClipboard1>
-    <OpeningWebPage>Works</OpeningWebPage>
-    <EmbedCheck error="The embedded Annex doesn't show the annotation content/time lapses/video. See ref. ticket #4024.">Fails</EmbedCheck>
+    <OpeningWebPage error="The embedded Annex doesn't show the annotation content/time lapses/video. See ref. ticket #4024.">Fails</OpeningWebPage>
+    <EmbedCheck error="See error description in the above test. Ref. ticket #4024.">Fails</EmbedCheck>
     <EmbedSuccess error="See error description in the above test. Ref. ticket #4024.">Fails</EmbedSuccess>
     <Embed6>Works</Embed6>
     <CompactMode>Works</CompactMode>
@@ -35,7 +35,7 @@
     <Max>Works</Max>
     <Play>Works</Play>
     <ProgressThroughTimeline>Works</ProgressThroughTimeline>
-    <SwitchingThroughTimeline error="The audio resumes if I click on play. Is that correct? or should it resume automatically?">Empty</SwitchingThroughTimeline>
+    <SwitchingThroughTimeline>Works</SwitchingThroughTimeline>
     <Rewind>Works</Rewind>
     <FastFwd>Works</FastFwd>
     <RewindPaused>Works</RewindPaused>
@@ -46,7 +46,7 @@
     <FullScreen>Works</FullScreen>
     <FullScreen2>Works</FullScreen2>
     <Buffer>Works</Buffer>
-    <Buffer2 error="I am not sure what I should &quot;see&quot;, should I wait for the 80 seconds to pass before the video starts?">Empty</Buffer2>
+    <Buffer2>Works</Buffer2>
     <Buffer3>Works</Buffer3>
   </Video_Display>
   <Information>
@@ -82,7 +82,7 @@
     <Subtitle>Works</Subtitle>
     <Waveform>Works</Waveform>
     <Waveform1>Works</Waveform1>
-    <WaveformFrequency error="Instead of zooming it moves on the right and on the left. See ref. ticket #3494.">Fails</WaveformFrequency>
+    <WaveformFrequency>Works</WaveformFrequency>
     <CrossAnnotations>Works</CrossAnnotations>
     <CrossAnnotations2>Works</CrossAnnotations2>
     <TimelineSwtichTiers>Works</TimelineSwtichTiers>
@@ -96,7 +96,7 @@
     <NavigationButtonsMvBeginningEnd>Works</NavigationButtonsMvBeginningEnd>
     <NavigationButtonsRwdFfwdFAST>Works</NavigationButtonsRwdFfwdFAST>
     <NavigationButtonsRwdFfwdSLOW>Works</NavigationButtonsRwdFfwdSLOW>
-    <NavigationButtonsPlusMinus error="Instead of zooming it moves on the right and on the left. See ref. ticket #3494.">Fails</NavigationButtonsPlusMinus>
+    <NavigationButtonsPlusMinus>Works</NavigationButtonsPlusMinus>
     <PlayByScreen>Works</PlayByScreen>
     <PlayContinually>Works</PlayContinually>
   </Control_Panel>
@@ -105,7 +105,9 @@
     <Play>Works</Play>
     <Rewind>Works</Rewind>
     <Fast_forward>Works</Fast_forward>
-    <ToBegNStop_ToEndNStop error="The video goes back to the beginning but it doesn't stop. It starts again. Is this expected behavior?">Empty</ToBegNStop_ToEndNStop>
+    <ToBegNStop_ToEndNStop>Works</ToBegNStop_ToEndNStop>
+    <ToBegNStop1>Works</ToBegNStop1>
+    <toBegNStop2>Works</toBegNStop2>
     <Mute>Works</Mute>
     <Link2selectionAudio>Works</Link2selectionAudio>
   </AudioTest>
