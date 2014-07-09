@@ -4,7 +4,7 @@
   <AnnexVersion>1.5.41168</AnnexVersion>
   <OSVersion>Mac OS X 10.9.2/Safari</OSVersion>
   <Tester>frabec</Tester>
-  <TestPlanRevision>41246</TestPlanRevision>
+  <TestPlanRevision>41254</TestPlanRevision>
   <StartingAnnex>
     <OpenAnnexIMDIbrowser>Works</OpenAnnexIMDIbrowser>
     <LogIn>Works</LogIn>
@@ -24,7 +24,7 @@
     <EmbedTiers>Works</EmbedTiers>
     <EmbedStartingPoint>Works</EmbedStartingPoint>
     <CopyToClipboard1>Works</CopyToClipboard1>
-    <OpeningWebPage error="The embedded Annex doesn't show the annotation content/time lapses/video. See ref. ticket #4024.">Fails</OpeningWebPage>
+    <OpeningWebPage>Works</OpeningWebPage>
     <EmbedCheck error="See error description in the above test. Ref. ticket #4024.">Fails</EmbedCheck>
     <EmbedSuccess error="See error description in the above test. Ref. ticket #4024.">Fails</EmbedSuccess>
     <Embed6>Works</Embed6>
