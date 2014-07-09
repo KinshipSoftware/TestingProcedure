@@ -1,4 +1,4 @@
-# test cases exported from test plan file Annex.xml on 2014-07-01 (09:54).
+# test cases exported from test plan file Annex.xml on 2014-07-09 (15:44).
 
 StartingAnnex
   OpenAnnexIMDIbrowser "Access the Metadata browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view'. You should be directed to the ANNEX interface."
@@ -41,7 +41,7 @@ Video_Display
   FullScreen "Click on \"Full\". The video should go back to its original size."
   FullScreen2 "Click on full screen icon (next to volum icon). The video in full screen should appear.  "
   Buffer "Click on Buffer. A small window should appear with an explanation on pseudostreaming. "
-  Buffer2 "Adjust the buffer time to 80 and click on submit buffer time. The video should then buffer accordingly."
+  Buffer2 "NOTE: remember to clear cache before doing this test because otherwise you won't see anything happen. Adjust the buffer time to 20 and click on submit buffer time. The video should then buffer accordingly and start playing after 20 seconds. "
   Buffer3 "Type in 300 in the buffer time and press enter. The time should revert to the maximum of 100."
 
 Information
@@ -77,7 +77,7 @@ Control_Panel
   Subtitle "Now click on 'Subtitle' from the control panel. Press play. The text in the tiers should correspond to the clip."
   Waveform "Click on Waveform. You should then see a left and a right channel. with the waves being presented."
   Waveform1 "Click on different parts of the wave. The progress bar under the video display should move accordingly. [if you do this when the video is playing, the latter will stop everytime.]"
-  WaveformFrequency "It should be possible to adjust the scale for the frequency by clicking on the '+' and '-' signs."
+  WaveformFrequency "It should be possible to adjust the scale for the frequency by clicking on the '+' and '-' signs. Note that the zooming in and out will occur in the center of the waveform panel."
   CrossAnnotations "Go to one of the following control panel pages: Text, Grid, Waveform, Timeline. Select one annotation while pressing shift.   "
   CrossAnnotations2 "Switch to other panel pages. The annotation selected should be highlighted in the other panel pages as well. "
   TimelineSwtichTiers "Click on 'timeline' in the control panel. In the menu bar, move the arrow to 'compact'. Now drag W-Words to W-IPA. It should slot in in-between."
@@ -91,7 +91,7 @@ Control_Panel
   NavigationButtonsMvBeginningEnd "On the left, click on the Move to beginning/end navigation button. The Timeline should now to the beginning and then to the end."
   NavigationButtonsRwdFfwdFAST "Click on fast forward and then rewind. The timeline should move forward and back quickly accordingly."
   NavigationButtonsRwdFfwdSLOW "Click on fast slowly and then rewind. The timeline should move forward and back slowly accordingly."
-  NavigationButtonsPlusMinus "Click on '+'. THe timeline should be zoomed in. Click on '-'. The timeline should be zoomed out."
+  NavigationButtonsPlusMinus "Click on '+'. THe timeline should be zoomed in. Click on '-'. The timeline should be zoomed out. Note that the zooming in and out will occur in the center of the timeline panel."
   PlayByScreen "The timeline should shift screens as it plays"
   PlayContinually "The timeline should move gradually."
 
@@ -100,7 +100,9 @@ AudioTest
   Play "In the video display, press play, listen to the entire clip. It should be in sync with the timeline."
   Rewind "In the video display, press rewind 5 seconds. Both the audio file and the timeline should rewind 5 seconds and remain in sync."
   Fast_forward "In the video display, press forward 5 seconds. Both the audio file and the timeline should forward 5 seconds and remain in sync"
-  ToBegNStop_ToEndNStop "In the video display, click first on To end and stop. You should be taken tot he end of the clip and timeline. Now click on to beginning and stop. The timeline and clip should then go back to the beginning."
+  ToBegNStop_ToEndNStop "In the video display, click first on To end and stop. You should be taken tot he end of the clip and timeline. "
+  ToBegNStop1 "Let the clip play. Now click on to beginning and stop. The timeline and clip should then go back to the beginning but continue play."
+  toBegNStop2 "Stop the clip. Now click again on to beginning and stop. The timeline and clip should then go back to the beginning and stop. "
   Mute "Click on mute. The sound should be muted."
   Link2selectionAudio "Now select a fragment from the 26th second to the 31st and click on 'Create bookmark'. Check both 'Selected region' and 'Selected tiers', and click on 'Copy to clipboard'. Then open a new webpage and paste the link created. Press Enter. Annex interface should open with the bookmarked chunk highlighted in blue. When played via \"Play selection\", the clip should be in sync with the timeline."
 
