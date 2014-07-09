@@ -1,4 +1,4 @@
-# test cases exported from test plan file Annex.xml on 2014-07-09 (15:44).
+# test cases exported from test plan file Annex.xml on 2014-07-09 (16:27).
 
 StartingAnnex
   OpenAnnexIMDIbrowser "Access the Metadata browser through lux17.mpi.nl, right click on an .eaf file (MPI Corpora > DEMO > PeWi corpus > kleve route > elan-example1.eaf) and select 'view'. You should be directed to the ANNEX interface."
@@ -10,7 +10,7 @@ StartingAnnex
 MenuBar
   Manual "In the context menu in the top left corner, click on 'manual'. You should be directed towards the manual page."
   HelpQuestionMark "Drag the question mark on an item, for eg. the play button. A small help window should open with explanations and tips for shortcuts, for eg."
-  SelectingStripforEmbedding "Select a piece of the annotation. Then try to drag the red line to select pieces of the timeline. Both should be possible."
+  SelectingStripforEmbedding "Select a piece of the annotation. Then try to drag the red line to select pieces of the timeline. Both should be possible. NOTE: don't start selecting from the very beginning of the video otherwise it will be difficult to then check the embedding."
   Embed "Click on 'embed'. A window should open that provides options for embedding annex into other webpages."
   Embed2 "Click on the 'Show border' box and check it. The box on the right should become active. Enlarge the border width to 2, change the border color to green, and the border type to dotted."
   EmbedSize "Change the size to 500 x 600. The change should be denoted in the embed markup."
@@ -21,7 +21,7 @@ MenuBar
   CopyToClipboard1 "Copy to clipboard. Save any webpage which is not annex (e.g. go to the wiki page and take the following file: annex-embed-test.html) to your desktop or downloads. Right click on the saved file and select \"Edit with Notepad ++\". Now paste the embed markup from Annex into the file you are editing in Notepad. Save it. "
   OpeningWebPage "Now open the webpage (your browser should have an option to \"open file\". The clip should appear on the website with a dotted green frame surrounding it etc. "
   EmbedCheck "Check if the clip has been embedded from the selected location and not from the beginning of the video."
-  EmbedSuccess "Check to see whether all the functions have successfully been embedded. The border settings, tiers, fonts, and view should correspond accordingly"
+  EmbedSuccess "Check to see whether ALL the functions have successfully been embedded: the borders (colors and format); the font type, etc. Check also whether the content of the tiers effectively corresponds to the tier chosen while embedding."
   Embed6 "Go to the embed menu again. Click on 'Done'. Then open it again. The previous changes should be reset."
   CompactMode "Move the arrow along the bar at the top of the page between  'compact' and spacious. The space between tiers in the timeline should enlarge the more you move the arrow towards 'spacious'. The space should reduce the further you move the arrow towards 'compact'."
 
