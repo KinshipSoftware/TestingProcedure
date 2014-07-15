@@ -25,8 +25,8 @@
     <EmbedStartingPoint>Works</EmbedStartingPoint>
     <CopyToClipboard1>Works</CopyToClipboard1>
     <OpeningWebPage>Works</OpeningWebPage>
-    <EmbedCheck error="See error description in the above test. Ref. ticket #4024.">Fails</EmbedCheck>
-    <EmbedSuccess error="See error description in the above test. Ref. ticket #4024.">Fails</EmbedSuccess>
+    <EmbedCheck>Works</EmbedCheck>
+    <EmbedSuccess>Works</EmbedSuccess>
     <Embed6>Works</Embed6>
     <CompactMode>Works</CompactMode>
   </MenuBar>
@@ -70,7 +70,7 @@
     <TierTextFont>Works</TierTextFont>
     <Tier1HighlightText error="the adjacent fragments in tiers 2 and 3 are not highlighted. Ref. ticket #4025.">Fails</Tier1HighlightText>
     <GridChangeTiers>Works</GridChangeTiers>
-    <GridScroll error="I can scroll down only by using the &quot;button&quot; on the right of the tier-tables, but not by using the mouse wheel. See ref. ticket #3493.">Fails</GridScroll>
+    <GridScroll>Works</GridScroll>
     <GridHighlight>Works</GridHighlight>
     <GridHighlight2>Works</GridHighlight2>
     <GridEndTime>Works</GridEndTime>
