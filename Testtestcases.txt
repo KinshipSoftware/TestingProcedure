@@ -1,9 +1,0 @@
-# test cases exported from test plan file test_3.xml on 2012-11-16 (13:33).
-
-newOne "More revisions are required!"
-  anyTest "no description"
-
-Group·two "with a new dot!"
-  test_without_dot "just to be sure..."
-  grün "mit umlaut?"
-  系统标识符 "what did I copy here?"
