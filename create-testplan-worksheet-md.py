@@ -20,7 +20,7 @@ with open(testCasesFile) as testPlan:
         elif line.startswith('  '):
             #outputFile.write(line);
             parts = line[2:].split(" ", 1);
-            outputFile.write("##" + parts[0]);
+            outputFile.write("####" + parts[0]);
             outputFile.write("\n");
             outputFile.write(parts[1]);
             #outputFile.write("\n");
@@ -32,6 +32,6 @@ with open(testCasesFile) as testPlan:
             outputFile.write("\n");
             outputFile.write("\n");
         else:
-            outputFile.write("#" + line);
+            outputFile.write("###" + line);
             outputFile.write("\n");
 exit(0)
