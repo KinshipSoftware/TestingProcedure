@@ -2,19 +2,15 @@
 
 ###
 
-###StartKinOath
+###StartKinOath (main testing OS for this version: Mac)
 
 ####Webstart
 "To start the program go to http://tla.mpi.nl/tools/tla-tools/kinoath > Show all KinOath verions > select the Testing version, and click on 'Run via webstart'. After some seconds KinOath should open."
 * Works
-* Kind of works
-* Doesn't work
 
 ####WindowsInstaller
 "Before starting to test the program try out the installation on Windows. Go to http://tla.mpi.nl/tools/tla-tools/kinoath/versions/, select the Testing version and the option 'Download the Windows Installer'."
 * Works
-* Kind of works
-* Doesn't work
 
 ####LinuxInstaller
 "Before starting to test the program try out the installation on Linux. Go to http://tla.mpi.nl/tools/tla-tools/kinoath/versions/, select the Testing version and the option 'Download the Debian Linux Package'. "
@@ -24,331 +20,233 @@
 
 ####MacOSInstaller
 "Before starting to test the program try out the installation on Mac. Go to http://tla.mpi.nl/tools/tla-tools/kinoath/versions/, select the Testing version and the option 'Download the Mac Installer'.  NOTE: first have a look at  https://trac.mpi.nl/wiki/LATSoftwareTesting, paragraph \"Information for Mac users\"."
-* Works
-* Kind of works
-* Doesn't work
+* STILL TO BE TESTED
 
 ###
+
+###LanguageSelection
+
+###SelectALanguage
+"If it is the first time you run the application a window should come out asking you to select the desired language. Choose one then click on OK. KinOath should open in the chosen language."
+* Works
+
+###ChangeLanguage
+"Try to change the language by selecting 'Select language' in the Help menu. Once you choose one and click on OK you will see a message telling you to quit and restart KinOath for it to apply the language change."
+* Works
 
 ###SampleDiagramsTest
 
 ####FreeformDiagramSyntax1
 "From File menu go to 'Open Sample Diagram' and choose 'Freeform Diagram Syntax'. A new page should open with the panel 'Kin Type Strings' on top of it, and the sample diagram in the main panel."
 * Works
-* Kind of works
-* Doesn't work
 
 ####FreeformDiagramSyntax2
 "From Edit menu choose 'Recalculate the Diagram', or simply click on the central panel. The kin type strings in the top panel should get coloured. Ensure nothing goes missing from the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####FreeformDiagramSyntax3
 "Try to modify the diagram by adding other kin types (with labels, i.e. names, dates, etc.) to the ones in colour and see if the new entities appear in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####FreeformDiagramSyntax4
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####QueryDiagramSyntax1
 "In the File menu go to 'Open Sample Diagram' and choose 'Query Diagram Syntax'. A new page should open showing some sample entities, a left panel with three tabs: 'Search Entities', 'Project Tree', and 'Diagram Tree', and the top panel 'Kin Type Strings'. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####QueryDiagramSyntax2
 "From Edit menu choose 'Recalculate the Diagram', or simply click on the central panel. You may be requested to import data and the data should import without error. Recalculate again. A diagram should now appear and the kin type strings in the top panel should get coloured. Ensure nothing goes missing from the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####QueryDiagramSyntax3
 "Select one of the entities on the diagram and try to modify the kinship data in the table at the bottom of the page. The changes should then also appear in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####QueryDiagramSyntax4
 "Now insert a random letter in the name of the entity '[Maria Cristina of_Austria]' (at the very beginning of the 'Kin type strings' panel). An error message should pop up telling you to import the 'European Royalty' sample data. Do the import (not necessary if import has already been performed). Once it is complete you should see, on the right of the page, a panel called 'Imported Entities'. (Delete the lettere inserted before moving on)"
 * Works
-* Kind of works
-* Doesn't work
 
 ####QueryDiagramSyntax5
 "Try a query in the 'Kin Type Strings', like for example x[Albert]. In the central panel you should see all the entities named Albert. (Then delete the query before moving on.)"
 * Works
-* Kind of works
-* Doesn't work
 
 ####QueryDiagramSyntax6
 "Now select one entity in the 'Imported Entities' panel. It should appear in the main panel. Then check the option 'Expand selection by kin type string' and try different strings (e.g. P, C, *, etc.). New entities related to the one you had previously selected should appear/disappear accordingly."
 * Works
-* Kind of works
-* Doesn't work
 
 ####HawaiianKinTerms1
 "In the File menu go to 'Open Sample Diagram' and choose 'Hawaiian Kin Terms'. A new page should open with the diagram in the centre and a panel on the right called 'Hawaiian Kin Terms'."
 * Works
-* Kind of works
-* Doesn't work
 
 ####HawaiianKinTerms2
 "Choose 'Recalculate the Diagram' from 'Edit' menu, or simply click on the central panel. Now check the option 'Show Kin Types Labels' in the 'Diagram Options' menu. The kin type strings should become visible in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####HawaiianKinTerms3
 "Try to modify the diagram by adding other information (kin terms, kin type strings, descriptions) in the table in the right panel (it doesn't matter in which language). The new individuals should appear in the diagram. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####HawaiianKinTerms3b
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####HawaiianKinTerms4
 "Uncheck 'Show On Graph' in the right panel: the kin terms on the diagram should go away."
 * Works
-* Kind of works
-* Doesn't work
 
 ####HawaiianKinTerms5
 "From 'Kin Terms' menu choose 'New Kin Term Group'. A new tab should open in the right panel. Choose a color for the new group and add kin terms, kin type strings, descriptions. The latter should appear in the diagram in the previously chosen colour."
 * Works
-* Kind of works
-* Doesn't work
 
 ####HawaiianKinTerms6
 "In the 'Hawaiian Kin Terms' tab in the right panel check some of the kin terms and select 'Delete Selected' on the top of the table. Those kin terms should disappear from the table and from the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####HawaiianKinTerms6b
 "Now try the option 'Delete Group'. The kin terms group should disappear both from the tab on the right of page ad from the diagram in the main panel."
-* Works
-* Kind of works
-* Doesn't work
+* Kind of works: the group is only deleted from the Kin Terms tab on the right of the page, but it is still present on the diagram. Reference issue #274.
 
 ####HawaiianKinTerms7
 "Try to uncheck the option 'Generate Example Entities' in the panel on the right (it should be checked by default). The diagram should disappear.  NOTE: if you have two kin terms groups, and some of the kin terms overlap, these will not disappear unless you select the option for both groups."
 * Works
-* Kind of works
-* Doesn't work
 
 ####JapaneseKinTerms1
 "In the File menu go to 'Open Sample Diagram' and choose 'Japanese Kin Terms'. A new page should open with the diagram in the centre, the top panel 'Kin Type Strings', and two kin terms groups on the right ('Japanese Kin Terms(Vocative)' and 'Japanese Kin Terms(Referential)')."
 * Works
-* Kind of works
-* Doesn't work
 
 ####JapaneseKinTerms2
 "Choose 'Recalculate the Diagram' from 'Edit' menu, or simply click on the central panel. Try to modify the diagram by adding other information (kin terms, kin type strings, descriptions) in the table in the right panel (it doesn't matter in which language). The new individuals should appear in the diagram. Do it for both groups: Vocative and Referential."
 * Works
-* Kind of works
-* Doesn't work
 
 ####JapaneseKinTerms3
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####JapaneseKinTerms4
 "Uncheck 'Show On Graph' in the right panel for both groups: the kin terms on the diagram should go away."
 * Works
-* Kind of works
-* Doesn't work
 
 ####JapaneseKinTerms5
 "From 'Kin Terms' menu choose 'New Kin Term Group'. A new tab should open in the right panel. Choose a color for the new group and add individuals. The latter should appear in the diagram in the previously chosen colour."
 * Works
-* Kind of works
-* Doesn't work
 
 ####JapaneseKinTerms5b
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####JapaneseKinTerms6
 "In the table in the right panel check some of the kin terms and select 'Delete Selected' on the top of the table. Those kin terms should disappear from the table and from the diagram"
 * Works
-* Kind of works
-* Doesn't work
 
 ####JapaneseKinTerms6b
 "Now try the option 'Delete Group'. The kin terms group should disappear both from the tab on the right of page ad from the diagram in the main panel."
-* Works
-* Kind of works
-* Doesn't work
+* Kind of works: the group is only deleted from the Kin Terms tab on the right of the page, but it is still present on the diagram. Reference issue #274.
 
 ####JapaneseKinTerms7
 "Try to uncheck the option 'Generate Example Entities' in the panel on the right (it should be checked by default). Do it for all the kin terms groups. The diagram should disappear. NOTE: if you have two kin terms groups, and some of the kin terms overlap, these will not disappear unless you select the option for both groups.  "
 * Works
-* Kind of works
-* Doesn't work
 
 ####SwedishKinTerms1
 "In the File menu go to 'Open Sample Diagram' and choose 'Swedish Kin Terms'. A new page should open with the diagram in the centre and a panel on the right called 'Swedish Kin Terms'. Check the option 'Show Kin Types Labels' in the 'Diagram Options' menu. The kin type strings should become visible in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####SwedishKinTerms2
 "Choose 'Recalculate the Diagram' from Edit menu, or simply click on the central panel. Try to modify the diagram by adding other information (kin terms, kin type strings, descriptions) in the table in the right panel (it doesn't matter in which language). The new individuals should appear in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####SwedishKinTerms3
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####SwedishKinTerms4
 "Uncheck 'Show On Graph' in the right panel: the kin terms on the diagram should go away."
 * Works
-* Kind of works
-* Doesn't work
 
 ####SwedishKinTerms5
 "From 'Kin Terms' menu choose 'New Kin Term Group'. A new tab should open in the right panel. Choose a color for the new group and add individuals. The latter should appear in the diagram in the previously chosen colour."
 * Works
-* Kind of works
-* Doesn't work
 
 ####SwedishKinTerms5b
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####SwedishKinTerms6
 "In the table in the right panel check some of the kin terms and select 'Delete Selected' on the top of the table. Those kin terms should disappear from the table and from the diagram"
 * Works
-* Kind of works
-* Doesn't work
 
 ####SwedishKinTerms6b
 "Now try the option 'Delete Group'. The kin terms group should disappear both from the tab on the right of page ad from the diagram in the main panel."
-* Works
-* Kind of works
-* Doesn't work
+* Kind of works: the group is only deleted from the Kin Terms tab on the right of the page, but it is still present on the diagram. Reference issue #274.
 
 ####SwedishKinTerms7
 "Try to uncheck the option 'Generate Example Entities' in the panel on the right (it should be checked by default). The diagram should disappear.  NOTE: if you have two kin terms groups, and some of the kin terms overlap, these will not disappear unless you select the option for both groups."
 * Works
-* Kind of works
-* Doesn't work
 
 ####NamedTransientEntities1
 "In the File menu go to 'Open Sample Diagram' and choose 'Named Transient Entities'. A new page should open with a small diagram in the centre and the top panel 'Kin Type Strings'."
 * Works
-* Kind of works
-* Doesn't work
 
 ####NamedTransientEntities2
 "From Edit menu choose 'Recalculate the Diagram', or simply click on the central panel. The kin type strings in the top panel should get coloured. Ensure nothing goes missing from the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####NamedTransientEntities3
 "Check the option 'Show Kin Types Labels' in the 'Diagram Options' menu. The kin type strings should become visible in the diagram. Now try to modify the diagram by adding other kin types (with labels, i.e. names, dates, etc.) to the ones in colour and see if the new entities appear in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####NamedTransientEntities4
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####MatrimonialRingsExamples1
 "In the File menu go to 'Open Sample Diagram' and choose 'Matrimonial Rings Examples'. A new page should open with some diagrams in the centre and the top panel 'Kin Type Strings'."
 * Works
-* Kind of works
-* Doesn't work
 
 ####MatrimonialRingsExamples2
 "In the Edit menu choose 'Recalculate the Diagram'. The kin type strings in the top panel should get coloured. Ensure nothing goes missing from the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####CharlesIIOfSpain1
 "In the File menu go to 'Open Sample Diagram' and choose 'Charles II of Spain'. A new page should open with the diagram in the centre and the top panel 'Kin Type Strings'. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####CharlesIIOfSpain2
 "In the Edit menu choose 'Recalculate the Diagram'. The kin type strings in the top panel should get coloured. Ensure nothing goes missing from the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####CharlesIIOfSpain3
 "Check the option 'Show Kin Types Labels' in the 'Diagram Options' menu. The kin type strings should become visible in the diagram.Then try to modify the diagram by adding other kin types (with labels, i.e. names, dates, etc.) to the ones in colour and see if the new entities appear in the diagram. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####CharlesIIOfSpain4
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####HaemophiliaEu1
 "In the File menu go to 'Open Sample Diagram' and choose 'Haemophilia in European Royalty'. A new page should open with the part of the diagram in the centre, a left panel with three tabs: 'Search Entities', 'Project Tree', and 'Diagram Tree', and the top panel 'Kin Type Strings'. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####HaemophiliaEu2
 "From Edit menu choose 'Recalculate the Diagram', or simply click on the central panel. The kin type strings in the top panel should get coloured. Ensure nothing goes missing from the diagram. You may also be asked to import the sample data. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####HaemophiliaEu3
 "Now insert a random letter in the name of the entity '[Maria Cristina of_Austria]' (at the very beginning of the 'Kin type strings' panel). An error message should pop up telling you to import the 'European Royalty' sample data. Do the import (not necessary if import has already been performed). Once it is complete you should see, on the right of the page, a panel called 'Imported Entities'. (Delete the inserted letter before following with the next task.) "
 * Works
-* Kind of works
-* Doesn't work
 
 ####HaemophiliaEu4
 "Try a query in the 'Kin Type Strings', like for example x[Albert]. In the central panel you should see all the entities named Albert. (Delete the query before moving on)"
 * Works
-* Kind of works
-* Doesn't work
 
 ####HaemophiliaEu5
 "Now select one entity in the 'Imported Entities' panel. It should appear in the main panel. Then check the option 'Expand selection by kin type string' and try different strings (e.g. P, C, *, etc.). New entities related to the one you had previously selected should appear/disappear accordingly."
 * Works
-* Kind of works
-* Doesn't work
 
 ####HaemophiliaEu6
 "Select one of the entities from the sample diagram and try to modify its kinship data (bottom table). The changes should then appear also in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ###
 
