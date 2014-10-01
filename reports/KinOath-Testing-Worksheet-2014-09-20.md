@@ -14,13 +14,11 @@
 
 ####LinuxInstaller
 "Before starting to test the program try out the installation on Linux. Go to http://tla.mpi.nl/tools/tla-tools/kinoath/versions/, select the Testing version and the option 'Download the Debian Linux Package'. "
-* Works
-* Kind of works
-* Doesn't work
+* STILL TO BE TESTED
 
 ####MacOSInstaller
 "Before starting to test the program try out the installation on Mac. Go to http://tla.mpi.nl/tools/tla-tools/kinoath/versions/, select the Testing version and the option 'Download the Mac Installer'.  NOTE: first have a look at  https://trac.mpi.nl/wiki/LATSoftwareTesting, paragraph \"Information for Mac users\"."
-* STILL TO BE TESTED
+* Works
 
 ###
 
@@ -255,248 +253,166 @@
 ####StandardDiagram1
 "In the File menu go to 'New Diagram of Type' and select 'Standard Diagram (current project)'. A new page should open with a central, blank panel and a panel on the left with three tabs: 'Diagram Tree', 'Project Tree', 'Search Entities'."
 * Works
-* Kind of works
-* Doesn't work
 
 ####StandardDiagram2
 "Start creating a small diagram by adding individuals with a right click > 'Add' > 'Individual'. After creating an entity select it and fill in the table at the bottom (name of the entity, gender, etc). Then save the information by clicking on the entity in the diagram. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####StandardDiagram3
 "In the table at the bottom also enter some dates and then check 'Show Date Labels' from the 'Diagram Options' menu. The dates should appear in the diagram next to the entities. Uncheck it and they should go away."
 * Works
-* Kind of works
-* Doesn't work
 
 ####StandardDiagram4
 "Create relations between the individuals by selecting two or more (hold the SHIFT button while selecting), right click, 'Add relation', choose the type of relation. The entities should be linked accordingly. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####StandardDiagram4b
 "Try to add relations in a different way, i.e. by using the blue dots that come out when selecting an entity. Starting from the top they stand for: ancestor, sibling, union, descendant."
 * Works
-* Kind of works
-* Doesn't work
 
 ####StandardDiagram5
 "Remove the previously created relation by selecting the two individuals, right click, 'Remove Relations' > 'Remove relations between selected'. The link bewteen the two should go away."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although a number of tickets is related to the issue of relations removal: #248, #262, #266, #267)
 
 ####ChromosomeType
 "Right click in the main panel, select 'Add' > 'Chromosome_Example'. This should create a new entity. Fill in again the table at the bottom adding also the chromosome type (if it's an entity affected by haemophilia, i.e. with Xx or xY chrom. type, a red spot will appear next to the shape)."
 * Works
-* Kind of works
-* Doesn't work
 
 ####ClanExample
 "Right click in the main panel, select 'Add' > 'Clan_Example'. This should create a new entity. Fill in some of the information in the table at the bottom of the page. Click on the entity to save the information entered. Some of them should now appear next to entity on the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTerm
 "Right click in the main panel, select 'Add' > 'KinTerm'. You should get a different icon. Select it and fill in some of the information in the table at the bottom of the page. Click on the entity to save the information entered. Some of them should now appear next to entity on the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####SocialEvent
 "Right click in the main panel, select 'Add' > 'Social_Event'. Select the entity and fill in some of the information in the table at the bottom of the page. Click on the entity to save the information entered. Some of them should now appear next to entity on the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Geometry1
 "Right click in the main panel, 'Add Geometry' > 'Add Label'. The word 'Label' should appear in the central panel. Click on it. In the window at the bottom of the page write something; then click again on the word 'Label' in the main panel: there should appear what you wrote."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Geometry2
 "Right click in the main panel, 'Add Geometry'. Try to select the various options, circle, square, etc. The forms should appear in the mail panel."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Delete
 "After creating an entity, select it, right click, choose 'Delete selected from project'. A dialog window should open warning you that the entity selected will be deleted from the database."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Merge
 "Select two entities that you want to merge into one single individual. Right click, choose 'Merge Selected Entities'. Now you should see only one individual carrying the labels of both merged entities. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####Duplicate
 "Select an entity, right click, choose 'Duplicate Selected Entities'. Another entity carrying the same labels should appear.  "
 * Works
-* Kind of works
-* Doesn't work
 
 ####SetEgo
 "Select one entity, right click, 'Set as Ego (list will be cleared)'. If you look at the \"diagram tree\" tab on the left of the page the entity selected should appear under the 'Attached' list and go black."
 * Works
-* Kind of works
-* Doesn't work
 
 ####AddEgoList
 "Select another entity, right click, 'Add to ego list'. This entity should now also appear in 'Attached' in the \"diagram tree\" tab and go black."
 * Works
-* Kind of works
-* Doesn't work
 
 ####RemoveEgoList
 "Select one of the egos. Right click, 'Remove from ego list'. The entity should remain in the 'Attached' list and go white again."
 * Works
-* Kind of works
-* Doesn't work
 
 ####AttachToDiagram
 "Import some data. From the panel 'Imported Entities' select an entity. According to the kin type string entered (P, C, *, etc) you will see a diagram forming into the main panel. Now select one entity on the diagram. Right click. 'Attach to diagram'. In the Diagram Tree tab you should see the entity moving from Search Results to Attached."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Release
 "Select one entity, right click, 'Release from diagram'. The entity should disappear from the diagram and from the \"diagram tree\" tab (but not from the database as with 'Delete')."
 * Works
-* Kind of works
-* Doesn't work
 
 ####ResetZoom
 "With the mouse cursor in the diagram window right click and then choose 'Reset zoom'. The diagram should go back to its default size."
 * Works
-* Kind of works
-* Doesn't work
 
 ####ResetLayout
 "With the mouse cursor in the diagram window right click and choose 'Reset layout'. The entities' position should change."
 * Works
-* Kind of works
-* Doesn't work
 
 ####SaveChanges
 "Select one entity, in the table at the bottom of the page change some of the information. Click on the diagram, the new information should be saved."
 * Works
-* Kind of works
-* Doesn't work
 
 ####StandardDiagram6
 "Open the 'Search Entities' tab on the left and enter the name of an individual present in the database; click 'Search'; the list of entities found should appear in the same panel. Click on some of them, they should appear in the diagram. NOTE: if you want more than one entity to appear in the main panel you have to drag them. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####StandardDiagram6b
 "Try also the options 'Graph selection' [uncheck it: the entity you select from the 'Project Tree' tab needs to be dragged to the main panel] and 'Expand selection by kin type string' [see Query Diagram Syntax above]. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####FreeformDiagram1
 "In the File menu go to 'New Diagram of Type' and select 'Freeform Diagram (transient)'. A new page should open with a central, blank panel, and a 'Kin Type Strings' panel above it. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####FreeformDiagram2
 "Create a diagram by entering kin type strings in the suitable panel. The new individuals should appear in the diagram. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####FreeformDiagram3
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####KinTerms1
 "In the File menu go to 'New Diagram of Type' and select 'Kin Terms Diagram (transient)'. A new page should open with a central, blank panel and, on the right, a 'Kin Term Group' panel."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTerms2
 "Enter some kin terms, plus the corresponding kin type strings and descriptions in the table in the right panel. The new entities should appear in the central panel in a new diagram. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTerms2b
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####KinTerms3
 "Uncheck 'Show On Graph' in the right panel: the kin terms on the diagram should go away."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTerms4
 "From 'Kin Terms' menu choose 'New Kin Term Group'. A new tab should open in the right panel. Choose a color for the new group and add individuals. The latter should appear in the diagram in the previously chosen colour."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTerms4b
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####KinTerms5
 "In the table in the right panel check some of the kin terms and select 'Delete Selected' on the top of the table. Those kin terms should disappear from the table and from the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTerms5b
 "Now try the option 'Delete Group'. The kin terms group should disappear both from the tab on the right of page ad from the diagram in the main panel."
-* Works
-* Kind of works
-* Doesn't work
+* Kind of works: : the group is only deleted from the Kin Terms tab on the right of the page, but it is still present on the diagram. Reference issue #274.
 
 ####KinTerms6
 "Try to uncheck the option 'Generate Example Entities' in the panel on the right (it should be checked by default). Do it for both kin terms groups. The diagram should disappear.  NOTE: if you have two kin terms groups, and some of the kin terms overlap, these will not disappear unless you select the option for both groups."
 * Works
-* Kind of works
-* Doesn't work
 
 ####QueryDiagram1
 "In the File menu go to 'New Diagram of Type' and select 'Query Diagram (current project)'. A new page should open with a central, blank panel, a 'Kin Type Strings' panel on the top, and a panel on the left with two tabs: 'Diagram Tree' and 'Project Tree'."
 * Works
-* Kind of works
-* Doesn't work
 
 ####QueryDiagram2
 "Try a query by searching an entity present in the database, like for example f[Antonia]. Both in the central panel and in the diagram tree tab you should see all the entities found named Antonia."
 * Works
-* Kind of works
-* Doesn't work
 
 ####QueryDiagram3
 "From the diagram tree tab take one of the entities found and drag it next to your first query f[Antonia] to make it more specific. Now in the central panel (and also in the diagram tree panel) you should see  only one entity named Antonia. In the diagram tree panel - by clicking on the little arrow on the left of the entity - you should see also the number of entities related to the one searched and the corresponding relation types."
 * Works
-* Kind of works
-* Doesn't work
 
 ####ArchiveLinker1
 "From File menu go to New Diagram of Type and then Archive Data Linker. A new page should open with a central, blank panel, a panel on the left with two tabs (Project and Diagram Tree), and a panel on the right with a tab called Archive Linker. The latter should display the IMDI tree. (You may see two tabs more, both called Archive Linker, but with different sections of the tree)"
 * Works
-* Kind of works
-* Doesn't work
 
 ####ArchiveLinker2
 "Choose a node where you see actors (e.g. MPI corpora > Demo > DOBES training > PeWi corpus). Drag them to the main panel. They should carry labels like \"archive ref.: 1,2, etc\", and such links should also be visible in a table at the bottom of the page, in the tab \"External Links\""
