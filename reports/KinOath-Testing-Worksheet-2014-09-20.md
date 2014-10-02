@@ -410,27 +410,21 @@
 "From the diagram tree tab take one of the entities found and drag it next to your first query f[Antonia] to make it more specific. Now in the central panel (and also in the diagram tree panel) you should see  only one entity named Antonia. In the diagram tree panel - by clicking on the little arrow on the left of the entity - you should see also the number of entities related to the one searched and the corresponding relation types."
 * Works
 
-####ArchiveLinker1
+####ArchiveLinker1 (from here the test is done on a Windows machine)
 "From File menu go to New Diagram of Type and then Archive Data Linker. A new page should open with a central, blank panel, a panel on the left with two tabs (Project and Diagram Tree), and a panel on the right with a tab called Archive Linker. The latter should display the IMDI tree. (You may see two tabs more, both called Archive Linker, but with different sections of the tree)"
 * Works
 
 ####ArchiveLinker2
 "Choose a node where you see actors (e.g. MPI corpora > Demo > DOBES training > PeWi corpus). Drag them to the main panel. They should carry labels like \"archive ref.: 1,2, etc\", and such links should also be visible in a table at the bottom of the page, in the tab \"External Links\""
-* Works
-* Kind of works
-* Doesn't work
+* Doesn't work: there are no "archive ref." labels, but only the name of the node (e.g. Actors (4)), and also, the data in the "External Link" tab at the bottom of the page disappear once you have selected something else in the diagram/main panel.
 
 ####ArchiveLinker3
 "Try to create some entities and then random relations between the entities."
 * Works
-* Kind of works
-* Doesn't work
 
 ####ArchiveLinker4
 "Now take a resource from the tree (you can follow the path indicated in test no. 41). First drag it to the diagram: it should create another entity. Then drag it to an entity in the diagram tree: it should create another link to the entity. "
-* Works
-* Kind of works
-* Doesn't work
+* Works (in this case I can see the "archive ref." label)
 
 ###
 
@@ -439,128 +433,86 @@
 ####SaveFile
 "Take one of the diagrams you created. Choose 'Save as (...)' and - after naming it - save the file. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####OpenDiagram
 "From the File menu go to 'Open Diagram'. A new window should appear with all the documents you can open. Choose the one you saved in the previous test and 'Open'. Then try to recalculate it. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####RecentDiagram
 "From the File menu go to 'Open recent diagram' and select one from the list. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####RecentDiagram2
 "Go again to 'Open recent diagram', but this time select 'clear list': all the diagrams which were in the list should disappear.  "
 * Works
-* Kind of works
-* Doesn't work
 
 ####NewProject
 "From the File menu choose New Project. Give it a name and a directory and click on Save. Now on top of the open KinOath page you should see the name of the project."
 * Works
-* Kind of works
-* Doesn't work
 
 ####NewProject2
 "Create a small diagram. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####ProjectDefault
 "From File menu select 'Set Project Default Diagram as (...)'. Close and re-open the application."
 * Works
-* Kind of works
-* Doesn't work
 
 ####OpenProject
 "From the File menu choose Open Project. Choose the project you have just set as default and click on Open. The project should open showing the diagram in the main panel."
 * Works
-* Kind of works
-* Doesn't work
 
 ####OpenRecentProject
 "From the File menu choose Open Recent Project and select one among those present in the list. It should again appear in the main panel. Try to recalculate the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####ClearList
 "From the File menu choose Open Recent Project and then 'clear list'. It should delete the list of projects recently opened."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Gedcom_CSV
 "From the File menu go to 'Import Gedcom/CSV/TIP File'. A window should appear with the documents you can open. Choose one (NOT .ged) and click on 'Open'. The import window should open, and once the import has finished you should see the panel 'Imported Entities' on the right of the page.  "
-* Works
-* Kind of works
-* Doesn't work
+* TO BE TESTED
 
 ####GedcomResources
 "From the File menu go to 'Import Gedcom/CSV/TIP File'. A window should appear with the documents you can open. Choose a .ged file and click on 'Open'. (If it is not possible to locate a .ged file in this way, highlight Import Sample Data from the File Menu and choose the Gedcom Torture File from the dropdown menu which appears.) The import window should open, and once the import has finished another 'Imported Entities' tab should open on the right of the page.."
 * Works
-* Kind of works
-* Doesn't work
 
 ####GedcomResources2
 "Select an entity from the 'Imported Entities' panel (select those containing external links, such as 'Extra URL/Filelinks/). This should appear in the main panel carrying a label like: \"archive ref.: 1, 2, ...\""
 * Works
-* Kind of works
-* Doesn't work
 
 ####ExportPDF
 "Take one of the diagrams you created. Choose 'Export as PDF/JPEG/PNG/TIFF' from the File menu. A window should open asking you to choose a directory, a file name, and a file format. Choose PDF. After saving check if it has been effectively exported in the chosen format. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####ExportJPEG
 "Take one of the diagrams you created. Choose 'Export as PDF/JPEG/PNG/TIFF' from the File menu. A window should open asking you to choose a directory, a file name, and a file format. Choose JPEG. After saving check if it has been effectively exported in the chosen format. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####ExportPNG
 "Take one of the diagrams you created. Choose 'Export as PDF/JPEG/PNG/TIFF' from the File menu. A window should open asking you to choose a directory, a file name, and a file format. Choose PNG. After saving check if it has been effectively exported in the chosen format. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####ExportTIFF
 "Take one of the diagrams you created. Choose 'Export as PDF/JPEG/PNG/TIFF' from the File menu. A window should open asking you to choose a directory, a file name, and a file format. Choose TIFF. After saving check if it has been effectively exported in the chosen format. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####ExportR_SPSS
 "Take one of the diagrams you created. Choose 'Export for R / SPSS' from the File menu. A window should open asking you to choose a directory and a file name. Then save. Check in the directory if it has been exported correctly. The format should be .tab."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Close
 "From the File menu choose 'Close (...)'. Only the page you are working on should close."
 * Works
-* Kind of works
-* Doesn't work
 
 ####GlobalDefaultDiagram
 "Choose a diagram type (File menu > New Diagram of Type). Then, from File menu, select 'Set Global Default Diagram as (...)'. Close and re-open the application: it should show the diagram type page you set as default."
 * Works
-* Kind of works
-* Doesn't work
 
 ####NewDefaultDiagram
 "After setting the default diagram choose - from the File menu - 'New (default diagram)'. It should open a new page with the diagram previously set. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####Edit
 "Take the standard diagram you created before, recalculate it in the 'Edit' menu, then check whether the various options of the 'Edit' menu work (they should highlight partially or completely the lines connecting the entities, or serve to modify the diagram). "
