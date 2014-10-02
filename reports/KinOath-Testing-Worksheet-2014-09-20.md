@@ -14,7 +14,7 @@
 
 ####LinuxInstaller
 "Before starting to test the program try out the installation on Linux. Go to http://tla.mpi.nl/tools/tla-tools/kinoath/versions/, select the Testing version and the option 'Download the Debian Linux Package'. "
-* STILL TO BE TESTED
+* Works
 
 ####MacOSInstaller
 "Before starting to test the program try out the installation on Mac. Go to http://tla.mpi.nl/tools/tla-tools/kinoath/versions/, select the Testing version and the option 'Download the Mac Installer'.  NOTE: first have a look at  https://trac.mpi.nl/wiki/LATSoftwareTesting, paragraph \"Information for Mac users\"."
@@ -637,48 +637,34 @@
 ####Different_OS_Install
 "Install KinOath on other platforms, different from the one you used for the testing. Open KinOath."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Opening_Diagram
 "In the File menu select 'Open Sample Diagram', then 'Haemophilia in European Royalty'. A new page should open with a central panel showing parts of the diagram, a 'Kin Type Strings' panel on top, and a panel on the left with three tabs: 'Diagram Tree', 'Project Tree', and 'Search Entities'. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####Recalculate_Diagram
 "From Edit menu select \"Recalculate the diagram\". The entities in the Kin Type Strings panel should get coloured. (You may have to import data first. Do the import)"
 * Works
-* Kind of works
-* Doesn't work
 
 ####Import_Data
 "Insert a random letter in the name of the entity '[Maria Cristina of_Austria]' (at the very beginning of the 'Kin type strings' panel). An error message should appear prompting one to import 'European Royalty' sample data. Import data (DON'T if you have already imported for the previous test). Once completed, a panel called 'Imported Entities' should be visible to the right of the screen. (Remember to delete inserted letter before proceeding.) "
 * Works
-* Kind of works
-* Doesn't work
 
 ####Query
 "Make a query in the 'Kin Type Strings' panel by typing for x[Albert], for example. In the central panel all the entities named Albert should now be visible. (Remember to delete your query before moving on)"
 * Works
-* Kind of works
-* Doesn't work
 
 ####Select_and_Expand
 "Select an entity in the 'Imported Entities' panel. It should appear in the main panel. Then check 'Expand selection by kin type string' and specify different strings (e.g. P, C, *) in the field above the list in the imported entities panel. New entities related to the one previously selected should appear/disappear accordingly."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Modify_Kinship_Data
 "Select one of the entities from the sample diagram and try to modify its kinship data (bottom table). These changes ought to be reflected in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ###
 
-###DropboxTest "Before starting this part of the test, make sure Dropbox is installed on your machine."
+###DropboxTest "Before starting this part of the test, make sure Dropbox is installed on your machine." (NOT TESTED. NO DROPBOX ON THE MACHINE USED FOR THE TESTING ROUND)
 
 ####NewProject
 "From File menu choose New Project. Save it into the Dropbox folder."
