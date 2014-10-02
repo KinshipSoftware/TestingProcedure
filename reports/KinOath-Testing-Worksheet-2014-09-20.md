@@ -26,7 +26,7 @@
 
 ###SelectALanguage
 "If it is the first time you run the application a window should come out asking you to select the desired language. Choose one then click on OK. KinOath should open in the chosen language."
-* Works
+* Works (although there is one ticket related, #273)
 
 ###ChangeLanguage
 "Try to change the language by selecting 'Select language' in the Help menu. Once you choose one and click on OK you will see a message telling you to quit and restart KinOath for it to apply the language change."
@@ -400,7 +400,7 @@
 
 ####QueryDiagram1
 "In the File menu go to 'New Diagram of Type' and select 'Query Diagram (current project)'. A new page should open with a central, blank panel, a 'Kin Type Strings' panel on the top, and a panel on the left with two tabs: 'Diagram Tree' and 'Project Tree'."
-* Works
+* Works (although there is one ticket related to one of tabs, #258)
 
 ####QueryDiagram2
 "Try a query by searching an entity present in the database, like for example f[Antonia]. Both in the central panel and in the diagram tree tab you should see all the entities found named Antonia."
@@ -516,7 +516,7 @@
 
 ####Edit
 "Take the standard diagram you created before, recalculate it in the 'Edit' menu, then check whether the various options of the 'Edit' menu work (they should highlight partially or completely the lines connecting the entities, or serve to modify the diagram). "
-* Works
+* Works (although there is a ticket related to the diagram broders, #268)
 
 ####DiagramOptions
 "Take the standard diagram you created before and try to uncheck and check again the various options of the 'Diagram Options' menu to see if changes effectively occur. For the options 'Show Kin Type Labels' and 'Show Id Labels' use the freeform diagram. "
@@ -564,7 +564,7 @@
 
 ####LineColour
 "For each relation type choose a different color. Depending on whether you used the \"Scan For Types\" option, either the lines in the diagram get the chosen color automatically, or you will have to use the colored dots."
-* Works
+* Works (although there is one ticket related to the line color, #257)
 
 ####LineWidth
 "Change the width of the lines and check if they effectively get thicker or thinner."
@@ -576,7 +576,7 @@
 
 ####LineOrientation
 "As relation type choose other and then try the two options: horizontal and vertical. The line linking the entities should change position. NOTE: this option is NOT valid for sanguine lines, so create another entity separate from the diagram."
-* Works
+* Works (although there is a ticket related to this, #253)
 
 ####DeleteSelected
 "Check one or more of the relations and select 'Delete Selected'. The corresponding lines should not be coloured anymore."
@@ -624,7 +624,7 @@
 
 ####Help
 "Check if the links to manual, website, etc. work"
-* Works
+* Works (although there is one ticket related, #270)
 
 ####Exit
 "From the File menu go to 'Exit'. It should close all the KinOath pages that were previously opened."
