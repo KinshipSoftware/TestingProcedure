@@ -517,176 +517,118 @@
 ####Edit
 "Take the standard diagram you created before, recalculate it in the 'Edit' menu, then check whether the various options of the 'Edit' menu work (they should highlight partially or completely the lines connecting the entities, or serve to modify the diagram). "
 * Works
-* Kind of works
-* Doesn't work
 
 ####DiagramOptions
 "Take the standard diagram you created before and try to uncheck and check again the various options of the 'Diagram Options' menu to see if changes effectively occur. For the options 'Show Kin Type Labels' and 'Show Id Labels' use the freeform diagram. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####Settings
 "From the menu 'DiagramOptions' select Settings. A dialog window should appear, with some sub-tabs."
 * Works
-* Kind of works
-* Doesn't work
 
 ####EntityProfiles
 "Choose the tab 'Entity Profiles': some of the profiles of the list should be checked, and should appear when you right click in the main panel to add entities."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTypeDefinitions
 "Choose the tab 'Kin Type Definitions'. Add a new kin type to the list. Then from 'Panels' menu choose 'Kin Type Strings'. This should open on top of the page."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTypeDefinitions2
 "Make a query by taking one of the entities present in the panel on the left and drag it to the 'Kin Type Strings' panel, preceded by the 'x' of 'undefined ego' and followed by the new kin type you added. The required entities should appear in the main panel."
-* Works
-* Kind of works
-* Doesn't work
+* I am not sure whether this option is working correctly or not. After making the query and dragging the entity to the Kin Type Strings panel nothing happens to the diagram, not even after adding the new kin type.
 
 ####LabelFields
 "Choose the tab 'Label Fields'. Delete the info included in the panel on the top (small square on the right). The labels of the entity should go away. From the drop-down menu in the table choose the entity labels you want (e.g. name, date of birth, of death, etc.) and click on Add. The information should be back next to the entity. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####SymbolFields
 "Choose the 'Symbol Fields'. Try to modify the shapes corresponding to the kin terms and types, by choosing from the drop down menus. They should change also in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####RelationTypeDefinitions
 "Choose the tab 'Relation Type Definitions'. It should contain a table with 7 possible columns to fill in."
 * Works
-* Kind of works
-* Doesn't work
 
 ####CustomName
 "In the first column, \"Custom Name\", enter a possible name for the relation. If you choose 'other' as relation type, by default the custom name should be 'undefined' but try to modify it."
 * Works
-* Kind of works
-* Doesn't work
 
 ####DataCategory
 "Enter the following link: http://www.isocat.org/datcat/DC-3688. Then click on it. It should redirect you to the corresponding ISOcat webpage."
 * Works
-* Kind of works
-* Doesn't work
 
 ####RelationType
 "Choose the type of relation from the drop down menu, or select (on the right of the page) 'Scan For Types': it should find all the relation types present in the diagram and place them automatically in the column"
 * Works
-* Kind of works
-* Doesn't work
 
 ####LineColour
 "For each relation type choose a different color. Depending on whether you used the \"Scan For Types\" option, either the lines in the diagram get the chosen color automatically, or you will have to use the colored dots."
 * Works
-* Kind of works
-* Doesn't work
 
 ####LineWidth
 "Change the width of the lines and check if they effectively get thicker or thinner."
 * Works
-* Kind of works
-* Doesn't work
 
 ####LineDash
 "Change the size of the dashes building up the lines."
 * Works
-* Kind of works
-* Doesn't work
 
 ####LineOrientation
 "As relation type choose other and then try the two options: horizontal and vertical. The line linking the entities should change position. NOTE: this option is NOT valid for sanguine lines, so create another entity separate from the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####DeleteSelected
 "Check one or more of the relations and select 'Delete Selected'. The corresponding lines should not be coloured anymore."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTerms
 "Take the kin terms diagram you created before (or create a new one) and from the menu 'Kin Terms' select 'New Kin Term Group'. A panel should open on the right of the page. Choose a color for the new group and add individuals. The latter should appear in the diagram."
 * Works
-* Kind of works
-* Doesn't work
 
 ####KinTerms2
 "Check also if, once you have added new entities or labels, the layout is correct or if it modifies wrongly."
-* Works
-* Kind of works
-* Doesn't work
+* Works (although when you add several entities to an already somewhat crowded diagram these are placed in strange locations)
 
 ####Export
 "Take the kin terms diagram you created before and select 'Export' from the menu 'Kin Terms' on the top. A window should open asking you to choose a directory and to give the file a name. Check in the directory if it has effectively been exported (it should be a .csv file)."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Import
 "Now re-open one of the kin terms sample diagrams and, from the menu 'Kin Terms' select 'Import'. In the window that will open choose the file you previously saved. Another window should open saying that a certain number of kin terms has been imported and these should be seen in the diagram."
-* Works
-* Kind of works
-* Doesn't work
+* Kind of works: only the entities of one group have been imported (and probably also exported then?)
 
 ####ArchiveLinker
 "Open a new page. From Panels menu select the item 'Archive Linker'. On the right of the page you should see a tab called 'The TLA Language Archive' (plus, possibly, 'Arbil Remote Corpus' and 'Arbil Local Corpus')."
 * Works
-* Kind of works
-* Doesn't work
 
 ####ArchiveLinker2
 "Select an entity from the project tree on the left and drag it to the central panel. Now select a media file from the TLA tab (you can follow the path indicated in test group no.3, test no. 41), and drag it to the previously selected entity in the diagram tree. It should now carry the label 'archive ref: 1'."
 * Works
-* Kind of works
-* Doesn't work
 
 ####ArchiveLinker3
 "Select the entity on the diagram carrying the archive reference. In the kinship data table at the bottom of the page you should see the tab 'External Links', with some data about the media files attached. "
 * Works
-* Kind of works
-* Doesn't work
 
 ####Panels
 "This menu should contain all the possible panels that you can open. Take the standard diagram you created before (or open a new standard diagram page), check and/or uncheck the options available and see if the panels effectively appear and/or disappear on the page. NOTE: EXPORT DATA PANEL IS NOT IMPLEMENTED YET. IT WILL HAVE TO BE TESTED FOR NEXT VERSIONS."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Plugins
 "Select this menu. You should see the possibly open plugins. If there are none, you should see <no plugins found>."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Window
 "This menu should list all the windows that have been opened. Each window should have the corresponding diagram/panel checked."
 * Works
-* Kind of works
-* Doesn't work
 
 ####Help
 "Check if the links to manual, website, etc. work"
 * Works
-* Kind of works
-* Doesn't work
 
 ####Exit
 "From the File menu go to 'Exit'. It should close all the KinOath pages that were previously opened."
 * Works
-* Kind of works
-* Doesn't work
 
 ###
 
